@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <table id="results-table">
+    <caption>
+        Table of results for our access tools audit. The columns are the tools and the rows are the test cases we've used. There is a table for our analysis and breakdown after this table as well.
+    </caption>
+    <thead>
+    <tr>
+        <th scope="col">Test case</th>
+        <th scope="col">
+            <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google Accessibility Developer Tools</a>
+        </th>
+        <th scope="col"><a href="tenon.io">Tenon</a></th>
+        <th scope="col"><a href="wave.webaim.org">Wave</a></th>
+        <th scope="col"><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML Code Sniffer</a></th>
+        <th scope="col"><a href="https://github.com/dequelabs/axe-core">aXE</a></th>
+        <th scope="col"><a href="https://my.tanaguru.com/home/contract/page-result.html?cr=5445&wr=1182747">tanaguru</a></th>
+        <th scope="col"><a href="http://www.powermapper.com/products/sortsite/">sort site</a></th>
+        <th scope="col"><a href="http://checkers.eiii.eu/?url=http%3A%2F%2Faduggin.github.io%2Faccessibility-fails%2F">EIII</a></th>
+        <th scope="col"><a href="">AChecker</a></th>
+        <th scope="col"><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Faduggin.github.io%2Faccessibility-fails%2F">Nu Html Checker</a></th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for cname, category in tests -%}
+          {% for testname, testobj in category %}
+            <tr>
+              <td>{{ testname }}</td>
+              <td class="{{ testobj.results.google }}">
+                {{ rcopy[testobj.results.google] | capitalize }}
+              </td>
+              <td class="{{ testobj.results.tenon }}">
+                {{ rcopy[testobj.results.tenon] | capitalize }}
+              </td>
+              <td class="{{ testobj.results.wave }}">
+                {{ rcopy[testobj.results.wave] | capitalize }}
+              </td>
+              <td class="{{ testobj.results.codesniffer }}">
+                {{ rcopy[testobj.results.codesniffer] | capitalize }}
+              </td>
+              <td class="{{ testobj.results.axe }}">
+                {{ rcopy[testobj.results.axe] | capitalize }}
+              </td>
+              <td class="{{ testobj.results.tanaguru }}">
+                {{ rcopy[testobj.results.tanaguru] | capitalize }}
+              </td>
+              <td class="{{ testobj.results.sortsite }}">
+                {{ rcopy[testobj.results.sortsite] | capitalize }}
+              </td>
+              <td class="{{ testobj.results.eiii }}">
+                {{ rcopy[testobj.results.eiii] | capitalize }}
+              </td>
+              <td class="{{ testobj.results.achecker }}">
+                {{ rcopy[testobj.results.achecker] | capitalize }}
+              </td>
+              <td class="{{ testobj.results.nu }}">
+                {{ rcopy[testobj.results.nu] | capitalize }}
+              </td>
+            </tr>
+          {% endfor %}
+
+        {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

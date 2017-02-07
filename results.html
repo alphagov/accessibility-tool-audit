@@ -1,25 +1,122 @@
 <!doctype html>
 <html>
 <head>
-  <title>Automated testing tools audit results - GDS Accessibility Team</title>
+  <title>Accessibility tools audit results - GDS accessibility team</title>
   <link rel="stylesheet" href="assets/stylesheets/application.css" />
 </head>
-<body>
+<body class="
+results
+">
   <header id="global-header" role="banner">
     <div class="header-wrapper">
       <div class="header-global">
         <div class="header-logo">
-          <a id="logo" class="content" href="/">Automated testing tools audit</a>
+          <a id="logo" class="content" href="/">Accessibility tool audit</a>
         </div>
       </div>
     </div>
   </header>
 
   
+
+<main id="wrapper">
+  <div class="breadcrumbs">
+    <ol>
+      <li><a href="/">Audit overview</a></li>
+      
+      
+      <li>Results</li>
+      
+    </ol>
+  </div>
+
+  <div class="grid-row">
+
+    <div class="column-two-thirds">
+
+      <h1>Audit results</h1>
+      <p>Table of results for our access tools audit.</p>
+
+      <p>Last updated: 1 January 2017</p>
+
+      <div class="form-group">
+        <details>
+
+        <summary><span class="summary">Results update history</span></summary>
+
+        <div class="panel panel-border-narrow">
+          <ol class="summary-data">
+              <li>
+                <time datetime="2017-02-06T16:12:34.000+00:00" class="timestamp">6 February 2017</time>
+                First set of results published
+              </li>
+              <li>
+                <time datetime="2017-02-06T16:12:34.000+00:00" class="timestamp">6 February 2017</time>
+                First set of results published
+              </li>
+          </ol>
+
+        </div>
+
+      </details>
+      </div>
+
+      <div class="form-group">
+        <details>
+
+        <summary><span class="summary">What each result means</span></summary>
+
+        <div class="panel panel-border-narrow">
+
+          <ul class="summary-data">
+              <li>
+                <span class="result-type">Allows manual inspection</span>
+                abcd
+              </li>
+              <li>
+                <span class="result-type">Correct error found</span>
+                abcd
+              </li>
+              <li>
+                <span class="result-type">Different error found</span>
+                abcd
+              </li>
+              <li>
+                <span class="result-type">False positive</span>
+                abcd
+              </li>
+              <li>
+                <span class="result-type">Identified but not an error</span>
+                abcd
+              </li>
+              <li>
+                <span class="result-type">Not found</span>
+                abcd
+              </li>
+              <li>
+                <span class="result-type">Warning reported</span>
+                abcd
+              </li>
+              <li>
+                <span class="result-type">Wrong error reported</span>
+                abcd
+              </li>
+          </ul>
+
+        </div>
+
+      </details>
+      </div>
+    </div>
+
+  </div>
+
+  
+
+  
+  
   <table id="results-table">
-    <caption>
-        Table of results for our access tools audit. The columns are the tools and the rows are the test cases we've used. There is a table for our analysis and breakdown after this table as well.
-    </caption>
+    
     <thead>
     <tr>
         <th scope="col">Test case</th>
@@ -40,7 +137,9 @@
     <tbody>
         
             <tr>
-              <td>Table with column headers and double row headers</td>
+              <th>Table with column headers and double row headers
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -60,13 +159,13 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -74,7 +173,9 @@
             </tr>
           
             <tr>
-              <td>Table has no scope attributes</td>
+              <th>Table has no scope attributes
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -85,10 +186,10 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="manual">
                 Allows manual inspection
@@ -100,7 +201,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -108,12 +209,14 @@
             </tr>
           
             <tr>
-              <td>Table nested within table header</td>
+              <th>Table nested within table header
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -128,7 +231,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -142,7 +245,9 @@
             </tr>
           
             <tr>
-              <td>Table nested within table</td>
+              <th>Table nested within table
+              
+              </th>
               <td class="">
                 
               </td>
@@ -176,12 +281,14 @@
             </tr>
           
             <tr>
-              <td>Table has no table headings</td>
+              <th>Table has no table headings
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="different">
                 Different error found
@@ -190,13 +297,13 @@
                 Wrong error reported
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="manual">
                 Allows manual inspection
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -210,7 +317,9 @@
             </tr>
           
             <tr>
-              <td>Table with inconsistent numbers of columns in rows</td>
+              <th>Table with inconsistent numbers of columns in rows
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -244,12 +353,14 @@
             </tr>
           
             <tr>
-              <td>Table that only has TH elements in it</td>
+              <th>Table that only has TH elements in it
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -278,7 +389,9 @@
             </tr>
           
             <tr>
-              <td>Table is missing a caption</td>
+              <th>Table is missing a caption
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -312,15 +425,17 @@
             </tr>
           
             <tr>
-              <td>Table used for layout</td>
+              <th>Table used for layout
+              
+              </th>
               <td class="different">
                 Different error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="identified">
-                Identified but not a error
+                Identified but not an error
               </td>
               <td class="notfound">
                 Not found
@@ -332,7 +447,7 @@
                 Allows manual inspection
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -346,21 +461,23 @@
             </tr>
           
             <tr>
-              <td>Table has an empty table header</td>
+              <th>Table has an empty table header
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="manual">
                 Allows manual inspection
@@ -380,7 +497,9 @@
             </tr>
           
             <tr>
-              <td>Table with some empty cells</td>
+              <th>Table with some empty cells
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -416,7 +535,9 @@
 
         
             <tr>
-              <td>Wide page forces users to scroll horizontally</td>
+              <th>Wide page forces users to scroll horizontally
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -452,7 +573,9 @@
 
         
             <tr>
-              <td>Inappropriate page title</td>
+              <th>Inappropriate page title
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -486,30 +609,32 @@
             </tr>
           
             <tr>
-              <td>Empty page title</td>
+              <th>Empty page title
+              
+              </th>
               <td class="error">
-                Error found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="error">
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -520,12 +645,14 @@
             </tr>
           
             <tr>
-              <td>Missing page title</td>
+              <th>Missing page title
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -534,19 +661,19 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -556,33 +683,35 @@
 
         
             <tr>
-              <td>Image link with no alternative text</td>
+              <th>Image link with no alternative text
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -590,12 +719,14 @@
             </tr>
           
             <tr>
-              <td>Link to javascript, invalid hypertext reference</td>
+              <th>Link to javascript, invalid hypertext reference
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -624,12 +755,14 @@
             </tr>
           
             <tr>
-              <td>Uninformative link text</td>
+              <th>Uninformative link text
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="warning">
                 Warning reported
@@ -644,7 +777,7 @@
                 Allows manual inspection
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -658,7 +791,9 @@
             </tr>
           
             <tr>
-              <td>Link launches new window with no warning</td>
+              <th>Link launches new window with no warning
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -692,7 +827,9 @@
             </tr>
           
             <tr>
-              <td>Links not seperated by printable characters</td>
+              <th>Links not seperated by printable characters
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -726,12 +863,14 @@
             </tr>
           
             <tr>
-              <td>Link text with identical title</td>
+              <th>Link text with identical title
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="warning">
                 Warning reported
@@ -743,7 +882,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -760,7 +899,9 @@
             </tr>
           
             <tr>
-              <td>Links to a sound file, no transcript</td>
+              <th>Links to a sound file, no transcript
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -779,56 +920,6 @@
               <td class="notfound">
                 Not found
               </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="warning">
-                Warning reported
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>Identifying links by colour alone</td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>Link to pdf does not include information on file format and file size</td>
               <td class="notfound">
                 Not found
               </td>
@@ -841,11 +932,65 @@
               <td class="notfound">
                 Not found
               </td>
+            </tr>
+          
+            <tr>
+              <th>Identifying links by colour alone
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+            <tr>
+              <th>Link to pdf does not include information on file format and file size
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="warning">
+                Warning reported
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="different">
                 Different error found
@@ -862,12 +1007,14 @@
             </tr>
           
             <tr>
-              <td>Link to #, invalid hypertext reference</td>
+              <th>Link to #, invalid hypertext reference
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -896,33 +1043,35 @@
             </tr>
           
             <tr>
-              <td>Blank link text</td>
+              <th>Blank link text
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -930,7 +1079,9 @@
             </tr>
           
             <tr>
-              <td>Link with the same text go to different pages</td>
+              <th>Link with the same text go to different pages
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -947,7 +1098,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -964,9 +1115,11 @@
             </tr>
           
             <tr>
-              <td>Link text does not make sense out of context</td>
+              <th>Link text does not make sense out of context
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -998,7 +1151,9 @@
             </tr>
           
             <tr>
-              <td>Adjacent links going to the same destination</td>
+              <th>Adjacent links going to the same destination
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1018,7 +1173,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1032,9 +1187,11 @@
             </tr>
           
             <tr>
-              <td>Link contains only a full stop</td>
+              <th>Link contains only a full stop
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1066,7 +1223,9 @@
             </tr>
           
             <tr>
-              <td>Image link alt text repeats text in the link</td>
+              <th>Image link alt text repeats text in the link
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1077,16 +1236,16 @@
                 Warning reported
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1100,7 +1259,9 @@
             </tr>
           
             <tr>
-              <td>Link not clearly identifiable and distinguishable from surrounding text</td>
+              <th>Link not clearly identifiable and distinguishable from surrounding text
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1134,7 +1295,9 @@
             </tr>
           
             <tr>
-              <td>Link to a multimedia file, no transcript</td>
+              <th>Link to a multimedia file, no transcript
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1168,12 +1331,14 @@
             </tr>
           
             <tr>
-              <td>Non-specific link text</td>
+              <th>Non-specific link text
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="warning">
                 Warning reported
@@ -1185,10 +1350,10 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1202,12 +1367,14 @@
             </tr>
           
             <tr>
-              <td>Link to an image, no text alternative</td>
+              <th>Link to an image, no text alternative
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1225,7 +1392,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1238,7 +1405,9 @@
 
         
             <tr>
-              <td>Alert shows for a short time</td>
+              <th>Alert shows for a short time
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1272,7 +1441,9 @@
             </tr>
           
             <tr>
-              <td>Lightbox - close button doesn&#39;t receive focus</td>
+              <th>Lightbox - close button doesn&#39;t receive focus
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1306,7 +1477,9 @@
             </tr>
           
             <tr>
-              <td>Focus order in wrong order</td>
+              <th>Focus order in wrong order
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1340,21 +1513,23 @@
             </tr>
           
             <tr>
-              <td>Tabindex greater than 0</td>
+              <th>Tabindex greater than 0
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="identified">
-                Identified but not a error
+                Identified but not an error
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1374,7 +1549,9 @@
             </tr>
           
             <tr>
-              <td>Keyboard focus is not indicated visually</td>
+              <th>Keyboard focus is not indicated visually
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1391,7 +1568,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1408,41 +1585,9 @@
             </tr>
           
             <tr>
-              <td>Keyboard focus assigned to a non focusable element using tabindex=0</td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>Concertina items don&#39;t get keyboard focus</td>
+              <th>Keyboard focus assigned to a non focusable element using tabindex=0
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1476,7 +1621,9 @@
             </tr>
           
             <tr>
-              <td>Keyboard trap</td>
+              <th>Concertina items don&#39;t get keyboard focus
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1510,7 +1657,9 @@
             </tr>
           
             <tr>
-              <td>Dropdown navigation - only the top level items receive focus</td>
+              <th>Keyboard trap
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1544,7 +1693,9 @@
             </tr>
           
             <tr>
-              <td>Lightbox - ESC key doesn&#39;t close the lightbox</td>
+              <th>Dropdown navigation - only the top level items receive focus
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1578,7 +1729,45 @@
             </tr>
           
             <tr>
-              <td>Link with a role=button does not work with space bar</td>
+              <th>Lightbox - ESC key doesn&#39;t close the lightbox
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+            <tr>
+              <th>Link with a role=button does not work with space bar
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1586,7 +1775,7 @@
                 Different error found
               </td>
               <td class="identified">
-                Identified but not a error
+                Identified but not an error
               </td>
               <td class="notfound">
                 Not found
@@ -1612,7 +1801,9 @@
             </tr>
           
             <tr>
-              <td>Tooltips don&#39;t receive keyboard focus</td>
+              <th>Tooltips don&#39;t receive keyboard focus
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1646,15 +1837,17 @@
             </tr>
           
             <tr>
-              <td>Don&#39;t use the accesskey attribute</td>
+              <th>Don&#39;t use the accesskey attribute
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="identified">
-                Identified but not a error
+                Identified but not an error
               </td>
               <td class="notfound">
                 Not found
@@ -1680,7 +1873,9 @@
             </tr>
           
             <tr>
-              <td>Lightbox - focus is not moved immediately to lightbox</td>
+              <th>Lightbox - focus is not moved immediately to lightbox
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1714,7 +1909,9 @@
             </tr>
           
             <tr>
-              <td>Lightbox - focus is not retained within the lightbox</td>
+              <th>Lightbox - focus is not retained within the lightbox
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1748,7 +1945,9 @@
             </tr>
           
             <tr>
-              <td>Fake button is not keyboard accessible</td>
+              <th>Fake button is not keyboard accessible
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1784,7 +1983,9 @@
 
         
             <tr>
-              <td>Errors identified by colour only</td>
+              <th>Errors identified by colour only
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1818,21 +2019,23 @@
             </tr>
           
             <tr>
-              <td>Labels missing when they would look clumsy for some form controls</td>
+              <th>Labels missing when they would look clumsy for some form controls
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1841,10 +2044,10 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1852,7 +2055,9 @@
             </tr>
           
             <tr>
-              <td>Error messages - no suggestion for corrections given, eg. required format</td>
+              <th>Error messages - no suggestion for corrections given, eg. required format
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1886,7 +2091,9 @@
             </tr>
           
             <tr>
-              <td>Left aligned form labels with too much white space</td>
+              <th>Left aligned form labels with too much white space
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1920,7 +2127,9 @@
             </tr>
           
             <tr>
-              <td>Group of radio buttons not enclosed in a fieldset</td>
+              <th>Group of radio buttons not enclosed in a fieldset
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1934,7 +2143,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1954,33 +2163,35 @@
             </tr>
           
             <tr>
-              <td>Form element has no label</td>
+              <th>Form element has no label
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -1988,7 +2199,9 @@
             </tr>
           
             <tr>
-              <td>Fieldset without a legend</td>
+              <th>Fieldset without a legend
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -1999,19 +2212,19 @@
                 Warning reported
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="different">
                 Different error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2022,7 +2235,9 @@
             </tr>
           
             <tr>
-              <td>Empty legend</td>
+              <th>Empty legend
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2033,19 +2248,19 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2056,33 +2271,35 @@
             </tr>
           
             <tr>
-              <td>Label element with for= attribute but not matching id= attribute of form control</td>
+              <th>Label element with for= attribute but not matching id= attribute of form control
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2090,7 +2307,9 @@
             </tr>
           
             <tr>
-              <td>Group of check boxes not enclosed in a fieldset</td>
+              <th>Group of check boxes not enclosed in a fieldset
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2104,7 +2323,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2124,12 +2343,14 @@
             </tr>
           
             <tr>
-              <td>Empty label found</td>
+              <th>Empty label found
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2138,19 +2359,19 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2158,7 +2379,9 @@
             </tr>
           
             <tr>
-              <td>Two unique labels, but identical for= attributes</td>
+              <th>Two unique labels, but identical for= attributes
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2166,13 +2389,13 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2184,7 +2407,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2192,7 +2415,9 @@
             </tr>
           
             <tr>
-              <td>Errors identified with a poor colour contrast</td>
+              <th>Errors identified with a poor colour contrast
+              
+              </th>
               <td class="warning">
                 Warning reported
               </td>
@@ -2200,16 +2425,16 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="warning">
                 Warning reported
@@ -2226,12 +2451,14 @@
             </tr>
           
             <tr>
-              <td>Non-unique field label found</td>
+              <th>Non-unique field label found
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2260,33 +2487,35 @@
             </tr>
           
             <tr>
-              <td>Missing labels in checkboxes</td>
+              <th>Missing labels in checkboxes
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2294,7 +2523,9 @@
             </tr>
           
             <tr>
-              <td>Field hint not associated with input</td>
+              <th>Field hint not associated with input
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2328,33 +2559,35 @@
             </tr>
           
             <tr>
-              <td>Placeholder no label</td>
+              <th>Placeholder no label
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2362,7 +2595,9 @@
             </tr>
           
             <tr>
-              <td>Errors are not identified</td>
+              <th>Errors are not identified
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2370,7 +2605,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2396,7 +2631,9 @@
             </tr>
           
             <tr>
-              <td>Form control that changes context without warning</td>
+              <th>Form control that changes context without warning
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2432,30 +2669,32 @@
 
         
             <tr>
-              <td>iframe is missing a title attribute</td>
+              <th>iframe is missing a title attribute
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2466,12 +2705,14 @@
             </tr>
           
             <tr>
-              <td>iframe title attribute does not describes the content or purpose in the iframe</td>
+              <th>iframe title attribute does not describes the content or purpose in the iframe
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2502,7 +2743,9 @@
 
         
             <tr>
-              <td>Embedded video file is missing text alternative</td>
+              <th>Embedded video file is missing text alternative
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2536,7 +2779,9 @@
             </tr>
           
             <tr>
-              <td>Flashing content doesn&#39;t have warning</td>
+              <th>Flashing content doesn&#39;t have warning
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2570,7 +2815,9 @@
             </tr>
           
             <tr>
-              <td>Embedded audio file is missing text alternative</td>
+              <th>Embedded audio file is missing text alternative
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2606,7 +2853,9 @@
 
         
             <tr>
-              <td>Inadequate line height used</td>
+              <th>Inadequate line height used
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2640,7 +2889,9 @@
             </tr>
           
             <tr>
-              <td>All caps text found</td>
+              <th>All caps text found
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2674,67 +2925,35 @@
             </tr>
           
             <tr>
-              <td>Blink element found</td>
+              <th>Blink element found
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>Italics used on long sections of text</td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2742,41 +2961,9 @@
             </tr>
           
             <tr>
-              <td>Marquee element found</td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>Long lines of text</td>
+              <th>Italics used on long sections of text
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2810,7 +2997,81 @@
             </tr>
           
             <tr>
-              <td>Very small text found</td>
+              <th>Marquee element found
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="error">
+                Correct error found
+              </td>
+              <td class="error">
+                Correct error found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="error">
+                Correct error found
+              </td>
+              <td class="error">
+                Correct error found
+              </td>
+              <td class="error">
+                Correct error found
+              </td>
+              <td class="error">
+                Correct error found
+              </td>
+              <td class="error">
+                Correct error found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+            <tr>
+              <th>Long lines of text
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+            <tr>
+              <th>Very small text found
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2844,12 +3105,14 @@
             </tr>
           
             <tr>
-              <td>Justified text found</td>
+              <th>Justified text found
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="warning">
                 Warning reported
@@ -2880,24 +3143,14 @@
 
         
             <tr>
-              <td>LI element with no parent</td>
+              <th>LI element with no parent
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -2906,15 +3159,29 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
+              </td>
+              <td class="error">
+                Correct error found
               </td>
             </tr>
           
             <tr>
-              <td>List not marked up as a list</td>
+              <th>List not marked up as a list
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -2925,111 +3192,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>DT or DD elements that are not contained within a DL element</td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>Improperly nested lists</td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-            </tr>
-          
-
-        
-            <tr>
-              <td>Content identified by location</td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3052,9 +3215,23 @@
             </tr>
           
             <tr>
-              <td>Plain Language is not used</td>
+              <th>DT or DD elements that are not contained within a DL element
+              
+              </th>
               <td class="notfound">
                 Not found
+              </td>
+              <td class="error">
+                Correct error found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="error">
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3065,64 +3242,32 @@
               <td class="notfound">
                 Not found
               </td>
-              <td class="notfound">
-                Not found
+              <td class="error">
+                Correct error found
               </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>Content is not in correct reading order in source code</td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
+              <td class="error">
+                Correct error found
               </td>
             </tr>
           
             <tr>
-              <td>Content is not organised into into well-defined groups or chunks, using headings, lists, and other visual mechanisms</td>
+              <th>Improperly nested lists
+              
+              </th>
               <td class="notfound">
                 Not found
+              </td>
+              <td class="error">
+                Correct error found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="error">
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3133,69 +3278,207 @@
               <td class="notfound">
                 Not found
               </td>
-              <td class="notfound">
-                Not found
+              <td class="error">
+                Correct error found
               </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>First instance of abbreviation not expanded</td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
+              <td class="error">
+                Correct error found
               </td>
             </tr>
           
 
         
             <tr>
-              <td>Image has alt and title that are different</td>
+              <th>Content identified by location
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+            <tr>
+              <th>Plain Language is not used
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+            <tr>
+              <th>Content is not in correct reading order in source code
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+            <tr>
+              <th>Content is not organised into into well-defined groups or chunks, using headings, lists, and other visual mechanisms
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+            <tr>
+              <th>First instance of abbreviation not expanded
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+
+        
+            <tr>
+              <th>Image has alt and title that are different
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3224,15 +3507,17 @@
             </tr>
           
             <tr>
-              <td>Image with presentation role has non-empty alt</td>
+              <th>Image with presentation role has non-empty alt
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="identified">
-                Identified but not a error
+                Identified but not an error
               </td>
               <td class="notfound">
                 Not found
@@ -3258,41 +3543,45 @@
             </tr>
           
             <tr>
-              <td>Image with no alt attribute</td>
+              <th>Image with no alt attribute
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
             </tr>
           
             <tr>
-              <td>Background image that conveys information does not have a text alternative</td>
+              <th>Background image that conveys information does not have a text alternative
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -3326,18 +3615,20 @@
             </tr>
           
             <tr>
-              <td>Image has empty alt and non-empty title</td>
+              <th>Image has empty alt and non-empty title
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3346,7 +3637,7 @@
                 Allows manual inspection
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3360,7 +3651,9 @@
             </tr>
           
             <tr>
-              <td>A distraction is present, an animated gif</td>
+              <th>A distraction is present, an animated gif
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -3394,7 +3687,9 @@
             </tr>
           
             <tr>
-              <td>Image that conveys information has an empty alt attribute</td>
+              <th>Image that conveys information has an empty alt attribute
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -3402,7 +3697,7 @@
                 Not found
               </td>
               <td class="identified">
-                Identified but not a error
+                Identified but not an error
               </td>
               <td class="warning">
                 Warning reported
@@ -3428,7 +3723,9 @@
             </tr>
           
             <tr>
-              <td>Image that conveys information has inappropriate alt text</td>
+              <th>Image that conveys information has inappropriate alt text
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -3462,12 +3759,14 @@
             </tr>
           
             <tr>
-              <td>Image alt attribute contains image file name</td>
+              <th>Image alt attribute contains image file name
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="manual">
                 Allows manual inspection
@@ -3482,7 +3781,7 @@
                 Allows manual inspection
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3496,7 +3795,9 @@
             </tr>
           
             <tr>
-              <td>Image with partial text alternative</td>
+              <th>Image with partial text alternative
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -3532,80 +3833,50 @@
 
         
             <tr>
-              <td>Duplicate id</td>
+              <th>Duplicate id
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
+              </td>
+              <td class="notfound">
+                Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
+              </td>
+              <td class="error">
+                Correct error found
+              </td>
+              <td class="error">
+                Correct error found
               </td>
             </tr>
           
             <tr>
-              <td>Article element used to mark-up an element that&#39;s not an article/blog post etc.</td>
+              <th>Article element used to mark-up an element that&#39;s not an article/blog post etc.
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="notfound">
                 Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>Empty paragraph</td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
               </td>
               <td class="notfound">
                 Not found
@@ -3634,12 +3905,50 @@
             </tr>
           
             <tr>
-              <td>Deprecated center element</td>
+              <th>Empty paragraph
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+            <tr>
+              <th>Deprecated center element
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="error">
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3651,44 +3960,31 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
             </tr>
           
             <tr>
-              <td>Invalid ARIA role names</td>
+              <th>Invalid ARIA role names
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
               </td>
               <td class="notfound">
                 Not found
@@ -3697,17 +3993,34 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="error">
+                Correct error found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="error">
+                Correct error found
               </td>
             </tr>
           
             <tr>
-              <td>Object not embedded accessibly - wmode parameter not set to window</td>
+              <th>Object not embedded accessibly - wmode parameter not set to window
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3736,15 +4049,17 @@
             </tr>
           
             <tr>
-              <td>Spacer image found</td>
+              <th>Spacer image found
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="identified">
-                Identified but not a error
+                Identified but not an error
               </td>
               <td class="notfound">
                 Not found
@@ -3770,12 +4085,14 @@
             </tr>
           
             <tr>
-              <td>Deprecated color definition</td>
+              <th>Deprecated color definition
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3787,16 +4104,16 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3804,7 +4121,9 @@
             </tr>
           
             <tr>
-              <td>Start and close tags don&#39;t match</td>
+              <th>Start and close tags don&#39;t match
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -3824,26 +4143,28 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
             </tr>
           
             <tr>
-              <td>PRE element without CODE element inside it</td>
+              <th>PRE element without CODE element inside it
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3872,12 +4193,14 @@
             </tr>
           
             <tr>
-              <td>Deprecated font element</td>
+              <th>Deprecated font element
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -3889,60 +4212,64 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
             </tr>
           
 
         
             <tr>
-              <td>Empty heading</td>
+              <th>Empty heading
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
             </tr>
           
             <tr>
-              <td>Missing H1</td>
+              <th>Missing H1
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -3959,44 +4286,10 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>Text formatting used instead of an actual heading</td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4010,7 +4303,45 @@
             </tr>
           
             <tr>
-              <td>Headings not structured in a hierarchical manner</td>
+              <th>Text formatting used instead of an actual heading
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+            <tr>
+              <th>Headings not structured in a hierarchical manner
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4027,7 +4358,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4036,7 +4367,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4046,55 +4377,59 @@
 
         
             <tr>
-              <td>Image button has no alt attribute</td>
+              <th>Image button has no alt attribute
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
             </tr>
           
             <tr>
-              <td>Empty button</td>
+              <th>Empty button
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="warning">
                 Warning reported
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="different">
                 Different error found
@@ -4103,7 +4438,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4114,12 +4449,14 @@
             </tr>
           
             <tr>
-              <td>Uninformative alt attribute value on image button</td>
+              <th>Uninformative alt attribute value on image button
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="manual">
                 Allows manual inspection
@@ -4148,43 +4485,47 @@
             </tr>
           
             <tr>
-              <td>Empty alt attribute on image button</td>
+              <th>Empty alt attribute on image button
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="different">
                 Different error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
             </tr>
           
 
         
             <tr>
-              <td>Color alone is used to convey content</td>
+              <th>Color alone is used to convey content
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4218,9 +4559,11 @@
             </tr>
           
             <tr>
-              <td>Large text does not have a contrast ratio of at least 3:1 so does not meet AA</td>
+              <th>Large text does not have a contrast ratio of at least 3:1 so does not meet AA
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4232,10 +4575,10 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4252,24 +4595,26 @@
             </tr>
           
             <tr>
-              <td>Small text does not have a contrast ratio of at least 7:1 so does not meet AAA</td>
+              <th>Small text does not have a contrast ratio of at least 7:1 so does not meet AAA
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4286,7 +4631,9 @@
             </tr>
           
             <tr>
-              <td>Focus not visible</td>
+              <th>Focus not visible
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4320,24 +4667,26 @@
             </tr>
           
             <tr>
-              <td>Small text does not have a contrast ratio of at least 4.5:1 so does not meet AA</td>
+              <th>Small text does not have a contrast ratio of at least 4.5:1 so does not meet AA
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4354,9 +4703,11 @@
             </tr>
           
             <tr>
-              <td>Large text does not have a contrast ratio of at least 4.5:1 so does not meet AAA</td>
+              <th>Large text does not have a contrast ratio of at least 4.5:1 so does not meet AAA
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4368,10 +4719,10 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4390,7 +4741,9 @@
 
         
             <tr>
-              <td>Inadequately-sized clickable targets found</td>
+              <th>Inadequately-sized clickable targets found
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4424,7 +4777,9 @@
             </tr>
           
             <tr>
-              <td>Navigation placement, display, or functionality changes from from page to page</td>
+              <th>Navigation placement, display, or functionality changes from from page to page
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4460,12 +4815,14 @@
 
         
             <tr>
-              <td>Text language changed without required change in direction</td>
+              <th>Text language changed without required change in direction
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4494,41 +4851,15 @@
             </tr>
           
             <tr>
-              <td>html element has an empty lang attribute</td>
+              <th>html element has an empty lang attribute
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
               </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="error">
-                Error found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-              <td class="notfound">
-                Not found
-              </td>
-            </tr>
-          
-            <tr>
-              <td>lang attribute not used to identify change of language</td>
               <td class="notfound">
                 Not found
               </td>
@@ -4545,7 +4876,37 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+            </tr>
+          
+            <tr>
+              <th>lang attribute not used to identify change of language
+              
+              </th>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="notfound">
+                Not found
+              </td>
+              <td class="error">
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4562,7 +4923,9 @@
             </tr>
           
             <tr>
-              <td>Text language is in the wrong direction</td>
+              <th>Text language is in the wrong direction
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4596,7 +4959,9 @@
             </tr>
           
             <tr>
-              <td>html element has an invalid value in the lang attribute</td>
+              <th>html element has an invalid value in the lang attribute
+              
+              </th>
               <td class="false-positive">
                 False positive
               </td>
@@ -4610,19 +4975,19 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4630,7 +4995,9 @@
             </tr>
           
             <tr>
-              <td>lang attribute used to identify change of language, but with invalid value</td>
+              <th>lang attribute used to identify change of language, but with invalid value
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4644,7 +5011,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4656,20 +5023,22 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
             </tr>
           
             <tr>
-              <td>html element is missing a lang attribute</td>
+              <th>html element is missing a lang attribute
+              
+              </th>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4678,19 +5047,19 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4698,7 +5067,9 @@
             </tr>
           
             <tr>
-              <td>html element has lang attribute set to wrong language</td>
+              <th>html element has lang attribute set to wrong language
+              
+              </th>
               <td class="false-positive">
                 False positive
               </td>
@@ -4715,7 +5086,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4732,7 +5103,9 @@
             </tr>
           
             <tr>
-              <td>lang attribute used to identify change of language, but with wrong language</td>
+              <th>lang attribute used to identify change of language, but with wrong language
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4749,7 +5122,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4768,7 +5141,9 @@
 
         
             <tr>
-              <td>Content is not readable and functional when text is increased</td>
+              <th>Content is not readable and functional when text is increased
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4802,7 +5177,9 @@
             </tr>
           
             <tr>
-              <td>Non-decorative content inserted using CSS</td>
+              <th>Non-decorative content inserted using CSS
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4836,7 +5213,9 @@
             </tr>
           
             <tr>
-              <td>visibility:hidden used to visually hide content when it should be available to screenreader</td>
+              <th>visibility:hidden used to visually hide content when it should be available to screenreader
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4853,7 +5232,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4870,7 +5249,9 @@
             </tr>
           
             <tr>
-              <td>display:table being used for layout</td>
+              <th>display:table being used for layout
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4904,7 +5285,9 @@
             </tr>
           
             <tr>
-              <td>display:none used to visually hide content when it should be available to screenreader</td>
+              <th>display:none used to visually hide content when it should be available to screenreader
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4921,7 +5304,7 @@
                 Not found
               </td>
               <td class="error">
-                Error found
+                Correct error found
               </td>
               <td class="notfound">
                 Not found
@@ -4938,7 +5321,9 @@
             </tr>
           
             <tr>
-              <td>Page zoom - boxes that don&#39;t expand with the text</td>
+              <th>Page zoom - boxes that don&#39;t expand with the text
+              
+              </th>
               <td class="notfound">
                 Not found
               </td>
@@ -4975,6 +5360,7 @@
         
     </tbody>
   </table>
+</main>
 
 
   <footer id="footer" class="group" role="contentinfo">

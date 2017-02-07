@@ -10,11 +10,11 @@ var paths = {
 };
 
 var resultsCopy = {
-  "error": "error found",
+  "error": "correct error found",
   "warning": "warning reported",
   "different": "different error found",
   "notfound": "not found",
-  "identified": "identified but not a error",
+  "identified": "identified but not an error",
   "manual": "allows manual inspection",
   "wrong": "wrong error reported",
   "false-positive": "false positive"

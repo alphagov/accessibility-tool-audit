@@ -53,6 +53,14 @@ function generateFiles(){
   });
   fs.writeFileSync(paths.out('index.html'), indexout, 'utf8');
 
+  // Generate test cases
+
+  var indexout = nunjucks.render('test-cases.html', {
+    tests: tests,
+    getFilename: getFilename
+  });
+  fs.writeFileSync(paths.out('test-cases.html'), indexout, 'utf8');
+
   // Generate individual tests
 
   for( catname in tests ){

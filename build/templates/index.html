@@ -5,40 +5,28 @@
 
   <div class="breadcrumbs">
     <ol>
-      <li><a href="/">Audit overview</a></li>
+      <li>Audit overview</li>
     </ol>
   </div>
 
   <div class="grid-row">
 
     <div class="column-two-thirds intro-summary">
-      <h1>Accessibility fails</h1>
+      <h1>Accessibility tool audit</h1>
 
-      <p>A collection of accessibility failures to be used for testing automated accessibility tools.</p>
-      <nav>
-        <ul>
-          {% for cname, category in tests -%}
-          <li><a href="#{{ cname|replace(' ', '')|lower }}">{{ cname }}</a> {{ category|length }}</li>
-          {% endfor -%}
-        </ul>
-      </nav>
+      <p>A collection of accessibility test cases to be used for evaluating automated accessibility testing tools. </p>
+
+      <p>Read our blog post about how we created the test cases and what we found.</p>
+
+      <p>Project on <a href="https://github.com/alphagov/accessibility-tool-audit">Github</a>. We welcome contributions.</p>
+
+      <h2 class="heading-medium"><a href="/test-cases.html">Test cases</a></h2>
+
+      <h2 class="heading-medium"><a href="/results.html">Results</a></h2>
+
     </div>
   </div>
 
-  {% for cname, category in tests -%}
-  <h2 class="heading-large">{{ cname }}</h2>
 
-  {% for testname, testobj in category %}
-  <h3 class="heading-medium">
-    <a href="tests/{{ getFilename( cname, testname ) }}.html">
-      {{ testname }}
-    </a>
-  </h3>
-
-  <div class="example">
-    {{ testobj.example | replace('images/', 'assets/test_images/') | safe }}
-  </div>
-  {% endfor %}
-  {% endfor %}
 </main>
 {% endblock %}

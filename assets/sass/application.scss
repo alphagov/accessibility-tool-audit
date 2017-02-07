@@ -43,8 +43,24 @@ $NTA-Light: $Helvetica-Regular;
 @import "organisations";
 @import "page-navigation";
 
+
+// Typography
+
 body {
+  font-size: 19px;
   font-family: $Helvetica-Regular;
+
+  &.results, .intro-summary {
+    @include core-19;
+  }
+}
+
+.heading-large {
+  @include bold-36;
+}
+
+.heading-medium {
+  @include bold-24;
 }
 
 #global-header {
@@ -151,26 +167,38 @@ $table-header: #f5f5f5;
 $table-row: #f9f9f9;
 
 table {
-  @include core-14;
+  @include core-16;
   border-collapse: collapse;
-  border: 1px solid $border-colour;
+  table-layout: fixed;
 
   margin-top: $gutter;
   margin-bottom: $gutter;
 
+  td {
+  }
+
   td, th {
     vertical-align: top;
     text-align: left;
-    font-family: monospace;
+
+
+    // font-family: monospace;
     padding: $gutter-one-third;
+    padding-left: 0;
+    border-bottom: 1px solid #bfc1c3;
   }
 
   th {
-    background-color: $table-header;
+    // background-color: $table-header;
+  }
+
+  tbody th {
+    font-weight: 400;
+
   }
 
   tr:nth-child(2n) {
-    background-color: $table-row;
+    // background-color: $table-row;
   }
 
   &.entry {
@@ -183,11 +211,18 @@ table {
   }
 }
 
+h1 {
+  // @include bold-36;
+  // margin-top: 1.5em;
+}
+
 h2 {
+  // @include bold-24;
   margin-top: 2em;
 }
 
 h3 {
+  // @include core-19;
   margin: 1.5em 0 0.5em 0;
 }
 
@@ -241,38 +276,183 @@ h3 {
 //   }
 // }
 
+@mixin result-status($colour) {
+  content: "";
+  background: $colour;
+  display: inline-block;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
 #results-table {
-  .error {
-    background: #a8ff26;
+  td {
+    // padding-top: 0;
+  }
+  .error:before{
+    @include result-status(#43b93c);
   }
 
-  .warning {
-    background: #fba300;
+  .warning:before {
+    @include result-status($orange);
   }
 
-  .different {
-    background: #980f0f;
-    color: #fff;
+  .different:before {
+    @include result-status($error-colour);
   }
 
-  .notfound {
-    background: #ff7c7c;
+  .notfound:before {
+    @include result-status($error-colour);
   }
 
-  .identified {
-    background: #A5D9FF;
+  .identified:before {
+    @include result-status($orange);
   }
 
-  .manual {
-    background: #e685ff;
+  .manual:before {
+    @include result-status($orange);
   }
 
-  .wrong {
-    background: #ffcccc;
+  .wrong:before {
+    @include result-status($error-colour);
   }
 
-  .false-positive {
-    background: #981389;
-    color: #fff;
+  .false-positive:before {
+    @include result-status($error-colour);
+  }
+}
+
+.summary-data {
+  list-style: none;
+  padding: 0;
+  .timestamp, .result-type {
+    font-weight: 700;
+    display: block;
+  }
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+// Panels from Elements
+
+@function em($px, $base: 19) {
+  @return ($px / $base) + em;
+}
+
+.panel {
+  @include box-sizing(border-box);
+  @extend %contain-floats;
+  clear: both;
+  border-left-style: solid;
+  border-color: $border-colour;
+
+  padding: em(15, 19);
+  margin-bottom: em(15, 19);
+
+  :first-child {
+    margin-top: 0;
+  }
+
+  :only-child,
+  :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.panel-border-wide {
+  border-left-width: 10px;
+}
+
+// Used to show the left edge of "toggled" content
+.panel-border-narrow {
+  border-left-width: 5px;
+}
+
+// Panels within form groups
+// By default, panels have 15px bottom margin
+.form-group .panel-border-narrow {
+  float: left;
+  width: 100%;
+  // Remove the bottom padding as .form-group sets a bottom margin
+  padding-bottom: 0;
+  // Don't remove the bottom margin for all panels, assume they are often within stacked groups
+}
+
+// Note: This is incredibly fragile, and needs rebuilding.
+
+// The first panel in a group
+.form-group .panel-border-narrow:first-child {
+  margin-top: 10px;
+}
+
+// The last panel in a group
+.form-group .panel-border-narrow:last-child {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+// For inline panels
+.inline .panel-border-narrow {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.breadcrumbs {
+
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+
+  ol {
+    @extend %contain-floats;
+    padding: 0;
+  }
+
+  li {
+    @include core-16;
+    float: left;
+
+    background-image: url("/assets/images/separator.png");
+
+    // @include device-pixel-ratio() {
+    //   background-image: "assets/images/separator-2x.png");
+    //   background-size: 6px 11px;
+    // }
+
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+
+    list-style: none;
+
+    margin-left: 0.6em;
+    margin-bottom: 0.4em;
+    padding-left: 0.9em;
+
+    &:first-child {
+      background-image: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+  }
+
+  a {
+    color: $text-colour;
+  }
+
+}
+
+.form-group {
+  @extend %contain-floats;
+  @include box-sizing(border-box);
+
+  float: left;
+  width: 100%;
+
+  margin-bottom: $gutter-half;
+
+  @include media(tablet) {
+    margin-bottom: $gutter;
   }
 }

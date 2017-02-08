@@ -279,48 +279,80 @@ h3 {
 @mixin result-status($colour) {
   content: "";
   background: $colour;
-  display: inline-block;
   display: block;
   width: 100%;
   height: 10px;
   margin-bottom: 10px;
 }
 
+
+
 #results-table {
-  td {
-    // padding-top: 0;
-  }
+
+  // Positive results
+
+  $positive-colour: #43b93c;
+
+  // Issue found
   .error:before{
-    @include result-status(#43b93c);
+    @include result-status($positive-colour);
   }
 
+  // Somewhat positive results
+  $somewhat-positive-colour: #c8ec86;
+
+  // Warning only
   .warning:before {
-    @include result-status($orange);
+    @include result-status($somewhat-positive-colour);
   }
 
+  // User to check
+  .manual:before {
+    @include result-status($somewhat-positive-colour);
+  }
+
+  // Neutral
+
+  $neutral-colour: $orange;
+
+  // Noticed but not a fail
+  .identified:before {
+    @include result-status($neutral-colour);
+  }
+
+
+
+  // Negative results
+
+  $negative-colour: $error-colour;
+
+  // Different error found
   .different:before {
-    @include result-status($error-colour);
+    @include result-status($negative-colour);
   }
 
+  // Wrong error reported
+  .wrong:before {
+    @include result-status($negative-colour);
+  }
+
+  // False positive
+  .false-positive:before {
+    @include result-status($negative-colour);
+  }
+
+  // Issue not found
   .notfound:before {
     @include result-status($error-colour);
   }
 
-  .identified:before {
-    @include result-status($orange);
-  }
 
-  .manual:before {
-    @include result-status($orange);
-  }
 
-  .wrong:before {
-    @include result-status($error-colour);
-  }
 
-  .false-positive:before {
-    @include result-status($error-colour);
-  }
+
+
+
+
 }
 
 .summary-data {
@@ -331,7 +363,7 @@ h3 {
     display: block;
   }
   li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 }
 

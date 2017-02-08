@@ -1998,7 +1998,6 @@ h3 {
 #results-table .error:before {
   content: "";
   background: #43b93c;
-  display: inline-block;
   display: block;
   width: 100%;
   height: 10px;
@@ -2007,28 +2006,16 @@ h3 {
 
 #results-table .warning:before {
   content: "";
-  background: #f47738;
-  display: inline-block;
+  background: #c8ec86;
   display: block;
   width: 100%;
   height: 10px;
   margin-bottom: 10px;
 }
 
-#results-table .different:before {
+#results-table .manual:before {
   content: "";
-  background: #b10e1e;
-  display: inline-block;
-  display: block;
-  width: 100%;
-  height: 10px;
-  margin-bottom: 10px;
-}
-
-#results-table .notfound:before {
-  content: "";
-  background: #b10e1e;
-  display: inline-block;
+  background: #c8ec86;
   display: block;
   width: 100%;
   height: 10px;
@@ -2038,17 +2025,15 @@ h3 {
 #results-table .identified:before {
   content: "";
   background: #f47738;
-  display: inline-block;
   display: block;
   width: 100%;
   height: 10px;
   margin-bottom: 10px;
 }
 
-#results-table .manual:before {
+#results-table .different:before {
   content: "";
-  background: #f47738;
-  display: inline-block;
+  background: #b10e1e;
   display: block;
   width: 100%;
   height: 10px;
@@ -2058,7 +2043,6 @@ h3 {
 #results-table .wrong:before {
   content: "";
   background: #b10e1e;
-  display: inline-block;
   display: block;
   width: 100%;
   height: 10px;
@@ -2068,7 +2052,15 @@ h3 {
 #results-table .false-positive:before {
   content: "";
   background: #b10e1e;
-  display: inline-block;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+#results-table .notfound:before {
+  content: "";
+  background: #b10e1e;
   display: block;
   width: 100%;
   height: 10px;
@@ -2086,7 +2078,7 @@ h3 {
 }
 
 .summary-data li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .panel {

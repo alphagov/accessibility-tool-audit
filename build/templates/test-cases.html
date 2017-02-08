@@ -13,14 +13,12 @@
   <div class="grid-row">
 
     <div class="column-two-thirds intro-summary">
-      <h1>Test cases</h1>
-
-      <p>"The world’s least accessible web page"</p>
+      <h1>What we tested</h1>
 
       <nav>
         <ul>
           {% for cname, category in tests -%}
-          <li><a href="#{{ cname|replace(' ', '')|lower }}">{{ cname }}</a> {{ category|length }}</li>
+          <li><a href="#{{ cname|replace(' ', '')|lower }}">{{ cname }}</a></li>
           {% endfor -%}
         </ul>
       </nav>

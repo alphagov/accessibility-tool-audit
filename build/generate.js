@@ -10,14 +10,14 @@ var paths = {
 };
 
 var resultsCopy = {
-  "error": "correct error found",
-  "warning": "warning reported",
-  "different": "different error found",
+  "error": "issue found",
+  "warning": "warning only",
+  "different": "different issue found",
   "notfound": "not found",
-  "identified": "identified but not an error",
-  "manual": "allows manual inspection",
-  "wrong": "wrong error reported",
-  "false-positive": "false positive"
+  "identified": "noticed but not a fail",
+  "manual": "user to check",
+  "wrong": "wrong issue reported",
+  "false-positive": "unrelated issue"
 };
 
 function getFilename( catname, testname ){

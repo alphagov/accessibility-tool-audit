@@ -10,14 +10,14 @@ var paths = {
 };
 
 var resultsCopy = {
-  "error": "error found",
-  "warning": "warning reported",
-  "different": "different error found",
+  "error": "issue found",
+  "warning": "warning only",
+  "different": "different issue found",
   "notfound": "not found",
-  "identified": "identified but not a error",
-  "manual": "allows manual inspection",
-  "wrong": "wrong error reported",
-  "false-positive": "false positive"
+  "identified": "noticed but not a fail",
+  "manual": "user to check",
+  "wrong": "wrong issue reported",
+  "false-positive": "unrelated issue"
 };
 
 function getFilename( catname, testname ){
@@ -52,6 +52,14 @@ function generateFiles(){
     getFilename: getFilename
   });
   fs.writeFileSync(paths.out('index.html'), indexout, 'utf8');
+
+  // Generate test cases
+
+  var indexout = nunjucks.render('test-cases.html', {
+    tests: tests,
+    getFilename: getFilename
+  });
+  fs.writeFileSync(paths.out('test-cases.html'), indexout, 'utf8');
 
   // Generate individual tests
 

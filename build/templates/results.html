@@ -1,10 +1,117 @@
 {% extends "layout.html" %}
 
+{% block body_classes %}
+results
+{% endblock %}
+
 {% block content %}
+
+<main id="wrapper">
+  <div class="breadcrumbs">
+    <ol>
+      <li><a href="/">Overview</a></li>
+      
+      
+      <li>Audit results</li>
+      
+    </ol>
+  </div>
+
+  <div class="grid-row">
+
+    <div class="column-two-thirds">
+
+      <h1>Audit results</h1>
+
+      <p>Last updated: 7 August 2016</p>
+
+      <div class="form-group">
+        <details>
+
+        <summary><span class="summary">Result update history</span></summary>
+
+        <div class="panel panel-border-narrow">
+          <ol class="summary-data">
+              <li>
+                <time datetime="2016-08-07T12:00:00.000+00:00" class="timestamp">7 August 2016</time>
+                First set of results
+              </li>
+          </ol>
+
+        </div>
+
+      </details>
+      </div>
+
+      <div class="form-group">
+        <details>
+
+        <summary><span class="summary">What each result means</span></summary>
+
+        <div class="panel panel-border-narrow">
+
+          <h3>Postive result</h3>
+          <ul class="summary-data">
+            <li>
+              <span class="result-type">Issue found</span>
+              The tool found the issue.
+            </li>
+          </ul>
+
+          <h3>Mostly postive results</h3>
+          <ul class="summary-data">
+            <li>
+              <span class="result-type">Warning only</span>
+              The tool noticed the issue, but only threw up a warning.
+            </li>
+            <li>
+              <span class="result-type">User to check</span>
+              The tool pointed out the potentially problematic bit of code and asked us to check ourselves whether it was an issue.
+            </li>
+          </ul>
+          <h3>Neutral result</h3>
+          <ul class="summary-data">
+            <li>
+              <span class="result-type">Noticed but not a fail</span>
+              The tool noticed this was potentially a problem, but didn’t see it as a full-scale issue or give a warning.
+            </li>
+          </ul>
+          <h3>Negative results</h3>
+          <ul class="summary-data">
+            <li>
+              <span class="result-type">Different issue found</span>
+              The tool found a problem with the code, but not the one we expected.
+            </li>
+            <li>
+              <span class="result-type">Wrong issue reported</span>
+              The tool found the issue, but reported it as another one.
+            </li>
+            <li>
+              <span class="result-type">Unrelated issue</span>
+              The tool didn’t find the issue, but it reported an unrelated thing - sometimes an accessibility issue, sometimes not.
+            </li>
+            <li>
+              <span class="result-type">Not found</span>
+              The tool didn’t find the issue.
+            </li>
+          </ul>
+
+        </div>
+
+      </details>
+      </div>
+    </div>
+
+  </div>
+
+  
+
+  
+  
   <table id="results-table">
-    <caption>
-        Table of results for our access tools audit. The columns are the tools and the rows are the test cases we've used. There is a table for our analysis and breakdown after this table as well.
-    </caption>
+    {# <caption>
+        Caption goes here
+    </caption> #}
     <thead>
     <tr>
         <th scope="col">Test case</th>
@@ -26,7 +133,11 @@
         {% for cname, category in tests -%}
           {% for testname, testobj in category %}
             <tr>
-              <td>{{ testname }}</td>
+              <th>{{ testname }}
+              {# <a href="tests/{{ getFilename( cname, testname ) }}.html">
+                {{ testname }}
+              </a> #}
+              </th>
               <td class="{{ testobj.results.google }}">
                 {{ rcopy[testobj.results.google] | capitalize }}
               </td>
@@ -63,4 +174,5 @@
         {% endfor %}
     </tbody>
   </table>
+</main>
 {% endblock %}

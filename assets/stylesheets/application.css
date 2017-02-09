@@ -31,7 +31,7 @@
 }
 
 .grid-row:after, #global-header .header-wrapper:after, #global-header .header-wrapper .header-global:after, #global-header .header-wrapper .header-global .header-logo:after, #global-header .header-proposition #proposition-link:after,
-#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after {
+#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after, .panel:after, .breadcrumbs ol:after, .form-group:after {
   content: "";
   display: block;
   clear: both;
@@ -79,7 +79,7 @@
 }
 
 .grid-row:after, #global-header .header-wrapper:after, #global-header .header-wrapper .header-global:after, #global-header .header-wrapper .header-global .header-logo:after, #global-header .header-proposition #proposition-link:after,
-#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after {
+#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after, .panel:after, .breadcrumbs ol:after, .form-group:after {
   content: "";
   display: block;
   clear: both;
@@ -120,7 +120,7 @@
 }
 
 .grid-row:after, #global-header .header-wrapper:after, #global-header .header-wrapper .header-global:after, #global-header .header-wrapper .header-global .header-logo:after, #global-header .header-proposition #proposition-link:after,
-#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after {
+#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after, .panel:after, .breadcrumbs ol:after, .form-group:after {
   content: "";
   display: block;
   clear: both;
@@ -143,7 +143,7 @@
 }
 
 .grid-row:after, #global-header .header-wrapper:after, #global-header .header-wrapper .header-global:after, #global-header .header-wrapper .header-global .header-logo:after, #global-header .header-proposition #proposition-link:after,
-#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after {
+#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after, .panel:after, .breadcrumbs ol:after, .form-group:after {
   content: "";
   display: block;
   clear: both;
@@ -191,7 +191,7 @@
 }
 
 .grid-row:after, #global-header .header-wrapper:after, #global-header .header-wrapper .header-global:after, #global-header .header-wrapper .header-global .header-logo:after, #global-header .header-proposition #proposition-link:after,
-#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after {
+#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after, .panel:after, .breadcrumbs ol:after, .form-group:after {
   content: "";
   display: block;
   clear: both;
@@ -525,7 +525,7 @@ button:focus,
 }
 
 .grid-row:after, #global-header .header-wrapper:after, #global-header .header-wrapper .header-global:after, #global-header .header-wrapper .header-global .header-logo:after, #global-header .header-proposition #proposition-link:after,
-#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after {
+#global-header .header-proposition #proposition-links:after, #footer .footer-wrapper:after, #footer .footer-meta:after, .panel:after, .breadcrumbs ol:after, .form-group:after {
   content: "";
   display: block;
   clear: both;
@@ -1647,7 +1647,53 @@ hr {
 }
 
 body {
+  font-size: 19px;
   font-family: "GDS-Logo", sans-serif;
+}
+
+body.results, body .intro-summary {
+  font-family: "GDS-Logo", sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  body.results, body .intro-summary {
+    font-size: 19px;
+    line-height: 1.31579;
+  }
+}
+
+.heading-large {
+  font-family: "GDS-Logo", sans-serif;
+  font-size: 24px;
+  line-height: 1.04167;
+  font-weight: 700;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  .heading-large {
+    font-size: 36px;
+    line-height: 1.11111;
+  }
+}
+
+.heading-medium {
+  font-family: "GDS-Logo", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: none;
+}
+
+@media (min-width: 641px) {
+  .heading-medium {
+    font-size: 24px;
+    line-height: 1.25;
+  }
 }
 
 #global-header {
@@ -1886,36 +1932,33 @@ body {
 
 table {
   font-family: "GDS-Logo", sans-serif;
-  font-size: 12px;
-  line-height: 1.25;
+  font-size: 14px;
+  line-height: 1.14286;
   font-weight: 400;
   text-transform: none;
   border-collapse: collapse;
-  border: 1px solid #bfc1c3;
+  table-layout: fixed;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 @media (min-width: 641px) {
   table {
-    font-size: 14px;
-    line-height: 1.42857;
+    font-size: 16px;
+    line-height: 1.25;
   }
 }
 
 table td, table th {
   vertical-align: top;
   text-align: left;
-  font-family: monospace;
   padding: 10px;
+  padding-left: 0;
+  border-bottom: 1px solid #bfc1c3;
 }
 
-table th {
-  background-color: #f5f5f5;
-}
-
-table tr:nth-child(2n) {
-  background-color: #f9f9f9;
+table tbody th {
+  font-weight: 400;
 }
 
 table.entry tr {
@@ -1952,36 +1995,193 @@ h3 {
   }
 }
 
-#results-table .error {
-  background: #a8ff26;
+#results-table .error:before {
+  content: "";
+  background: #43b93c;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
 }
 
-#results-table .warning {
-  background: #fba300;
+#results-table .warning:before {
+  content: "";
+  background: #c8ec86;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
 }
 
-#results-table .different {
-  background: #980f0f;
-  color: #fff;
+#results-table .manual:before {
+  content: "";
+  background: #c8ec86;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
 }
 
-#results-table .notfound {
-  background: #ff7c7c;
+#results-table .identified:before {
+  content: "";
+  background: #f47738;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
 }
 
-#results-table .identified {
-  background: #A5D9FF;
+#results-table .different:before {
+  content: "";
+  background: #b10e1e;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
 }
 
-#results-table .manual {
-  background: #e685ff;
+#results-table .wrong:before {
+  content: "";
+  background: #b10e1e;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
 }
 
-#results-table .wrong {
-  background: #ffcccc;
+#results-table .false-positive:before {
+  content: "";
+  background: #b10e1e;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
 }
 
-#results-table .false-positive {
-  background: #981389;
-  color: #fff;
+#results-table .notfound:before {
+  content: "";
+  background: #b10e1e;
+  display: block;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.summary-data {
+  list-style: none;
+  padding: 0;
+}
+
+.summary-data .timestamp, .summary-data .result-type {
+  font-weight: 700;
+  display: block;
+}
+
+.summary-data li {
+  margin-bottom: 10px;
+}
+
+.panel {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+  border-left-style: solid;
+  border-color: #bfc1c3;
+  padding: 0.78947em;
+  margin-bottom: 0.78947em;
+}
+
+.panel :first-child {
+  margin-top: 0;
+}
+
+.panel :only-child,
+.panel :last-child {
+  margin-bottom: 0;
+}
+
+.panel-border-wide {
+  border-left-width: 10px;
+}
+
+.panel-border-narrow {
+  border-left-width: 5px;
+}
+
+.form-group .panel-border-narrow {
+  float: left;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.form-group .panel-border-narrow:first-child {
+  margin-top: 10px;
+}
+
+.form-group .panel-border-narrow:last-child {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.inline .panel-border-narrow {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.breadcrumbs {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+}
+
+.breadcrumbs ol {
+  padding: 0;
+}
+
+.breadcrumbs li {
+  font-family: "GDS-Logo", sans-serif;
+  font-size: 14px;
+  line-height: 1.14286;
+  font-weight: 400;
+  text-transform: none;
+  float: left;
+  background-image: url("/assets/images/separator.png");
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  list-style: none;
+  margin-left: 0.6em;
+  margin-bottom: 0.4em;
+  padding-left: 0.9em;
+}
+
+@media (min-width: 641px) {
+  .breadcrumbs li {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+.breadcrumbs li:first-child {
+  background-image: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.breadcrumbs a {
+  color: #0b0c0c;
+}
+
+.form-group {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 641px) {
+  .form-group {
+    margin-bottom: 30px;
+  }
 }

@@ -47,7 +47,18 @@
         }, 
         "Table nested within table": {
             "example": "\n<table>\n<tr>\n<th>1.1</th>\n</tr>\n<tr>\n<td>\n<table>\n<tr>\n<th>2.1</th>\n</tr>\n<tr>\n<td>2.2</td>\n</tr>\n</table>\n</td>\n</tr>\n</table>\n", 
-            "results": {}
+            "results": {
+                "google": "notfound",
+                "tanaguru": "notfound",
+                "tenon": "error",
+                "wave": "notfound",
+                "sortsite": "error",
+                "axe": "notfound",
+                "codesniffer": "notfound",
+                "achecker": "notfound",
+                "eiii": "notfound",
+                "nu": "notfound"
+            }
         }, 
         "Table has no table headings": {
             "example": "\n<table>\n<caption>Shelly's Daughters</caption>\n<thead>\n<tr>\n<td>Name</td>\n<td>Age</td>\n<td>Birthday</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Jackie</td>\n<td>5</td>\n<td>April 5</td>\n</tr>\n<tr>\n<td>Beth</td>\n<td>8</td>\n<td>January 14</td>\n</tr>\n</tbody>\n</table>\n", 

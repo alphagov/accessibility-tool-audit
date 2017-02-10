@@ -26,7 +26,7 @@
   </div>
 
   {% for cname, category in tests -%}
-  <h2 class="heading-large">{{ cname }}</h2>
+  <h2 id="{{ cname|replace(' ', '')|lower }}" class="heading-large">{{ cname }}</h2>
 
   {% for testname, testobj in category %}
   <h3 class="heading-medium">

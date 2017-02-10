@@ -133,11 +133,7 @@ results
         {% for cname, category in tests -%}
           {% for testname, testobj in category %}
             <tr>
-              <th>{{ testname }}
-              {# <a href="tests/{{ getFilename( cname, testname ) }}.html">
-                {{ testname }}
-              </a> #}
-              </th>
+              <th>{{ testname }}</th>
               <td class="{{ testobj.results.google }}">
                 {{ rcopy[testobj.results.google] | capitalize }}
               </td>

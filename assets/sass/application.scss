@@ -1,6 +1,6 @@
 /* libSass doesn’t implement image-url that govuk_template uses so polyfill that */
 
-$image-url-path: '/assets/' !default;
+$image-url-path: '../../assets/' !default;
 @function image-url($url) {
   @return url("#{$image-url-path}#{$url}");
 }
@@ -445,7 +445,7 @@ h3 {
     @include core-16;
     float: left;
 
-    background-image: url("/assets/images/separator.png");
+    background-image: url("assets/images/separator.png");
 
     // @include device-pixel-ratio() {
     //   background-image: "assets/images/separator-2x.png");

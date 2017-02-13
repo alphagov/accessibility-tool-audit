@@ -300,13 +300,13 @@ a:active {
 }
 
 a[rel="external"]:after {
-  background-image: url("/assets/external-links/external-link.png");
+  background-image: url("../../assets/external-links/external-link.png");
   background-repeat: no-repeat;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   a[rel="external"]:after {
-    background-image: url("/assets/external-links/external-link-24x24.png");
+    background-image: url("../../assets/external-links/external-link-24x24.png");
     background-size: 12px 400px;
   }
 }
@@ -340,13 +340,13 @@ a[rel="external"]:hover:after {
 }
 
 .external-link:after {
-  background-image: url("/assets/external-links/external-link-black-12x12.png");
+  background-image: url("../../assets/external-links/external-link-black-12x12.png");
   background-repeat: no-repeat;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .external-link:after {
-    background-image: url("/assets/external-links/external-link-black-24x24.png");
+    background-image: url("../../assets/external-links/external-link-black-24x24.png");
     background-size: 12px 400px;
   }
 }
@@ -622,7 +622,7 @@ button:focus,
   margin-bottom: -3px;
   padding-top: 2px;
   border-bottom: 1px solid transparent;
-  background: url("/assets/images/gov.uk_logotype_crown.png") no-repeat;
+  background: url("../../assets/images/gov.uk_logotype_crown.png") no-repeat;
   background-size: 35px 31px;
   background-position: 0 0;
 }
@@ -1027,12 +1027,12 @@ button:focus,
   height: 17px;
   overflow: hidden;
   text-indent: -999em;
-  background: url("/assets/images/open-government-licence.png") 0 0 no-repeat;
+  background: url("../../assets/images/open-government-licence.png") 0 0 no-repeat;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   #footer .footer-meta .footer-meta-inner .open-government-licence .logo a, #footer .footer-meta .footer-meta-inner .custom-government-licence .logo a {
-    background-image: url("/assets/images/open-government-licence_2x.png");
+    background-image: url("../../assets/images/open-government-licence_2x.png");
     background-size: 41px 17px;
   }
 }
@@ -1084,7 +1084,7 @@ button:focus,
 
 #footer .footer-meta .copyright a {
   display: block;
-  background-image: url("/assets/images/govuk-crest.png");
+  background-image: url("../../assets/images/govuk-crest.png");
   background-repeat: no-repeat;
   background-position: 50% 0%;
   text-align: center;
@@ -1100,7 +1100,7 @@ button:focus,
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 20 / 10), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   #footer .footer-meta .copyright a {
-    background-image: url("/assets/images/govuk-crest-2x.png");
+    background-image: url("../../assets/images/govuk-crest-2x.png");
     background-size: 125px 102px;
   }
 }
@@ -1262,7 +1262,7 @@ hr {
   color: #0b0c0c;
   display: block;
   border-left: 2px solid #2e3133;
-  background: url("/assets/coa-default-18.gif") no-repeat 8px 0;
+  background: url("../../assets/coa-default-18.gif") no-repeat 8px 0;
   height: auto;
   width: auto;
   padding-top: 23px;
@@ -1274,7 +1274,7 @@ hr {
     font-size: 19px;
     line-height: 1.05263;
     padding-top: 30px;
-    background-image: url("/assets/coa-default-24.gif");
+    background-image: url("../../assets/coa-default-24.gif");
   }
 }
 
@@ -1405,55 +1405,55 @@ hr {
 }
 
 .organisation-logo-bis {
-  background: url("/assets/crests/bis_crest_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/bis_crest_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-bis {
-    background-image: url("/assets/crests/bis_crest_18px.png");
+    background-image: url("../../assets/crests/bis_crest_18px.png");
   }
 }
 
 .organisation-logo-coastguard {
   padding-top: 38px;
-  background: url("/assets/crests/coastguard_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/coastguard_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-coastguard {
-    background-image: url("/assets/crests/coastguard_18px.png");
+    background-image: url("../../assets/crests/coastguard_18px.png");
   }
 }
 
 .organisation-logo-hmrc {
-  background: url("/assets/crests/hmrc_crest_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/hmrc_crest_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-hmrc {
-    background-image: url("/assets/crests/hmrc_crest_18px.png");
+    background-image: url("../../assets/crests/hmrc_crest_18px.png");
   }
 }
 
 .organisation-logo-ho {
   padding-top: 38px;
-  background: url("/assets/crests/ho_crest_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/ho_crest_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-ho {
-    background-image: url("/assets/crests/ho_crest_18px.png");
+    background-image: url("../../assets/crests/ho_crest_18px.png");
   }
 }
 
 .organisation-logo-mod {
   padding-top: 38px;
-  background: url("/assets/crests/mod_crest_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/mod_crest_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-mod {
-    background-image: url("/assets/crests/mod_crest_18px.png");
+    background-image: url("../../assets/crests/mod_crest_18px.png");
   }
 }
 
@@ -1464,74 +1464,74 @@ hr {
 }
 
 .organisation-logo-org {
-  background: url("/assets/crests/org_crest_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/org_crest_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-org {
-    background-image: url("/assets/crests/org_crest_18px.png");
+    background-image: url("../../assets/crests/org_crest_18px.png");
   }
 }
 
 .organisation-logo-portcullis {
-  background: url("/assets/crests/portcullis_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/portcullis_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-portcullis {
-    background-image: url("/assets/crests/portcullis_18px.png");
+    background-image: url("../../assets/crests/portcullis_18px.png");
   }
 }
 
 .organisation-logo-so {
-  background: url("/assets/crests/so_crest_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/so_crest_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-so {
-    background-image: url("/assets/crests/so_crest_18px.png");
+    background-image: url("../../assets/crests/so_crest_18px.png");
   }
 }
 
 .organisation-logo-single-identity {
-  background: url("/assets/crests/org_crest_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/org_crest_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-single-identity {
-    background-image: url("/assets/crests/org_crest_18px.png");
+    background-image: url("../../assets/crests/org_crest_18px.png");
   }
 }
 
 .organisation-logo-ukaea {
-  background: url("/assets/crests/ukaea_crest_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/ukaea_crest_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-ukaea {
-    background-image: url("/assets/crests/ukaea_crest_18px.png");
+    background-image: url("../../assets/crests/ukaea_crest_18px.png");
   }
 }
 
 .organisation-logo-ukho {
   padding-top: 38px;
-  background: url("/assets/crests/ukho_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/ukho_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-ukho {
-    background-image: url("/assets/crests/ukho_18px.png");
+    background-image: url("../../assets/crests/ukho_18px.png");
   }
 }
 
 .organisation-logo-wales {
   padding-top: 38px;
-  background: url("/assets/crests/wales_crest_13px.png") no-repeat 8px 0;
+  background: url("../../assets/crests/wales_crest_13px.png") no-repeat 8px 0;
 }
 
 @media (min-width: 641px) {
   .organisation-logo-wales {
-    background-image: url("/assets/crests/wales_crest_18px.png");
+    background-image: url("../../assets/crests/wales_crest_18px.png");
   }
 }
 
@@ -1604,7 +1604,7 @@ hr {
 }
 
 .previous-and-next-navigation li.next-page a:before {
-  background: transparent url("/assets/images/arrow-sprite.png") no-repeat -102px -11px;
+  background: transparent url("../../assets/images/arrow-sprite.png") no-repeat -102px -11px;
   margin: -4px -32px 0 0;
   display: block;
   float: right;
@@ -1614,7 +1614,7 @@ hr {
 }
 
 .previous-and-next-navigation li.previous-page a:before {
-  background: transparent url("/assets/images/arrow-sprite.png") no-repeat -20px -11px;
+  background: transparent url("../../assets/images/arrow-sprite.png") no-repeat -20px -11px;
   margin: -4px 0 0 -32px;
   display: block;
   float: left;
@@ -2145,7 +2145,7 @@ h3 {
   font-weight: 400;
   text-transform: none;
   float: left;
-  background-image: url("/assets/images/separator.png");
+  background-image: url("assets/images/separator.png");
   background-position: 0% 50%;
   background-repeat: no-repeat;
   list-style: none;

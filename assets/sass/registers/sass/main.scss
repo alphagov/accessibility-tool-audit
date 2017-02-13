@@ -1,6 +1,6 @@
 /* libSass doesn’t implement image-url that govuk_template uses so polyfill that */
 
-$image-url-path: '/assets/' !default;
+$image-url-path: '../../assets/' !default;
 @function image-url($url) {
   @return url("#{$image-url-path}#{$url}");
 }

@@ -1,5 +1,19 @@
 {% extends "layout.html" %}
 
+{% block body_classes -%}
+  tests
+{%- endblock %}
+
+{% block scripts -%}
+  <script src="assets/javascript/jquery-1.12.0.min.js"></script>
+  <script src="assets/javascript/main.js"></script>
+  <script src="assets/javascript/main2.js"></script>
+{%- endblock %}
+
+{% block stylesheets -%}
+  <link rel="stylesheet" href="assets/stylesheets/tests.css" />
+{%- endblock %}
+
 {% block content %}
 <main id="wrapper">
 

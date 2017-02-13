@@ -2145,7 +2145,7 @@ h3 {
   font-weight: 400;
   text-transform: none;
   float: left;
-  background-image: url("assets/images/separator.png");
+  background-image: url("../../assets/images/separator.png");
   background-position: 0% 50%;
   background-repeat: no-repeat;
   list-style: none;

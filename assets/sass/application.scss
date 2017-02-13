@@ -445,7 +445,8 @@ h3 {
     @include core-16;
     float: left;
 
-    background-image: url("assets/images/separator.png");
+    // background-image: url("assets/images/separator.png");
+    background-image: image-url("images/separator.png");
 
     // @include device-pixel-ratio() {
     //   background-image: "assets/images/separator-2x.png");

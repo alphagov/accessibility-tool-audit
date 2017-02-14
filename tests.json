@@ -1,7 +1,7 @@
 {
   "Content": {
     "Content identified by location": {
-      "example": "\n<p>The artist on the right won the Album of the year</p>\n<a href=\"swift.html\" style=\"float:right\">Taylor Swift</a>\n<a href=\"sheeran.html\" style=\"float:left\">Ed Sheeran</a>\n",
+      "example": "<p>The artist on the right won the Album of the year</p>\n<a href=\"swift.html\" style=\"float:right\">Taylor Swift</a>\n<a href=\"sheeran.html\" style=\"float:left\">Ed Sheeran</a>",
       "results": {
         "google": "notfound",
         "tanaguru": "notfound",

@@ -36,8 +36,10 @@ gulp.task('watch-sass', function () {
 gulp.task('watch-html', function (){
   return gulp.watch([
     config.paths.htmlSource + '/**',
-    config.paths.build + '/generate.js'
+    config.paths.build + '/generate.js',
+    './tests.json'
   ], {cwd: './'}, ['generate'])
 })
 
-gulp.task('default', ['generate', 'sass', 'watch-sass', 'watch-html'])
+gulp.task('dev', ['generate', 'sass', 'watch-sass', 'watch-html'])
+gulp.task('default', ['generate', 'sass'])

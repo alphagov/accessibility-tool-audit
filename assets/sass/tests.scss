@@ -363,61 +363,62 @@ input.low-contrast {
 .tooltips-not-focusable {
     display: block;
     margin-bottom: 1em;
-}
 
-.tooltips-not-focusable .tooltip-icon {
-    cursor: pointer;
-    cursor: hand;
-    background: #6F777B;
-    color: #fff;
-    border-radius: 1em;
-    width: 1.5em;
-    height: 1.5em;
-    display: inline-block;
-    text-align: center;
-    text-indent: -0.1em;
-}
+    .tooltip-icon {
+        cursor: pointer;
+        cursor: hand;
+        background: #6F777B;
+        color: #fff;
+        border-radius: 1em;
+        width: 1.5em;
+        height: 1.5em;
+        display: inline-block;
+        text-align: center;
+        text-indent: -0.1em;
+    }
 
-.tooltips-not-focusable .tooltip-icon:hover + .tooltip-information {
-    display: block;
-}
+    .tooltip-icon:hover + .tooltip-information {
+        display: block;
+    }
 
-.tooltips-not-focusable .tooltip-information {
-    display: none;
-    position: absolute;
-    width: 12em;
-    background: #6F777B;
-    color: white;
-    padding: 1em;
-    margin-top: -10.2em;
-    margin-left: 6.3em;
-}
+    .tooltip-information {
+        display: none;
+        position: absolute;
+        width: 12em;
+        background: #6F777B;
+        color: white;
+        padding: 1em;
+        margin-top: -10.2em;
+        margin-left: 6.3em;
+    }
 
-/* Tooltip arrow */
-.tooltips-not-focusable .tooltip-information:after, .tooltips-not-focusable .tooltip-information:before {
-    top: 100%;
-    left: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-}
+    /* Tooltip arrow */
 
-.tooltips-not-focusable .tooltip-information:after {
-    border-color: rgba(111, 119, 123, 0);
-    border-top-color: #6F777B;
-    border-width: 10px;
-    margin-left: -10px;
-}
-.tooltips-not-focusable .tooltip-information:before {
-    border-color: rgba(0, 0, 0, 0);
-    border-top-color: #6F777B;
-    border-width: 11px;
-    margin-left: -11px;
-}
+    .tooltip-information:after, .tooltip-information:before {
+        top: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
 
+    .tooltip-information:after {
+        border-color: rgba(111, 119, 123, 0);
+        border-top-color: #6F777B;
+        border-width: 10px;
+        margin-left: -10px;
+    }
+
+    .tooltip-information:before {
+        border-color: rgba(0, 0, 0, 0);
+        border-top-color: #6F777B;
+        border-width: 11px;
+        margin-left: -11px;
+    }
+}
 
 .not-article-content h2 {
     margin: 0.5em 0;

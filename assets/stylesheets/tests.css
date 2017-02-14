@@ -364,6 +364,7 @@ input.low-contrast {
 .tooltips-not-focusable {
   display: block;
   margin-bottom: 1em;
+  /* Tooltip arrow */
 }
 
 .tooltips-not-focusable .tooltip-icon {
@@ -394,7 +395,6 @@ input.low-contrast {
   margin-left: 6.3em;
 }
 
-/* Tooltip arrow */
 .tooltips-not-focusable .tooltip-information:after, .tooltips-not-focusable .tooltip-information:before {
   top: 100%;
   left: 50%;

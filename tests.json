@@ -324,7 +324,7 @@
       }
     },
     "html element has an empty lang attribute": {
-      "example": "<a href=\"empty.html\">Example page with an empty lang attribute</a>",
+      "example": "<a href=\"example-pages/empty.html\">Example page with an empty lang attribute</a>",
       "results": {
         "google": "error",
         "tanaguru": "notfound",
@@ -369,7 +369,7 @@
       }
     },
     "html element has an invalid value in the lang attribute": {
-      "example": "<a href=\"invalid.html\">Example page with a lang attribute set to an invalid</a>",
+      "example": "<a href=\"example-pages/invalid.html\">Example page with a lang attribute set to an invalid</a>",
       "results": {
         "google": "false-positive",
         "tanaguru": "error",
@@ -399,7 +399,7 @@
       }
     },
     "html element is missing a lang attribute": {
-      "example": "<a href=\"missing.html\">Example page with a missing lang attribute</a>",
+      "example": "<a href=\"example-pages/missing.html\">Example page with a missing lang attribute</a>",
       "results": {
         "google": "error",
         "tanaguru": "error",
@@ -414,7 +414,7 @@
       }
     },
     "html element has lang attribute set to wrong language": {
-      "example": "<a href=\"inappropriate.html\">Example page with a lang attribute set to the wrong language</a>",
+      "example": "<a href=\"example-pages/inappropriate.html\">Example page with a lang attribute set to the wrong language</a>",
       "results": {
         "google": "false-positive",
         "tanaguru": "error",
@@ -446,7 +446,7 @@
   },
   "Page Title": {
     "Inappropriate page title": {
-      "example": "<a href=\"inappropriate.html\">Example page with a inappropriate page title</a>",
+      "example": "<a href=\"example-pages/inappropriate.html\">Example page with a inappropriate page title</a>",
       "results": {
         "google": "notfound",
         "tanaguru": "notfound",
@@ -461,7 +461,7 @@
       }
     },
     "Empty page title": {
-      "example": "<a href=\"empty.html\">Example page with a empty page title</a>",
+      "example": "<a href=\"example-pages/empty.html\">Example page with a empty page title</a>",
       "results": {
         "google": "error",
         "tanaguru": "notfound",
@@ -476,7 +476,7 @@
       }
     },
     "Missing page title": {
-      "example": "<a href=\"missing.html\">Example page with a missing page title</a>",
+      "example": "<a href=\"example-pages/missing.html\">Example page with a missing page title</a>",
       "results": {
         "google": "error",
         "tanaguru": "error",
@@ -508,7 +508,7 @@
       }
     },
     "Missing H1": {
-      "example": "<a href=\"missing.html\">Example page with no H1</a>",
+      "example": "<a href=\"example-pages/missing.html\">Example page with no H1</a>",
       "results": {
         "google": "notfound",
         "tanaguru": "error",
@@ -1771,7 +1771,7 @@
       }
     },
     "Keyboard trap": {
-      "example": "<p><a href=\"keyboardtrap.html\">Example page that contains a keyboard trap</a></p>",
+      "example": "<p><a href=\"example-pages/keyboardtrap.html\">Example page that contains a keyboard trap</a></p>",
       "results": {
         "google": "notfound",
         "tanaguru": "notfound",

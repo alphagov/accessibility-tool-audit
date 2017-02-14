@@ -46,7 +46,7 @@
       }
     },
     "Content is not organised into into well-defined groups or chunks, using headings, lists, and other visual mechanisms": {
-      "example": "\n        insert_example\n    ",
+      "example": "<a href=\"example-pages/unorganised_content.html\">Example page with a long block of unorganised content.</a>",
       "results": {
         "google": "notfound",
         "tanaguru": "notfound",
@@ -309,7 +309,7 @@
   },
   "Language of content": {
     "Text language changed without required change in direction": {
-      "example": "\n<p lang=\"ar\">الإعفاء الإلكتروني من التأشيرة</p>\n",
+      "example": "<p lang=\"ar\">الإعفاء الإلكتروني من التأشيرة</p>",
       "results": {
         "google": "notfound",
         "tanaguru": "notfound",
@@ -324,7 +324,7 @@
       }
     },
     "html element has an empty lang attribute": {
-      "example": "\n<a href=\"empty.html\">Example page with an empty lang attribute</a>\n",
+      "example": "<a href=\"empty.html\">Example page with an empty lang attribute</a>",
       "results": {
         "google": "error",
         "tanaguru": "notfound",

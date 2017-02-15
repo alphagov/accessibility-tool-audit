@@ -5,7 +5,7 @@
   <title>Accessibility tools audit results - Usage notes - GDS accessibility team</title>
   <link rel="stylesheet" href="assets/stylesheets/application.css" />
 </head>
-<body class="">
+<body class="notes-page">
   <header id="global-header" role="banner">
     <div class="header-wrapper">
       <div class="header-global">
@@ -202,6 +202,189 @@
           </tr>
         </tbody>
       </table>
+
+      <h2>Ease of use notes</h2>
+
+      <ul>
+        <li>
+          <h3>Google Accessibility Developer Tools</h3>
+          <p><strong>Ease of use</strong>: <span class="score bad">Bad</span></p>
+          <p>
+            The browser tool is included in Chrome and can run audits within the browser. It's a bit tucked away and is under the Audits tab. There isn't a mechanism to save and access audits again. It takes you to the relevant bit of code after a couple of clicks and allows you to inspect the code.
+
+            The command line tools is rather hard to use and run, and the output is quite unreadable.
+          </p>
+
+          <p><strong>Quality of feedback</strong>: <span class="score bad">Bad</span></p>
+          <p>
+            The feedback isn't organised well and it's hard to understand the feedback at first sight. In the CLI tool the user has to find the offending code by parsing XPath queries, which makes it harder to locate the offending code.
+          </p>
+        </li>
+
+        <li>
+          <h3>Tenon</h3>
+          <p><strong>Ease of use</strong>: <span class="score good">Good</span></p>
+          <p>
+            Manual testing is great, the web interface has a very good interface and is quite approachable for even the most novice users. You can share the test results with others and it gives great feedback to developers and pointers on how to fix them.
+          </p>
+          <p>
+            Automated testing requires a bit of extra knowledge but there are open source wrappers for many languages mainly written by a single external contributor. Their reliability is questionable.
+            The API tends to go offline from time to time, making the service unusable. It might be problematic for CI systems where it might be a false positive/negative depending on how it's integrated.
+          </p>
+
+          <p><strong>Quality of feedback</strong>: <span class="score good">Good</span></p>
+          <p>
+            Tenon highlights the offending code block and gives you good feedback on why it would cause a problem. The paid version also has really good documentation for recommended fixes and best practice. Just reading through the documentation is enough to give someone a good level of education on a11y.
+          </p>
+        </li>
+
+        <li>
+          <h3>Wave</h3>
+          <p><strong>Ease of use</strong>: <span class="score good">Good</span></p>
+          <p>
+            Very easy to get going, only need to install the browser plugin and you're good to go.
+          </p>
+          <p>
+            CI tools seems to require a bit of work and there aren't any good wrappers available.
+          </p>
+
+          <p><strong>Quality of feedback</strong>: <span class="score good">Good</span></p>
+          <p>
+            Wave has it's faults but it's very good at taking you to the offending bit without much effort. The extension makes full use of the fact that it's in-browser which makes it easy to quickly find and fix errors. It's feedback is generally good and explains why it would be a problem clearly. It also explains the algorithm for testing which is quite useful, too. 
+          </p>
+          <p>
+            The CI would be harder to use but a combination of the API pointing out to problematic pages and team members running the in-browser extension can create a good workflow.
+          </p>
+        </li>
+
+        <li>
+          <h3>HTML_CodeSniffer</h3>
+          <p><strong>Ease of use</strong>: <span class="score ok">OK</span></p>
+          <p>
+            Installing an using bookmarklet is rather easy but the interface for browsing the errors is rather clunky and can be hard to quickly browse through the problems. The good bit is, it does point you to the offending bit rather accurately and it could be ideal for non-techie members of the team to use.
+          </p>
+          <p>
+            The command line interface seems easy at first but I had to fix the phantomjs audit runner first. The command line audit report was horrendous and couldn't pinpoint you to the right bit of code unless the offending DOM element had an id defined. 
+          </p>
+          <p>
+            However, when combined with Pa11y it becomes a very interesting tool. You get regular monitoring and reporting with continous integration support. It's actually the best looking tool out there and it's rather easy to use and integrate. The only problem is HTML Code Sniffer was one of the worst performers in our tests.
+          </p>
+
+          <p><strong>Quality of feedback</strong>: <span class="score ok">OK</span></p>
+          <p>
+            The bookmarklet has a hovering element on the page and it points to the bit of offending code on both on the page and as a code snippet underneath. It's actually very useful and it could have been really educational but the content is a bit lacking. It has a one or two sentence explanation of what's wrong and what you should do, and it has links to WCAG principle and test technique but doesn't really explain why it's a problem or which group of users might be affected. 
+          </p>
+          <p>
+            The backend tool has even less output and Pa11y unfortunately follows it's lead. The JSON report didn't even contain line numbers or filenames.
+          </p>
+        </li>
+
+        <li>
+          <h3>aXE</h3>
+          <p><strong>Ease of use</strong>: <span class="score ok">OK</span></p>
+          <p>
+            aXe has got a very easy to use browser extension for Firefox and Chrome which makes it very easy to use for non-techies. It runs an analysis on the page you're viewing and prepares a report that you can browse within the developers tools. It has quite a bit of information related with the error as well, so after getting familiar with the tools, I reckon it would be quite easy for product owners or delivery managers to test for problems and understand the issue.
+          </p>
+          <p>
+            The only problem I can talk about is, it can be hard to go through a more than a few errors quickly. The problems are grouped together but individual problems are behind a few mouse clicks away. It also doesn't take you to the offending code block but let's you inspect it within the developer tools, which creates a lot of back-and-forth and you might even lose your place at times. 
+          </p>
+          <p>
+            axe-core is the project that powers the browser plugin. There are other tools like CI integrations and command line wrappers for aXe which make it easier for integration.
+          </p>
+
+          <p><strong>Quality of feedback</strong>: <span class="score good">Good</span></p>
+          <p>
+            Browser plugin lists a few potential solutions to the problem - which is helpful. Rather than just saying this is a problem and it should be fixed, or give just one of the solutions, it show how you can solve simple problems with different strategies that fit your code and design. 
+          </p>
+          <p>
+            aXe is owned by Deque and they have an amazing website called Deque University, which is a great repository for accessibility problems and solutions. Every problem found has a link to a full page where it explains exactly why it's a problem, who it's affecting and what are the different strategies you can use to solve it. It also gives loads of links to relevant parts of documentation in ARIA, WCAG and other standards. They seem to keep working on the content endlessly and it's a great educational resource.
+          </p>
+        </li>
+
+        <li>
+          <h3>Asqatasun</h3>
+          <p><strong>Ease of use</strong>: <span class="score ok">OK</span></p>
+          <p>
+            I'm going to concentrate on Asqatasun, rather than Tanaguru itself because the latter is a fork and seems to be more active. It's a backend-only product and it can be quite easy to install if you go down the docker route. It's based on Java and it requires at least 4GB of RAM on the server. The manual install can take a bit of time but it isn't too complicated. The docker install literally took me 10 minutes from spinning up a server to playing around. Once you've set it up, you can add as many projects and users as you like.
+          </p>
+          <p>
+            You can manage multiple users and keep adding your projects to test. It can be installed centrally or per-team, but I we think it'd be perfect for a department to install it in a place inside the building so different teams can test their internal tools. It has support for site wide audits which can automatically crawl whole sites. It also acceps scenarios in the form of selenium scripts - which can be built by anyone using a Firefox plugin easily.
+          </p>
+          <p>
+            The interface is really easy to use and show the offending code block accurately. Tanaguru only tests for definite errors but has a very good interface for going through links and images where it lays out relevant attributes like alt and title and gives you a chance to quickly check to see if they are relevant. Many times it found an error but because it might be a copy problem or it couldn't be sure if that element is presentation only or meant to convey information, so it leaves the decision to user in a nice interface but doesn't necessarily report a fail - which might make it bad to run as part of a CI sceneario because it wouldn't be failing builds as often as we'd like.
+          </p>
+
+          <p><strong>Quality of feedback</strong>: <span class="score good">Good</span></p>
+          <p>
+            Tanaguru uses the French Government's RGAA standard which is also based on WCAG2. RGAA is very opionated and it's helpful in writing meaningful tests for vague criteria. They have a page where they list all the of the RGAA Criteria - which is quite educational. 
+          </p>
+          <p>
+            Based on that page, they have quite a lot of inline comments that nicely lays out why it's a problem and how you can solve it. The criteria they use uses a more descriptive format, rather like a checklist for potential problems. It can be very helpful to teach what to avoid and if you've read a little bit about accessibility, can help you make those decisions faster and better.
+          </p>
+        </li>
+
+        <li>
+          <h3>SortSite</h3>
+          <p><strong>Ease of use</strong>: <span class="score ok">OK</span></p>
+          <p>
+            SortSite lets you enter a URL in their ""try online"" page and it crawls the whole website rather quickly. After a bit of digging around you can view invidual pages. SortSite gives you a breakdown of problems across pages and by page as well but I didn't really find it too useful. When you're looking at individual pages, the page source is printed out on the page and you can see the errors inline, right above the offending line. It's quite handy to use but requires understanding of HTML.
+          </p>
+          <p>
+            SortSite also checks for JavaScript changes and indicates them but doesn't do much about it - it couldn't find the problems in our concertina or dropdown tests.
+          </p>
+
+          <p><strong>Quality of feedback</strong>: <span class="score good">Good</span></p>
+          <p>
+            The feedback can be verbose sometimes, because SortSite stacks lots of different potential warnings and errors about a single barrier above the line and it can become cumbersome to track them. But the feedback can be surprisingly good. For some problems where different AT software behave differently, SortSite provides examples of how JAWS, NVDA, WindowsEyes and VoiceOver would announce a certain element, both educating on the subtle differences of AT software but also giving you the tools to make up your mind to make your own informed decision. It does it for different version of the same AT tools such as JAWS as well.
+          </p>
+          <p>
+            When providing links, it combines different sources such as WCAG, Section 508 and Usability.gov. The feedback is terse and the suggestions to fix sometimes might be unusual or too straightforward. Doesn't really explain why it's a problem.
+          </p>
+        </li>
+
+        <li>
+          <h3>EIII</h3>
+          <p><strong>Ease of use</strong>: <span class="score ok">OK</span></p>
+          <p>
+            You put in a URL in EIII checker and it tests that page. The viewer is not glamourous but it's easy to browse a lot of problems quickly. Unfortunately it doesn't give you the location of the errors, just the offending line, which makes it very hard to find the actual errors.
+          </p>
+
+          <p><strong>Quality of feedback</strong>: <span class="score bad">Bad</span></p>
+          <p>
+            The feedback is rather terse and the explanation of the tests seem like they've almost been lifted off WCAG guidelines directly. The proposed solutions can sometimes be a bit confusing as well.
+          </p>
+        </li>
+
+        <li>
+          <h3>AChecker</h3>
+          <p><strong>Ease of use</strong>: <span class="score good">Good</span></p>
+          <p>
+            AChecker is another online checker that accepts a single URL. It's quite easy to use and browse but the amount of feedback it gives can be overwhelming for people who are new to accessibility. It gives you the offending code block and tells you the line number as well but the line numbers seem to be reordered in AChecker's own interpretation. I believe it runs it through HTML Tidy at first and validates the HTML before checking, which reindents and adds extra lines to code. You can see the version of the HTML it's checking but it can be quite cumbersome to find the error first in AChecker's version and then in your own codebase.
+          </p>
+
+          <p><strong>Quality of feedback</strong>: <span class="score ok">OK</span></p>
+          <p>
+            This tools is a real suprise in many ways. AChecker was the only tool that found one of the most interesting and challenging errors. When you click on the errors it takes you to a page where it clearly explains what the problem is, how to fix the error, provides good links and also gives you good and bad code examples.
+          </p>
+          <p>
+            The biggest problem is, many of those gems are hidden away in it's potential problems tab. It reports a horde of potential errors and it's both really hard to sift through them and understand which ones are real problems and which ones are just generic suggestions. It might be interesting to use mainly because it gives you a lot of ideas around how you can improve your code and things to be careful about, but unfortuantely it's just overwhelming.
+          </p>
+        </li>
+
+        <li>
+          <h3>Nu Html Checker</h3>
+          <p><strong>Ease of use</strong>: <span class="score good">Good</span></p>
+          <p>
+            The official HTML validator is quite straightforward like other online checkers. It reports the line number so it's easy to find the error.
+          </p>
+
+          <p><strong>Quality of feedback</strong>: <span class="score bad">Bad</span></p>
+          <p>
+            Well, first of all, it doesn't check for accessibility per se. The little number of problems it find are just technical HTML errors and there's no mention of specific accessibility problems or fixes.
+          </p>
+        </li>
+      </ul>
+
     </div>
   </div>
 
@@ -227,11 +410,11 @@
         </div>
         <div class="copyright">
           <a href="http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/copyright-and-re-use/crown-copyright/">
-            © Crown copyright
+            &copy; Crown copyright
           </a>
         </div>
       </div>
-    </div>    
+    </div>
   </footer>
 </body>
 </html>

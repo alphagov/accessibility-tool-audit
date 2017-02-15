@@ -2185,3 +2185,23 @@ h3 {
     margin-bottom: 30px;
   }
 }
+
+.notes-page ul {
+  list-style: none;
+}
+
+.notes-page ul p {
+  margin-left: 0.4em;
+}
+
+.notes-page .score.good {
+  color: #006435;
+}
+
+.notes-page .score.ok {
+  color: #005ea5;
+}
+
+.notes-page .score.bad {
+  color: #df3034;
+}

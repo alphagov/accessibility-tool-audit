@@ -345,14 +345,6 @@ h3 {
   .notfound:before {
     @include result-status($error-colour);
   }
-
-
-
-
-
-
-
-
 }
 
 .summary-data {
@@ -487,5 +479,22 @@ h3 {
 
   @include media(tablet) {
     margin-bottom: $gutter;
+  }
+}
+
+.notes-page {
+
+  ul {
+    list-style: none;
+
+    p {
+      margin-left: 0.4em;
+    }
+  }
+
+  .score {
+    &.good  { color: $green;      }
+    &.ok    { color: $govuk-blue  }
+    &.bad   { color: $mellow-red; }
   }
 }

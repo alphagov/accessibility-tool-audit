@@ -374,7 +374,6 @@ input.low-contrast {
         height: 1.5em;
         display: inline-block;
         text-align: center;
-        text-indent: -0.1em;
     }
 
     .tooltip-icon:hover + .tooltip-information {
@@ -388,8 +387,8 @@ input.low-contrast {
         background: #6F777B;
         color: white;
         padding: 1em;
-        margin-top: -10.2em;
-        margin-left: 6.3em;
+        margin-top: -10em;
+        margin-left: 6.4em;
     }
 
     /* Tooltip arrow */

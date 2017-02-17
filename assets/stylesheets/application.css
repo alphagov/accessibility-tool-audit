@@ -1969,6 +1969,10 @@ table.entry th, table.entry td {
   border-bottom: 1px solid #bfc1c3;
 }
 
+a.button {
+  color: #fff;
+}
+
 h2 {
   margin-top: 2em;
 }

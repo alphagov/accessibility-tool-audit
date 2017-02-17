@@ -211,6 +211,11 @@ table {
   }
 }
 
+// This has been overriden at some point, reverting
+a.button {
+  color: #fff;
+}
+
 h1 {
   // @include bold-36;
   // margin-top: 1.5em;

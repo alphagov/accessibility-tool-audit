@@ -2015,7 +2015,7 @@
       }
     },
     "Page zoom - boxes that don't expand with the text": {
-      "example": "<div class=\"wont-expand-box\">The box below this example won't expand to fit the text contained within when zoomed in.\n\n            <p class=\"wont-expand\">\n                This service is for England and Wales only. You must contact individual <a href=\"https://www.justice-ni.gov.uk/topics/prisons/prison-visits\" rel=\"external\">prisons in Northern Ireland</a> or <a href=\"http://www.sps.gov.uk/Corporate/Prisons/Prisons.aspx\" rel=\"external\">Scotland</a> to book a visit.\n            </p>\n</div>",
+      "example": "<div class=\"wont-expand-box\">The box below this example won't expand to fit the text contained within when zoomed in.<p class=\"wont-expand\">This service is for England and Wales only. You must contact individual <a href=\"https://www.justice-ni.gov.uk/topics/prisons/prison-visits\">prisons in Northern Ireland</a> or <a href=\"http://www.sps.gov.uk/Corporate/Prisons/Prisons.aspx\">Scotland</a> to book a visit.</p></div>",
       "results": {
         "google": "notfound",
         "tanaguru": "notfound",

@@ -1984,21 +1984,6 @@
         "nu": "notfound"
       }
     },
-    "display:table being used for layout": {
-      "example": "<div class=\"display-table\">\n<div class=\"display-table-cell\">\n                Vertically and horzontally aligned text\n            </div>\n</div>",
-      "results": {
-        "google": "notfound",
-        "tanaguru": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound"
-      }
-    },
     "display:none used to visually hide content when it should be available to screenreader": {
       "example": "<a href=\"football.html\">Read more <span style=\"display:none\"> about football</span></a>",
       "results": {

@@ -12,8 +12,9 @@ h5 {
     width: 50em;
 }
 
-.no-outine {
-    outline:none;
+.no-outine, .no-outine:focus {
+    outline: none;
+    background: none;
 }
 
 .small-text {

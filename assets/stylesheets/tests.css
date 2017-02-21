@@ -231,7 +231,6 @@ input.low-contrast {
 /* Lightbox */
 .lightbox {
   position: fixed;
-  height: 100px;
   width: 400px;
   top: 20%;
   left: 50%;

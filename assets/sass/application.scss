@@ -209,6 +209,10 @@ table {
       border-bottom: 1px solid $border-colour;
     }
   }
+
+  &.features-table tbody th {
+    font-weight: bold;
+  }
 }
 
 // This has been overriden at some point, reverting

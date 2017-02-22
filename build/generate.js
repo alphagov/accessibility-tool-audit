@@ -1,6 +1,7 @@
 var nunjucks = require('nunjucks'),
     fs = require('fs'),
-    path = require('path');
+    path = require('path'),
+    analysis = require('./analysis');
 
 var paths = {
   testsJson: path.join(__dirname, '../tests.json'),
@@ -43,10 +44,11 @@ function generateFiles(){
   var testsFile = fs.readFileSync(paths.testsJson).toString();
   var tests = JSON.parse(testsFile);
 
+  analysis.analyse();
+
   nunjucks.configure(paths.templates);
 
   // Generate index
-
   var indexout = nunjucks.render('index.html', {
     tests: tests,
     getFilename: getFilename
@@ -79,9 +81,13 @@ function generateFiles(){
   }
 
   // Generate results
-  var resultsout = nunjucks.render('results.html', {tests: tests, rcopy: resultsCopy});
+  var resultsout = nunjucks.render('results.html', {
+    tests: tests, 
+    rcopy: resultsCopy,
+    analysis: require('../analysis.json'),
+    resultTypes: analysis.resultTypes
+  });
   fs.writeFileSync(paths.out('results.html'), resultsout, 'utf8');
-
 }
 
 module.exports = {

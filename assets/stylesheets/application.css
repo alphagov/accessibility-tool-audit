@@ -1973,6 +1973,22 @@ table.features-table tbody th {
   font-weight: bold;
 }
 
+table.numeric-results {
+  table-layout: fixed;
+}
+
+table.numeric-results tbody th {
+  width: 170px;
+}
+
+table.numeric-results th {
+  font-weight: bold;
+}
+
+table.numeric-results td, table.numeric-results thead th {
+  text-align: right;
+}
+
 a.button {
   color: #fff;
 }

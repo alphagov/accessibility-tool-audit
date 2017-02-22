@@ -213,6 +213,22 @@ table {
   &.features-table tbody th {
     font-weight: bold;
   }
+
+  &.numeric-results {
+    table-layout: fixed;
+
+    tbody th {
+        width: 170px;
+    }
+
+    th {
+      font-weight: bold;
+    }
+
+    td, thead th {
+      text-align: right;
+    }
+  }
 }
 
 // This has been overriden at some point, reverting

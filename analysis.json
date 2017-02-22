@@ -1,0 +1,102 @@
+{
+  "google": {
+    "notfound": 116,
+    "error": 23,
+    "warning": 1,
+    "manual": 0,
+    "different": 1,
+    "identified": 0,
+    "wrong": 0,
+    "false-positive": 2
+  },
+  "asqatasun": {
+    "notfound": 81,
+    "error": 38,
+    "warning": 0,
+    "manual": 21,
+    "different": 3,
+    "identified": 0,
+    "wrong": 0,
+    "false-positive": 0
+  },
+  "tenon": {
+    "notfound": 89,
+    "error": 53,
+    "warning": 0,
+    "manual": 0,
+    "different": 1,
+    "identified": 0,
+    "wrong": 0,
+    "false-positive": 0
+  },
+  "wave": {
+    "notfound": 100,
+    "error": 20,
+    "warning": 13,
+    "manual": 2,
+    "different": 1,
+    "identified": 7,
+    "wrong": 0,
+    "false-positive": 0
+  },
+  "sortsite": {
+    "notfound": 101,
+    "error": 35,
+    "warning": 4,
+    "manual": 0,
+    "different": 3,
+    "identified": 0,
+    "wrong": 0,
+    "false-positive": 0
+  },
+  "axe": {
+    "notfound": 102,
+    "error": 38,
+    "warning": 0,
+    "manual": 0,
+    "different": 3,
+    "identified": 0,
+    "wrong": 0,
+    "false-positive": 0
+  },
+  "codesniffer": {
+    "notfound": 111,
+    "error": 19,
+    "warning": 7,
+    "manual": 2,
+    "different": 3,
+    "identified": 0,
+    "wrong": 1,
+    "false-positive": 0
+  },
+  "achecker": {
+    "notfound": 93,
+    "error": 29,
+    "warning": 16,
+    "manual": 1,
+    "different": 4,
+    "identified": 0,
+    "wrong": 0,
+    "false-positive": 0
+  },
+  "eiii": {
+    "notfound": 117,
+    "error": 23,
+    "warning": 0,
+    "manual": 0,
+    "different": 0,
+    "identified": 0,
+    "wrong": 1,
+    "false-positive": 2
+  },
+  "nu": {
+    "notfound": 130,
+    "error": 13,
+    "warning": 0,
+    "manual": 0,
+    "different": 0,
+    "identified": 0,
+    "wrong": 0,
+    "false-positive": 0
+  }
+}

@@ -105,7 +105,6 @@ $site-width: 960px;
 
 // Outer block sets a max width
 @mixin outer-block {
-  @warn "The @mixin outer-block is depricated and should be updated to new grid helpers";
   margin: 0 auto;
   width: auto;
   max-width: 960 + $gutter*2;
@@ -118,7 +117,6 @@ $site-width: 960px;
 // Inner block sets either margin or padding
 // to align content with header and footer
 @mixin inner-block($margin-or-padding: padding) {
-  @warn "The @mixin inner-block is depricated and should be updated to use new grid helpers";
   #{$margin-or-padding}-left: $gutter-half;
   #{$margin-or-padding}-right: $gutter-half;
   @include media(tablet) {

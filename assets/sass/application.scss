@@ -29,6 +29,8 @@ $image-url-path: '../../assets/' !default;
 @import "header";
 @import "footer";
 
+/* Import elements typography */
+@import "elements/elements-typography";
 
 /* Register styles */
 
@@ -535,3 +537,4 @@ h3 {
     &.bad   { color: $mellow-red; }
   }
 }
+

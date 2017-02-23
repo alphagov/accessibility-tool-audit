@@ -24,7 +24,8 @@ gulp.task('sass', function () {
       './assets/sass/registers',
       './assets/sass/registers/govuk_frontend_toolkit/stylesheets',
       './assets/sass/registers/govuk_template/source/assets/stylesheets',
-      './assets/sass/registers/sass'
+      './assets/sass/registers/sass',
+      './node_modules/govuk-elements-sass/public/sass/'
     ]}).on('error', sass.logError))
   .pipe(gulp.dest(config.paths.assets + '/stylesheets/'))
 })

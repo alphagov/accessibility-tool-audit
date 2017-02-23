@@ -39,138 +39,147 @@
     </div>
 
     <div class="data column-third">
+      <span class="data-item bold-xxlarge">10</span>
+      <span class="data-item bold-xsmall">tools tested</span>
+    </div>
+
+    <div class="data column-third">
       <span class="data-item bold-xxlarge">71%</span>
-      <span class="data-item bold-xsmall">detected by any tool</span>
+      <span class="data-item bold-xsmall">of issues detected overall</span>
     </div>
   </div>
 
-  <table class="numeric-results">
-    <caption>Table of numeric results</caption>
-    <thead>
-      <tr>
-          <th scope="col"><span class="visuallyhidden">Result type</span></th>
-          <th scope="col">
-              <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google ADT</a>
-          </th>
-          <th scope="col"><a href="http://tenon.io">Tenon</a></th>
-          <th scope="col"><a href="http://wave.webaim.org">Wave</a></th>
-          <th scope="col"><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML Code Sniffer</a></th>
-          <th scope="col"><a href="https://github.com/dequelabs/axe-core">aXE</a></th>
-          <th scope="col"><a href="http://asqatasun.org/">Asqatasun</a></th>
-          <th scope="col"><a href="http://www.powermapper.com/products/sortsite/">sort site</a></th>
-          <th scope="col"><a href="http://checkers.eiii.eu/?url=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">EIII</a></th>
-          <th scope="col"><a href="http://achecker.ca/">AChecker</a></th>
-          <th scope="col"><a href="https://validator.nu/?doc=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">Nu Html Checker</a></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-          <th>Not found</th>
-          <td>116</td>
-          <td>89</td>
-          <td>100</td>
-          <td>111</td>
-          <td>102</td>
-          <td>81</td>
-          <td>101</td>
-          <td>117</td>
-          <td>93</td>
-          <td>130</td>
+  <details class="feature-summary">
+    <summary><span class="summary">Detailed breakdown</span></summary>
+
+    <table class="numeric-results">
+      <caption>Table of numeric results</caption>
+      <thead>
+        <tr>
+            <th scope="col"><span class="visuallyhidden">Result type</span></th>
+            <th scope="col">
+                <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google ADT</a>
+            </th>
+            <th scope="col"><a href="http://tenon.io">Tenon</a></th>
+            <th scope="col"><a href="http://wave.webaim.org">Wave</a></th>
+            <th scope="col"><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML Code Sniffer</a></th>
+            <th scope="col"><a href="https://github.com/dequelabs/axe-core">aXE</a></th>
+            <th scope="col"><a href="http://asqatasun.org/">Asqatasun</a></th>
+            <th scope="col"><a href="http://www.powermapper.com/products/sortsite/">sort site</a></th>
+            <th scope="col"><a href="http://checkers.eiii.eu/?url=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">EIII</a></th>
+            <th scope="col"><a href="http://achecker.ca/">AChecker</a></th>
+            <th scope="col"><a href="https://validator.nu/?doc=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">Nu Html Checker</a></th>
         </tr>
-      <tr>
-          <th>Issue found</th>
-          <td>23</td>
-          <td>53</td>
-          <td>20</td>
-          <td>19</td>
-          <td>38</td>
-          <td>38</td>
-          <td>35</td>
-          <td>23</td>
-          <td>29</td>
-          <td>13</td>
-        </tr>
-      <tr>
-          <th>Warning only</th>
-          <td>1</td>
-          <td>0</td>
-          <td>13</td>
-          <td>7</td>
-          <td>0</td>
-          <td>0</td>
-          <td>4</td>
-          <td>0</td>
-          <td>16</td>
-          <td>0</td>
-        </tr>
-      <tr>
-          <th>User to check</th>
-          <td>0</td>
-          <td>0</td>
-          <td>2</td>
-          <td>2</td>
-          <td>0</td>
-          <td>21</td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-        </tr>
-      <tr>
-          <th>Different issue found</th>
-          <td>1</td>
-          <td>1</td>
-          <td>1</td>
-          <td>3</td>
-          <td>3</td>
-          <td>3</td>
-          <td>3</td>
-          <td>0</td>
-          <td>4</td>
-          <td>0</td>
-        </tr>
-      <tr>
-          <th>Noticed but not a fail</th>
-          <td>0</td>
-          <td>0</td>
-          <td>7</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-      <tr>
-          <th>Wrong issue reported</th>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-      <tr>
-          <th>Unrelated issue</th>
-          <td>2</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>2</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-      
-    </tbody>
-  </table>
+      </thead>
+      <tbody>
+        <tr>
+            <th>Not found</th>
+            <td>116</td>
+            <td>89</td>
+            <td>100</td>
+            <td>111</td>
+            <td>102</td>
+            <td>81</td>
+            <td>101</td>
+            <td>117</td>
+            <td>93</td>
+            <td>130</td>
+          </tr>
+        <tr>
+            <th>Issue found</th>
+            <td>23</td>
+            <td>53</td>
+            <td>20</td>
+            <td>19</td>
+            <td>38</td>
+            <td>38</td>
+            <td>35</td>
+            <td>23</td>
+            <td>29</td>
+            <td>13</td>
+          </tr>
+        <tr>
+            <th>Warning only</th>
+            <td>1</td>
+            <td>0</td>
+            <td>13</td>
+            <td>7</td>
+            <td>0</td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+            <td>16</td>
+            <td>0</td>
+          </tr>
+        <tr>
+            <th>User to check</th>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>2</td>
+            <td>0</td>
+            <td>21</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+        <tr>
+            <th>Different issue found</th>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td>4</td>
+            <td>0</td>
+          </tr>
+        <tr>
+            <th>Noticed but not a fail</th>
+            <td>0</td>
+            <td>0</td>
+            <td>7</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+        <tr>
+            <th>Wrong issue reported</th>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+        <tr>
+            <th>Unrelated issue</th>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+        
+      </tbody>
+    </table>
+  </details>
 
   <table class="numeric-results">
     <caption>Table of percentage results</caption>
@@ -337,6 +346,7 @@
     <summary><span class="summary">What these features mean</span></summary>
 
     <div class="panel panel-border-narrow">
+      <h3>Cost</h3>
       <ul class="summary-data">
         <li>
           <span class="result-type">Cost (manual)</span>
@@ -346,22 +356,34 @@
           <span class="result-type">Cost (CI)</span>
           The cost of running the tool if you code it into your service under continuous integration (CI). Some tools are free to run but you have to pay for features like API access.
         </li>
+      </ul>
+
+      <h3>Development model</h3>
+      <ul class="summary-data">
         <li>
-          <span class="result-type">Open Source</span>
+          <span class="result-type">Open source</span>
           The tool is open source, which means you can access the source code for free. You may also be able to help to make the tool better if you can fix a problem with the code.
         </li>
         <li>
           <span class="result-type">Active</span>
           The tool is being actively developed. We recommend using tools that are updated according to the latest developments in accessibility.
         </li>
+      </ul>
+
+      <h3>Technical features</h3>
+      <ul class="summary-data">
         <li>
           <span class="result-type">CI</span>
-          The tool can be run under continuous integration (CI). Projects using a CI environment should use an automated testing tool that works with CI. This will help you make sure mistakes in your build are caught early.
+          The tool can be run under continuous integration (CI). This is the practice of constantly releasing and testing code. Projects using a CI environment should use an automated testing tool that works with CI. This will help you make sure mistakes in your build are caught early.
         </li>
         <li>
           <span class="result-type">CLI</span>
           The tool can be run on a command line interface (CLI). CLI tools are more versatile for developers, and can usually be integrated into either continuous integration (CI) or unit testing.
         </li>
+      </ul>
+
+      <h3>Usability</h3>
+      <ul class="summary-data">
         <li>
           <span class="result-type">In-browser</span>
           The tool works in a web browser. These tools are usually extensions and are easy to install and use, making them useful for non-developers. In-browser tools often make it easier to test things like individual scenarios and internal tools behind firewalls.
@@ -384,7 +406,7 @@
 
   <table class="features-table">
     <caption>
-      Table of features
+      Feature comparison
     </caption>
     <thead>
       <tr>
@@ -429,7 +451,7 @@
         <td>Free</td>
       </tr>
       <tr>
-        <th>Open Source</th>
+        <th>Open source</th>
         <td><span aria-label="Yes">✓</span></td>
         <td><span aria-label="No">✕</span></td>
         <td><span aria-label="No">✕</span></td>

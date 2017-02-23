@@ -2104,6 +2104,10 @@ h3 {
   margin-bottom: 10px;
 }
 
+.feature-summary {
+  margin-top: 1em;
+}
+
 .panel {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

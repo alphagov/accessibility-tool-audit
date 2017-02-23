@@ -30,6 +30,335 @@
 
   <h1>Audit results</h1>
 
+  <h2>Numbers</h2>
+
+  <table class="numeric-results">
+    <caption>Table of numeric results</caption>
+    <thead>
+      <tr>
+          <th scope="col"><span class="visuallyhidden">Result type</span></th>
+          <th scope="col">
+              <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google ADT</a>
+          </th>
+          <th scope="col"><a href="http://tenon.io">Tenon</a></th>
+          <th scope="col"><a href="http://wave.webaim.org">Wave</a></th>
+          <th scope="col"><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML Code Sniffer</a></th>
+          <th scope="col"><a href="https://github.com/dequelabs/axe-core">aXE</a></th>
+          <th scope="col"><a href="http://asqatasun.org/">Asqatasun</a></th>
+          <th scope="col"><a href="http://www.powermapper.com/products/sortsite/">sort site</a></th>
+          <th scope="col"><a href="http://checkers.eiii.eu/?url=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">EIII</a></th>
+          <th scope="col"><a href="http://achecker.ca/">AChecker</a></th>
+          <th scope="col"><a href="https://validator.nu/?doc=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">Nu Html Checker</a></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <th>Not found</th>
+          <td>116</td>
+          <td>89</td>
+          <td>100</td>
+          <td>111</td>
+          <td>102</td>
+          <td>81</td>
+          <td>101</td>
+          <td>117</td>
+          <td>93</td>
+          <td>130</td>
+        </tr>
+      <tr>
+          <th>Issue found</th>
+          <td>23</td>
+          <td>53</td>
+          <td>20</td>
+          <td>19</td>
+          <td>38</td>
+          <td>38</td>
+          <td>35</td>
+          <td>23</td>
+          <td>29</td>
+          <td>13</td>
+        </tr>
+      <tr>
+          <th>Warning only</th>
+          <td>1</td>
+          <td>0</td>
+          <td>13</td>
+          <td>7</td>
+          <td>0</td>
+          <td>0</td>
+          <td>4</td>
+          <td>0</td>
+          <td>16</td>
+          <td>0</td>
+        </tr>
+      <tr>
+          <th>User to check</th>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>2</td>
+          <td>0</td>
+          <td>21</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+      <tr>
+          <th>Different issue found</th>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>0</td>
+          <td>4</td>
+          <td>0</td>
+        </tr>
+      <tr>
+          <th>Noticed but not a fail</th>
+          <td>0</td>
+          <td>0</td>
+          <td>7</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      <tr>
+          <th>Wrong issue reported</th>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      <tr>
+          <th>Unrelated issue</th>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+  <table class="numeric-results">
+    <caption>Table of percentage results</caption>
+    <thead>
+      <tr>
+          <th scope="col"><span class="visuallyhidden">Result type</span></th>
+          <th scope="col">
+              <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google ADT</a>
+          </th>
+          <th scope="col" class="percent-result-cell"><a href="http://tenon.io">Tenon</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://wave.webaim.org">Wave</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML Code Sniffer</a></th>
+          <th scope="col" class="percent-result-cell"><a href="https://github.com/dequelabs/axe-core">aXE</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://asqatasun.org/">Asqatasun</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://www.powermapper.com/products/sortsite/">sort site</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://checkers.eiii.eu/?url=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">EIII</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://achecker.ca/">AChecker</a></th>
+          <th scope="col" class="percent-result-cell"><a href="https://validator.nu/?doc=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">Nu Html Checker</a></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Error + warning / Detectable</th>
+        
+          <td class="percent-result-cell">
+            24%
+          </td>
+        
+          <td class="percent-result-cell">
+            52%
+          </td>
+        
+          <td class="percent-result-cell">
+            33%
+          </td>
+        
+          <td class="percent-result-cell">
+            26%
+          </td>
+        
+          <td class="percent-result-cell">
+            38%
+          </td>
+        
+          <td class="percent-result-cell">
+            38%
+          </td>
+        
+          <td class="percent-result-cell">
+            39%
+          </td>
+        
+          <td class="percent-result-cell">
+            23%
+          </td>
+        
+          <td class="percent-result-cell">
+            45%
+          </td>
+        
+          <td class="percent-result-cell">
+            13%
+          </td>
+        
+      </tr>
+      <tr>
+        <th>Error + warning + manual / Detectable</th>
+        
+          <td class="percent-result-cell">
+            24%
+          </td>
+        
+          <td class="percent-result-cell">
+            52%
+          </td>
+        
+          <td class="percent-result-cell">
+            35%
+          </td>
+        
+          <td class="percent-result-cell">
+            28%
+          </td>
+        
+          <td class="percent-result-cell">
+            38%
+          </td>
+        
+          <td class="percent-result-cell">
+            58%
+          </td>
+        
+          <td class="percent-result-cell">
+            39%
+          </td>
+        
+          <td class="percent-result-cell">
+            23%
+          </td>
+        
+          <td class="percent-result-cell">
+            46%
+          </td>
+        
+          <td class="percent-result-cell">
+            13%
+          </td>
+        
+      </tr>
+      <tr>
+        <th>Error + warning / Total</th>
+        
+          <td class="percent-result-cell">
+            17%
+          </td>
+        
+          <td class="percent-result-cell">
+            37%
+          </td>
+        
+          <td class="percent-result-cell">
+            23%
+          </td>
+        
+          <td class="percent-result-cell">
+            18%
+          </td>
+        
+          <td class="percent-result-cell">
+            27%
+          </td>
+        
+          <td class="percent-result-cell">
+            27%
+          </td>
+        
+          <td class="percent-result-cell">
+            27%
+          </td>
+        
+          <td class="percent-result-cell">
+            16%
+          </td>
+        
+          <td class="percent-result-cell">
+            31%
+          </td>
+        
+          <td class="percent-result-cell">
+            9%
+          </td>
+        
+      </tr>
+      <tr>
+        <th>Error + warning + manual / Total</th>
+        
+          <td class="percent-result-cell">
+            17%
+          </td>
+        
+          <td class="percent-result-cell">
+            37%
+          </td>
+        
+          <td class="percent-result-cell">
+            24%
+          </td>
+        
+          <td class="percent-result-cell">
+            20%
+          </td>
+        
+          <td class="percent-result-cell">
+            27%
+          </td>
+        
+          <td class="percent-result-cell">
+            41%
+          </td>
+        
+          <td class="percent-result-cell">
+            27%
+          </td>
+        
+          <td class="percent-result-cell">
+            16%
+          </td>
+        
+          <td class="percent-result-cell">
+            32%
+          </td>
+        
+          <td class="percent-result-cell">
+            9%
+          </td>
+        
+      </tr>
+    </tbody>
+  </table>
+
   <h2>Features</h2>
 
   <details class="feature-summary">
@@ -5237,137 +5566,6 @@
           
 
         
-    </tbody>
-  </table>
-
-
-  <h2>Numbers</h2>
-
-  <table class="numeric-results">
-    <caption>Table of numeric results</caption>
-    <thead>
-      <tr>
-          <th scope="col"><span class="visuallyhidden">Result type</span></th>
-          <th scope="col">
-              <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google ADT</a>
-          </th>
-          <th scope="col"><a href="http://tenon.io">Tenon</a></th>
-          <th scope="col"><a href="http://wave.webaim.org">Wave</a></th>
-          <th scope="col"><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML Code Sniffer</a></th>
-          <th scope="col"><a href="https://github.com/dequelabs/axe-core">aXE</a></th>
-          <th scope="col"><a href="http://asqatasun.org/">Asqatasun</a></th>
-          <th scope="col"><a href="http://www.powermapper.com/products/sortsite/">sort site</a></th>
-          <th scope="col"><a href="http://checkers.eiii.eu/?url=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">EIII</a></th>
-          <th scope="col"><a href="http://achecker.ca/">AChecker</a></th>
-          <th scope="col"><a href="https://validator.nu/?doc=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">Nu Html Checker</a></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-          <th>Not found</th>
-          <td>116</td>
-          <td>89</td>
-          <td>100</td>
-          <td>111</td>
-          <td>102</td>
-          <td>81</td>
-          <td>101</td>
-          <td>117</td>
-          <td>93</td>
-          <td>130</td>
-        </tr>
-      <tr>
-          <th>Issue found</th>
-          <td>23</td>
-          <td>53</td>
-          <td>20</td>
-          <td>19</td>
-          <td>38</td>
-          <td>38</td>
-          <td>35</td>
-          <td>23</td>
-          <td>29</td>
-          <td>13</td>
-        </tr>
-      <tr>
-          <th>Warning only</th>
-          <td>1</td>
-          <td>0</td>
-          <td>13</td>
-          <td>7</td>
-          <td>0</td>
-          <td>0</td>
-          <td>4</td>
-          <td>0</td>
-          <td>16</td>
-          <td>0</td>
-        </tr>
-      <tr>
-          <th>User to check</th>
-          <td>0</td>
-          <td>0</td>
-          <td>2</td>
-          <td>2</td>
-          <td>0</td>
-          <td>21</td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-        </tr>
-      <tr>
-          <th>Different issue found</th>
-          <td>1</td>
-          <td>1</td>
-          <td>1</td>
-          <td>3</td>
-          <td>3</td>
-          <td>3</td>
-          <td>3</td>
-          <td>0</td>
-          <td>4</td>
-          <td>0</td>
-        </tr>
-      <tr>
-          <th>Noticed but not a fail</th>
-          <td>0</td>
-          <td>0</td>
-          <td>7</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-      <tr>
-          <th>Wrong issue reported</th>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-      <tr>
-          <th>Unrelated issue</th>
-          <td>2</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>2</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-      
     </tbody>
   </table>
 </main>

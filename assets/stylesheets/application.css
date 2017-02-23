@@ -1977,6 +1977,10 @@ table.numeric-results {
   table-layout: fixed;
 }
 
+table.numeric-results caption {
+  display: none;
+}
+
 table.numeric-results tbody th {
   width: 170px;
 }
@@ -1987,6 +1991,10 @@ table.numeric-results th {
 
 table.numeric-results td, table.numeric-results thead th {
   text-align: right;
+}
+
+table.numeric-results .percent-result-cell {
+  width: 8%;
 }
 
 a.button {

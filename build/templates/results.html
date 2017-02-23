@@ -18,6 +18,101 @@
 
   <h1>Audit results</h1>
 
+  <h2>Numbers</h2>
+
+  <table class="numeric-results">
+    <caption>Table of numeric results</caption>
+    <thead>
+      <tr>
+          <th scope="col"><span class="visuallyhidden">Result type</span></th>
+          <th scope="col">
+              <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google ADT</a>
+          </th>
+          <th scope="col"><a href="http://tenon.io">Tenon</a></th>
+          <th scope="col"><a href="http://wave.webaim.org">Wave</a></th>
+          <th scope="col"><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML Code Sniffer</a></th>
+          <th scope="col"><a href="https://github.com/dequelabs/axe-core">aXE</a></th>
+          <th scope="col"><a href="http://asqatasun.org/">Asqatasun</a></th>
+          <th scope="col"><a href="http://www.powermapper.com/products/sortsite/">sort site</a></th>
+          <th scope="col"><a href="http://checkers.eiii.eu/?url=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">EIII</a></th>
+          <th scope="col"><a href="http://achecker.ca/">AChecker</a></th>
+          <th scope="col"><a href="https://validator.nu/?doc=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">Nu Html Checker</a></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for result in resultTypes -%}
+        <tr>
+          <th>{{ rcopy[result] | capitalize }}</th>
+          <td>{{ analysis["counts"]["google"][result] }}</td>
+          <td>{{ analysis["counts"]["tenon"][result] }}</td>
+          <td>{{ analysis["counts"]["wave"][result] }}</td>
+          <td>{{ analysis["counts"]["codesniffer"][result] }}</td>
+          <td>{{ analysis["counts"]["axe"][result] }}</td>
+          <td>{{ analysis["counts"]["asqatasun"][result] }}</td>
+          <td>{{ analysis["counts"]["sortsite"][result] }}</td>
+          <td>{{ analysis["counts"]["eiii"][result] }}</td>
+          <td>{{ analysis["counts"]["achecker"][result] }}</td>
+          <td>{{ analysis["counts"]["nu"][result] }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <table class="numeric-results">
+    <caption>Table of percentage results</caption>
+    <thead>
+      <tr>
+          <th scope="col"><span class="visuallyhidden">Result type</span></th>
+          <th scope="col">
+              <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google ADT</a>
+          </th>
+          <th scope="col" class="percent-result-cell"><a href="http://tenon.io">Tenon</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://wave.webaim.org">Wave</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML Code Sniffer</a></th>
+          <th scope="col" class="percent-result-cell"><a href="https://github.com/dequelabs/axe-core">aXE</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://asqatasun.org/">Asqatasun</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://www.powermapper.com/products/sortsite/">sort site</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://checkers.eiii.eu/?url=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">EIII</a></th>
+          <th scope="col" class="percent-result-cell"><a href="http://achecker.ca/">AChecker</a></th>
+          <th scope="col" class="percent-result-cell"><a href="https://validator.nu/?doc=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">Nu Html Checker</a></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Error + warning / Detectable</th>
+        {% for tool in toolNames -%}
+          <td class="percent-result-cell">
+            {{ analysis["percentages"]["tools"][tool]["detectable"]["error_warning"] -}}%
+          </td>
+        {% endfor %}
+      </tr>
+      <tr>
+        <th>Error + warning + manual / Detectable</th>
+        {% for tool in toolNames -%}
+          <td class="percent-result-cell">
+            {{ analysis["percentages"]["tools"][tool]["detectable"]["error_warning_manual"] -}}%
+          </td>
+        {% endfor %}
+      </tr>
+      <tr>
+        <th>Error + warning / Total</th>
+        {% for tool in toolNames -%}
+          <td class="percent-result-cell">
+            {{ analysis["percentages"]["tools"][tool]["total"]["error_warning"] -}}%
+          </td>
+        {% endfor %}
+      </tr>
+      <tr>
+        <th>Error + warning + manual / Total</th>
+        {% for tool in toolNames -%}
+          <td class="percent-result-cell">
+            {{ analysis["percentages"]["tools"][tool]["total"]["error_warning_manual"] -}}%
+          </td>
+        {% endfor %}
+      </tr>
+    </tbody>
+  </table>
+
   <h2>Features</h2>
 
   <details class="feature-summary">
@@ -362,47 +457,6 @@
           {% endfor %}
 
         {% endfor %}
-    </tbody>
-  </table>
-
-
-  <h2>Numbers</h2>
-
-  <table class="numeric-results">
-    <caption>Table of numeric results</caption>
-    <thead>
-      <tr>
-          <th scope="col"><span class="visuallyhidden">Result type</span></th>
-          <th scope="col">
-              <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google ADT</a>
-          </th>
-          <th scope="col"><a href="http://tenon.io">Tenon</a></th>
-          <th scope="col"><a href="http://wave.webaim.org">Wave</a></th>
-          <th scope="col"><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML Code Sniffer</a></th>
-          <th scope="col"><a href="https://github.com/dequelabs/axe-core">aXE</a></th>
-          <th scope="col"><a href="http://asqatasun.org/">Asqatasun</a></th>
-          <th scope="col"><a href="http://www.powermapper.com/products/sortsite/">sort site</a></th>
-          <th scope="col"><a href="http://checkers.eiii.eu/?url=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">EIII</a></th>
-          <th scope="col"><a href="http://achecker.ca/">AChecker</a></th>
-          <th scope="col"><a href="https://validator.nu/?doc=https%3A%2F%2Falphagov.github.io%2Faccessibility-tool-audit%2Ftest-cases.html">Nu Html Checker</a></th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for result in resultTypes -%}
-        <tr>
-          <th>{{ rcopy[result] | capitalize }}</th>
-          <td>{{ analysis["google"][result] }}</td>
-          <td>{{ analysis["tenon"][result] }}</td>
-          <td>{{ analysis["wave"][result] }}</td>
-          <td>{{ analysis["codesniffer"][result] }}</td>
-          <td>{{ analysis["axe"][result] }}</td>
-          <td>{{ analysis["asqatasun"][result] }}</td>
-          <td>{{ analysis["sortsite"][result] }}</td>
-          <td>{{ analysis["eiii"][result] }}</td>
-          <td>{{ analysis["achecker"][result] }}</td>
-          <td>{{ analysis["nu"][result] }}</td>
-        </tr>
-      {% endfor %}
     </tbody>
   </table>
 </main>

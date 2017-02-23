@@ -217,6 +217,10 @@ table {
   &.numeric-results {
     table-layout: fixed;
 
+    caption {
+      display: none;
+    }
+
     tbody th {
         width: 170px;
     }
@@ -227,6 +231,10 @@ table {
 
     td, thead th {
       text-align: right;
+    }
+
+    .percent-result-cell {
+      width: 8%;
     }
   }
 }

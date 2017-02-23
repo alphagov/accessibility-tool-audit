@@ -1,102 +1,214 @@
 {
-  "google": {
-    "notfound": 116,
-    "error": 23,
-    "warning": 1,
-    "manual": 0,
-    "different": 1,
-    "identified": 0,
-    "wrong": 0,
-    "false-positive": 2
+  "counts": {
+    "google": {
+      "notfound": 116,
+      "error": 23,
+      "warning": 1,
+      "manual": 0,
+      "different": 1,
+      "identified": 0,
+      "wrong": 0,
+      "false-positive": 2
+    },
+    "tenon": {
+      "notfound": 89,
+      "error": 53,
+      "warning": 0,
+      "manual": 0,
+      "different": 1,
+      "identified": 0,
+      "wrong": 0,
+      "false-positive": 0
+    },
+    "wave": {
+      "notfound": 100,
+      "error": 20,
+      "warning": 13,
+      "manual": 2,
+      "different": 1,
+      "identified": 7,
+      "wrong": 0,
+      "false-positive": 0
+    },
+    "codesniffer": {
+      "notfound": 111,
+      "error": 19,
+      "warning": 7,
+      "manual": 2,
+      "different": 3,
+      "identified": 0,
+      "wrong": 1,
+      "false-positive": 0
+    },
+    "axe": {
+      "notfound": 102,
+      "error": 38,
+      "warning": 0,
+      "manual": 0,
+      "different": 3,
+      "identified": 0,
+      "wrong": 0,
+      "false-positive": 0
+    },
+    "asqatasun": {
+      "notfound": 81,
+      "error": 38,
+      "warning": 0,
+      "manual": 21,
+      "different": 3,
+      "identified": 0,
+      "wrong": 0,
+      "false-positive": 0
+    },
+    "sortsite": {
+      "notfound": 101,
+      "error": 35,
+      "warning": 4,
+      "manual": 0,
+      "different": 3,
+      "identified": 0,
+      "wrong": 0,
+      "false-positive": 0
+    },
+    "eiii": {
+      "notfound": 117,
+      "error": 23,
+      "warning": 0,
+      "manual": 0,
+      "different": 0,
+      "identified": 0,
+      "wrong": 1,
+      "false-positive": 2
+    },
+    "achecker": {
+      "notfound": 93,
+      "error": 29,
+      "warning": 16,
+      "manual": 1,
+      "different": 4,
+      "identified": 0,
+      "wrong": 0,
+      "false-positive": 0
+    },
+    "nu": {
+      "notfound": 130,
+      "error": 13,
+      "warning": 0,
+      "manual": 0,
+      "different": 0,
+      "identified": 0,
+      "wrong": 0,
+      "false-positive": 0
+    }
   },
-  "asqatasun": {
-    "notfound": 81,
-    "error": 38,
-    "warning": 0,
-    "manual": 21,
-    "different": 3,
-    "identified": 0,
-    "wrong": 0,
-    "false-positive": 0
+  "totals": {
+    "total": 143,
+    "detectable": 101,
+    "undetectable": 42
   },
-  "tenon": {
-    "notfound": 89,
-    "error": 53,
-    "warning": 0,
-    "manual": 0,
-    "different": 1,
-    "identified": 0,
-    "wrong": 0,
-    "false-positive": 0
-  },
-  "wave": {
-    "notfound": 100,
-    "error": 20,
-    "warning": 13,
-    "manual": 2,
-    "different": 1,
-    "identified": 7,
-    "wrong": 0,
-    "false-positive": 0
-  },
-  "sortsite": {
-    "notfound": 101,
-    "error": 35,
-    "warning": 4,
-    "manual": 0,
-    "different": 3,
-    "identified": 0,
-    "wrong": 0,
-    "false-positive": 0
-  },
-  "axe": {
-    "notfound": 102,
-    "error": 38,
-    "warning": 0,
-    "manual": 0,
-    "different": 3,
-    "identified": 0,
-    "wrong": 0,
-    "false-positive": 0
-  },
-  "codesniffer": {
-    "notfound": 111,
-    "error": 19,
-    "warning": 7,
-    "manual": 2,
-    "different": 3,
-    "identified": 0,
-    "wrong": 1,
-    "false-positive": 0
-  },
-  "achecker": {
-    "notfound": 93,
-    "error": 29,
-    "warning": 16,
-    "manual": 1,
-    "different": 4,
-    "identified": 0,
-    "wrong": 0,
-    "false-positive": 0
-  },
-  "eiii": {
-    "notfound": 117,
-    "error": 23,
-    "warning": 0,
-    "manual": 0,
-    "different": 0,
-    "identified": 0,
-    "wrong": 1,
-    "false-positive": 2
-  },
-  "nu": {
-    "notfound": 130,
-    "error": 13,
-    "warning": 0,
-    "manual": 0,
-    "different": 0,
-    "identified": 0,
-    "wrong": 0,
-    "false-positive": 0
+  "percentages": {
+    "detectable": 71,
+    "tools": {
+      "google": {
+        "detectable": {
+          "error_warning": 24,
+          "error_warning_manual": 24
+        },
+        "total": {
+          "error_warning": 17,
+          "error_warning_manual": 17
+        }
+      },
+      "tenon": {
+        "detectable": {
+          "error_warning": 52,
+          "error_warning_manual": 52
+        },
+        "total": {
+          "error_warning": 37,
+          "error_warning_manual": 37
+        }
+      },
+      "wave": {
+        "detectable": {
+          "error_warning": 33,
+          "error_warning_manual": 35
+        },
+        "total": {
+          "error_warning": 23,
+          "error_warning_manual": 24
+        }
+      },
+      "codesniffer": {
+        "detectable": {
+          "error_warning": 26,
+          "error_warning_manual": 28
+        },
+        "total": {
+          "error_warning": 18,
+          "error_warning_manual": 20
+        }
+      },
+      "axe": {
+        "detectable": {
+          "error_warning": 38,
+          "error_warning_manual": 38
+        },
+        "total": {
+          "error_warning": 27,
+          "error_warning_manual": 27
+        }
+      },
+      "asqatasun": {
+        "detectable": {
+          "error_warning": 38,
+          "error_warning_manual": 58
+        },
+        "total": {
+          "error_warning": 27,
+          "error_warning_manual": 41
+        }
+      },
+      "sortsite": {
+        "detectable": {
+          "error_warning": 39,
+          "error_warning_manual": 39
+        },
+        "total": {
+          "error_warning": 27,
+          "error_warning_manual": 27
+        }
+      },
+      "eiii": {
+        "detectable": {
+          "error_warning": 23,
+          "error_warning_manual": 23
+        },
+        "total": {
+          "error_warning": 16,
+          "error_warning_manual": 16
+        }
+      },
+      "achecker": {
+        "detectable": {
+          "error_warning": 45,
+          "error_warning_manual": 46
+        },
+        "total": {
+          "error_warning": 31,
+          "error_warning_manual": 32
+        }
+      },
+      "nu": {
+        "detectable": {
+          "error_warning": 13,
+          "error_warning_manual": 13
+        },
+        "total": {
+          "error_warning": 9,
+          "error_warning_manual": 9
+        }
+      }
+    }
   }
 }

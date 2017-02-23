@@ -82,7 +82,7 @@
         <th>Error + warning / Detectable</th>
         {% for tool in toolNames -%}
           <td class="percent-result-cell">
-            {{ analysis["percentages"]["tools"][tool]["detectable"]["error_warning"] -}}%
+            {{ analysis["percentages"]["tools"][tool]["detectable"]["error_warning"] }}%
           </td>
         {% endfor %}
       </tr>
@@ -90,7 +90,7 @@
         <th>Error + warning + manual / Detectable</th>
         {% for tool in toolNames -%}
           <td class="percent-result-cell">
-            {{ analysis["percentages"]["tools"][tool]["detectable"]["error_warning_manual"] -}}%
+            {{ analysis["percentages"]["tools"][tool]["detectable"]["error_warning_manual"] }}%
           </td>
         {% endfor %}
       </tr>
@@ -98,7 +98,7 @@
         <th>Error + warning / Total</th>
         {% for tool in toolNames -%}
           <td class="percent-result-cell">
-            {{ analysis["percentages"]["tools"][tool]["total"]["error_warning"] -}}%
+            {{ analysis["percentages"]["tools"][tool]["total"]["error_warning"] }}%
           </td>
         {% endfor %}
       </tr>
@@ -106,7 +106,7 @@
         <th>Error + warning + manual / Total</th>
         {% for tool in toolNames -%}
           <td class="percent-result-cell">
-            {{ analysis["percentages"]["tools"][tool]["total"]["error_warning_manual"] -}}%
+            {{ analysis["percentages"]["tools"][tool]["total"]["error_warning_manual"] }}%
           </td>
         {% endfor %}
       </tr>

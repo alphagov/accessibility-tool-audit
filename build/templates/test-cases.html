@@ -45,7 +45,7 @@
   <h2 id="{{ cname|replace(' ', '')|lower }}" class="heading-large">{{ cname }}</h2>
 
   {% for testname, testobj in category %}
-  <h3 class="heading-medium">
+  <h3 class="heading-medium" id="{{ getFilename( cname, testname ) }}">
     <a href="tests/{{ getFilename( cname, testname ) }}.html">
       {{ testname }}
     </a>

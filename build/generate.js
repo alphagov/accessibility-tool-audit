@@ -77,7 +77,7 @@ function generateFiles(){
         example: processExample(testObj.example)
       });
 
-      fs.writeFileSync(paths.out('tests/' + filename + ".html"), filecontent, 'utf8');    
+      fs.writeFileSync(paths.out('tests/' + filename + ".html"), filecontent, 'utf8');
     }
   }
 
@@ -85,8 +85,9 @@ function generateFiles(){
 
   // Generate results
   var resultsout = nunjucks.render('results.html', {
-    tests: tests, 
+    tests: tests,
     rcopy: resultsCopy,
+    getFilename: getFilename,
     analysis: analysisResults,
     resultTypes: analysis.resultTypes,
     toolNames: analysis.toolNames

@@ -8,10 +8,21 @@ h5 {
     font-size: 1em;
 }
 
-.constrained {
-    width: 50em;
-}
+.constrained-box {
+    position: relative;
+    overflow: scroll;
 
+    .constrained {
+        width: 100em;
+        position: relative;
+    }
+
+    .constrained-extra {
+        position: relative;
+        float: right;
+        margin-right: -100%;
+    }
+}
 .no-outine, .no-outine:focus {
     outline: none;
     background: none;

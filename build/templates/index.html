@@ -28,6 +28,37 @@
 
       <p>Project available on <a href="https://github.com/alphagov/accessibility-tool-audit">Github</a>. We welcome contributions.</p>
 
+      <h2>What we found</h2>
+
+      <p>
+        In our tests, the best performing tool found {{ analysis.scoreboard[0].error_warning }}% of the barriers we introduced. Whereas the worst performing tool only picked up 
+        {{ analysis.scoreboard[analysis.scoreboard.length - 1].error_warning }}% 
+        of the barriers.
+      </p>
+
+      <h3>How did each tool do?</h3>
+
+      <table>
+        <caption>How did each table do?</caption>
+        <thead>
+          <tr>
+            <th><span class="visuallyhidden">Tool name</span></th>
+            <th>Errors and warnings reported</th>
+            <th>Errors, warnings and manual checks reported</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for score in analysis.scoreboard -%}
+            <tr>
+              <th>{{ score.name }}</th>
+              <td>{{ score.error_warning }}</td>
+              <td>{{ score.error_warning_manual }}</td>
+            </tr>
+          {%- endfor %}
+        </tbody>
+      </table>
+
+
       <h2 class="heading-medium"><a href="results.html">What we found</a></h2>
 
       <h2 class="heading-medium"><a href="test-cases.html">What we tested</a></h2>

@@ -31,8 +31,8 @@ var toolNamesCopy = {
   "wave": "WAVE",
   "codesniffer": "HTML_CodeSniffer",
   "google": "Google ADT",
-  "eiii": "EIII",
-  "nu": "HTML Validator"
+  "eiii": '<abbr title="European Internet Inclusion Initiative">EIII</abbr>',
+  "nu": "Nu Html Checker"
 }
 
 var tools = {

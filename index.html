@@ -34,29 +34,27 @@
       <h1>How do automated accessibility checkers compare?</h1>
 
       <p>
-        We ran an audit to see what issues the different accessibility testing tools pick up. We deliberately introduced 143 accessibility barriers to a page of content, and ran them through 10 accessibility checkers. We also had a look at features like usability and cost.
+        We ran an audit to see what issues the different accessibility testing tools pick up. We deliberately introduced 143 accessibility barriers to a page of content, and ran them through 10 automated tools. We also had a look at features like usability and cost.
       </p>
 
       <p>You can use our audit to help choose the best accessibility testing tool for your service.</p>
 
-      <p>Read our blog post on what we found.</p>
-
-      <p>Project available on <a href="https://github.com/alphagov/accessibility-tool-audit">Github</a>. We welcome contributions.</p>
+      <p>The full project is available on <a href="https://github.com/alphagov/accessibility-tool-audit">Github</a>. We welcome contributions.</p>
 
       <h2>What we found</h2>
 
-      <p>We’ve scored each tool for two things.</p>
+      <p>We scored each tool for two things.</p>
 
       <p>
         The first column of numbers shows the percentage of barriers that each tool fully detected on a &lsquo;pass&rsquo; or &lsquo;fail&rsquo; basis.
       </p>
 
       <p>
-        The best performing tool in this column found 37% of the problems we introduced. Whereas the worst performing tool only picked up 9% of the barriers.
+        The best performing tool in this category found 37% of the problems we introduced. Whereas the worst performing tool only picked up 9% of the barriers.
       </p>
 
       <p>
-        The second column of results takes into account potential barriers that tools noticed, but needed a human being to check, like whether descriptions within &lsquo;alt&rsquo; tags were accurate. A tool that flags things like this can help you pick up more issues overall.
+        The second column of results takes into account potential barriers that tools noticed, but needed a human being to check, like whether alt text descriptions were accurate. A tool that flags things like this can help you pick up more issues overall.
       </p>
 
       <p>The best performing tool in this category picked up 41% of our deliberate mistakes.</p>
@@ -68,8 +66,8 @@
         <thead>
           <tr>
             <th><span class="visuallyhidden">Tool</span></th>
-            <th>Fails fully detected</th>
-            <th>Fails and human checks combined</th>
+            <th>Barriers found</th>
+            <th>Barriers and potential barriers found</th>
           </tr>
         </thead>
         <tbody>
@@ -106,11 +104,11 @@
               <td>17%</td>
               <td>17%</td>
             </tr><tr>
-              <th>EIII</th>
+              <th><abbr title="European Internet Inclusion Initiative">EIII</abbr></th>
               <td>16%</td>
               <td>16%</td>
             </tr><tr>
-              <th>HTML Validator</th>
+              <th>Nu Html Checker</th>
               <td>9%</td>
               <td>9%</td>
             </tr>
@@ -194,7 +192,7 @@
             <th scope="col">Tool</th>
             <th scope="col">Cost (manual)</th>
             <th scope="col">Cost (CI)</th>
-            <th scope="col">Open Source</th>
+            <th scope="col">Open source</th>
             <th scope="col">Active</th>
             <th scope="col">CI</th>
             <th scope="col">CLI</th>
@@ -238,7 +236,7 @@
             <td>Good</td>
           </tr>
           <tr>
-            <th scope="row">Wave</th>
+            <th scope="row">WAVE</th>
             <td>Free</td>
             <td>min $10</td>
             <td>No</td>
@@ -253,7 +251,7 @@
             <td>OK</td>
           </tr>
           <tr>
-            <th scope="row">HTML Code Sniffer</th>
+            <th scope="row">HTML_CodeSniffer</th>
             <td>Free</td>
             <td>Free</td>
             <td>Yes</td>
@@ -268,7 +266,7 @@
             <td>OK</td>
           </tr>
           <tr>
-            <th scope="row">aXE</th>
+            <th scope="row">aXe</th>
             <td>Free</td>
             <td>Free</td>
             <td>Yes</td>
@@ -298,7 +296,7 @@
             <td>Good</td>
           </tr>
           <tr>
-            <th scope="row">sort site</th>
+            <th scope="row">Sortsite</th>
             <td>Free</td>
             <td>&pound;89.10 / &pound;494.10</td>
             <td>No</td>
@@ -313,7 +311,7 @@
             <td>Good</td>
           </tr>
           <tr>
-            <th scope="row">EIII</th>
+            <th scope="row"><abbr title="European Internet Inclusion Initiative">EIII</abbr></th>
             <td>Free</td>
             <td>N/A</td>
             <td>Yes</td>
@@ -363,6 +361,8 @@
       <h2 class="heading-medium"><a href="results.html">Read detailed test results</a></h2>
 
       <h2 class="heading-medium"><a href="test-cases.html">See everything we tested</a></h2>
+      
+      <h2 class="heading-medium"><a href="#">Read our blog post on what we found</a></h2>
     </div>
   </div>
 

@@ -35,7 +35,7 @@ function getFilename( catname, testname ){
 
 function processExample( example ){
   if( example.indexOf('images') > -1 ){
-    example = example.replace('images/', 'assets/test_images/');
+    example = example.replace('images/', '../assets/test_images/');
   }
 
   return example;

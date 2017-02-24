@@ -31,7 +31,7 @@
       }
     },
     "Content is not in correct reading order in source code": {
-      "example": "<h4>3-Step Skin Care</h4>\n<div style=\"float:right; width:33%\">Moisturise</div>\n<div style=\"float:right; width:33%\">Exfoliate</div>\n<div style=\"float:right; width:33%\">Cleanse</div>",
+      "example": "<div class=\"test-container\"><h4>3-Step Skin Care</h4>\n<div style=\"float:right; width:33%\">Moisturise</div>\n<div style=\"float:right; width:33%\">Exfoliate</div>\n<div style=\"float:right; width:33%\">Cleanse</div></div>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",

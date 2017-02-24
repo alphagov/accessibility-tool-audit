@@ -8,6 +8,10 @@ h5 {
     font-size: 1em;
 }
 
+.test-container {
+    overflow: hidden;
+}
+
 .constrained-box {
     position: relative;
     overflow: scroll;

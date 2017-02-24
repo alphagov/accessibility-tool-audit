@@ -35,7 +35,7 @@
       </p>
 
       <p>
-        The best performing tool in this column found {{ analysis.scoreboard.by_error_warning[0].error_warning }}% of the problems we introduced. Whereas the worst performing tool only picked up {{ analysis.scoreboard.by_error_warning[analysis.scoreboard.length - 1].error_warning }}% of the barriers.
+        The best performing tool in this column found {{ analysis.scoreboard.by_error_warning[0].error_warning }}% of the problems we introduced. Whereas the worst performing tool only picked up {{ analysis.scoreboard.by_error_warning[analysis.scoreboard.by_error_warning.length - 1].error_warning }}% of the barriers.
       </p>
 
       <p>
@@ -46,30 +46,272 @@
 
       <h3>How did each tool do?</h3>
 
-      <table>
+      <table class="numeric-results percentage-summary">
         <caption>How did each table do?</caption>
         <thead>
           <tr>
-            <th><span class="visuallyhidden">Tool name</span></th>
-            <th>Errors and warnings reported</th>
-            <th>Errors, warnings and manual checks reported</th>
+            <th><span class="visuallyhidden">Tool</span></th>
+            <th>Fails fully detected</th>
+            <th>Fails and human checks combined</th>
           </tr>
         </thead>
         <tbody>
           {% for score in analysis.scoreboard.by_error_warning -%}
             <tr>
-              <th>{{ score.name }}</th>
-              <td>{{ score.error_warning }}</td>
-              <td>{{ score.error_warning_manual }}</td>
+              <th>{{ tCopy[score.name] }}</th>
+              <td>{{ score.error_warning }}%</td>
+              <td>{{ score.error_warning_manual }}%</td>
             </tr>
           {%- endfor %}
         </tbody>
       </table>
 
+      <h3>How do features compare?</h3>
 
-      <h2 class="heading-medium"><a href="results.html">What we found</a></h2>
+      <p>
+        We&rsquo;ve also compared features like how easy tools are to use, cost and technical considerations - all important things to think about when you are choosing a tool.
+      </p>
 
-      <h2 class="heading-medium"><a href="test-cases.html">What we tested</a></h2>
+      <details class="feature-summary">
+        <summary><span class="summary">What these features mean</span></summary>
+
+        <div class="panel panel-border-narrow">
+          <h3>Cost</h3>
+          <ul class="summary-data">
+            <li>
+              <span class="result-type">Cost (manual)</span>
+              The cost of running the tool manually in a web browser. Paid tools will usually let you check single pages for free, but will redirect you to a login page for some features like documentation.
+            </li>
+            <li>
+              <span class="result-type">Cost (CI)</span>
+              The cost of running the tool if you code it into your service under continuous integration (CI). Some tools are free to run but you have to pay for features like API access.
+            </li>
+          </ul>
+
+          <h3>Development model</h3>
+          <ul class="summary-data">
+            <li>
+              <span class="result-type">Open source</span>
+              The tool is open source, which means you can access the source code for free. You may also be able to help to make the tool better if you can fix a problem with the code.
+            </li>
+            <li>
+              <span class="result-type">Active</span>
+              The tool is being actively developed. We recommend using tools that are updated according to the latest developments in accessibility.
+            </li>
+          </ul>
+
+          <h3>Technical features</h3>
+          <ul class="summary-data">
+            <li>
+              <span class="result-type">CI</span>
+              The tool can be run under continuous integration (CI). This is the practice of constantly releasing and testing code. Projects using a CI environment should use an automated testing tool that works with CI. This will help you make sure mistakes in your build are caught early.
+            </li>
+            <li>
+              <span class="result-type">CLI</span>
+              The tool can be run on a command line interface (CLI). CLI tools are more versatile for developers, and can usually be integrated into either continuous integration (CI) or unit testing.
+            </li>
+          </ul>
+
+          <h3>Usability</h3>
+          <ul class="summary-data">
+            <li>
+              <span class="result-type">In-browser</span>
+              The tool works in a web browser. These tools are usually extensions and are easy to install and use, making them useful for non-developers. In-browser tools often make it easier to test things like individual scenarios and internal tools behind firewalls.
+            </li>
+            <li>
+              <span class="result-type">Internal use</span>
+              The tool can be used internally. This might be useful if your service is for internal use only or has sensitive components that you don’t want to test on the internet.
+            </li>
+            <li>
+              <span class="result-type">Mobile</span>
+              The tool can simulate a mobile browser and test with it.
+            </li>
+            <li>
+              <span class="result-type">Scriptable</span>
+              To simulate things like filling in a text box or clicking a button you can write a script for the tool to follow, saving you a lot of manual work.
+            </li>
+          </ul>
+        </div>
+      </details>
+
+      <table class="features-table">
+        <caption>
+          Feature comparison
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Tool</th>
+            <th scope="col">Cost (manual)</th>
+            <th scope="col">Cost (CI)</th>
+            <th scope="col">Open Source</th>
+            <th scope="col">Active</th>
+            <th scope="col">CI</th>
+            <th scope="col">CLI</th>
+            <th scope="col">In-browser</th>
+            <th scope="col">Internal use</th>
+            <th scope="col">Mobile</th>
+            <th scope="col">Scriptable</th>
+            <th scope="col">HTTP Auth</th>
+            <th scope="col">Educational</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Google ADT</th>
+            <td>Free</td>
+            <td>Free</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>OK</td>
+          </tr>
+          <tr>
+            <th scope="row">Tenon</th>
+            <td>Free</td>
+            <td>$9/month</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Good</td>
+          </tr>
+          <tr>
+            <th scope="row">Wave</th>
+            <td>Free</td>
+            <td>min $10</td>
+            <td>No</td>
+            <td>?</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>OK</td>
+          </tr>
+          <tr>
+            <th scope="row">HTML Code Sniffer</th>
+            <td>Free</td>
+            <td>Free</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>OK</td>
+          </tr>
+          <tr>
+            <th scope="row">aXE</th>
+            <td>Free</td>
+            <td>Free</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Good</td>
+          </tr>
+          <tr>
+            <th scope="row">Asqatasun</th>
+            <td>Free</td>
+            <td>Free</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Good</td>
+          </tr>
+          <tr>
+            <th scope="row">sort site</th>
+            <td>Free</td>
+            <td>&pound;89.10 / &pound;494.10</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Good</td>
+          </tr>
+          <tr>
+            <th scope="row">EIII</th>
+            <td>Free</td>
+            <td>N/A</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>OK</td>
+          </tr>
+          <tr>
+            <th scope="row">AChecker</th>
+            <td>Free</td>
+            <td>N/A</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>OK</td>
+          </tr>
+          <tr>
+            <th scope="row">Nu Html Checker</th>
+            <td>Free</td>
+            <td>Free</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 class="heading-medium"><a href="results.html">Read detailed test results</a></h2>
+
+      <h2 class="heading-medium"><a href="test-cases.html">See everything we tested</a></h2>
     </div>
   </div>
 

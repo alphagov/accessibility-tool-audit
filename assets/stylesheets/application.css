@@ -2478,10 +2478,6 @@ table.entry th, table.entry td {
   border-bottom: 1px solid #bfc1c3;
 }
 
-table.features-table tbody th {
-  font-weight: bold;
-}
-
 table.numeric-results {
   table-layout: fixed;
 }
@@ -2504,6 +2500,22 @@ table.numeric-results td, table.numeric-results thead th {
 
 table.numeric-results .percent-result-cell {
   width: 8%;
+}
+
+.features-table td {
+  width: 8%;
+}
+
+.features-table th {
+  font-weight: bold;
+}
+
+.percentage-summary {
+  width: 20em;
+}
+
+.percentage-summary td {
+  width: 10%;
 }
 
 a.button {

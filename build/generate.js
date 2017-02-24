@@ -22,6 +22,62 @@ var resultsCopy = {
   "false-positive": "unrelated issue"
 };
 
+var toolNamesCopy = {
+  "tenon": "Tenon",
+  "achecker": "AChecker",
+  "axe": "aXe",
+  "asqatasun": "Asqatasun",
+  "sortsite": "SortSite",
+  "wave": "WAVE",
+  "codesniffer": "HTML_CodeSniffer",
+  "google": "Google ADT",
+  "eiii": "EIII",
+  "nu": "HTML Validator"
+}
+
+var tools = {
+  "tenon": {
+    name: toolNamesCopy["tenon"],
+    url: "https://tenon.io/"
+  },
+  "achecker": {
+    name: toolNamesCopy["achecker"],
+    url: "http://achecker.ca/"
+  },
+  "axe": {
+    name: toolNamesCopy["axe"],
+    url: "http://www.deque.com/products/axe/"
+  },
+  "asqatasun": {
+    name: toolNamesCopy["asqatasun"],
+    url: "http://asqatasun.org/"
+  },
+  "sortsite": {
+    name: toolNamesCopy["sortsite"],
+    url: "https://www.powermapper.com/products/sortsite/"
+  },
+  "wave": {
+    name: toolNamesCopy["wave"],
+    url: "http://wave.webaim.org/extension/"
+  },
+  "codesniffer": {
+    name: toolNamesCopy["codesniffer"],
+    url: "https://squizlabs.github.io/HTML_CodeSniffer/"
+  },
+  "google": {
+    name: toolNamesCopy["google"],
+    url: "https://github.com/GoogleChrome/accessibility-developer-tools"
+  },
+  "eiii": {
+    name: toolNamesCopy["eiii"],
+    url: "http://checkers.eiii.eu/"
+  },
+  "nu": {
+    name: toolNamesCopy["nu"],
+    url: "https://validator.w3.org/nu/"
+  }
+}
+
 function getFilename( catname, testname ){
     var filename = [catname.toLowerCase(), testname.toLowerCase()]
                       .join('-')
@@ -54,7 +110,8 @@ function generateFiles(){
   var indexout = nunjucks.render('index.html', {
     tests: tests,
     getFilename: getFilename,
-    analysis: analysisResults
+    analysis: analysisResults,
+    tCopy: toolNamesCopy
   });
   fs.writeFileSync(paths.out('index.html'), indexout, 'utf8');
 

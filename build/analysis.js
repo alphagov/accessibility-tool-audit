@@ -85,9 +85,7 @@ function analyse(){
 
   analysis.percentages = {
     detectable: _.round(analysis.totals.detectable / analysis.totals.total * 100),
-    tools: {
-
-    }
+    tools: {}
   }
 
   for( tool in analysis.counts ){

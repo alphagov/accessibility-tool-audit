@@ -212,32 +212,47 @@ table {
     }
   }
 
-  &.features-table tbody th {
+}
+
+table.numeric-results {
+  table-layout: fixed;
+
+  caption {
+    display: none;
+  }
+
+  tbody th {
+      width: 170px;
+  }
+
+  th {
     font-weight: bold;
   }
 
-  &.numeric-results {
-    table-layout: fixed;
+  td, thead th {
+    text-align: right;
+  }
 
-    caption {
-      display: none;
-    }
+  .percent-result-cell {
+    width: 8%;
+  }
+}
 
-    tbody th {
-        width: 170px;
-    }
+.features-table {
+  td {
+    width: 8%;
+  }
 
-    th {
-      font-weight: bold;
-    }
+  th {
+    font-weight: bold;
+  }
+}
 
-    td, thead th {
-      text-align: right;
-    }
+.percentage-summary {
+  width: 20em;
 
-    .percent-result-cell {
-      width: 8%;
-    }
+  td {
+    width: 10%;
   }
 }
 

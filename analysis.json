@@ -211,66 +211,130 @@
       }
     }
   },
-  "scoreboard": [
-    {
-      "position": 1,
-      "name": "tenon",
-      "error_warning": 37,
-      "error_warning_manual": 37
-    },
-    {
-      "position": 2,
-      "name": "achecker",
-      "error_warning": 31,
-      "error_warning_manual": 32
-    },
-    {
-      "position": 3,
-      "name": "axe",
-      "error_warning": 27,
-      "error_warning_manual": 27
-    },
-    {
-      "position": 4,
-      "name": "asqatasun",
-      "error_warning": 27,
-      "error_warning_manual": 41
-    },
-    {
-      "position": 5,
-      "name": "sortsite",
-      "error_warning": 27,
-      "error_warning_manual": 27
-    },
-    {
-      "position": 6,
-      "name": "wave",
-      "error_warning": 23,
-      "error_warning_manual": 24
-    },
-    {
-      "position": 7,
-      "name": "codesniffer",
-      "error_warning": 18,
-      "error_warning_manual": 20
-    },
-    {
-      "position": 8,
-      "name": "google",
-      "error_warning": 17,
-      "error_warning_manual": 17
-    },
-    {
-      "position": 9,
-      "name": "eiii",
-      "error_warning": 16,
-      "error_warning_manual": 16
-    },
-    {
-      "position": 10,
-      "name": "nu",
-      "error_warning": 9,
-      "error_warning_manual": 9
-    }
-  ]
+  "scoreboard": {
+    "by_error_warning": [
+      {
+        "position": 1,
+        "name": "tenon",
+        "error_warning": 37,
+        "error_warning_manual": 37
+      },
+      {
+        "position": 2,
+        "name": "achecker",
+        "error_warning": 31,
+        "error_warning_manual": 32
+      },
+      {
+        "position": 3,
+        "name": "axe",
+        "error_warning": 27,
+        "error_warning_manual": 27
+      },
+      {
+        "position": 4,
+        "name": "asqatasun",
+        "error_warning": 27,
+        "error_warning_manual": 41
+      },
+      {
+        "position": 5,
+        "name": "sortsite",
+        "error_warning": 27,
+        "error_warning_manual": 27
+      },
+      {
+        "position": 6,
+        "name": "wave",
+        "error_warning": 23,
+        "error_warning_manual": 24
+      },
+      {
+        "position": 7,
+        "name": "codesniffer",
+        "error_warning": 18,
+        "error_warning_manual": 20
+      },
+      {
+        "position": 8,
+        "name": "google",
+        "error_warning": 17,
+        "error_warning_manual": 17
+      },
+      {
+        "position": 9,
+        "name": "eiii",
+        "error_warning": 16,
+        "error_warning_manual": 16
+      },
+      {
+        "position": 10,
+        "name": "nu",
+        "error_warning": 9,
+        "error_warning_manual": 9
+      }
+    ],
+    "by_error_warning_manual": [
+      {
+        "position": 1,
+        "name": "asqatasun",
+        "error_warning": 27,
+        "error_warning_manual": 41
+      },
+      {
+        "position": 2,
+        "name": "tenon",
+        "error_warning": 37,
+        "error_warning_manual": 37
+      },
+      {
+        "position": 3,
+        "name": "achecker",
+        "error_warning": 31,
+        "error_warning_manual": 32
+      },
+      {
+        "position": 4,
+        "name": "axe",
+        "error_warning": 27,
+        "error_warning_manual": 27
+      },
+      {
+        "position": 5,
+        "name": "sortsite",
+        "error_warning": 27,
+        "error_warning_manual": 27
+      },
+      {
+        "position": 6,
+        "name": "wave",
+        "error_warning": 23,
+        "error_warning_manual": 24
+      },
+      {
+        "position": 7,
+        "name": "codesniffer",
+        "error_warning": 18,
+        "error_warning_manual": 20
+      },
+      {
+        "position": 8,
+        "name": "google",
+        "error_warning": 17,
+        "error_warning_manual": 17
+      },
+      {
+        "position": 9,
+        "name": "eiii",
+        "error_warning": 16,
+        "error_warning_manual": 16
+      },
+      {
+        "position": 10,
+        "name": "nu",
+        "error_warning": 9,
+        "error_warning_manual": 9
+      }
+    ]
+  }
 }

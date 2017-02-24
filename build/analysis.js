@@ -108,7 +108,7 @@ function analyse(){
   // [ [ 'google', 17 ], [ 'tenon', 37 ], ... ]
   var tr = _.map(_.get(analysis, 'percentages.tools'), (x,y) => [y, x.total.error_warning, x.total.error_warning_manual] );
   tr = tr.sort( (a, b) => b[1] - a[1] );
-  tr = tr.map(function (val, index){
+  tr_ew = tr.map(function (val, index){
     return {
       position: index + 1,
       name: val[0],
@@ -117,7 +117,19 @@ function analyse(){
     }
   });
 
-  analysis.scoreboard = tr;
+  tr = tr.sort( (a, b) => b[2] - a[2] );
+  tr_ewm = tr.map(function (val, index){
+    return {
+      position: index + 1,
+      name: val[0],
+      error_warning: val[1],
+      error_warning_manual: val[2],
+    }
+  });  
+
+  analysis.scoreboard = {};
+  analysis.scoreboard.by_error_warning = tr_ew;
+  analysis.scoreboard.by_error_warning_manual = tr_ewm;
 
   fs.writeFileSync(paths.analysisJson, JSON.stringify(analysis,'',2), 'utf8');
 }

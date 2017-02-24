@@ -17,10 +17,8 @@
       <h1>How do automated accessibility checkers compare?</h1>
 
       <p>
-        We ran an audit to see what issues the different accessibility testing tools pick up. We deliberately introduced {{ analysis.totals.total }} accessibility barriers to a page of content, and ran them through {{ analysis.counts | length }} accessibility checkers.
+        We ran an audit to see what issues the different accessibility testing tools pick up. We deliberately introduced {{ analysis.totals.total }} accessibility barriers to a page of content, and ran them through {{ analysis.counts | length }} accessibility checkers. We also had a look at features like usability and cost.
       </p>
-
-      <p>We also had a look at features like usability and cost.</p>
 
       <p>You can use our audit to help choose the best accessibility testing tool for your service.</p>
 
@@ -30,11 +28,21 @@
 
       <h2>What we found</h2>
 
+      <p>We’ve scored each tool for two things.</p>
+
       <p>
-        In our tests, the best performing tool found {{ analysis.scoreboard[0].error_warning }}% of the barriers we introduced. Whereas the worst performing tool only picked up 
-        {{ analysis.scoreboard[analysis.scoreboard.length - 1].error_warning }}% 
-        of the barriers.
+        The first column of numbers shows the percentage of barriers that each tool fully detected on a &lsquo;pass&rsquo; or &lsquo;fail&rsquo; basis.
       </p>
+
+      <p>
+        The best performing tool in this column found {{ analysis.scoreboard.by_error_warning[0].error_warning }}% of the problems we introduced. Whereas the worst performing tool only picked up {{ analysis.scoreboard.by_error_warning[analysis.scoreboard.length - 1].error_warning }}% of the barriers.
+      </p>
+
+      <p>
+        The second column of results takes into account potential barriers that tools noticed, but needed a human being to check, like whether descriptions within &lsquo;alt&rsquo; tags were accurate. A tool that flags things like this can help you pick up more issues overall.
+      </p>
+
+      <p>The best performing tool in this category picked up {{ analysis.scoreboard.by_error_warning_manual[0].error_warning_manual }}% of our deliberate mistakes.</p>
 
       <h3>How did each tool do?</h3>
 
@@ -48,7 +56,7 @@
           </tr>
         </thead>
         <tbody>
-          {% for score in analysis.scoreboard -%}
+          {% for score in analysis.scoreboard.by_error_warning -%}
             <tr>
               <th>{{ score.name }}</th>
               <td>{{ score.error_warning }}</td>

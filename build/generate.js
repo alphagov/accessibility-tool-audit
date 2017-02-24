@@ -46,13 +46,15 @@ function generateFiles(){
   var tests = JSON.parse(testsFile);
 
   analysis.analyse();
+  var analysisResults = require(paths.analysisJson);
 
   nunjucks.configure(paths.templates);
 
   // Generate index
   var indexout = nunjucks.render('index.html', {
     tests: tests,
-    getFilename: getFilename
+    getFilename: getFilename,
+    analysis: analysisResults
   });
   fs.writeFileSync(paths.out('index.html'), indexout, 'utf8');
 
@@ -80,8 +82,6 @@ function generateFiles(){
       fs.writeFileSync(paths.out('tests/' + filename + ".html"), filecontent, 'utf8');
     }
   }
-
-  var analysisResults = require(paths.analysisJson);
 
   // Generate results
   var resultsout = nunjucks.render('results.html', {

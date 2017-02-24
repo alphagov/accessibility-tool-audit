@@ -210,5 +210,57 @@
         }
       }
     }
-  }
+  },
+  "scoreboard": [
+    {
+      "position": 1,
+      "name": "tenon",
+      "foundPercent": 37
+    },
+    {
+      "position": 2,
+      "name": "achecker",
+      "foundPercent": 31
+    },
+    {
+      "position": 3,
+      "name": "axe",
+      "foundPercent": 27
+    },
+    {
+      "position": 4,
+      "name": "asqatasun",
+      "foundPercent": 27
+    },
+    {
+      "position": 5,
+      "name": "sortsite",
+      "foundPercent": 27
+    },
+    {
+      "position": 6,
+      "name": "wave",
+      "foundPercent": 23
+    },
+    {
+      "position": 7,
+      "name": "codesniffer",
+      "foundPercent": 18
+    },
+    {
+      "position": 8,
+      "name": "google",
+      "foundPercent": 17
+    },
+    {
+      "position": 9,
+      "name": "eiii",
+      "foundPercent": 16
+    },
+    {
+      "position": 10,
+      "name": "nu",
+      "foundPercent": 9
+    }
+  ]
 }

@@ -16,13 +16,33 @@ We welcome issues / pull requests for updated test cases or tool results
 
 ## Installing
 
+Make sure you have the gulp command installed beforehand.
+
+``` 
+npm install -g gulp
+```
+
+Then run the following commands to install the dependencies and generate the static html files.
+
 ```
 npm install
 gulp
 
 ```
 
-This will output static html files in the project.
+Now you can run a local HTTP server to serve the files in this directory. Such as:
+
+```
+python -mSimpleHTTPServer
+```
+
+and click [http://localhost:8000/](http://localhost:8000/) to see the generated HTML output.
+
+You can also run gulp in dev mode, which would keep watching for files to change until you kill it.
+
+```
+gulp dev
+```
 
 ## Licence
 

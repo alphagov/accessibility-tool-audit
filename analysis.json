@@ -21,8 +21,8 @@
       "false-positive": 0
     },
     "wave": {
-      "notfound": 100,
-      "error": 20,
+      "notfound": 94,
+      "error": 26,
       "warning": 13,
       "manual": 2,
       "different": 1,
@@ -131,12 +131,12 @@
       },
       "wave": {
         "detectable": {
-          "error_warning": 33,
-          "error_warning_manual": 35
+          "error_warning": 39,
+          "error_warning_manual": 41
         },
         "total": {
-          "error_warning": 23,
-          "error_warning_manual": 24
+          "error_warning": 27,
+          "error_warning_manual": 29
         }
       },
       "codesniffer": {
@@ -227,27 +227,27 @@
       },
       {
         "position": 3,
+        "name": "wave",
+        "error_warning": 27,
+        "error_warning_manual": 29
+      },
+      {
+        "position": 4,
         "name": "axe",
         "error_warning": 27,
         "error_warning_manual": 27
       },
       {
-        "position": 4,
+        "position": 5,
         "name": "asqatasun",
         "error_warning": 27,
         "error_warning_manual": 41
       },
       {
-        "position": 5,
+        "position": 6,
         "name": "sortsite",
         "error_warning": 27,
         "error_warning_manual": 27
-      },
-      {
-        "position": 6,
-        "name": "wave",
-        "error_warning": 23,
-        "error_warning_manual": 24
       },
       {
         "position": 7,
@@ -295,21 +295,21 @@
       },
       {
         "position": 4,
+        "name": "wave",
+        "error_warning": 27,
+        "error_warning_manual": 29
+      },
+      {
+        "position": 5,
         "name": "axe",
         "error_warning": 27,
         "error_warning_manual": 27
       },
       {
-        "position": 5,
+        "position": 6,
         "name": "sortsite",
         "error_warning": 27,
         "error_warning_manual": 27
-      },
-      {
-        "position": 6,
-        "name": "wave",
-        "error_warning": 23,
-        "error_warning_manual": 24
       },
       {
         "position": 7,

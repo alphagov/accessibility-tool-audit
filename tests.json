@@ -45,7 +45,7 @@
         "nu": "notfound"
       }
     },
-    "Content is not organised into into well-defined groups or chunks, using headings, lists, and other visual mechanisms": {
+    "Content is not organised into well-defined groups or chunks, using headings, lists, and other visual mechanisms": {
       "example": "<a href=\"example-pages/unorganised_content.html\">Example page with a long block of unorganised content.</a>",
       "results": {
         "google": "notfound",

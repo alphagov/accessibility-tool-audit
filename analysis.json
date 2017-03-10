@@ -11,9 +11,9 @@
       "false-positive": 2
     },
     "tenon": {
-      "notfound": 89,
+      "notfound": 88,
       "error": 53,
-      "warning": 0,
+      "warning": 1,
       "manual": 0,
       "different": 1,
       "identified": 0,
@@ -51,8 +51,8 @@
       "false-positive": 0
     },
     "asqatasun": {
-      "notfound": 81,
-      "error": 38,
+      "notfound": 78,
+      "error": 41,
       "warning": 0,
       "manual": 21,
       "different": 3,
@@ -121,12 +121,12 @@
       },
       "tenon": {
         "detectable": {
-          "error_warning": 52,
-          "error_warning_manual": 52
+          "error_warning": 53,
+          "error_warning_manual": 53
         },
         "total": {
-          "error_warning": 37,
-          "error_warning_manual": 37
+          "error_warning": 38,
+          "error_warning_manual": 38
         }
       },
       "wave": {
@@ -161,12 +161,12 @@
       },
       "asqatasun": {
         "detectable": {
-          "error_warning": 38,
-          "error_warning_manual": 58
+          "error_warning": 41,
+          "error_warning_manual": 61
         },
         "total": {
-          "error_warning": 27,
-          "error_warning_manual": 41
+          "error_warning": 29,
+          "error_warning_manual": 43
         }
       },
       "sortsite": {
@@ -216,8 +216,8 @@
       {
         "position": 1,
         "name": "tenon",
-        "error_warning": 37,
-        "error_warning_manual": 37
+        "error_warning": 38,
+        "error_warning_manual": 38
       },
       {
         "position": 2,
@@ -227,21 +227,21 @@
       },
       {
         "position": 3,
+        "name": "asqatasun",
+        "error_warning": 29,
+        "error_warning_manual": 43
+      },
+      {
+        "position": 4,
         "name": "wave",
         "error_warning": 27,
         "error_warning_manual": 29
       },
       {
-        "position": 4,
+        "position": 5,
         "name": "axe",
         "error_warning": 27,
         "error_warning_manual": 27
-      },
-      {
-        "position": 5,
-        "name": "asqatasun",
-        "error_warning": 27,
-        "error_warning_manual": 41
       },
       {
         "position": 6,
@@ -278,14 +278,14 @@
       {
         "position": 1,
         "name": "asqatasun",
-        "error_warning": 27,
-        "error_warning_manual": 41
+        "error_warning": 29,
+        "error_warning_manual": 43
       },
       {
         "position": 2,
         "name": "tenon",
-        "error_warning": 37,
-        "error_warning_manual": 37
+        "error_warning": 38,
+        "error_warning_manual": 38
       },
       {
         "position": 3,

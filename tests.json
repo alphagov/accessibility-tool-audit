@@ -327,7 +327,7 @@
       "example": "<a href=\"example-pages/empty.html\">Example page with an empty lang attribute</a>",
       "results": {
         "google": "error",
-        "asqatasun": "notfound",
+        "asqatasun": "error",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -464,7 +464,7 @@
       "example": "<a href=\"example-pages/empty.html\">Example page with a empty page title</a>",
       "results": {
         "google": "error",
-        "asqatasun": "notfound",
+        "asqatasun": "error",
         "tenon": "error",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -1196,7 +1196,7 @@
       "example": "        Visit the GOV.UK website <a href=\"https://www.gov.uk/\">.</a>",
       "results": {
         "google": "error",
-        "asqatasun": "notfound",
+        "asqatasun": "error",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",

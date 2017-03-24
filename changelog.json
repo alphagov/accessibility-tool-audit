@@ -1,0 +1,19 @@
+{
+  "last_updated": "10 March 2017",
+  "changelog": [
+    {
+      "date": "10 March 2017",
+      "text": "Retested and updated 2 results on Asqatasun",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/8"
+    },
+    {
+      "date": "28 February 2017",
+      "text": "Retested 8 and updated 6 results on WAVE",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/6"
+    },
+    {
+      "date": "7 August 2016",
+      "text": "First set of results"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ var nunjucks = require('nunjucks'),
 var paths = {
   testsJson: path.join(__dirname, '../tests.json'),
   analysisJson: path.join(__dirname, '../analysis.json'),
+  changelogJson: path.join(__dirname, '../changelog.json'),
   templates: path.join(__dirname, 'templates'),
   outPath: path.join(__dirname, '../'),
   out: fname => path.join(paths.outPath, fname)
@@ -104,6 +105,9 @@ function generateFiles(){
   analysis.analyse();
   var analysisResults = require(paths.analysisJson);
 
+  var changelog = fs.readFileSync(paths.changelogJson).toString();
+  var changes = JSON.parse(changelog);
+
   nunjucks.configure(paths.templates);
 
   // Generate index
@@ -111,7 +115,8 @@ function generateFiles(){
     tests: tests,
     getFilename: getFilename,
     analysis: analysisResults,
-    tCopy: toolNamesCopy
+    tCopy: toolNamesCopy,
+    changes: changes
   });
   fs.writeFileSync(paths.out('index.html'), indexout, 'utf8');
 
@@ -147,7 +152,8 @@ function generateFiles(){
     getFilename: getFilename,
     analysis: analysisResults,
     resultTypes: analysis.resultTypes,
-    toolNames: analysis.toolNames
+    toolNames: analysis.toolNames,
+    changes: changes
   });
   fs.writeFileSync(paths.out('results.html'), resultsout, 'utf8');
 }

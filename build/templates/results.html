@@ -39,20 +39,22 @@
 
   <div class="grid-row">
     <div class="column-two-thirds">
-      <p>Here are full results from our audit.</p>
-
-      <p>Last updated: {{ changes.last_updated }}</p>
+      <p>We sometimes update specific test results for individual tools. See the changelog for full details. We last made updates on {{ changes.last_updated }}.</p>
 
       <div class="form-group">
         <details>
-          <summary><span class="summary">Result update history</span></summary>
+          <summary><span class="summary">Changelog</span></summary>
 
           <div class="panel panel-border-narrow">
             <ol class="summary-data">
-              {% for changedate, changecopy in changes.changelog %}
+              {% for change in changes.changelog %}
                 <li>
-                  <time class="timestamp">{{ changedate }}</time>
-                  {{ changecopy }}
+                  <time class="timestamp">{{ change.date }}</time>
+                  {% if change.link %}
+                    <a href="{{ change.link }}">{{ change.text }}</a>
+                  {% else %}
+                    {{ change.text }}
+                  {% endif %}
                 </li>
               {% endfor %}
             </ol>

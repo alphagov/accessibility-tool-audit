@@ -41,7 +41,7 @@
     <div class="column-two-thirds">
       <p>Here are full results from our audit.</p>
 
-      <p>Last updated: 7 August 2016</p>
+      <p>Last updated: {{ changes.last_updated }}</p>
 
       <div class="form-group">
         <details>
@@ -50,10 +50,12 @@
 
         <div class="panel panel-border-narrow">
           <ol class="summary-data">
-            <li>
-              <time datetime="2016-08-07T12:00:00.000+00:00" class="timestamp">7 August 2016</time>
-              First set of results
-            </li>
+            {% for changedate, changecopy in changes.changelog %}
+              <li>
+                <time class="timestamp">{{ changedate }}</time>
+                {{ changecopy }}
+              </li>
+            {% endfor %}
           </ol>
         </div>
 

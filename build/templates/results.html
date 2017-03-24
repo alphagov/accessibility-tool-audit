@@ -21,47 +21,25 @@
   <h2>Numbers</h2>
 
   <div class="grid-row">
-    <div class="data column-third">
+    <p class="data column-third">
       <span class="data-item bold-xxlarge">{{ analysis.totals.total }}</span>
       <span class="data-item bold-xsmall">test cases</span>
-    </div>
+    </p>
 
-    <div class="data column-third">
+    <p class="data column-third">
       <span class="data-item bold-xxlarge">{{ analysis.counts | length }}</span>
       <span class="data-item bold-xsmall">tools tested</span>
-    </div>
+    </p>
 
-    <div class="data column-third">
+    <p class="data column-third">
       <span class="data-item bold-xxlarge">{{ analysis.scoreboard.by_error_warning[0].error_warning }}%</span>
       <span class="data-item bold-xsmall">most issues found by a tool</span>
-    </div>
+    </p>
   </div>
 
   <div class="grid-row">
     <div class="column-two-thirds">
-      <p>We sometimes update specific test results for individual tools. See the changelog for full details. We last made updates on {{ changes.last_updated }}.</p>
-
-      <div class="form-group">
-        <details>
-          <summary><span class="summary">Changelog</span></summary>
-
-          <div class="panel panel-border-narrow">
-            <ol class="summary-data">
-              {% for change in changes.changelog %}
-                <li>
-                  <time class="timestamp">{{ change.date }}</time>
-                  {% if change.link %}
-                    <a href="{{ change.link }}">{{ change.text }}</a>
-                  {% else %}
-                    {{ change.text }}
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ol>
-          </div>
-
-        </details>
-      </div>
+      <p>We sometimes update specific test results for individual tools. See the <a href="#changelog">changelog</a> for full details. We last made updates on {{ changes.last_updated }}.</p>
 
       <div class="form-group">
         <details>
@@ -195,6 +173,21 @@
         {% endfor %}
     </tbody>
   </table>
+
+  <h2 id="changelog">Changelog</h2>
+
+  <ol class="summary-data">
+    {% for change in changes.changelog %}
+      <li>
+        <time class="timestamp">{{ change.date }}</time>
+        {% if change.link %}
+          <a href="{{ change.link }}">{{ change.text }}</a>
+        {% else %}
+          {{ change.text }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
 
   <h2>Want more detail?</h2>
   <p>

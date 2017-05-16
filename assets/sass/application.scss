@@ -343,6 +343,14 @@ h3 {
 
 #results-table {
 
+  // Stick header for better viewing
+  thead {
+    background: $white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
   // Positive results
 
   $positive-colour: #43b93c;

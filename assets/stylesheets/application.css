@@ -2551,6 +2551,13 @@ h3 {
   }
 }
 
+#results-table thead {
+  background: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 #results-table .error:before {
   content: "";
   background: #43b93c;

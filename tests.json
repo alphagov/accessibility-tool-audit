@@ -1908,7 +1908,7 @@
   },
   "Frames": {
     "iframe is missing a title attribute": {
-      "example": "<iframe height=\"100\" src=\"demo.html\" width=\"300\"></iframe>",
+      "example": "<iframe height=\"100\" src=\"example-pages/demo.html\" width=\"300\"></iframe>",
       "results": {
         "google": "notfound",
         "asqatasun": "error",
@@ -1923,7 +1923,7 @@
       }
     },
     "iframe title attribute does not describes the content or purpose in the iframe": {
-      "example": "<iframe height=\"100\" src=\"demo.html\" title=\"Facebook\" width=\"300\"></iframe>",
+      "example": "<iframe height=\"100\" src=\"example-pages/demo.html\" title=\"Facebook\" width=\"300\"></iframe>",
       "results": {
         "google": "notfound",
         "asqatasun": "manual",

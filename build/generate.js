@@ -95,6 +95,10 @@ function processExample( example ){
     example = example.replace('images/', '../assets/test_images/');
   }
 
+  if( example.indexOf('example-pages') > -1 ){
+    example = example.replace('example-pages/', '../example-pages/');
+  }
+
   return example;
 }
 

@@ -1647,21 +1647,6 @@
         "eiii": "notfound",
         "nu": "notfound"
       }
-    },
-    "Navigation placement, display, or functionality changes from from page to page": {
-      "example": "        insert_example\n    ",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound"
-      }
     }
   },
   "Keyboard Access": {

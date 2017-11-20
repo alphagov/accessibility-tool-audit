@@ -737,7 +737,7 @@
       }
     },
     "Table used for layout": {
-      "example": "<table>\n<tr>\n<td>navigation</td>\n<td>main content</td>\n</tr>\n</table>",
+      "example": "<table>\n<tr>\n<td><ul><li><a href=\"home.html\">Home</a></li><li><a href=\"about-us.html\">About us</a></li><li><a href=\"products.html\">Our products</a></li></ul></td>\n<td><h2>Welcome to our homepage</h2><p>Here you can find out who we are, what we do and why you should buy our products.</p></td>\n</tr>\n</table>",
       "results": {
         "google": "different",
         "asqatasun": "manual",

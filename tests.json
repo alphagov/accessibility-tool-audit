@@ -2092,7 +2092,7 @@
       }
     },
     "Spacer image found": {
-      "example": "<img alt=\"\" height=\"1\" src=\"images/spacer.gif\" width=\"100\">\n</img>",
+      "example": "We are here. <img alt=\"\" height=\"1\" src=\"images/spacer.gif\" width=\"100\" /> And you are there.",
       "results": {
         "google": "notfound",
         "asqatasun": "manual",

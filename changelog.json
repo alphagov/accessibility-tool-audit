@@ -1,6 +1,11 @@
 {
-  "last_updated": "10 March 2017",
+  "last_updated": "23 November 2017",
   "changelog": [
+    {
+      "date": "23 November 2017",
+      "text": "Fixed broken examples, re-tested and updated aXe",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/17"
+    },
     {
       "date": "10 March 2017",
       "text": "Retested and updated 2 results on Asqatasun",

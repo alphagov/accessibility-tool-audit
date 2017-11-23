@@ -41,11 +41,11 @@
       "false-positive": 0
     },
     "axe": {
-      "notfound": 101,
+      "notfound": 102,
       "error": 38,
       "warning": 0,
-      "manual": 0,
-      "different": 3,
+      "manual": 2,
+      "different": 0,
       "identified": 0,
       "wrong": 0,
       "false-positive": 0
@@ -152,11 +152,11 @@
       "axe": {
         "detectable": {
           "error_warning": 38,
-          "error_warning_manual": 38
+          "error_warning_manual": 40
         },
         "total": {
           "error_warning": 27,
-          "error_warning_manual": 27
+          "error_warning_manual": 28
         }
       },
       "asqatasun": {
@@ -241,7 +241,7 @@
         "position": 5,
         "name": "axe",
         "error_warning": 27,
-        "error_warning_manual": 27
+        "error_warning_manual": 28
       },
       {
         "position": 6,
@@ -303,7 +303,7 @@
         "position": 5,
         "name": "axe",
         "error_warning": 27,
-        "error_warning_manual": 27
+        "error_warning_manual": 28
       },
       {
         "position": 6,

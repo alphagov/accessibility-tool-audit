@@ -1,7 +1,7 @@
 {
   "counts": {
     "google": {
-      "notfound": 116,
+      "notfound": 115,
       "error": 23,
       "warning": 1,
       "manual": 0,
@@ -11,7 +11,7 @@
       "false-positive": 2
     },
     "tenon": {
-      "notfound": 88,
+      "notfound": 87,
       "error": 53,
       "warning": 1,
       "manual": 0,
@@ -21,7 +21,7 @@
       "false-positive": 0
     },
     "wave": {
-      "notfound": 94,
+      "notfound": 93,
       "error": 26,
       "warning": 13,
       "manual": 2,
@@ -31,7 +31,7 @@
       "false-positive": 0
     },
     "codesniffer": {
-      "notfound": 111,
+      "notfound": 110,
       "error": 19,
       "warning": 7,
       "manual": 2,
@@ -44,14 +44,14 @@
       "notfound": 102,
       "error": 38,
       "warning": 0,
-      "manual": 0,
-      "different": 3,
+      "manual": 2,
+      "different": 0,
       "identified": 0,
       "wrong": 0,
       "false-positive": 0
     },
     "asqatasun": {
-      "notfound": 78,
+      "notfound": 77,
       "error": 41,
       "warning": 0,
       "manual": 21,
@@ -61,7 +61,7 @@
       "false-positive": 0
     },
     "sortsite": {
-      "notfound": 101,
+      "notfound": 100,
       "error": 35,
       "warning": 4,
       "manual": 0,
@@ -71,7 +71,7 @@
       "false-positive": 0
     },
     "eiii": {
-      "notfound": 117,
+      "notfound": 116,
       "error": 23,
       "warning": 0,
       "manual": 0,
@@ -81,7 +81,7 @@
       "false-positive": 2
     },
     "achecker": {
-      "notfound": 93,
+      "notfound": 92,
       "error": 29,
       "warning": 16,
       "manual": 1,
@@ -91,7 +91,7 @@
       "false-positive": 0
     },
     "nu": {
-      "notfound": 130,
+      "notfound": 129,
       "error": 13,
       "warning": 0,
       "manual": 0,
@@ -102,9 +102,9 @@
     }
   },
   "totals": {
-    "total": 143,
+    "total": 142,
     "detectable": 101,
-    "undetectable": 42
+    "undetectable": 41
   },
   "percentages": {
     "detectable": 71,
@@ -152,11 +152,11 @@
       "axe": {
         "detectable": {
           "error_warning": 38,
-          "error_warning_manual": 38
+          "error_warning_manual": 40
         },
         "total": {
           "error_warning": 27,
-          "error_warning_manual": 27
+          "error_warning_manual": 28
         }
       },
       "asqatasun": {
@@ -166,7 +166,7 @@
         },
         "total": {
           "error_warning": 29,
-          "error_warning_manual": 43
+          "error_warning_manual": 44
         }
       },
       "sortsite": {
@@ -195,7 +195,7 @@
           "error_warning_manual": 46
         },
         "total": {
-          "error_warning": 31,
+          "error_warning": 32,
           "error_warning_manual": 32
         }
       },
@@ -222,14 +222,14 @@
       {
         "position": 2,
         "name": "achecker",
-        "error_warning": 31,
+        "error_warning": 32,
         "error_warning_manual": 32
       },
       {
         "position": 3,
         "name": "asqatasun",
         "error_warning": 29,
-        "error_warning_manual": 43
+        "error_warning_manual": 44
       },
       {
         "position": 4,
@@ -241,7 +241,7 @@
         "position": 5,
         "name": "axe",
         "error_warning": 27,
-        "error_warning_manual": 27
+        "error_warning_manual": 28
       },
       {
         "position": 6,
@@ -279,7 +279,7 @@
         "position": 1,
         "name": "asqatasun",
         "error_warning": 29,
-        "error_warning_manual": 43
+        "error_warning_manual": 44
       },
       {
         "position": 2,
@@ -290,7 +290,7 @@
       {
         "position": 3,
         "name": "achecker",
-        "error_warning": 31,
+        "error_warning": 32,
         "error_warning_manual": 32
       },
       {
@@ -303,7 +303,7 @@
         "position": 5,
         "name": "axe",
         "error_warning": 27,
-        "error_warning_manual": 27
+        "error_warning_manual": 28
       },
       {
         "position": 6,

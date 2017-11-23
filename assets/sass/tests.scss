@@ -282,7 +282,7 @@ input.low-contrast {
     margin-left: 0.75em;
 }
 
-.focus-order-broken .first, 
+.focus-order-broken .first,
 .focus-order-broken .third {
     float: left;
 }
@@ -365,6 +365,10 @@ input.low-contrast {
     display: block;
     color: #df3034;
     margin: 0 0 0.3em 0;
+}
+
+.hidden {
+  display: none;
 }
 
 .dropdown-nav > ul > li > ul {

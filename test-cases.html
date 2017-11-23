@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="assets/stylesheets/tests.css" />
   <script src="assets/javascript/jquery-1.12.0.min.js"></script>
   <script src="assets/javascript/main.js"></script>
-  <script src="assets/javascript/main2.js"></script>
 </head>
 <body class="tests">
   <header id="global-header" role="banner">
@@ -775,8 +774,8 @@
   <div class="example">
     <table>
 <tr>
-<td>navigation</td>
-<td>main content</td>
+<td><ul><li><a href="home.html">Home</a></li><li><a href="about-us.html">About us</a></li><li><a href="products.html">Our products</a></li></ul></td>
+<td><h2>Welcome to our homepage</h2><p>Here you can find out who we are, what we do and why you should buy our products.</p></td>
 </tr>
 </table>
   </div>
@@ -1629,17 +1628,6 @@
 <a href="z.html">z</a>
   </div>
   
-  <h3 class="heading-medium" id="navigation-navigation-placement-display,-or-functionality-changes-from-from-page-to-page">
-    <a href="tests/navigation-navigation-placement-display,-or-functionality-changes-from-from-page-to-page.html">
-      Navigation placement, display, or functionality changes from from page to page
-    </a>
-  </h3>
-
-  <div class="example">
-            insert_example
-    
-  </div>
-  
   <h2 id="keyboardaccess" class="heading-large">Keyboard Access</h2>
 
   
@@ -1894,7 +1882,7 @@
   </h3>
 
   <div class="example">
-    <iframe height="100" src="demo.html" width="300"></iframe>
+    <iframe height="100" src="example-pages/demo.html" width="300"></iframe>
   </div>
   
   <h3 class="heading-medium" id="frames-iframe-title-attribute-does-not-describes-the-content-or-purpose-in-the-iframe">
@@ -1904,7 +1892,7 @@
   </h3>
 
   <div class="example">
-    <iframe height="100" src="demo.html" title="Facebook" width="300"></iframe>
+    <iframe height="100" src="example-pages/demo.html" title="Facebook" width="300"></iframe>
   </div>
   
   <h2 id="css" class="heading-large">CSS</h2>
@@ -2036,7 +2024,7 @@
   </h3>
 
   <div class="example">
-    <object data="foo" type="bar"></object>
+    <object data="foo" type="bar">Alternative text</object>
   </div>
   
   <h3 class="heading-medium" id="html-spacer-image-found">
@@ -2046,8 +2034,7 @@
   </h3>
 
   <div class="example">
-    <img alt="" height="1" src="assets/test_images/spacer.gif" width="100">
-</img>
+    We are here. <img alt="" height="1" src="assets/test_images/spacer.gif" width="100" /> And you are there.
   </div>
   
   <h3 class="heading-medium" id="html-deprecated-color-definition">

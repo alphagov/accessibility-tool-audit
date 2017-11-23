@@ -737,7 +737,7 @@
       }
     },
     "Table used for layout": {
-      "example": "<table>\n<tr>\n<td>navigation</td>\n<td>main content</td>\n</tr>\n</table>",
+      "example": "<table>\n<tr>\n<td><ul><li><a href=\"home.html\">Home</a></li><li><a href=\"about-us.html\">About us</a></li><li><a href=\"products.html\">Our products</a></li></ul></td>\n<td><h2>Welcome to our homepage</h2><p>Here you can find out who we are, what we do and why you should buy our products.</p></td>\n</tr>\n</table>",
       "results": {
         "google": "different",
         "asqatasun": "manual",
@@ -1647,21 +1647,6 @@
         "eiii": "notfound",
         "nu": "notfound"
       }
-    },
-    "Navigation placement, display, or functionality changes from from page to page": {
-      "example": "        insert_example\n    ",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound"
-      }
     }
   },
   "Keyboard Access": {
@@ -1908,7 +1893,7 @@
   },
   "Frames": {
     "iframe is missing a title attribute": {
-      "example": "<iframe height=\"100\" src=\"demo.html\" width=\"300\"></iframe>",
+      "example": "<iframe height=\"100\" src=\"example-pages/demo.html\" width=\"300\"></iframe>",
       "results": {
         "google": "notfound",
         "asqatasun": "error",
@@ -1923,7 +1908,7 @@
       }
     },
     "iframe title attribute does not describes the content or purpose in the iframe": {
-      "example": "<iframe height=\"100\" src=\"demo.html\" title=\"Facebook\" width=\"300\"></iframe>",
+      "example": "<iframe height=\"100\" src=\"example-pages/demo.html\" title=\"Facebook\" width=\"300\"></iframe>",
       "results": {
         "google": "notfound",
         "asqatasun": "manual",
@@ -2092,7 +2077,7 @@
       }
     },
     "Object not embedded accessibly - wmode parameter not set to window": {
-      "example": "<object data=\"foo\" type=\"bar\"></object>",
+      "example": "<object data=\"foo\" type=\"bar\">Alternative text</object>",
       "results": {
         "google": "notfound",
         "asqatasun": "different",
@@ -2107,7 +2092,7 @@
       }
     },
     "Spacer image found": {
-      "example": "<img alt=\"\" height=\"1\" src=\"images/spacer.gif\" width=\"100\">\n</img>",
+      "example": "We are here. <img alt=\"\" height=\"1\" src=\"images/spacer.gif\" width=\"100\" /> And you are there.",
       "results": {
         "google": "notfound",
         "asqatasun": "manual",

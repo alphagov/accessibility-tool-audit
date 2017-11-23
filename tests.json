@@ -799,7 +799,7 @@
       }
     },
     "Image with presentation role has non-empty alt": {
-      "example": "<img alt=\"Decorative line clipart\" height=\"118\" role=\"presentation\" src=\"images/decoration.png\" width=\"368\">\n</img>",
+      "example": "<img alt=\"Decorative line clipart\" height=\"118\" role=\"presentation\" src=\"images/decoration.png\" width=\"368\" />",
       "results": {
         "google": "notfound",
         "asqatasun": "manual",
@@ -859,7 +859,7 @@
       }
     },
     "A distraction is present, an animated gif": {
-      "example": "<img alt=\"Animated gif of a Christmas tree with a toy train round and round the base of the tree\" height=\"193\" src=\"images/animated-tree.gif\" width=\"157\">\n</img>",
+      "example": "<img alt=\"Animated gif of a Christmas tree with a toy train round and round the base of the tree\" height=\"193\" src=\"images/animated-tree.gif\" width=\"157\" />",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -936,7 +936,7 @@
   },
   "Multimedia": {
     "Embedded video file is missing text alternative": {
-      "example": "<video controls=\"\">\n<source src=\"http://introducinghtml5.com/examples/ch04/leverage-a-synergy.ogv\" type='video/ogg; codecs=\"theora, vorbis\"'></source>\n<source src=\"http://introducinghtml5.com/examples/ch04/leverage-a-synergy.mp4\" type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"'></source>\n</video>",
+      "example": "<video controls=\"\">\n<source src=\"http://introducinghtml5.com/examples/ch04/leverage-a-synergy.ogv\" type='video/ogg; codecs=\"theora, vorbis\"' />\n<source src=\"http://introducinghtml5.com/examples/ch04/leverage-a-synergy.mp4\" type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"' />\n</video>",
       "results": {
         "google": "notfound",
         "asqatasun": "manual",
@@ -1285,7 +1285,7 @@
   },
   "Buttons": {
     "Image button has no alt attribute": {
-      "example": "<input src=\"images/submit.png\" type=\"image\">\n</input>",
+      "example": "<input src=\"images/submit.png\" type=\"image\" />",
       "results": {
         "google": "error",
         "asqatasun": "error",
@@ -1330,7 +1330,7 @@
       }
     },
     "Empty alt attribute on image button": {
-      "example": "<input alt=\"\" src=\"images/submit.png\" type=\"image\">\n</input>",
+      "example": "<input alt=\"\" src=\"images/submit.png\" type=\"image\" />",
       "results": {
         "google": "notfound",
         "asqatasun": "error",
@@ -1407,7 +1407,7 @@
       }
     },
     "Group of radio buttons not enclosed in a fieldset": {
-      "example": "<h4>Do you already have a personal user account?</h4>\n<label class=\"block-label\" for=\"radio-inline-1\">\n<input id=\"radio-inline-1\" name=\"radio-inline-group\" type=\"radio\" value=\"Yes\">\n            Yes\n        </input></label><br/>\n<label class=\"block-label\" for=\"radio-inline-2\">\n<input id=\"radio-inline-2\" name=\"radio-inline-group\" type=\"radio\" value=\"No\">\n            No\n        </input></label>",
+      "example": "<h4>Do you already have a personal user account?</h4>\n<label class=\"block-label\" for=\"radio-inline-1\">\n<input id=\"radio-inline-1\" name=\"radio-inline-group\" type=\"radio\" value=\"Yes\" />\n            Yes\n        </label><br/>\n<label class=\"block-label\" for=\"radio-inline-2\">\n<input id=\"radio-inline-2\" name=\"radio-inline-group\" type=\"radio\" value=\"No\" />\n            No\n        </label>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1422,7 +1422,7 @@
       }
     },
     "Form element has no label": {
-      "example": "<input type=\"text\">\n</input>",
+      "example": "<input type=\"text\" />",
       "results": {
         "google": "error",
         "asqatasun": "error",
@@ -1482,7 +1482,7 @@
       }
     },
     "Group of check boxes not enclosed in a fieldset": {
-      "example": "<h4>Which types of waste do you transport regularly?</h4>\n<label class=\"block-label\" for=\"waste-type-1\">\n<input id=\"waste-type-1\" name=\"waste-types\" type=\"checkbox\" value=\"waste-animal\">\n            Waste from animal carcasses\n        </input></label><br/>\n<label class=\"block-label\" for=\"waste-type-2\">\n<input id=\"waste-type-2\" name=\"waste-types\" type=\"checkbox\" value=\"waste-mines\">\n            Waste from mines or quarries\n        </input></label><br/>\n<label class=\"block-label\" for=\"waste-type-3\">\n<input id=\"waste-type-3\" name=\"waste-types\" type=\"checkbox\" value=\"waste-farm-agricultural\">\n            Farm or agricultural waste\n        </input></label>",
+      "example": "<h4>Which types of waste do you transport regularly?</h4>\n<label class=\"block-label\" for=\"waste-type-1\">\n<input id=\"waste-type-1\" name=\"waste-types\" type=\"checkbox\" value=\"waste-animal\" />\n            Waste from animal carcasses\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-2\">\n<input id=\"waste-type-2\" name=\"waste-types\" type=\"checkbox\" value=\"waste-mines\" />\n            Waste from mines or quarries\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-3\">\n<input id=\"waste-type-3\" name=\"waste-types\" type=\"checkbox\" value=\"waste-farm-agricultural\" />\n            Farm or agricultural waste\n        </label>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1497,7 +1497,7 @@
       }
     },
     "Empty label found": {
-      "example": "<label for=\"empty\"></label>\n<input id=\"empty\" type=\"text\" value=\"\">\n</input>",
+      "example": "<label for=\"empty\"></label>\n<input id=\"empty\" type=\"text\" value=\"\" />",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1542,7 +1542,7 @@
       }
     },
     "Non-unique field label found": {
-      "example": "<label for=\"x_3\">Name\n            <input id=\"x_3\" name=\"x_3\" type=\"text\">\n</input></label><br>\n<label for=\"x_4\">Name\n            <input id=\"x_4\" name=\"x_4\" type=\"text\">\n</input></label>\n</br>",
+      "example": "<label for=\"x_3\">Name\n            <input id=\"x_3\" name=\"x_3\" type=\"text\" /></label><br />\n<label for=\"x_4\">Name\n            <input id=\"x_4\" name=\"x_4\" type=\"text\" /></label>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1557,7 +1557,7 @@
       }
     },
     "Missing labels in checkboxes": {
-      "example": "<fieldset>\n<legend>What is your nationality?</legend>\n<label>British (including English, Scottish, Welsh and Northern Irish)</label>\n<input id=\"nationality_british\" name=\"nationality.british\" type=\"checkbox\" value=\"true\">\n<label>Irish</label>\n<input id=\"nationality_irish\" name=\"nationality.irish\" type=\"checkbox\" value=\"true\">\n<label>Citizen of a different country</label>\n<input id=\"nationality_hasOtherCountry\" name=\"nationality.hasOtherCountry\" type=\"checkbox\" value=\"true\">\n</input></input></input></fieldset>",
+      "example": "<fieldset>\n<legend>What is your nationality?</legend>\n<label>British (including English, Scottish, Welsh and Northern Irish)</label>\n<input id=\"nationality_british\" name=\"nationality.british\" type=\"checkbox\" value=\"true\" />\n<label>Irish</label>\n<input id=\"nationality_irish\" name=\"nationality.irish\" type=\"checkbox\" value=\"true\" />\n<label>Citizen of a different country</label>\n<input id=\"nationality_hasOtherCountry\" name=\"nationality.hasOtherCountry\" type=\"checkbox\" value=\"true\" />\n</fieldset>",
       "results": {
         "google": "error",
         "asqatasun": "error",
@@ -1572,7 +1572,7 @@
       }
     },
     "Field hint not associated with input": {
-      "example": "<label class=\"form-label\" for=\"ni-number\">\n            National Insurance number\n        </label>\n<p class=\"form-hint\">It'll be on your last payslip. For example, JH 21 90 0A.</p>\n<input class=\"form-control\" id=\"ni-number\" type=\"text\">\n</input>",
+      "example": "<label class=\"form-label\" for=\"ni-number\">\n            National Insurance number\n        </label>\n<p class=\"form-hint\">It'll be on your last payslip. For example, JH 21 90 0A.</p>\n<input class=\"form-control\" id=\"ni-number\" type=\"text\" />",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1587,7 +1587,7 @@
       }
     },
     "Placeholder no label": {
-      "example": "<input id=\"search-main\" name=\"q\" placeholder=\"Search\" type=\"search\">\n<input class=\"submit\" type=\"submit\" value=\"Search\">\n</input></input>",
+      "example": "<input id=\"search-main\" name=\"q\" placeholder=\"Search\" type=\"search\" />\n<input class=\"submit\" type=\"submit\" value=\"Search\" />",
       "results": {
         "google": "error",
         "asqatasun": "error",
@@ -1666,7 +1666,7 @@
       }
     },
     "Lightbox - close button doesn't receive focus": {
-      "example": "<a class=\"open-lightbox-close-button\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox close-button hidden\">\n<span alt=\"Close lightbox\" class=\"close-button\">X</span>\n<p>\n                This lightbox's close button isn't a link so you can't focus on it.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
+      "example": "<a class=\"open-lightbox-close-button\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox close-button hidden\">\n<span title=\"Close lightbox\" class=\"close-button\">X</span>\n<p>\n                This lightbox's close button isn't a link so you can't focus on it.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1786,7 +1786,7 @@
       }
     },
     "Lightbox - ESC key doesn't close the lightbox": {
-      "example": "<a class=\"open-lightbox-unescapable\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox unescapable hidden\">\n<a alt=\"Close lightbox\" class=\"close-button\" href=\"#\">X</a>\n<p>\n                This lightbox can't be closed with an escape key.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
+      "example": "<a class=\"open-lightbox-unescapable\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox unescapable hidden\">\n<a title=\"Close lightbox\" class=\"close-button\" href=\"#\">X</a>\n<p>\n                This lightbox can't be closed with an escape key.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1846,7 +1846,7 @@
       }
     },
     "Lightbox - focus is not moved immediately to lightbox": {
-      "example": "<a class=\"open-lightbox-focus-far\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox focus-far hidden\">\n<span alt=\"Close lightbox\" class=\"close-button\">X</span>\n<p>\n                This lightbox is placed at the end of the DOM so you'll have to tab through other links to reach it.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
+      "example": "<a class=\"open-lightbox-focus-far\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox focus-far hidden\">\n<span title=\"Close lightbox\" class=\"close-button\">X</span>\n<p>\n                This lightbox is placed at the end of the DOM so you'll have to tab through other links to reach it.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1861,7 +1861,7 @@
       }
     },
     "Lightbox - focus is not retained within the lightbox": {
-      "example": "<a class=\"open-lightbox-not-focused\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox not-focused hidden\">\n<a alt=\"Close lightbox\" class=\"close-button\" href=\"#\">X</a>\n<p>\n                This lightbox doesn't retain the focus within itself.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
+      "example": "<a class=\"open-lightbox-not-focused\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox not-focused hidden\">\n<a title=\"Close lightbox\" class=\"close-button\" href=\"#\">X</a>\n<p>\n                This lightbox doesn't retain the focus within itself.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -2077,7 +2077,7 @@
       }
     },
     "Object not embedded accessibly - wmode parameter not set to window": {
-      "example": "<object data=\"foo\" type=\"bar\">Alternative text</object>",
+      "example": "<object data=\"foo\">Alternative text</object>",
       "results": {
         "google": "notfound",
         "asqatasun": "different",

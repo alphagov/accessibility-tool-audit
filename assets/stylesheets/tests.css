@@ -369,6 +369,10 @@ input.low-contrast {
   margin: 0 0 0.3em 0;
 }
 
+.hidden {
+  display: none;
+}
+
 .dropdown-nav > ul > li > ul {
   display: none;
 }

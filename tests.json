@@ -332,7 +332,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "error",
-        "codesniffer": "notfound",
+        "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "error",
         "nu": "notfound"
@@ -407,7 +407,7 @@
         "wave": "error",
         "sortsite": "error",
         "axe": "error",
-        "codesniffer": "notfound",
+        "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
         "nu": "notfound"
@@ -469,7 +469,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "error",
-        "codesniffer": "notfound",
+        "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "error",
         "nu": "notfound"
@@ -484,7 +484,7 @@
         "wave": "error",
         "sortsite": "error",
         "axe": "error",
-        "codesniffer": "notfound",
+        "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
         "nu": "notfound"
@@ -516,7 +516,7 @@
         "wave": "error",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
@@ -546,7 +546,7 @@
         "wave": "warning",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "warning",
+        "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
         "nu": "notfound"
@@ -578,7 +578,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "error",
+        "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
@@ -625,7 +625,7 @@
         "wave": "notfound",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "manual",
+        "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
         "nu": "notfound"
@@ -685,7 +685,7 @@
         "wave": "different",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "wrong",
+        "codesniffer": "manual",
         "achecker": "different",
         "eiii": "notfound",
         "nu": "notfound"
@@ -837,7 +837,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "different",
+        "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
@@ -897,7 +897,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
         "nu": "notfound"
@@ -912,7 +912,7 @@
         "wave": "manual",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
         "nu": "notfound"
@@ -927,7 +927,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "manual",
         "eiii": "notfound",
         "nu": "notfound"
@@ -944,7 +944,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "manual",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
@@ -974,7 +974,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "manual",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1021,7 +1021,7 @@
         "wave": "warning",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1186,7 +1186,7 @@
         "wave": "warning",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "different",
+        "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1201,7 +1201,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1216,7 +1216,7 @@
         "wave": "warning",
         "sortsite": "error",
         "axe": "error",
-        "codesniffer": "error",
+        "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1261,7 +1261,7 @@
         "wave": "warning",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1308,7 +1308,7 @@
         "wave": "error",
         "sortsite": "notfound",
         "axe": "error",
-        "codesniffer": "warning",
+        "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "error",
         "nu": "notfound"
@@ -1323,7 +1323,7 @@
         "wave": "manual",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1355,7 +1355,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1535,7 +1535,7 @@
         "wave": "error",
         "sortsite": "warning",
         "axe": "error",
-        "codesniffer": "notfound",
+        "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1595,7 +1595,7 @@
         "wave": "error",
         "sortsite": "error",
         "axe": "error",
-        "codesniffer": "notfound",
+        "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1610,7 +1610,7 @@
         "wave": "error",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1625,7 +1625,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
@@ -1916,7 +1916,7 @@
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
@@ -2055,7 +2055,7 @@
         "wave": "notfound",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "warning",
+        "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
         "nu": "error"
@@ -2160,7 +2160,7 @@
         "wave": "notfound",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "warning",
+        "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
         "nu": "error"

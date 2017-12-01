@@ -1,19 +1,19 @@
 {
   "counts": {
     "google": {
-      "notfound": 115,
+      "notfound": 116,
       "error": 23,
       "warning": 1,
       "manual": 0,
-      "different": 1,
+      "different": 0,
       "identified": 0,
       "wrong": 0,
       "false-positive": 2
     },
     "tenon": {
-      "notfound": 87,
-      "error": 53,
-      "warning": 1,
+      "notfound": 89,
+      "error": 50,
+      "warning": 2,
       "manual": 0,
       "different": 1,
       "identified": 0,
@@ -31,12 +31,12 @@
       "false-positive": 0
     },
     "codesniffer": {
-      "notfound": 110,
+      "notfound": 108,
       "error": 19,
       "warning": 7,
-      "manual": 2,
+      "manual": 3,
       "different": 3,
-      "identified": 0,
+      "identified": 1,
       "wrong": 1,
       "false-positive": 0
     },
@@ -51,21 +51,21 @@
       "false-positive": 0
     },
     "asqatasun": {
-      "notfound": 77,
-      "error": 41,
+      "notfound": 79,
+      "error": 40,
       "warning": 0,
       "manual": 21,
-      "different": 3,
+      "different": 2,
       "identified": 0,
       "wrong": 0,
       "false-positive": 0
     },
     "sortsite": {
-      "notfound": 100,
-      "error": 35,
+      "notfound": 102,
+      "error": 34,
       "warning": 4,
       "manual": 0,
-      "different": 3,
+      "different": 2,
       "identified": 0,
       "wrong": 0,
       "false-positive": 0
@@ -82,9 +82,9 @@
     },
     "achecker": {
       "notfound": 92,
-      "error": 29,
-      "warning": 16,
-      "manual": 1,
+      "error": 28,
+      "warning": 15,
+      "manual": 3,
       "different": 4,
       "identified": 0,
       "wrong": 0,
@@ -103,11 +103,11 @@
   },
   "totals": {
     "total": 142,
-    "detectable": 101,
-    "undetectable": 41
+    "detectable": 100,
+    "undetectable": 42
   },
   "percentages": {
-    "detectable": 71,
+    "detectable": 70,
     "tools": {
       "google": {
         "detectable": {
@@ -121,12 +121,12 @@
       },
       "tenon": {
         "detectable": {
-          "error_warning": 53,
-          "error_warning_manual": 53
+          "error_warning": 52,
+          "error_warning_manual": 52
         },
         "total": {
-          "error_warning": 38,
-          "error_warning_manual": 38
+          "error_warning": 37,
+          "error_warning_manual": 37
         }
       },
       "wave": {
@@ -142,7 +142,7 @@
       "codesniffer": {
         "detectable": {
           "error_warning": 26,
-          "error_warning_manual": 28
+          "error_warning_manual": 29
         },
         "total": {
           "error_warning": 18,
@@ -161,18 +161,18 @@
       },
       "asqatasun": {
         "detectable": {
-          "error_warning": 41,
+          "error_warning": 40,
           "error_warning_manual": 61
         },
         "total": {
-          "error_warning": 29,
-          "error_warning_manual": 44
+          "error_warning": 28,
+          "error_warning_manual": 43
         }
       },
       "sortsite": {
         "detectable": {
-          "error_warning": 39,
-          "error_warning_manual": 39
+          "error_warning": 38,
+          "error_warning_manual": 38
         },
         "total": {
           "error_warning": 27,
@@ -191,11 +191,11 @@
       },
       "achecker": {
         "detectable": {
-          "error_warning": 45,
+          "error_warning": 43,
           "error_warning_manual": 46
         },
         "total": {
-          "error_warning": 32,
+          "error_warning": 30,
           "error_warning_manual": 32
         }
       },
@@ -216,20 +216,20 @@
       {
         "position": 1,
         "name": "tenon",
-        "error_warning": 38,
-        "error_warning_manual": 38
+        "error_warning": 37,
+        "error_warning_manual": 37
       },
       {
         "position": 2,
         "name": "achecker",
-        "error_warning": 32,
+        "error_warning": 30,
         "error_warning_manual": 32
       },
       {
         "position": 3,
         "name": "asqatasun",
-        "error_warning": 29,
-        "error_warning_manual": 44
+        "error_warning": 28,
+        "error_warning_manual": 43
       },
       {
         "position": 4,
@@ -278,19 +278,19 @@
       {
         "position": 1,
         "name": "asqatasun",
-        "error_warning": 29,
-        "error_warning_manual": 44
+        "error_warning": 28,
+        "error_warning_manual": 43
       },
       {
         "position": 2,
         "name": "tenon",
-        "error_warning": 38,
-        "error_warning_manual": 38
+        "error_warning": 37,
+        "error_warning_manual": 37
       },
       {
         "position": 3,
         "name": "achecker",
-        "error_warning": 32,
+        "error_warning": 30,
         "error_warning_manual": 32
       },
       {

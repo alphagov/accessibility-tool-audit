@@ -1,6 +1,11 @@
 {
-  "last_updated": "23 November 2017",
+  "last_updated": "1 December 2017",
   "changelog": [
+    {
+      "date": "1 December 2017",
+      "text": "Improved 8 tests, re-tested those in all tools and updated results",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/20"
+    },
     {
       "date": "23 November 2017",
       "text": "Fixed broken examples, re-tested and updated aXe",

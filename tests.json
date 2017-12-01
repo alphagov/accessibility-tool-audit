@@ -2077,7 +2077,7 @@
       }
     },
     "Object not embedded accessibly - wmode parameter not set to window": {
-      "example": "<object data=\"foo\">Alternative text</object>",
+      "example": "<object data=\"foo\"><param name=\"wmode\" value=\"transparent\" />Alternative text</object>",
       "results": {
         "google": "notfound",
         "asqatasun": "different",

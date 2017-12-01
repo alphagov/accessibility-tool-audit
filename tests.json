@@ -632,7 +632,7 @@
       }
     },
     "Table has no scope attributes": {
-      "example": "<table>\n<caption>Shelly's Daughters</caption>\n<thead>\n<tr>\n<th>Name</th>\n<th>Age</th>\n<th>Birthday</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th>Jackie</th>\n<td>5</td>\n<td>April 5</td>\n</tr>\n<tr>\n<th>Beth</th>\n<td>8</td>\n<td>January 14</td>\n</tr>\n</tbody>\n</table>",
+      "example": "<table>\n<caption>Opening\ntimes</caption>\n<tr>\n<td></td>\n<th>Monday-Friday</th>\n<th>Saturday</th>\n<th>Sunday</th>\n</tr>\n<tr>\n<th>08:00\n-\n12:00</th>\n<td>open</td>\n<td>open</td>\n<td>closed</td>\n</tr>\n<tr>\n<th>12:00\n-\n16:00</th>\n<td>open</td>\n<td>closed</td>\n<td>closed</td>\n</tr>\n</table>",
       "results": {
         "google": "notfound",
         "asqatasun": "manual",
@@ -647,7 +647,7 @@
       }
     },
     "Table nested within table header": {
-      "example": "<table>\n<tr>\n<th>\n<table>\n<tr>\n<th>b.a</th>\n</tr>\n<tr>\n<td>b.b</td>\n</tr>\n</table>\n</th>\n</tr>\n<tr>\n<td>a.b</td>\n</tr>\n</table>",
+      "example": "<table>\n<tr>\n<th\ncolspan=\"2\">\n<table>\n<tr>\n<td>Our\npets</td>\n</tr>\n</table>\n</th>\n</tr>\n<tr>\n<th>Fluffy</th>\n<td>parrot</td>\n</tr>\n<tr>\n<th>Dolores</th>\n<td>bunny</td>\n</tr>\n<tr>\n<th>Rex</th>\n<td>cat</td>\n</tr>\n</table>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -662,7 +662,7 @@
       }
     },
     "Table nested within table": {
-      "example": "<table>\n<tr>\n<th>1.1</th>\n</tr>\n<tr>\n<td>\n<table>\n<tr>\n<th>2.1</th>\n</tr>\n<tr>\n<td>2.2</td>\n</tr>\n</table>\n</td>\n</tr>\n</table>",
+      "example": "<table>\n<tr>\n<th>Item</th>\n<th>Cost</th>\n</tr>\n<tr>\n<td>Lunch</td>\n<td>£6.99</td>\n</tr>\n<tr>\n<td>Holiday\n<table>\n<tr>\n<th>Item</th>\n<th>Cost</th>\n</tr>\n<tr>\n<td>Accommodation</td>\n<td>£499.99</td>\n</tr>\n<tr>\n<td>Travel</td>\n<td>£109.99</td>\n</tr>\n</table>\n</td>\n<td>£609.98</td>\n</tr>\n</table>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",

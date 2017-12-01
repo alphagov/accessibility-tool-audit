@@ -449,13 +449,13 @@
       "example": "<a href=\"example-pages/inappropriate.html\">Example page with a inappropriate page title</a>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
+        "codesniffer": "manual",
+        "achecker": "manual",
         "eiii": "notfound",
         "nu": "notfound"
       }
@@ -656,7 +656,7 @@
         "sortsite": "error",
         "axe": "notfound",
         "codesniffer": "notfound",
-        "achecker": "warning",
+        "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
       }
@@ -739,14 +739,14 @@
     "Table used for layout": {
       "example": "<table>\n<tr>\n<td><ul><li><a href=\"home.html\">Home</a></li><li><a href=\"about-us.html\">About us</a></li><li><a href=\"products.html\">Our products</a></li></ul></td>\n<td><h2>Welcome to our homepage</h2><p>Here you can find out who we are, what we do and why you should buy our products.</p></td>\n</tr>\n</table>",
       "results": {
-        "google": "different",
+        "google": "notfound",
         "asqatasun": "manual",
-        "tenon": "error",
+        "tenon": "warning",
         "wave": "identified",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
+        "codesniffer": "identified",
+        "achecker": "manual",
         "eiii": "notfound",
         "nu": "notfound"
       }
@@ -2080,10 +2080,10 @@
       "example": "<object data=\"foo\"><param name=\"wmode\" value=\"transparent\" />Alternative text</object>",
       "results": {
         "google": "notfound",
-        "asqatasun": "different",
+        "asqatasun": "notfound",
         "tenon": "error",
         "wave": "notfound",
-        "sortsite": "different",
+        "sortsite": "notfound",
         "axe": "notfound",
         "codesniffer": "notfound",
         "achecker": "notfound",
@@ -2095,8 +2095,8 @@
       "example": "We are here. <img alt=\"\" height=\"1\" src=\"images/spacer.gif\" width=\"100\" /> And you are there.",
       "results": {
         "google": "notfound",
-        "asqatasun": "manual",
-        "tenon": "error",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
         "wave": "identified",
         "sortsite": "notfound",
         "axe": "notfound",
@@ -2110,13 +2110,13 @@
       "example": "<p style=\"color: blue;\">The colour of this text is set using inline styles.</p>",
       "results": {
         "google": "notfound",
-        "asqatasun": "error",
-        "tenon": "error",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
         "wave": "notfound",
-        "sortsite": "error",
+        "sortsite": "notfound",
         "axe": "notfound",
         "codesniffer": "different",
-        "achecker": "error",
+        "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound"
       }

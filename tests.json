@@ -2107,7 +2107,7 @@
       }
     },
     "Deprecated color definition": {
-      "example": "<p><font color=\"blue\">The colour of this text is set using the font element and the color attribute</font></p>",
+      "example": "<p style=\"color: blue;\">The colour of this text is set using inline styles.</p>",
       "results": {
         "google": "notfound",
         "asqatasun": "error",

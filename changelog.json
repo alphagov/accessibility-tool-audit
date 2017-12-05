@@ -3,6 +3,11 @@
   "changelog": [
     {
       "date": "5 December 2017",
+      "text": "Re-tested and updated 11 results on Nu Html Checker",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/22"
+    },
+    {
+      "date": "5 December 2017",
       "text": "Re-tested and updated 30 results on HTML_CodeSniffer",
       "link": "https://github.com/alphagov/accessibility-tool-audit/pull/21"
     },

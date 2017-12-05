@@ -91,10 +91,10 @@
       "false-positive": 0
     },
     "nu": {
-      "notfound": 129,
-      "error": 13,
-      "warning": 0,
-      "manual": 0,
+      "notfound": 119,
+      "error": 18,
+      "warning": 1,
+      "manual": 4,
       "different": 0,
       "identified": 0,
       "wrong": 0,
@@ -201,12 +201,12 @@
       },
       "nu": {
         "detectable": {
-          "error_warning": 13,
-          "error_warning_manual": 13
+          "error_warning": 19,
+          "error_warning_manual": 23
         },
         "total": {
-          "error_warning": 9,
-          "error_warning_manual": 9
+          "error_warning": 13,
+          "error_warning_manual": 16
         }
       }
     }
@@ -270,8 +270,8 @@
       {
         "position": 10,
         "name": "nu",
-        "error_warning": 9,
-        "error_warning_manual": 9
+        "error_warning": 13,
+        "error_warning_manual": 16
       }
     ],
     "by_error_warning_manual": [
@@ -332,8 +332,8 @@
       {
         "position": 10,
         "name": "nu",
-        "error_warning": 9,
-        "error_warning_manual": 9
+        "error_warning": 13,
+        "error_warning_manual": 16
       }
     ]
   }

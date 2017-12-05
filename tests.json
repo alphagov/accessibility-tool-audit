@@ -228,7 +228,7 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "error"
       }
     },
     "Italics used on long sections of text": {
@@ -258,7 +258,7 @@
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "error"
       }
     },
     "Long lines of text": {
@@ -380,7 +380,7 @@
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "error"
       }
     },
     "lang attribute used to identify change of language, but with invalid value": {
@@ -472,7 +472,7 @@
         "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "error"
       }
     },
     "Missing page title": {
@@ -487,7 +487,7 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "error"
       }
     }
   },
@@ -504,7 +504,7 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "error"
+        "nu": "warning"
       }
     },
     "Missing H1": {
@@ -703,7 +703,7 @@
         "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "error"
       }
     },
     "Table that only has TH elements in it": {
@@ -885,7 +885,7 @@
         "codesniffer": "warning",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "manual"
       }
     },
     "Image that conveys information has inappropriate alt text": {
@@ -900,7 +900,7 @@
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "manual"
       }
     },
     "Image alt attribute contains image file name": {
@@ -915,7 +915,7 @@
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "manual"
       }
     },
     "Image with partial text alternative": {
@@ -930,7 +930,7 @@
         "codesniffer": "manual",
         "achecker": "manual",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "manual"
       }
     }
   },

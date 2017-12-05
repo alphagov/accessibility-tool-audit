@@ -126,6 +126,7 @@
             Nu Html Checker
           </a>
         </th>
+        <th scope="col"><a href="https://siteimprove.com/">Siteimprove</a></th>
       </tr>
     </thead>
     <tbody>
@@ -166,6 +167,9 @@
             </td>
             <td class="{{ testobj.results.nu }}">
               {{ rcopy[testobj.results.nu] | capitalize }}
+            </td>
+            <td class="{{ testobj.results.siteimprove }}">
+              {{ rcopy[testobj.results.siteimprove] | capitalize }}
             </td>
           </tr>
         {% endfor %}

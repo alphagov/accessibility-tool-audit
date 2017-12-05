@@ -34,7 +34,8 @@ var toolNames = [
   'sortsite',
   'eiii',
   'achecker',
-  'nu'
+  'nu',
+  'siteimprove'
 ];
 
 var analysis = {};
@@ -123,7 +124,7 @@ function analyse(){
       error_warning: val[1],
       error_warning_manual: val[2],
     }
-  });  
+  });
 
   analysis.scoreboard = {};
   analysis.scoreboard.by_error_warning = tr_ew;

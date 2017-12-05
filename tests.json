@@ -12,7 +12,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Plain language is not used": {
@@ -27,7 +28,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Content is not in correct reading order in source code": {
@@ -42,7 +44,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Content is not organised into well-defined groups or chunks, using headings, lists, and other visual mechanisms": {
@@ -57,7 +60,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "First instance of abbreviation not expanded": {
@@ -72,7 +76,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -89,7 +94,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -106,7 +112,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Small text does not have a contrast ratio of at least 4.5:1 so does not meet AA": {
@@ -121,7 +128,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Large text does not have a contrast ratio of at least 3:1 so does not meet AA": {
@@ -136,7 +144,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Small text does not have a contrast ratio of at least 7:1 so does not meet AAA": {
@@ -151,7 +160,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Large text does not have a contrast ratio of at least 4.5:1 so does not meet AAA": {
@@ -166,7 +176,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Focus not visible": {
@@ -181,7 +192,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -198,7 +210,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "All caps text found": {
@@ -213,7 +226,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Blink element found": {
@@ -228,7 +242,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "notfound"
       }
     },
     "Italics used on long sections of text": {
@@ -243,7 +258,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Marquee element found": {
@@ -258,7 +274,8 @@
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "error",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     },
     "Long lines of text": {
@@ -273,7 +290,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Very small text found": {
@@ -288,7 +306,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Justified text found": {
@@ -303,7 +322,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -320,7 +340,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "html element has an empty lang attribute": {
@@ -335,7 +356,8 @@
         "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "lang attribute not used to identify change of language": {
@@ -350,7 +372,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Text language is in the wrong direction": {
@@ -365,7 +388,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "html element has an invalid value in the lang attribute": {
@@ -380,7 +404,8 @@
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "error",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     },
     "lang attribute used to identify change of language, but with invalid value": {
@@ -395,7 +420,8 @@
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     },
     "html element is missing a lang attribute": {
@@ -410,7 +436,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "html element has lang attribute set to wrong language": {
@@ -425,7 +452,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "lang attribute used to identify change of language, but with wrong language": {
@@ -440,7 +468,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -457,7 +486,8 @@
         "codesniffer": "manual",
         "achecker": "manual",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Empty page title": {
@@ -472,7 +502,8 @@
         "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "error",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     },
     "Missing page title": {
@@ -487,7 +518,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     }
   },
@@ -504,7 +536,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "warning"
+        "nu": "warning",
+        "siteimprove": "error"
       }
     },
     "Missing H1": {
@@ -519,7 +552,8 @@
         "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Text formatting used instead of an actual heading": {
@@ -534,7 +568,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Headings not structured in a hierarchical manner": {
@@ -549,7 +584,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     }
   },
@@ -566,7 +602,8 @@
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "notfound"
       }
     },
     "List not marked up as a list": {
@@ -581,7 +618,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "DT or DD elements that are not contained within a DL element": {
@@ -596,7 +634,8 @@
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "notfound"
       }
     },
     "Improperly nested lists": {
@@ -611,7 +650,8 @@
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -628,7 +668,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "manual"
       }
     },
     "Table has no scope attributes": {
@@ -643,7 +684,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Table nested within table header": {
@@ -658,7 +700,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Table nested within table": {
@@ -673,7 +716,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Table has no table headings": {
@@ -688,7 +732,8 @@
         "codesniffer": "manual",
         "achecker": "different",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Table with inconsistent numbers of columns in rows": {
@@ -703,7 +748,8 @@
         "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "manual"
       }
     },
     "Table that only has TH elements in it": {
@@ -718,7 +764,8 @@
         "codesniffer": "notfound",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Table is missing a caption": {
@@ -733,7 +780,8 @@
         "codesniffer": "warning",
         "achecker": "different",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Table used for layout": {
@@ -748,7 +796,8 @@
         "codesniffer": "identified",
         "achecker": "manual",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Table has an empty table header": {
@@ -763,7 +812,8 @@
         "codesniffer": "notfound",
         "achecker": "different",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Table with some empty cells": {
@@ -778,7 +828,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -795,7 +846,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Image with presentation role has non-empty alt": {
@@ -810,7 +862,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Image with no alt attribute": {
@@ -825,7 +878,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     },
     "Background image that conveys information does not have a text alternative": {
@@ -840,7 +894,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Image has empty alt and non-empty title": {
@@ -855,7 +910,8 @@
         "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "A distraction is present, an animated gif": {
@@ -870,7 +926,8 @@
         "codesniffer": "notfound",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Image that conveys information has an empty alt attribute": {
@@ -885,7 +942,8 @@
         "codesniffer": "warning",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "manual"
+        "nu": "manual",
+        "siteimprove": "manual"
       }
     },
     "Image that conveys information has inappropriate alt text": {
@@ -900,7 +958,8 @@
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "manual"
+        "nu": "manual",
+        "siteimprove": "notfound"
       }
     },
     "Image alt attribute contains image file name": {
@@ -915,7 +974,8 @@
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "manual"
+        "nu": "manual",
+        "siteimprove": "error"
       }
     },
     "Image with partial text alternative": {
@@ -930,7 +990,8 @@
         "codesniffer": "manual",
         "achecker": "manual",
         "eiii": "notfound",
-        "nu": "manual"
+        "nu": "manual",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -947,7 +1008,8 @@
         "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "manual"
       }
     },
     "Flashing content doesn't have warning": {
@@ -962,7 +1024,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Embedded audio file is missing text alternative": {
@@ -977,7 +1040,8 @@
         "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "manual"
       }
     }
   },
@@ -994,7 +1058,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Link to javascript, invalid hypertext reference": {
@@ -1009,7 +1074,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Uninformative link text": {
@@ -1024,7 +1090,8 @@
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Link launches new window with no warning": {
@@ -1039,7 +1106,8 @@
         "codesniffer": "warning",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Links not separated by printable characters": {
@@ -1054,7 +1122,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Link text with identical title": {
@@ -1069,7 +1138,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Links to a sound file, no transcript": {
@@ -1084,7 +1154,8 @@
         "codesniffer": "notfound",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Identifying links by colour alone": {
@@ -1099,7 +1170,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Link to PDF does not include information on file format and file size": {
@@ -1114,7 +1186,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Link to #, invalid hypertext reference": {
@@ -1129,7 +1202,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Blank link text": {
@@ -1144,7 +1218,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Links with the same text go to different pages": {
@@ -1159,7 +1234,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Link text does not make sense out of context": {
@@ -1174,7 +1250,8 @@
         "codesniffer": "notfound",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Adjacent links going to the same destination": {
@@ -1189,7 +1266,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Link contains only a full stop": {
@@ -1204,7 +1282,8 @@
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Image link alt text repeats text in the link": {
@@ -1219,7 +1298,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Link not clearly identifiable and distinguishable from surrounding text": {
@@ -1234,7 +1314,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "false-positive",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Link to a multimedia file, no transcript": {
@@ -1249,7 +1330,8 @@
         "codesniffer": "notfound",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Non-specific link text": {
@@ -1264,7 +1346,8 @@
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Link to an image, no text alternative": {
@@ -1279,7 +1362,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -1296,7 +1380,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     },
     "Empty button": {
@@ -1311,7 +1396,8 @@
         "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Uninformative alt attribute value on image button": {
@@ -1326,7 +1412,8 @@
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Empty alt attribute on image button": {
@@ -1341,7 +1428,8 @@
         "codesniffer": "error",
         "achecker": "different",
         "eiii": "error",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     }
   },
@@ -1358,7 +1446,8 @@
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Labels missing when they would look clumsy for some form controls": {
@@ -1373,7 +1462,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Error messages - no suggestion for corrections given, e.g. required format": {
@@ -1388,7 +1478,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Left aligned form labels with too much white space": {
@@ -1403,7 +1494,8 @@
         "codesniffer": "notfound",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Group of radio buttons not enclosed in a fieldset": {
@@ -1418,7 +1510,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Form element has no label": {
@@ -1433,7 +1526,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Fieldset without a legend": {
@@ -1448,7 +1542,8 @@
         "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Empty legend": {
@@ -1463,7 +1558,8 @@
         "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Label element with for= attribute but not matching id= attribute of form control": {
@@ -1478,7 +1574,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Group of check boxes not enclosed in a fieldset": {
@@ -1493,7 +1590,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Empty label found": {
@@ -1508,7 +1606,8 @@
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Two unique labels, but identical for= attributes": {
@@ -1523,7 +1622,8 @@
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Errors identified with a poor colour contrast": {
@@ -1538,7 +1638,8 @@
         "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Non-unique field label found": {
@@ -1553,7 +1654,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "wrong",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Missing labels in checkboxes": {
@@ -1568,7 +1670,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Field hint not associated with input": {
@@ -1583,7 +1686,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Placeholder no label": {
@@ -1598,7 +1702,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Errors are not identified": {
@@ -1613,7 +1718,8 @@
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Form control that changes context without warning": {
@@ -1628,7 +1734,8 @@
         "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -1645,7 +1752,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -1662,7 +1770,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "manual"
       }
     },
     "Lightbox - close button doesn't receive focus": {
@@ -1677,7 +1786,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Focus order in wrong order": {
@@ -1692,7 +1802,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "manual"
       }
     },
     "Tabindex greater than 0": {
@@ -1707,7 +1818,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "manual"
       }
     },
     "Keyboard focus is not indicated visually": {
@@ -1722,7 +1834,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "Keyboard focus assigned to a non focusable element using tabindex=0": {
@@ -1737,7 +1850,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Concertina items don't get keyboard focus": {
@@ -1752,7 +1866,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Keyboard trap": {
@@ -1767,7 +1882,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Dropdown navigation - only the top level items receive focus": {
@@ -1782,7 +1898,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Lightbox - ESC key doesn't close the lightbox": {
@@ -1797,7 +1914,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Link with a role=button does not work with space bar": {
@@ -1812,7 +1930,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "manual"
       }
     },
     "Tooltips don't receive keyboard focus": {
@@ -1827,7 +1946,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Accesskey attribute used": {
@@ -1842,7 +1962,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "false-positive",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Lightbox - focus is not moved immediately to lightbox": {
@@ -1857,7 +1978,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Lightbox - focus is not retained within the lightbox": {
@@ -1872,7 +1994,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Fake button is not keyboard accessible": {
@@ -1887,7 +2010,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -1904,7 +2028,8 @@
         "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "error",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "error"
       }
     },
     "iframe title attribute does not describe the content or purpose of the iframe": {
@@ -1919,7 +2044,8 @@
         "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -1936,7 +2062,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Non-decorative content inserted using CSS": {
@@ -1951,7 +2078,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "visibility:hidden used to visually hide content when it should be available to screenreader": {
@@ -1966,7 +2094,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "display:none used to visually hide content when it should be available to screenreader": {
@@ -1981,7 +2110,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Page zoom - boxes that don't expand with the text": {
@@ -1996,7 +2126,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     }
   },
@@ -2013,7 +2144,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "error",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     },
     "Article element used to mark-up an element that's not an article/blog post etc.": {
@@ -2028,7 +2160,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "manual"
       }
     },
     "Empty paragraph": {
@@ -2043,7 +2176,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Deprecated center element": {
@@ -2058,7 +2192,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     },
     "Invalid ARIA role names": {
@@ -2073,7 +2208,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     },
     "Object not embedded accessibly - wmode parameter not set to window": {
@@ -2088,7 +2224,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Spacer image found": {
@@ -2103,7 +2240,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Inline style adds colour": {
@@ -2118,7 +2256,8 @@
         "codesniffer": "different",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Start and close tags don't match": {
@@ -2133,7 +2272,8 @@
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "notfound"
       }
     },
     "PRE element without CODE element inside it": {
@@ -2148,7 +2288,8 @@
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound"
+        "nu": "notfound",
+        "siteimprove": "notfound"
       }
     },
     "Deprecated font element": {
@@ -2163,7 +2304,8 @@
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
-        "nu": "error"
+        "nu": "error",
+        "siteimprove": "error"
       }
     }
   }

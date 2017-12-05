@@ -31,13 +31,13 @@
       "false-positive": 0
     },
     "codesniffer": {
-      "notfound": 108,
-      "error": 19,
-      "warning": 7,
-      "manual": 3,
-      "different": 3,
+      "notfound": 92,
+      "error": 29,
+      "warning": 3,
+      "manual": 16,
+      "different": 1,
       "identified": 1,
-      "wrong": 1,
+      "wrong": 0,
       "false-positive": 0
     },
     "axe": {
@@ -141,12 +141,12 @@
       },
       "codesniffer": {
         "detectable": {
-          "error_warning": 26,
-          "error_warning_manual": 29
+          "error_warning": 32,
+          "error_warning_manual": 48
         },
         "total": {
-          "error_warning": 18,
-          "error_warning_manual": 20
+          "error_warning": 23,
+          "error_warning_manual": 34
         }
       },
       "axe": {
@@ -252,8 +252,8 @@
       {
         "position": 7,
         "name": "codesniffer",
-        "error_warning": 18,
-        "error_warning_manual": 20
+        "error_warning": 23,
+        "error_warning_manual": 34
       },
       {
         "position": 8,
@@ -289,33 +289,33 @@
       },
       {
         "position": 3,
+        "name": "codesniffer",
+        "error_warning": 23,
+        "error_warning_manual": 34
+      },
+      {
+        "position": 4,
         "name": "achecker",
         "error_warning": 30,
         "error_warning_manual": 32
       },
       {
-        "position": 4,
+        "position": 5,
         "name": "wave",
         "error_warning": 27,
         "error_warning_manual": 29
       },
       {
-        "position": 5,
+        "position": 6,
         "name": "axe",
         "error_warning": 27,
         "error_warning_manual": 28
       },
       {
-        "position": 6,
+        "position": 7,
         "name": "sortsite",
         "error_warning": 27,
         "error_warning_manual": 27
-      },
-      {
-        "position": 7,
-        "name": "codesniffer",
-        "error_warning": 18,
-        "error_warning_manual": 20
       },
       {
         "position": 8,

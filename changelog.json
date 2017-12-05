@@ -1,6 +1,11 @@
 {
-  "last_updated": "1 December 2017",
+  "last_updated": "5 December 2017",
   "changelog": [
+    {
+      "date": "5 December 2017",
+      "text": "Re-tested and updated 30 results on HTML_CodeSniffer",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/21"
+    },
     {
       "date": "1 December 2017",
       "text": "Improved 8 tests, re-tested those in all tools and updated results",
@@ -8,17 +13,17 @@
     },
     {
       "date": "23 November 2017",
-      "text": "Fixed broken examples, re-tested and updated aXe",
+      "text": "Fixed broken examples, re-tested and updated 9 results on aXe",
       "link": "https://github.com/alphagov/accessibility-tool-audit/pull/17"
     },
     {
       "date": "10 March 2017",
-      "text": "Retested and updated 2 results on Asqatasun",
+      "text": "Re-tested and updated 2 results on Asqatasun",
       "link": "https://github.com/alphagov/accessibility-tool-audit/pull/8"
     },
     {
       "date": "28 February 2017",
-      "text": "Retested 8 and updated 6 results on WAVE",
+      "text": "Re-tested 8 and updated 6 results on WAVE",
       "link": "https://github.com/alphagov/accessibility-tool-audit/pull/6"
     },
     {

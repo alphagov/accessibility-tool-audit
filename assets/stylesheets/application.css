@@ -2502,10 +2502,6 @@ table.numeric-results .percent-result-cell {
   width: 8%;
 }
 
-table caption {
-  display: none;
-}
-
 .features-table td {
   width: 8%;
 }

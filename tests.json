@@ -15,7 +15,7 @@
         "nu": "notfound"
       }
     },
-    "Plain Language is not used": {
+    "Plain language is not used": {
       "example": "        Title I of the CARE Act creates a program of formula and supplemental competitive grants to help metropolitan areas\n        with 2,000 or more reported AIDS cases meet emergency care needs of low-income HIV patients. Title II of the Ryan\n        White Act provides formula grants to States and territories for operation of HIV service consortia in the localities\n        most affected bu the epidemic, provision of home and community -based care, continuation of insurance coverage for\n        persons with HIV infection, and treatments that prolong life and prevent serious deterioration of health.\n        Up to 10 percent of the funds for this program can be used to support Special Projects of National Significance.\n    ",
       "results": {
         "google": "notfound",
@@ -94,7 +94,7 @@
     }
   },
   "Colour and Contrast": {
-    "Color alone is used to convey content": {
+    "Colour alone is used to convey content": {
       "example": "<p>The green mushrooms listed here are OK to eat. The red mushrooms will kill you.</p>\n<ul>\n<li class=\"poisonous\">Amanita</li>\n<li class=\"safe\">Chanterelle</li>\n<li class=\"safe\">Porcini</li>\n<li class=\"safe\">Shitake</li>\n<li class=\"poisonous\">Tylopilus</li>\n</ul>",
       "results": {
         "google": "notfound",
@@ -1042,7 +1042,7 @@
         "nu": "notfound"
       }
     },
-    "Links not seperated by printable characters": {
+    "Links not separated by printable characters": {
       "example": "<a href=\"a.html\">Page A</a> <a href=\"b.html\">Page B</a> <a href=\"c.html\">Page C</a>",
       "results": {
         "google": "notfound",
@@ -1102,7 +1102,7 @@
         "nu": "notfound"
       }
     },
-    "Link to pdf does not include information on file format and file size": {
+    "Link to PDF does not include information on file format and file size": {
       "example": "<a href=\"http://www.bdadyslexia.org.uk/common/ckeditor/filemanager/userfiles/About_Us/policies/Dyslexia_Style_Guide.pdf\">Dyslexia style guide</a>",
       "results": {
         "google": "notfound",
@@ -1147,7 +1147,7 @@
         "nu": "notfound"
       }
     },
-    "Link with the same text go to different pages": {
+    "Links with the same text go to different pages": {
       "example": "<a href=\"https://en.wikipedia.org/wiki/Lion\">Lions</a> are the only truly social cats, with related females\n        living together in prides overseen by male coalitio that compete for possession in fierce and often fatal battles.\n        <a href=\"http://animals.nationalgeographic.com/animals/mammals/african-lion/\">Lions</a> are predatory carnivores and it's the females that perform most of the hunting at night; the majority\n        of the prey being antelope, zebra and wildebeest.\n    ",
       "results": {
         "google": "notfound",
@@ -1376,7 +1376,7 @@
         "nu": "notfound"
       }
     },
-    "Error messages - no suggestion for corrections given, eg. required format": {
+    "Error messages - no suggestion for corrections given, e.g. required format": {
       "example": "<label class=\"required-format-not-given\">\n            Phone number\n            <span class=\"error-message\">is not valid</span>\n<input class=\"has-errors\" pattern=\"7[0-9]{9}\" required=\"\" type=\"tel\"/>\n</label>",
       "results": {
         "google": "notfound",
@@ -1830,7 +1830,7 @@
         "nu": "notfound"
       }
     },
-    "Don't use the accesskey attribute": {
+    "Accesskey attribute used": {
       "example": "<a accesskey=\"A\" href=\"page.html\">A link with an accesskey attribute</a>",
       "results": {
         "google": "notfound",
@@ -1907,7 +1907,7 @@
         "nu": "notfound"
       }
     },
-    "iframe title attribute does not describes the content or purpose in the iframe": {
+    "iframe title attribute does not describe the content or purpose of the iframe": {
       "example": "<iframe height=\"100\" src=\"example-pages/demo.html\" title=\"Facebook\" width=\"300\"></iframe>",
       "results": {
         "google": "notfound",
@@ -2106,7 +2106,7 @@
         "nu": "notfound"
       }
     },
-    "Deprecated color definition": {
+    "Inline style adds colour": {
       "example": "<p style=\"color: blue;\">The colour of this text is set using inline styles.</p>",
       "results": {
         "google": "notfound",

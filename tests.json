@@ -2106,7 +2106,7 @@
         "nu": "notfound"
       }
     },
-    "Deprecated color definition": {
+    "Inline style adds colour": {
       "example": "<p style=\"color: blue;\">The colour of this text is set using inline styles.</p>",
       "results": {
         "google": "notfound",

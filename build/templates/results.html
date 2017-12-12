@@ -127,6 +127,11 @@
           </a>
         </th>
         <th scope="col"><a href="https://siteimprove.com/">Siteimprove</a></th>
+        <th scope="col">
+          <a href="https://fae.disability.illinois.edu/">
+            <abbr title="Functional Accessibility Evaluator">FAE</abbr>
+          </a>
+        </th>
       </tr>
     </thead>
     <tbody>
@@ -170,6 +175,9 @@
             </td>
             <td class="{{ testobj.results.siteimprove }}">
               {{ rcopy[testobj.results.siteimprove] | capitalize }}
+            </td>
+            <td class="{{ testobj.results.fae }}">
+              {{ rcopy[testobj.results.fae] | capitalize }}
             </td>
           </tr>
         {% endfor %}

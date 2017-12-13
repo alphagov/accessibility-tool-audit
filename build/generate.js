@@ -33,7 +33,8 @@ var toolNamesCopy = {
   "codesniffer": "HTML_CodeSniffer",
   "google": "Google ADT",
   "eiii": '<abbr title="European Internet Inclusion Initiative">EIII</abbr>',
-  "nu": "Nu Html Checker"
+  "nu": "Nu Html Checker",
+  "siteimprove": "Siteimprove"
 }
 
 var tools = {
@@ -76,6 +77,10 @@ var tools = {
   "nu": {
     name: toolNamesCopy["nu"],
     url: "https://validator.w3.org/nu/"
+  },
+  "siteimprove": {
+    name: toolNamesCopy["siteimprove"],
+    url: "https://siteimprove.com/"
   }
 }
 

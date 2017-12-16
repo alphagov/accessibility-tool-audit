@@ -1451,7 +1451,7 @@
       }
     },
     "Labels missing when they would look clumsy for some form controls": {
-      "example": "<label for=\"missing-labels-day\">Your child's date of birth</label>\n<p>\n<input id=\"missing-labels-day\" type=\"text\"/>\n<input id=\"missing-labels-month\" type=\"text\"/>\n<input id=\"missing-labels-year\" type=\"text\"/>\n</p>",
+      "example": "<form><label for=\"missing-labels-day\">Your child's date of birth</label>\n<p>\n<input id=\"missing-labels-day\" type=\"text\"/>\n<input id=\"missing-labels-month\" type=\"text\"/>\n<input id=\"missing-labels-year\" type=\"text\"/>\n</p></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1467,7 +1467,7 @@
       }
     },
     "Error messages - no suggestion for corrections given, e.g. required format": {
-      "example": "<label class=\"required-format-not-given\">\n            Phone number\n            <span class=\"error-message\">is not valid</span>\n<input class=\"has-errors\" pattern=\"7[0-9]{9}\" required=\"\" type=\"tel\"/>\n</label>",
+      "example": "<form><label class=\"required-format-not-given\">\n            Phone number\n            <span class=\"error-message\">is not valid</span>\n<input class=\"has-errors\" pattern=\"7[0-9]{9}\" required=\"\" type=\"tel\"/>\n</label></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1483,7 +1483,7 @@
       }
     },
     "Left aligned form labels with too much white space": {
-      "example": "<p class=\"too-much-whitespace\">\n<label for=\"input-too-far-away\">Country</label>\n<input id=\"input-too-far-away\" type=\"text\"/>\n</p>",
+      "example": "<form><p class=\"too-much-whitespace\">\n<label for=\"input-too-far-away\">Country</label>\n<input id=\"input-too-far-away\" type=\"text\"/>\n</p></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1499,7 +1499,7 @@
       }
     },
     "Group of radio buttons not enclosed in a fieldset": {
-      "example": "<h4>Do you already have a personal user account?</h4>\n<label class=\"block-label\" for=\"radio-inline-1\">\n<input id=\"radio-inline-1\" name=\"radio-inline-group\" type=\"radio\" value=\"Yes\" />\n            Yes\n        </label><br/>\n<label class=\"block-label\" for=\"radio-inline-2\">\n<input id=\"radio-inline-2\" name=\"radio-inline-group\" type=\"radio\" value=\"No\" />\n            No\n        </label>",
+      "example": "<form><h4>Do you already have a personal user account?</h4>\n<label class=\"block-label\" for=\"radio-inline-1\">\n<input id=\"radio-inline-1\" name=\"radio-inline-group\" type=\"radio\" value=\"Yes\" />\n            Yes\n        </label><br/>\n<label class=\"block-label\" for=\"radio-inline-2\">\n<input id=\"radio-inline-2\" name=\"radio-inline-group\" type=\"radio\" value=\"No\" />\n            No\n        </label></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1515,7 +1515,7 @@
       }
     },
     "Form element has no label": {
-      "example": "<input type=\"text\" />",
+      "example": "<form><input type=\"text\" /></form>",
       "results": {
         "google": "error",
         "asqatasun": "error",
@@ -1531,7 +1531,7 @@
       }
     },
     "Fieldset without a legend": {
-      "example": "<fieldset>\n            I am a fieldset without a legend\n        </fieldset>",
+      "example": "<form><fieldset>\n            I am a fieldset without a legend\n        </fieldset></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "error",
@@ -1547,7 +1547,7 @@
       }
     },
     "Empty legend": {
-      "example": "<fieldset>\n<legend></legend>\n</fieldset>",
+      "example": "<form><fieldset>\n<legend></legend>\n</fieldset></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "error",
@@ -1563,7 +1563,7 @@
       }
     },
     "Label element with for= attribute but not matching id= attribute of form control": {
-      "example": "<fieldset>\n<legend>Non-matching for attribute</legend>\n<label id=\"not-matching-anything\">form</label>\n<input id=\"label-for-not-matching\" type=\"checkbox\" value=\"yes\"/>\n</fieldset>",
+      "example": "<form><fieldset>\n<legend>Non-matching for attribute</legend>\n<label id=\"not-matching-anything\">form</label>\n<input id=\"label-for-not-matching\" type=\"checkbox\" value=\"yes\"/>\n</fieldset></form>",
       "results": {
         "google": "error",
         "asqatasun": "error",
@@ -1579,7 +1579,7 @@
       }
     },
     "Group of check boxes not enclosed in a fieldset": {
-      "example": "<h4>Which types of waste do you transport regularly?</h4>\n<label class=\"block-label\" for=\"waste-type-1\">\n<input id=\"waste-type-1\" name=\"waste-types\" type=\"checkbox\" value=\"waste-animal\" />\n            Waste from animal carcasses\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-2\">\n<input id=\"waste-type-2\" name=\"waste-types\" type=\"checkbox\" value=\"waste-mines\" />\n            Waste from mines or quarries\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-3\">\n<input id=\"waste-type-3\" name=\"waste-types\" type=\"checkbox\" value=\"waste-farm-agricultural\" />\n            Farm or agricultural waste\n        </label>",
+      "example": "<form><h4>Which types of waste do you transport regularly?</h4>\n<label class=\"block-label\" for=\"waste-type-1\">\n<input id=\"waste-type-1\" name=\"waste-types\" type=\"checkbox\" value=\"waste-animal\" />\n            Waste from animal carcasses\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-2\">\n<input id=\"waste-type-2\" name=\"waste-types\" type=\"checkbox\" value=\"waste-mines\" />\n            Waste from mines or quarries\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-3\">\n<input id=\"waste-type-3\" name=\"waste-types\" type=\"checkbox\" value=\"waste-farm-agricultural\" />\n            Farm or agricultural waste\n        </label></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1595,7 +1595,7 @@
       }
     },
     "Empty label found": {
-      "example": "<label for=\"empty\"></label>\n<input id=\"empty\" type=\"text\" value=\"\" />",
+      "example": "<form><label for=\"empty\"></label>\n<input id=\"empty\" type=\"text\" value=\"\" /></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1611,7 +1611,7 @@
       }
     },
     "Two unique labels, but identical for= attributes": {
-      "example": "<label for=\"two-labels-day\">Date of issue</label>\n<p>\n<label for=\"two-labels-day\">Day</label>\n<input id=\"two-labels-day\" type=\"text\"/>\n<label for=\"two-labels-month\">Month</label>\n<input id=\"two-labels-month\" type=\"text\"/>\n<label for=\"two-labels-year\">Year</label>\n<input id=\"two-labels-year\" type=\"text\"/>\n</p>",
+      "example": "<form><label for=\"two-labels-day\">Date of issue</label>\n<p>\n<label for=\"two-labels-day\">Day</label>\n<input id=\"two-labels-day\" type=\"text\"/>\n<label for=\"two-labels-month\">Month</label>\n<input id=\"two-labels-month\" type=\"text\"/>\n<label for=\"two-labels-year\">Year</label>\n<input id=\"two-labels-year\" type=\"text\"/>\n</p></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1643,7 +1643,7 @@
       }
     },
     "Non-unique field label found": {
-      "example": "<label for=\"x_3\">Name\n            <input id=\"x_3\" name=\"x_3\" type=\"text\" /></label><br />\n<label for=\"x_4\">Name\n            <input id=\"x_4\" name=\"x_4\" type=\"text\" /></label>",
+      "example": "<form><label for=\"x_3\">Name\n            <input id=\"x_3\" name=\"x_3\" type=\"text\" /></label><br />\n<label for=\"x_4\">Name\n            <input id=\"x_4\" name=\"x_4\" type=\"text\" /></label></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1659,7 +1659,7 @@
       }
     },
     "Missing labels in checkboxes": {
-      "example": "<fieldset>\n<legend>What is your nationality?</legend>\n<label>British (including English, Scottish, Welsh and Northern Irish)</label>\n<input id=\"nationality_british\" name=\"nationality.british\" type=\"checkbox\" value=\"true\" />\n<label>Irish</label>\n<input id=\"nationality_irish\" name=\"nationality.irish\" type=\"checkbox\" value=\"true\" />\n<label>Citizen of a different country</label>\n<input id=\"nationality_hasOtherCountry\" name=\"nationality.hasOtherCountry\" type=\"checkbox\" value=\"true\" />\n</fieldset>",
+      "example": "<form><fieldset>\n<legend>What is your nationality?</legend>\n<label>British (including English, Scottish, Welsh and Northern Irish)</label>\n<input id=\"nationality_british\" name=\"nationality.british\" type=\"checkbox\" value=\"true\" />\n<label>Irish</label>\n<input id=\"nationality_irish\" name=\"nationality.irish\" type=\"checkbox\" value=\"true\" />\n<label>Citizen of a different country</label>\n<input id=\"nationality_hasOtherCountry\" name=\"nationality.hasOtherCountry\" type=\"checkbox\" value=\"true\" />\n</fieldset></form>",
       "results": {
         "google": "error",
         "asqatasun": "error",
@@ -1675,7 +1675,7 @@
       }
     },
     "Field hint not associated with input": {
-      "example": "<label class=\"form-label\" for=\"ni-number\">\n            National Insurance number\n        </label>\n<p class=\"form-hint\">It'll be on your last payslip. For example, JH 21 90 0A.</p>\n<input class=\"form-control\" id=\"ni-number\" type=\"text\" />",
+      "example": "<form><label class=\"form-label\" for=\"ni-number\">\n            National Insurance number\n        </label>\n<p class=\"form-hint\">It'll be on your last payslip. For example, JH 21 90 0A.</p>\n<input class=\"form-control\" id=\"ni-number\" type=\"text\" /></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
@@ -1691,7 +1691,7 @@
       }
     },
     "Placeholder no label": {
-      "example": "<input id=\"search-main\" name=\"q\" placeholder=\"Search\" type=\"search\" />\n<input class=\"submit\" type=\"submit\" value=\"Search\" />",
+      "example": "<form><input id=\"search-main\" name=\"q\" placeholder=\"Search\" type=\"search\" />\n<input class=\"submit\" type=\"submit\" value=\"Search\" /></form>",
       "results": {
         "google": "error",
         "asqatasun": "error",
@@ -1723,7 +1723,7 @@
       }
     },
     "Form control that changes context without warning": {
-      "example": "<label for=\"language-selector\">Select your language</label>\n<select class=\"language-selector\" id=\"language-selector\">\n<option value=\"\">Change your language</option>\n<option value=\"en\">English</option>\n<option value=\"de\">German</option>\n<option value=\"fr\">French</option>\n</select>",
+      "example": "<form><label for=\"language-selector\">Select your language</label>\n<select class=\"language-selector\" id=\"language-selector\">\n<option value=\"\">Change your language</option>\n<option value=\"en\">English</option>\n<option value=\"de\">German</option>\n<option value=\"fr\">French</option>\n</select></form>",
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",

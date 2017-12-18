@@ -94,6 +94,7 @@ function getFilename( catname, testname ){
                       .join('-')
                       .replace(/[^a-z0-9\-\ ]/, '')
                       .replace('/', ' ')
+                      .replace(':', '-')
                       .replace(/\s+/g, '-')
                       .replace(/-+/g, '-');
 

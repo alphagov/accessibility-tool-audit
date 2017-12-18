@@ -303,6 +303,15 @@ h3 {
     top: 0;
   }
 
+  th,
+  td {
+    padding-right: 5px;
+  }
+
+  th {
+    hyphens: manual;
+  }
+
   // Positive results
 
   $positive-colour: #43b93c;

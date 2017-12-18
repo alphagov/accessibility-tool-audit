@@ -52,7 +52,8 @@ body {
   font-size: 19px;
   font-family: $Helvetica-Regular;
 
-  &.results, .intro-summary {
+  &.results,
+  .intro-summary {
     @include core-19;
   }
 }
@@ -176,22 +177,14 @@ table {
   margin-top: $gutter;
   margin-bottom: $gutter;
 
-  td {
-  }
-
-  td, th {
+  td,
+  th {
     vertical-align: top;
     text-align: left;
 
-
-    // font-family: monospace;
     padding: $gutter-one-third;
     padding-left: 0;
     border-bottom: 1px solid #bfc1c3;
-  }
-
-  th {
-    // background-color: $table-header;
   }
 
   tbody th {
@@ -207,7 +200,8 @@ table {
     tr {
       background-color: $table-header;
     }
-    th, td {
+    th,
+    td {
       border-bottom: 1px solid $border-colour;
     }
   }
@@ -229,7 +223,8 @@ table.numeric-results {
     font-weight: bold;
   }
 
-  td, thead th {
+  td,
+  thead th {
     text-align: right;
   }
 
@@ -261,30 +256,16 @@ a.button {
   color: #fff;
 }
 
-h1 {
-  // @include bold-36;
-  // margin-top: 1.5em;
-}
-
 h2 {
-  // @include bold-24;
   margin-top: 2em;
 }
 
 h3 {
-  // @include core-19;
   margin: 1.5em 0 0.5em 0;
 }
 
-// .example {
-//   padding: 1em;
-//   margin-bottom: 1em;
-//   border: 1px solid $grey-1;
-// }
-
 .example {
   position: relative;
-  // overflow: hidden;
   border: 1px solid #bfc1c3;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -296,35 +277,10 @@ h3 {
 
 @media (min-width: 641px) {
   .example {
-    // padding-top: 45px;
-    // padding-right: 30px;
-    // padding-bottom: 30px;
-    // padding-left: 30px;
     padding: 30px;
   }
 }
 
-// .example:before {
-//   content: "EXAMPLE";
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   padding: 0.2105263158em 0.7894736842em 0.2105263158em 0.7894736842em;
-//   font-family: "nta", Arial, sans-serif;
-//   font-weight: 400;
-//   text-transform: none;
-//   font-size: 12px;
-//   line-height: 1.25;
-//   background: #bfc1c3;
-//   color: white;
-// }
-
-// @media (min-width: 641px) {
-//   .example:before {
-//     font-size: 14px;
-//     line-height: 1.4285714286;
-//   }
-// }
 
 @mixin result-status($colour) {
   content: "";
@@ -352,7 +308,7 @@ h3 {
   $positive-colour: #43b93c;
 
   // Issue found
-  .error:before{
+  .error:before {
     @include result-status($positive-colour);
   }
 
@@ -408,7 +364,8 @@ h3 {
 .summary-data {
   list-style: none;
   padding: 0;
-  .timestamp, .result-type {
+  .timestamp,
+  .result-type {
     font-weight: 700;
     display: block;
   }
@@ -499,13 +456,7 @@ h3 {
     @include core-16;
     float: left;
 
-    // background-image: url("assets/images/separator.png");
     background-image: image-url("images/separator.png");
-
-    // @include device-pixel-ratio() {
-    //   background-image: "assets/images/separator-2x.png");
-    //   background-size: 6px 11px;
-    // }
 
     background-position: 0% 50%;
     background-repeat: no-repeat;

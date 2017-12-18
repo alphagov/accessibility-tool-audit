@@ -109,20 +109,30 @@
       "identified": 0,
       "wrong": 0,
       "false-positive": 0
+    },
+    "fae": {
+      "notfound": 70,
+      "error": 37,
+      "warning": 3,
+      "manual": 32,
+      "different": 0,
+      "identified": 0,
+      "wrong": 0,
+      "false-positive": 0
     }
   },
   "totals": {
     "total": 142,
-    "detectable": 105,
-    "undetectable": 37
+    "detectable": 118,
+    "undetectable": 24
   },
   "percentages": {
-    "detectable": 74,
+    "detectable": 83,
     "tools": {
       "google": {
         "detectable": {
-          "error_warning": 23,
-          "error_warning_manual": 23
+          "error_warning": 20,
+          "error_warning_manual": 20
         },
         "total": {
           "error_warning": 17,
@@ -131,8 +141,8 @@
       },
       "tenon": {
         "detectable": {
-          "error_warning": 50,
-          "error_warning_manual": 50
+          "error_warning": 44,
+          "error_warning_manual": 44
         },
         "total": {
           "error_warning": 37,
@@ -141,8 +151,8 @@
       },
       "wave": {
         "detectable": {
-          "error_warning": 37,
-          "error_warning_manual": 39
+          "error_warning": 33,
+          "error_warning_manual": 35
         },
         "total": {
           "error_warning": 27,
@@ -151,8 +161,8 @@
       },
       "codesniffer": {
         "detectable": {
-          "error_warning": 30,
-          "error_warning_manual": 46
+          "error_warning": 27,
+          "error_warning_manual": 41
         },
         "total": {
           "error_warning": 23,
@@ -161,8 +171,8 @@
       },
       "axe": {
         "detectable": {
-          "error_warning": 36,
-          "error_warning_manual": 38
+          "error_warning": 32,
+          "error_warning_manual": 34
         },
         "total": {
           "error_warning": 27,
@@ -171,8 +181,8 @@
       },
       "asqatasun": {
         "detectable": {
-          "error_warning": 38,
-          "error_warning_manual": 58
+          "error_warning": 34,
+          "error_warning_manual": 52
         },
         "total": {
           "error_warning": 28,
@@ -181,8 +191,8 @@
       },
       "sortsite": {
         "detectable": {
-          "error_warning": 36,
-          "error_warning_manual": 36
+          "error_warning": 32,
+          "error_warning_manual": 32
         },
         "total": {
           "error_warning": 27,
@@ -191,8 +201,8 @@
       },
       "eiii": {
         "detectable": {
-          "error_warning": 22,
-          "error_warning_manual": 22
+          "error_warning": 19,
+          "error_warning_manual": 19
         },
         "total": {
           "error_warning": 16,
@@ -201,8 +211,8 @@
       },
       "achecker": {
         "detectable": {
-          "error_warning": 41,
-          "error_warning_manual": 44
+          "error_warning": 36,
+          "error_warning_manual": 39
         },
         "total": {
           "error_warning": 30,
@@ -211,8 +221,8 @@
       },
       "nu": {
         "detectable": {
-          "error_warning": 18,
-          "error_warning_manual": 22
+          "error_warning": 16,
+          "error_warning_manual": 19
         },
         "total": {
           "error_warning": 13,
@@ -221,12 +231,22 @@
       },
       "siteimprove": {
         "detectable": {
-          "error_warning": 39,
-          "error_warning_manual": 49
+          "error_warning": 35,
+          "error_warning_manual": 43
         },
         "total": {
           "error_warning": 29,
           "error_warning_manual": 36
+        }
+      },
+      "fae": {
+        "detectable": {
+          "error_warning": 34,
+          "error_warning_manual": 61
+        },
+        "total": {
+          "error_warning": 28,
+          "error_warning_manual": 51
         }
       }
     }
@@ -253,48 +273,54 @@
       },
       {
         "position": 4,
+        "name": "fae",
+        "error_warning": 28,
+        "error_warning_manual": 51
+      },
+      {
+        "position": 5,
         "name": "asqatasun",
         "error_warning": 28,
         "error_warning_manual": 43
       },
       {
-        "position": 5,
-        "name": "axe",
-        "error_warning": 27,
-        "error_warning_manual": 28
-      },
-      {
         "position": 6,
-        "name": "sortsite",
-        "error_warning": 27,
-        "error_warning_manual": 27
-      },
-      {
-        "position": 7,
         "name": "wave",
         "error_warning": 27,
         "error_warning_manual": 29
       },
       {
+        "position": 7,
+        "name": "sortsite",
+        "error_warning": 27,
+        "error_warning_manual": 27
+      },
+      {
         "position": 8,
+        "name": "axe",
+        "error_warning": 27,
+        "error_warning_manual": 28
+      },
+      {
+        "position": 9,
         "name": "codesniffer",
         "error_warning": 23,
         "error_warning_manual": 34
       },
       {
-        "position": 9,
+        "position": 10,
         "name": "google",
         "error_warning": 17,
         "error_warning_manual": 17
       },
       {
-        "position": 10,
+        "position": 11,
         "name": "eiii",
         "error_warning": 16,
         "error_warning_manual": 16
       },
       {
-        "position": 11,
+        "position": 12,
         "name": "nu",
         "error_warning": 13,
         "error_warning_manual": 16
@@ -303,66 +329,72 @@
     "by_error_warning_manual": [
       {
         "position": 1,
+        "name": "fae",
+        "error_warning": 28,
+        "error_warning_manual": 51
+      },
+      {
+        "position": 2,
         "name": "asqatasun",
         "error_warning": 28,
         "error_warning_manual": 43
       },
       {
-        "position": 2,
+        "position": 3,
         "name": "tenon",
         "error_warning": 37,
         "error_warning_manual": 37
       },
       {
-        "position": 3,
+        "position": 4,
         "name": "siteimprove",
         "error_warning": 29,
         "error_warning_manual": 36
       },
       {
-        "position": 4,
+        "position": 5,
         "name": "codesniffer",
         "error_warning": 23,
         "error_warning_manual": 34
       },
       {
-        "position": 5,
+        "position": 6,
         "name": "achecker",
         "error_warning": 30,
         "error_warning_manual": 32
       },
       {
-        "position": 6,
+        "position": 7,
         "name": "wave",
         "error_warning": 27,
         "error_warning_manual": 29
       },
       {
-        "position": 7,
+        "position": 8,
         "name": "axe",
         "error_warning": 27,
         "error_warning_manual": 28
       },
       {
-        "position": 8,
+        "position": 9,
         "name": "sortsite",
         "error_warning": 27,
         "error_warning_manual": 27
       },
       {
-        "position": 9,
+        "position": 10,
         "name": "google",
         "error_warning": 17,
         "error_warning_manual": 17
       },
       {
-        "position": 10,
+        "position": 11,
         "name": "eiii",
         "error_warning": 16,
         "error_warning_manual": 16
       },
       {
-        "position": 11,
+        "position": 12,
         "name": "nu",
         "error_warning": 13,
         "error_warning_manual": 16

@@ -1,6 +1,11 @@
 {
-  "last_updated": "13 December 2017",
+  "last_updated": "19 December 2017",
   "changelog": [
+    {
+      "date": "19 December 2017",
+      "text": "Added new tool: FAE",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/26"
+    },
     {
       "date": "13 December 2017",
       "text": "Added new tool: Siteimprove",

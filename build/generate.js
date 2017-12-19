@@ -34,7 +34,8 @@ var toolNamesCopy = {
   "google": "Google ADT",
   "eiii": '<abbr title="European Internet Inclusion Initiative">EIII</abbr>',
   "nu": "Nu Html Checker",
-  "siteimprove": "Siteimprove"
+  "siteimprove": "Siteimprove",
+  "fae": '<abbr title="Functional Accessibility Evaluator">FAE</abbr>'
 }
 
 var tools = {
@@ -81,6 +82,10 @@ var tools = {
   "siteimprove": {
     name: toolNamesCopy["siteimprove"],
     url: "https://siteimprove.com/"
+  },
+  "fae": {
+    name: toolNamesCopy["fae"],
+    url: "https://fae.disability.illinois.edu/"
   }
 }
 
@@ -89,6 +94,7 @@ function getFilename( catname, testname ){
                       .join('-')
                       .replace(/[^a-z0-9\-\ ]/, '')
                       .replace('/', ' ')
+                      .replace(':', '-')
                       .replace(/\s+/g, '-')
                       .replace(/-+/g, '-');
 

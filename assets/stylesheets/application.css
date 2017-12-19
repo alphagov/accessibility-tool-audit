@@ -2160,7 +2160,8 @@ body {
   font-family: "GDS-Logo", sans-serif;
 }
 
-body.results, body .intro-summary {
+body.results,
+body .intro-summary {
   font-family: "GDS-Logo", sans-serif;
   font-size: 16px;
   line-height: 1.25;
@@ -2169,7 +2170,8 @@ body.results, body .intro-summary {
 }
 
 @media (min-width: 641px) {
-  body.results, body .intro-summary {
+  body.results,
+  body .intro-summary {
     font-size: 19px;
     line-height: 1.31579;
   }
@@ -2458,7 +2460,8 @@ table {
   }
 }
 
-table td, table th {
+table td,
+table th {
   vertical-align: top;
   text-align: left;
   padding: 10px;
@@ -2474,7 +2477,8 @@ table.entry tr {
   background-color: #f5f5f5;
 }
 
-table.entry th, table.entry td {
+table.entry th,
+table.entry td {
   border-bottom: 1px solid #bfc1c3;
 }
 
@@ -2494,7 +2498,8 @@ table.numeric-results th {
   font-weight: bold;
 }
 
-table.numeric-results td, table.numeric-results thead th {
+table.numeric-results td,
+table.numeric-results thead th {
   text-align: right;
 }
 
@@ -2552,6 +2557,15 @@ h3 {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+#results-table th,
+#results-table td {
+  padding-right: 5px;
+}
+
+#results-table th {
+  hyphens: manual;
 }
 
 #results-table .error:before {
@@ -2631,7 +2645,8 @@ h3 {
   padding: 0;
 }
 
-.summary-data .timestamp, .summary-data .result-type {
+.summary-data .timestamp,
+.summary-data .result-type {
   font-weight: 700;
   display: block;
 }

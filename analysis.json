@@ -41,8 +41,8 @@
       "false-positive": 0
     },
     "axe": {
-      "notfound": 102,
-      "error": 38,
+      "notfound": 99,
+      "error": 41,
       "warning": 0,
       "manual": 2,
       "different": 0,
@@ -171,12 +171,12 @@
       },
       "axe": {
         "detectable": {
-          "error_warning": 32,
-          "error_warning_manual": 34
+          "error_warning": 35,
+          "error_warning_manual": 36
         },
         "total": {
-          "error_warning": 27,
-          "error_warning_manual": 28
+          "error_warning": 29,
+          "error_warning_manual": 30
         }
       },
       "asqatasun": {
@@ -273,33 +273,33 @@
       },
       {
         "position": 4,
+        "name": "axe",
+        "error_warning": 29,
+        "error_warning_manual": 30
+      },
+      {
+        "position": 5,
         "name": "fae",
         "error_warning": 28,
         "error_warning_manual": 51
       },
       {
-        "position": 5,
+        "position": 6,
         "name": "asqatasun",
         "error_warning": 28,
         "error_warning_manual": 43
       },
       {
-        "position": 6,
+        "position": 7,
         "name": "wave",
         "error_warning": 27,
         "error_warning_manual": 29
       },
       {
-        "position": 7,
+        "position": 8,
         "name": "sortsite",
         "error_warning": 27,
         "error_warning_manual": 27
-      },
-      {
-        "position": 8,
-        "name": "axe",
-        "error_warning": 27,
-        "error_warning_manual": 28
       },
       {
         "position": 9,
@@ -365,15 +365,15 @@
       },
       {
         "position": 7,
-        "name": "wave",
-        "error_warning": 27,
-        "error_warning_manual": 29
+        "name": "axe",
+        "error_warning": 29,
+        "error_warning_manual": 30
       },
       {
         "position": 8,
-        "name": "axe",
+        "name": "wave",
         "error_warning": 27,
-        "error_warning_manual": 28
+        "error_warning_manual": 29
       },
       {
         "position": 9,

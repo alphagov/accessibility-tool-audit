@@ -1,6 +1,11 @@
 {
-  "last_updated": "19 December 2017",
+  "last_updated": "23 December 2017",
   "changelog": [
+    {
+      "date": "23 December 2017",
+      "text": "Re-tested and updated 3 results on aXe (with experimental features) and improved one test",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/27"
+    },
     {
       "date": "19 December 2017",
       "text": "Added new tool: FAE",

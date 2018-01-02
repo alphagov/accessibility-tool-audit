@@ -56,7 +56,7 @@
         <tbody>
           {% for score in analysis.scoreboard.by_error_warning -%}
             <tr>
-              <th>{{ tCopy[score.name] | safe }}</th>
+              <th><a href="{{ tools[score.name].url }}">{{ tools[score.name].name | safe }}</a></th>
               <td>{{ score.error_warning }}%</td>
               <td>{{ score.error_warning_manual }}%</td>
             </tr>

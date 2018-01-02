@@ -56,7 +56,7 @@
         <tbody>
           {% for score in analysis.scoreboard.by_error_warning -%}
             <tr>
-              <th>{{ tCopy[score.name] | safe }}</th>
+              <th><a href="{{ tools[score.name].url }}">{{ tools[score.name].name | safe }}</a></th>
               <td>{{ score.error_warning }}%</td>
               <td>{{ score.error_warning_manual }}%</td>
             </tr>
@@ -158,7 +158,7 @@
             <th scope="col">In-browser</th>
             <th scope="col">Internal use</th>
             <th scope="col">Mobile</th>
-            <th scope="col">Scriptable</th>
+            <th scope="col">Script&shy;able</th>
             <th scope="col">HTTP Auth</th>
             <th scope="col">Guidance</th>
           </tr>
@@ -181,8 +181,8 @@
           </tr>
           <tr>
             <th scope="row">Tenon</th>
-            <td>Free trial</td>
-            <td>$47/month</td>
+            <td>Free&nbsp;trial,<br />from $47 per&nbsp;month</td>
+            <td>From $47 per&nbsp;month</td>
             <td>No</td>
             <td>Yes</td>
             <td>Yes</td>
@@ -197,9 +197,9 @@
           <tr>
             <th scope="row">WAVE</th>
             <td>Free</td>
-            <td>min $10</td>
+            <td>Free&nbsp;trial,<br />minimum $10 for 250 API calls</td>
             <td>No</td>
-            <td>?</td>
+            <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
@@ -210,11 +210,11 @@
             <td>OK</td>
           </tr>
           <tr>
-            <th scope="row">HTML_CodeSniffer</th>
+            <th scope="row">HTML_&shy;Code&shy;Sniffer</th>
             <td>Free</td>
             <td>Free</td>
             <td>Yes</td>
-            <td>No</td>
+            <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
@@ -240,7 +240,7 @@
             <td>Good</td>
           </tr>
           <tr>
-            <th scope="row">Asqatasun</th>
+            <th scope="row">Asqa&shy;tasun</th>
             <td>Free</td>
             <td>Free</td>
             <td>Yes</td>
@@ -255,18 +255,18 @@
             <td>Good</td>
           </tr>
           <tr>
-            <th scope="row">Sortsite</th>
-            <td>Free</td>
-            <td>&pound;89.10 / &pound;494.10</td>
+            <th scope="row">Sort&shy;Site</th>
+            <td>Free&nbsp;trial,<br />from £24.50 per&nbsp;month or £69.30 once</td>
+            <td>From £384.30 once</td>
             <td>No</td>
             <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
             <td>No</td>
+            <td>Yes</td>
             <td>No</td>
             <td>No</td>
-            <td>No</td>
-            <td>No</td>
+            <td>Yes</td>
             <td>Good</td>
           </tr>
           <tr>
@@ -289,7 +289,7 @@
             <td>Free</td>
             <td>N/A</td>
             <td>Yes</td>
-            <td>Yes</td>
+            <td>No</td>
             <td>No</td>
             <td>No</td>
             <td>No</td>
@@ -315,7 +315,7 @@
             <td>No</td>
           </tr>
           <tr>
-            <th scope="row">Siteimprove</th>
+            <th scope="row">Site&shy;improve</th>
             <td>Free</td>
             <td>N/A</td>
             <td>No</td>

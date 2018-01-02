@@ -49,7 +49,7 @@ var tools = {
   },
   "axe": {
     name: toolNamesCopy["axe"],
-    url: "http://www.deque.com/products/axe/"
+    url: "https://www.axe-core.org/"
   },
   "asqatasun": {
     name: toolNamesCopy["asqatasun"],
@@ -130,7 +130,7 @@ function generateFiles(){
     tests: tests,
     getFilename: getFilename,
     analysis: analysisResults,
-    tCopy: toolNamesCopy,
+    tools: tools,
     changes: changes
   });
   fs.writeFileSync(paths.out('index.html'), indexout, 'utf8');

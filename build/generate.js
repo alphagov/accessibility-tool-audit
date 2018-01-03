@@ -14,6 +14,7 @@ var paths = {
 
 var resultsCopy = {
   "error": "issue found",
+  "error_paid": "issue found (paid)",
   "warning": "warning only",
   "different": "different issue found",
   "notfound": "not found",

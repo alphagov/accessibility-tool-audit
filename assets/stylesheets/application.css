@@ -2568,7 +2568,8 @@ h3 {
   hyphens: manual;
 }
 
-#results-table .error:before {
+#results-table .error:before,
+#results-table .error_paid:before {
   content: "";
   background: #43b93c;
   display: block;
@@ -2577,15 +2578,7 @@ h3 {
   margin-bottom: 10px;
 }
 
-#results-table .warning:before {
-  content: "";
-  background: #c8ec86;
-  display: block;
-  width: 100%;
-  height: 10px;
-  margin-bottom: 10px;
-}
-
+#results-table .warning:before,
 #results-table .manual:before {
   content: "";
   background: #c8ec86;
@@ -2604,24 +2597,8 @@ h3 {
   margin-bottom: 10px;
 }
 
-#results-table .different:before {
-  content: "";
-  background: #b10e1e;
-  display: block;
-  width: 100%;
-  height: 10px;
-  margin-bottom: 10px;
-}
-
-#results-table .wrong:before {
-  content: "";
-  background: #b10e1e;
-  display: block;
-  width: 100%;
-  height: 10px;
-  margin-bottom: 10px;
-}
-
+#results-table .different:before,
+#results-table .wrong:before,
 #results-table .false-positive:before {
   content: "";
   background: #b10e1e;

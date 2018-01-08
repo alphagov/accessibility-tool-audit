@@ -28,7 +28,8 @@ h5 {
   margin-right: -100%;
 }
 
-.no-outine, .no-outine:focus {
+.no-outline,
+.no-outline:focus {
   outline: none;
   background: none;
 }

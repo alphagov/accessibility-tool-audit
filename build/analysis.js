@@ -16,6 +16,7 @@ var testList = _.flatten(_.map(_.values(tests), x => _.keys(x)));
 var resultTypes = [
   'notfound',
   'error',
+  'error_paid',
   'warning',
   'manual',
   'different',
@@ -95,12 +96,12 @@ function analyse(){
 
     analysis.percentages.tools[tool] = {
       detectable: {
-        "error_warning": _.round((t.error + t.warning) / analysis.totals.detectable * 100),
-        "error_warning_manual": _.round((t.error + t.warning + t.manual) / analysis.totals.detectable * 100)
+        "error_warning": _.round((t.error + t.error_paid + t.warning) / analysis.totals.detectable * 100),
+        "error_warning_manual": _.round((t.error + t.error_paid + t.warning + t.manual) / analysis.totals.detectable * 100)
       },
       total: {
-        "error_warning": _.round((t.error + t.warning) / analysis.totals.total * 100),
-        "error_warning_manual": _.round((t.error + t.warning + t.manual) / analysis.totals.total * 100)
+        "error_warning": _.round((t.error + t.error_paid + t.warning) / analysis.totals.total * 100),
+        "error_warning_manual": _.round((t.error + t.error_paid + t.warning + t.manual) / analysis.totals.total * 100)
       }
     }
   }

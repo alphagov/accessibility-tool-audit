@@ -3,6 +3,7 @@
     "google": {
       "notfound": 116,
       "error": 23,
+      "error_paid": 0,
       "warning": 1,
       "manual": 0,
       "different": 0,
@@ -13,6 +14,7 @@
     "tenon": {
       "notfound": 89,
       "error": 50,
+      "error_paid": 0,
       "warning": 2,
       "manual": 0,
       "different": 1,
@@ -23,6 +25,7 @@
     "wave": {
       "notfound": 93,
       "error": 26,
+      "error_paid": 0,
       "warning": 13,
       "manual": 2,
       "different": 1,
@@ -33,6 +36,7 @@
     "codesniffer": {
       "notfound": 92,
       "error": 29,
+      "error_paid": 0,
       "warning": 3,
       "manual": 16,
       "different": 1,
@@ -43,6 +47,7 @@
     "axe": {
       "notfound": 99,
       "error": 41,
+      "error_paid": 0,
       "warning": 0,
       "manual": 2,
       "different": 0,
@@ -53,6 +58,7 @@
     "asqatasun": {
       "notfound": 79,
       "error": 40,
+      "error_paid": 0,
       "warning": 0,
       "manual": 21,
       "different": 2,
@@ -61,11 +67,12 @@
       "false-positive": 0
     },
     "sortsite": {
-      "notfound": 102,
-      "error": 34,
-      "warning": 4,
+      "notfound": 85,
+      "error": 50,
+      "error_paid": 7,
+      "warning": 0,
       "manual": 0,
-      "different": 2,
+      "different": 0,
       "identified": 0,
       "wrong": 0,
       "false-positive": 0
@@ -73,6 +80,7 @@
     "eiii": {
       "notfound": 116,
       "error": 23,
+      "error_paid": 0,
       "warning": 0,
       "manual": 0,
       "different": 0,
@@ -83,6 +91,7 @@
     "achecker": {
       "notfound": 92,
       "error": 28,
+      "error_paid": 0,
       "warning": 15,
       "manual": 3,
       "different": 4,
@@ -93,6 +102,7 @@
     "nu": {
       "notfound": 119,
       "error": 18,
+      "error_paid": 0,
       "warning": 1,
       "manual": 4,
       "different": 0,
@@ -103,6 +113,7 @@
     "siteimprove": {
       "notfound": 91,
       "error": 41,
+      "error_paid": 0,
       "warning": 0,
       "manual": 10,
       "different": 0,
@@ -113,6 +124,7 @@
     "fae": {
       "notfound": 70,
       "error": 37,
+      "error_paid": 0,
       "warning": 3,
       "manual": 32,
       "different": 0,
@@ -123,11 +135,11 @@
   },
   "totals": {
     "total": 142,
-    "detectable": 118,
-    "undetectable": 24
+    "detectable": 120,
+    "undetectable": 22
   },
   "percentages": {
-    "detectable": 83,
+    "detectable": 85,
     "tools": {
       "google": {
         "detectable": {
@@ -141,8 +153,8 @@
       },
       "tenon": {
         "detectable": {
-          "error_warning": 44,
-          "error_warning_manual": 44
+          "error_warning": 43,
+          "error_warning_manual": 43
         },
         "total": {
           "error_warning": 37,
@@ -152,7 +164,7 @@
       "wave": {
         "detectable": {
           "error_warning": 33,
-          "error_warning_manual": 35
+          "error_warning_manual": 34
         },
         "total": {
           "error_warning": 27,
@@ -162,7 +174,7 @@
       "codesniffer": {
         "detectable": {
           "error_warning": 27,
-          "error_warning_manual": 41
+          "error_warning_manual": 40
         },
         "total": {
           "error_warning": 23,
@@ -171,7 +183,7 @@
       },
       "axe": {
         "detectable": {
-          "error_warning": 35,
+          "error_warning": 34,
           "error_warning_manual": 36
         },
         "total": {
@@ -181,8 +193,8 @@
       },
       "asqatasun": {
         "detectable": {
-          "error_warning": 34,
-          "error_warning_manual": 52
+          "error_warning": 33,
+          "error_warning_manual": 51
         },
         "total": {
           "error_warning": 28,
@@ -191,12 +203,12 @@
       },
       "sortsite": {
         "detectable": {
-          "error_warning": 32,
-          "error_warning_manual": 32
+          "error_warning": 48,
+          "error_warning_manual": 48
         },
         "total": {
-          "error_warning": 27,
-          "error_warning_manual": 27
+          "error_warning": 40,
+          "error_warning_manual": 40
         }
       },
       "eiii": {
@@ -212,7 +224,7 @@
       "achecker": {
         "detectable": {
           "error_warning": 36,
-          "error_warning_manual": 39
+          "error_warning_manual": 38
         },
         "total": {
           "error_warning": 30,
@@ -231,7 +243,7 @@
       },
       "siteimprove": {
         "detectable": {
-          "error_warning": 35,
+          "error_warning": 34,
           "error_warning_manual": 43
         },
         "total": {
@@ -241,8 +253,8 @@
       },
       "fae": {
         "detectable": {
-          "error_warning": 34,
-          "error_warning_manual": 61
+          "error_warning": 33,
+          "error_warning_manual": 60
         },
         "total": {
           "error_warning": 28,
@@ -255,33 +267,33 @@
     "by_error_warning": [
       {
         "position": 1,
+        "name": "sortsite",
+        "error_warning": 40,
+        "error_warning_manual": 40
+      },
+      {
+        "position": 2,
         "name": "tenon",
         "error_warning": 37,
         "error_warning_manual": 37
       },
       {
-        "position": 2,
+        "position": 3,
         "name": "achecker",
         "error_warning": 30,
         "error_warning_manual": 32
       },
       {
-        "position": 3,
+        "position": 4,
         "name": "siteimprove",
         "error_warning": 29,
         "error_warning_manual": 36
       },
       {
-        "position": 4,
+        "position": 5,
         "name": "axe",
         "error_warning": 29,
         "error_warning_manual": 30
-      },
-      {
-        "position": 5,
-        "name": "fae",
-        "error_warning": 28,
-        "error_warning_manual": 51
       },
       {
         "position": 6,
@@ -291,15 +303,15 @@
       },
       {
         "position": 7,
-        "name": "wave",
-        "error_warning": 27,
-        "error_warning_manual": 29
+        "name": "fae",
+        "error_warning": 28,
+        "error_warning_manual": 51
       },
       {
         "position": 8,
-        "name": "sortsite",
+        "name": "wave",
         "error_warning": 27,
-        "error_warning_manual": 27
+        "error_warning_manual": 29
       },
       {
         "position": 9,
@@ -341,45 +353,45 @@
       },
       {
         "position": 3,
+        "name": "sortsite",
+        "error_warning": 40,
+        "error_warning_manual": 40
+      },
+      {
+        "position": 4,
         "name": "tenon",
         "error_warning": 37,
         "error_warning_manual": 37
       },
       {
-        "position": 4,
+        "position": 5,
         "name": "siteimprove",
         "error_warning": 29,
         "error_warning_manual": 36
       },
       {
-        "position": 5,
+        "position": 6,
         "name": "codesniffer",
         "error_warning": 23,
         "error_warning_manual": 34
       },
       {
-        "position": 6,
+        "position": 7,
         "name": "achecker",
         "error_warning": 30,
         "error_warning_manual": 32
       },
       {
-        "position": 7,
+        "position": 8,
         "name": "axe",
         "error_warning": 29,
         "error_warning_manual": 30
       },
       {
-        "position": 8,
+        "position": 9,
         "name": "wave",
         "error_warning": 27,
         "error_warning_manual": 29
-      },
-      {
-        "position": 9,
-        "name": "sortsite",
-        "error_warning": 27,
-        "error_warning_manual": 27
       },
       {
         "position": 10,

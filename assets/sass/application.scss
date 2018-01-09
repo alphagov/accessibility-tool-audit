@@ -317,7 +317,8 @@ h3 {
   $positive-colour: #43b93c;
 
   // Issue found
-  .error:before {
+  .error:before,
+  .error_paid:before {
     @include result-status($positive-colour);
   }
 
@@ -325,10 +326,7 @@ h3 {
   $somewhat-positive-colour: #c8ec86;
 
   // Warning only
-  .warning:before {
-    @include result-status($somewhat-positive-colour);
-  }
-
+  .warning:before,
   // User to check
   .manual:before {
     @include result-status($somewhat-positive-colour);
@@ -350,15 +348,9 @@ h3 {
   $negative-colour: $error-colour;
 
   // Different error found
-  .different:before {
-    @include result-status($negative-colour);
-  }
-
+  .different:before,
   // Wrong error reported
-  .wrong:before {
-    @include result-status($negative-colour);
-  }
-
+  .wrong:before,
   // False positive
   .false-positive:before {
     @include result-status($negative-colour);

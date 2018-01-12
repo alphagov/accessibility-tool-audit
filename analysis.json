@@ -122,11 +122,11 @@
       "false-positive": 0
     },
     "fae": {
-      "notfound": 70,
-      "error": 37,
+      "notfound": 71,
+      "error": 36,
       "error_paid": 0,
-      "warning": 3,
-      "manual": 32,
+      "warning": 4,
+      "manual": 31,
       "different": 0,
       "identified": 0,
       "wrong": 0,
@@ -135,11 +135,11 @@
   },
   "totals": {
     "total": 142,
-    "detectable": 120,
-    "undetectable": 22
+    "detectable": 119,
+    "undetectable": 23
   },
   "percentages": {
-    "detectable": 85,
+    "detectable": 84,
     "tools": {
       "google": {
         "detectable": {
@@ -153,8 +153,8 @@
       },
       "tenon": {
         "detectable": {
-          "error_warning": 43,
-          "error_warning_manual": 43
+          "error_warning": 44,
+          "error_warning_manual": 44
         },
         "total": {
           "error_warning": 37,
@@ -193,7 +193,7 @@
       },
       "asqatasun": {
         "detectable": {
-          "error_warning": 33,
+          "error_warning": 34,
           "error_warning_manual": 51
         },
         "total": {
@@ -224,7 +224,7 @@
       "achecker": {
         "detectable": {
           "error_warning": 36,
-          "error_warning_manual": 38
+          "error_warning_manual": 39
         },
         "total": {
           "error_warning": 30,
@@ -253,12 +253,12 @@
       },
       "fae": {
         "detectable": {
-          "error_warning": 33,
+          "error_warning": 34,
           "error_warning_manual": 60
         },
         "total": {
           "error_warning": 28,
-          "error_warning_manual": 51
+          "error_warning_manual": 50
         }
       }
     }
@@ -305,7 +305,7 @@
         "position": 7,
         "name": "fae",
         "error_warning": 28,
-        "error_warning_manual": 51
+        "error_warning_manual": 50
       },
       {
         "position": 8,
@@ -343,7 +343,7 @@
         "position": 1,
         "name": "fae",
         "error_warning": 28,
-        "error_warning_manual": 51
+        "error_warning_manual": 50
       },
       {
         "position": 2,

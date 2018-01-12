@@ -56,12 +56,12 @@
       "false-positive": 0
     },
     "asqatasun": {
-      "notfound": 79,
-      "error": 40,
+      "notfound": 75,
+      "error": 35,
       "error_paid": 0,
       "warning": 0,
-      "manual": 21,
-      "different": 2,
+      "manual": 32,
+      "different": 0,
       "identified": 0,
       "wrong": 0,
       "false-positive": 0
@@ -193,12 +193,12 @@
       },
       "asqatasun": {
         "detectable": {
-          "error_warning": 34,
-          "error_warning_manual": 51
+          "error_warning": 29,
+          "error_warning_manual": 56
         },
         "total": {
-          "error_warning": 28,
-          "error_warning_manual": 43
+          "error_warning": 25,
+          "error_warning_manual": 47
         }
       },
       "sortsite": {
@@ -297,21 +297,21 @@
       },
       {
         "position": 6,
-        "name": "asqatasun",
-        "error_warning": 28,
-        "error_warning_manual": 43
-      },
-      {
-        "position": 7,
         "name": "fae",
         "error_warning": 28,
         "error_warning_manual": 50
       },
       {
-        "position": 8,
+        "position": 7,
         "name": "wave",
         "error_warning": 27,
         "error_warning_manual": 29
+      },
+      {
+        "position": 8,
+        "name": "asqatasun",
+        "error_warning": 25,
+        "error_warning_manual": 47
       },
       {
         "position": 9,
@@ -348,8 +348,8 @@
       {
         "position": 2,
         "name": "asqatasun",
-        "error_warning": 28,
-        "error_warning_manual": 43
+        "error_warning": 25,
+        "error_warning_manual": 47
       },
       {
         "position": 3,

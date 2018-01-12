@@ -1,6 +1,11 @@
 {
-  "last_updated": "9 January 2018",
+  "last_updated": "15 January 2018",
   "changelog": [
+    {
+      "date": "15 January 2018",
+      "text": "Re-tested and updated 25 results on Asqatasun",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/30"
+    },
     {
       "date": "9 January 2018",
       "text": "Re-tested and updated 26 results on SortSite",

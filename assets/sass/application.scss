@@ -342,19 +342,7 @@ h3 {
   }
 
 
-
   // Negative results
-
-  $negative-colour: $error-colour;
-
-  // Different error found
-  .different:before,
-  // Wrong error reported
-  .wrong:before,
-  // False positive
-  .false-positive:before {
-    @include result-status($negative-colour);
-  }
 
   // Issue not found
   .notfound:before {

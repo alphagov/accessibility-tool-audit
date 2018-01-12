@@ -101,7 +101,7 @@
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
-        "fae": "manual"
+        "fae": "notfound"
       }
     }
   },
@@ -829,7 +829,7 @@
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "error",
-        "fae": "error"
+        "fae": "warning"
       }
     },
     "Table used for layout": {

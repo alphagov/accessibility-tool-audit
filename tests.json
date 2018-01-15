@@ -386,7 +386,7 @@
       "example": "<p>Mother, he's asking you to go. He's saying, \"Allons, Madame plaisante!\"</p>",
       "results": {
         "google": "notfound",
-        "asqatasun": "error",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -437,7 +437,7 @@
       "example": "<p>Mother, he's asking you to go. He's saying, <span lang=\"frrr\">\"Allons, Madame plaisante!\"</span></p>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "error",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "error",
@@ -488,7 +488,7 @@
       "example": "<p>Mother, he's asking you to go. He's saying, <span lang=\"es\">\"Allons, Madame plaisante!\"</span></p>",
       "results": {
         "google": "notfound",
-        "asqatasun": "error",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -700,7 +700,7 @@
       "example": "<table>\n<caption>Road Traffic at Junctions</caption>\n<tr>\n<th>Road</th>\n<th>Junction</th>\n<th>Car</th>\n<th>Bus</th>\n</tr>\n<tr>\n<th>Regent Street</th>\n<th>Oxford Street</th>\n<td>307</td>\n<td>12</td>\n</tr>\n<tr>\n<th>Regent Street</th>\n<th>Bond Street</th>\n<td>1731</td>\n<td>58</td>\n</tr>\n<tr>\n<th>Southwark Street</th>\n<th>Union Street</th>\n<td>1975</td>\n<td>51</td>\n</tr>\n</table>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "error",
@@ -853,7 +853,7 @@
       "example": "<table>\n<caption>Shelly's Daughters</caption>\n<thead>\n<tr>\n<th></th>\n<th scope=\"col\">Age</th>\n<th scope=\"col\">Birthday</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th scope=\"row\">Jackie</th>\n<td>5</td>\n<td>April 5</td>\n</tr>\n<tr>\n<th scope=\"row\">Beth</th>\n<td>8</td>\n<td>January 14</td>\n</tr>\n</tbody>\n</table>",
       "results": {
         "google": "notfound",
-        "asqatasun": "manual",
+        "asqatasun": "notfound",
         "tenon": "error",
         "wave": "error",
         "sortsite": "notfound",
@@ -906,7 +906,7 @@
       "example": "<img alt=\"Decorative line clipart\" height=\"118\" role=\"presentation\" src=\"images/decoration.png\" width=\"368\" />",
       "results": {
         "google": "notfound",
-        "asqatasun": "manual",
+        "asqatasun": "notfound",
         "tenon": "error",
         "wave": "identified",
         "sortsite": "error",
@@ -1061,7 +1061,7 @@
       "example": "<video controls=\"\">\n<source src=\"http://introducinghtml5.com/examples/ch04/leverage-a-synergy.ogv\" type='video/ogg; codecs=\"theora, vorbis\"' />\n<source src=\"http://introducinghtml5.com/examples/ch04/leverage-a-synergy.mp4\" type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"' />\n</video>",
       "results": {
         "google": "notfound",
-        "asqatasun": "manual",
+        "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -1078,7 +1078,7 @@
       "example": "<iframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/gwoQRKCEHgY\" title=\"Banned Pokemon scene\" width=\"560\"></iframe>",
       "results": {
         "google": "notfound",
-        "asqatasun": "different",
+        "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -1095,7 +1095,7 @@
       "example": "<audio controls=\"\" src=\"http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg\"></audio>",
       "results": {
         "google": "notfound",
-        "asqatasun": "manual",
+        "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -1250,7 +1250,7 @@
       "example": "<a href=\"http://www.bdadyslexia.org.uk/common/ckeditor/filemanager/userfiles/About_Us/policies/Dyslexia_Style_Guide.pdf\">Dyslexia style guide</a>",
       "results": {
         "google": "notfound",
-        "asqatasun": "error",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "warning",
         "sortsite": "notfound",
@@ -1301,7 +1301,7 @@
       "example": "<a href=\"https://en.wikipedia.org/wiki/Lion\">Lions</a> are the only truly social cats, with related females\n        living together in prides overseen by male coalition that compete for possession in fierce and often fatal battles.\n        <a href=\"http://animals.nationalgeographic.com/animals/mammals/african-lion/\">Lions</a> are predatory carnivores and it's the females that perform most of the hunting at night; the majority\n        of the prey being antelope, zebra and wildebeest.\n    ",
       "results": {
         "google": "notfound",
-        "asqatasun": "error",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -1369,7 +1369,7 @@
       "example": "<a href=\"https://en.wikipedia.org/wiki/Red_panda\">\n<img alt=\"Red Panda\" height=\"165\" src=\"images/red_panda.jpg\" width=\"220\"/>\n            Red Panda\n        </a>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "warning",
         "sortsite": "error",
@@ -1473,7 +1473,7 @@
       "example": "<button></button>",
       "results": {
         "google": "error",
-        "asqatasun": "different",
+        "asqatasun": "notfound",
         "tenon": "error",
         "wave": "error",
         "sortsite": "error",
@@ -1543,7 +1543,7 @@
       "example": "<form><label for=\"missing-labels-day\">Your child's date of birth</label>\n<p>\n<input id=\"missing-labels-day\" type=\"text\"/>\n<input id=\"missing-labels-month\" type=\"text\"/>\n<input id=\"missing-labels-year\" type=\"text\"/>\n</p></form>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "error",
         "tenon": "error",
         "wave": "error",
         "sortsite": "error",
@@ -1560,7 +1560,7 @@
       "example": "<form><label class=\"required-format-not-given\">\n            Phone number\n            <span class=\"error-message\">is not valid</span>\n<input class=\"has-errors\" pattern=\"7[0-9]{9}\" required=\"\" type=\"tel\"/>\n</label></form>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -1577,7 +1577,7 @@
       "example": "<form><p class=\"too-much-whitespace\">\n<label for=\"input-too-far-away\">Country</label>\n<input id=\"input-too-far-away\" type=\"text\"/>\n</p></form>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -1594,7 +1594,7 @@
       "example": "<form><h4>Do you already have a personal user account?</h4>\n<label class=\"block-label\" for=\"radio-inline-1\">\n<input id=\"radio-inline-1\" name=\"radio-inline-group\" type=\"radio\" value=\"Yes\" />\n            Yes\n        </label><br/>\n<label class=\"block-label\" for=\"radio-inline-2\">\n<input id=\"radio-inline-2\" name=\"radio-inline-group\" type=\"radio\" value=\"No\" />\n            No\n        </label></form>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "warning",
         "sortsite": "error",
@@ -1679,7 +1679,7 @@
       "example": "<form><h4>Which types of waste do you transport regularly?</h4>\n<label class=\"block-label\" for=\"waste-type-1\">\n<input id=\"waste-type-1\" name=\"waste-types\" type=\"checkbox\" value=\"waste-animal\" />\n            Waste from animal carcasses\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-2\">\n<input id=\"waste-type-2\" name=\"waste-types\" type=\"checkbox\" value=\"waste-mines\" />\n            Waste from mines or quarries\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-3\">\n<input id=\"waste-type-3\" name=\"waste-types\" type=\"checkbox\" value=\"waste-farm-agricultural\" />\n            Farm or agricultural waste\n        </label></form>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "warning",
         "sortsite": "notfound",
@@ -1696,7 +1696,7 @@
       "example": "<form><label for=\"empty\"></label>\n<input id=\"empty\" type=\"text\" value=\"\" /></form>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "manual",
         "tenon": "error",
         "wave": "error",
         "sortsite": "error",
@@ -1781,7 +1781,7 @@
       "example": "<form><label class=\"form-label\" for=\"ni-number\">\n            National Insurance number\n        </label>\n<p class=\"form-hint\">It'll be on your last payslip. For example, JH 21 90 0A.</p>\n<input class=\"form-control\" id=\"ni-number\" type=\"text\" /></form>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -1832,7 +1832,7 @@
       "example": "<form><label for=\"language-selector\">Select your language</label>\n<select class=\"language-selector\" id=\"language-selector\">\n<option value=\"\">Change your language</option>\n<option value=\"en\">English</option>\n<option value=\"de\">German</option>\n<option value=\"fr\">French</option>\n</select></form>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -1938,7 +1938,7 @@
       "example": "<a class=\"no-outline\" href=\"link.html\">Link with no focus style</a>",
       "results": {
         "google": "notfound",
-        "asqatasun": "error",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "error",
@@ -2006,7 +2006,7 @@
       "example": "<nav class=\"dropdown-nav\" role=\"navigation\">\n<ul>\n<li>\n<a href=\"https://www.gov.uk/browse/benefits\">Benefits</a>\n<ul class=\"submenu\">\n<li><a href=\"#\">Benefits entitlement</a></li>\n<li><a href=\"#\">Benefits for families</a></li>\n<li><a href=\"#\">Carers and disability benefits</a></li>\n</ul>\n</li>\n</ul>\n</nav>",
       "results": {
         "google": "notfound",
-        "asqatasun": "notfound",
+        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -2214,7 +2214,7 @@
       "example": "<a href=\"rugby.html\">Read more <span style=\"visibility:hidden\"> about rugby</span></a>",
       "results": {
         "google": "notfound",
-        "asqatasun": "error",
+        "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -2231,7 +2231,7 @@
       "example": "<a href=\"football.html\">Read more <span style=\"display:none\"> about football</span></a>",
       "results": {
         "google": "notfound",
-        "asqatasun": "error",
+        "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",

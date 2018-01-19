@@ -34,7 +34,8 @@ var toolNames = [
   'achecker',
   'nu',
   'siteimprove',
-  'fae'
+  'fae',
+  'aslint'
 ];
 
 var analysis = {};

@@ -33,7 +33,8 @@ var toolNamesCopy = {
   "eiii": '<abbr title="European Internet Inclusion Initiative">EIII</abbr>',
   "nu": "Nu Html Checker",
   "siteimprove": "Siteimprove",
-  "fae": '<abbr title="Functional Accessibility Evaluator">FAE</abbr>'
+  "fae": '<abbr title="Functional Accessibility Evaluator">FAE</abbr>',
+  "aslint": "ASLint"
 }
 
 var tools = {
@@ -84,6 +85,10 @@ var tools = {
   "fae": {
     name: toolNamesCopy["fae"],
     url: "https://fae.disability.illinois.edu/"
+  },
+  "aslint": {
+    name: toolNamesCopy["aslint"],
+    url: "https://www.aslint.org/"
   }
 }
 

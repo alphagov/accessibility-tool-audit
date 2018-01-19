@@ -124,6 +124,7 @@
             <abbr title="Functional Accessibility Evaluator">FAE</abbr>
           </a>
         </th>
+        <th scope="col"><a href="https://www.aslint.org/">AS&shy;Lint</a></th>
       </tr>
     </thead>
     <tbody>
@@ -170,6 +171,9 @@
             </td>
             <td class="{{ testobj.results.fae }}">
               {{ rcopy[testobj.results.fae] | capitalize }}
+            </td>
+            <td class="{{ testobj.results.aslint }}">
+              {{ rcopy[testobj.results.aslint] | capitalize }}
             </td>
           </tr>
         {% endfor %}

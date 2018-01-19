@@ -12,13 +12,14 @@ The test cases are a collection of the wide variety of potential accessibility i
 
 ## Contributing / updating results
 
-We welcome issues / pull requests for updated test cases or tool results. All relevant content can be found in `tests.json`. (All the HTML files are automatically created from that one file.)
+We welcome issues / pull requests for updated or new test cases or tool results. All relevant content can be found in `tests.json`. (All the HTML files are automatically created from that one file.)
+Read more on [how to contribute](CONTRIBUTING.md).
 
 ## Installing
 
 Make sure you have the gulp command installed beforehand.
 
-``` 
+```
 npm install -g gulp
 ```
 

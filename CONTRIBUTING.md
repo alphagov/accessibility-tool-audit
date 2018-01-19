@@ -7,6 +7,7 @@ You also might want to update 'changelog.json' but it likely needs changing agai
 It's also fine if you don't add the changes to the the changelog and static files at all, we can do that before we merge.
 
 When using a tool, use all the most inquisitive options. For example, if you have the choice between AA and AAA, choose AAA. If you have the choice to add options which don't seem to be related to accessibility (SEO, for example), test those as well.
+Check the list of [options we used](tools-info.md#options-and-settings).
 
 You should check each test page on its own and not the one big page including (nearly) all tests. Then check if the one particular issue we were expecting to find on that page is found or not. To look for just one issue makes it easier to find.
 Don't test any of the test pages which contain only a link to an "example page" but test that example page instead to which the links points. Those are the pages that are not included within the one big page but need to be on pages of their own.
@@ -17,6 +18,7 @@ When you add or change the test results, you need to note them as the key in the
 ## Update test results
 
 When you have found a result you disagree with or you re-test a tool because it was updated, you should add your changes to the `results` of each relevant test entry within 'tests.json'.
+Check the [tools' changelogs](tools-info.md#changelogs) to know when a tool has been updated.
 
 
 ## Change code examples
@@ -48,5 +50,6 @@ To add a new tool you would need to add it to these files:
 * 'build/templates/results.html': add a new `th` to the end of the table head
 * 'build/templates/results.html': add a new `td` to the end of the inner loop within the table body by referencing the slug within the variables
 * 'build/templates/index.html': research the necessary features and add a new table row at the end of the feature comparison table and fill it with the relevant facts about the tool
+* 'tools-info.md': add info about settings and where to find the tool's changelog to the end of each list
 
 Then add results of this tool by adding a new `results` line to every single entry in 'tests.json'.

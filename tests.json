@@ -391,7 +391,7 @@
       "results": {
         "google": "error",
         "asqatasun": "error",
-        "tenon": "notfound",
+        "tenon": "error",
         "wave": "notfound",
         "sortsite": "error",
         "axe": "error",
@@ -813,7 +813,7 @@
       "results": {
         "google": "error",
         "asqatasun": "manual",
-        "tenon": "error",
+        "tenon": "warning",
         "wave": "manual",
         "sortsite": "error",
         "axe": "error",
@@ -1287,7 +1287,7 @@
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
-        "tenon": "warning",
+        "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
@@ -2287,7 +2287,7 @@
       "results": {
         "google": "notfound",
         "asqatasun": "manual",
-        "tenon": "error",
+        "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
@@ -2435,7 +2435,7 @@
       "results": {
         "google": "notfound",
         "asqatasun": "notfound",
-        "tenon": "error",
+        "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
@@ -2453,7 +2453,7 @@
       "results": {
         "google": "notfound",
         "asqatasun": "error",
-        "tenon": "error",
+        "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "error",
         "axe": "notfound",
@@ -2579,7 +2579,7 @@
       "results": {
         "google": "notfound",
         "asqatasun": "error",
-        "tenon": "error",
+        "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "error",
         "axe": "notfound",

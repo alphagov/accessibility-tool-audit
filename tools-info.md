@@ -19,6 +19,7 @@ Try to use all the most inquisitive options. This is a list of options per tool 
 * Nu Html Checker: add image report
 * Siteimprove: choose AAA conformance, select error and warning and review severity
 * FAE: default (except it's recommended to uncheck 'include pass and n/a results' for better readability)
+* ASLint: default
 
 
 ## Changelogs
@@ -37,3 +38,4 @@ To know if a tool was updated since we last tested it, check these changelogs:
 * [Nu Html Checker changelog](https://github.com/validator/validator/releases)
 * Siteimprove doesn't have a changelog, but their [Siteimprove Chrome extension](https://chrome.google.com/webstore/detail/siteimprove-accessibility/efcfolpjihicnikpmhnmphjhhpiclljc) lists a version number and a date when it was last updated
 * [FAE changelog](https://fae.disability.illinois.edu/abouts/versions/)
+* ASLint doesn't have a changelog, but the footer of the visible UI lists a version number and a date when it was last updated

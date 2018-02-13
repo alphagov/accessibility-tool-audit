@@ -3,6 +3,11 @@
   "changelog": [
     {
       "date": "13 February 2018",
+      "text": "Re-tested and updated 7 results on Tenon",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/36"
+    },
+    {
+      "date": "13 February 2018",
       "text": "Added new tool: ASLint",
       "link": "https://github.com/alphagov/accessibility-tool-audit/pull/35"
     },

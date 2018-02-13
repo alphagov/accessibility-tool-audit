@@ -16,12 +16,9 @@ var resultsCopy = {
   "error": "issue found",
   "error_paid": "issue found (paid)",
   "warning": "warning only",
-  "different": "different issue found",
   "notfound": "not found",
   "identified": "noticed but not a fail",
-  "manual": "user to check",
-  "wrong": "wrong issue reported",
-  "false-positive": "unrelated issue"
+  "manual": "user to check"
 };
 
 var toolNamesCopy = {

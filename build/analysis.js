@@ -19,10 +19,7 @@ var resultTypes = [
   'error_paid',
   'warning',
   'manual',
-  'different',
-  'identified',
-  'wrong',
-  'false-positive'
+  'identified'
 ];
 
 var toolNames = [
@@ -66,10 +63,7 @@ function analyse(){
       var canDetect = _.without(
         _.values(resObj),
         'notfound',
-        'different',
-        'false-positive',
-        'identified',
-        'wrong'
+        'identified'
       );
 
       if( canDetect.length > 0 ){

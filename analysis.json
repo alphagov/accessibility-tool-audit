@@ -9,8 +9,8 @@
       "identified": 0
     },
     "tenon": {
-      "notfound": 90,
-      "error": 50,
+      "notfound": 94,
+      "error": 46,
       "error_paid": 0,
       "warning": 2,
       "manual": 0,
@@ -107,11 +107,11 @@
   },
   "totals": {
     "total": 142,
-    "detectable": 122,
-    "undetectable": 20
+    "detectable": 121,
+    "undetectable": 21
   },
   "percentages": {
-    "detectable": 86,
+    "detectable": 85,
     "tools": {
       "google": {
         "detectable": {
@@ -125,18 +125,18 @@
       },
       "tenon": {
         "detectable": {
-          "error_warning": 43,
-          "error_warning_manual": 43
+          "error_warning": 40,
+          "error_warning_manual": 40
         },
         "total": {
-          "error_warning": 37,
-          "error_warning_manual": 37
+          "error_warning": 34,
+          "error_warning_manual": 34
         }
       },
       "wave": {
         "detectable": {
           "error_warning": 32,
-          "error_warning_manual": 34
+          "error_warning_manual": 35
         },
         "total": {
           "error_warning": 27,
@@ -146,7 +146,7 @@
       "codesniffer": {
         "detectable": {
           "error_warning": 26,
-          "error_warning_manual": 39
+          "error_warning_manual": 40
         },
         "total": {
           "error_warning": 23,
@@ -156,7 +156,7 @@
       "axe": {
         "detectable": {
           "error_warning": 34,
-          "error_warning_manual": 35
+          "error_warning_manual": 36
         },
         "total": {
           "error_warning": 29,
@@ -226,7 +226,7 @@
       "fae": {
         "detectable": {
           "error_warning": 33,
-          "error_warning_manual": 58
+          "error_warning_manual": 59
         },
         "total": {
           "error_warning": 28,
@@ -256,8 +256,8 @@
       {
         "position": 2,
         "name": "tenon",
-        "error_warning": 37,
-        "error_warning_manual": 37
+        "error_warning": 34,
+        "error_warning_manual": 34
       },
       {
         "position": 3,
@@ -347,27 +347,27 @@
       },
       {
         "position": 4,
-        "name": "tenon",
-        "error_warning": 37,
-        "error_warning_manual": 37
-      },
-      {
-        "position": 5,
         "name": "siteimprove",
         "error_warning": 29,
         "error_warning_manual": 36
       },
       {
-        "position": 6,
+        "position": 5,
         "name": "aslint",
         "error_warning": 28,
         "error_warning_manual": 35
       },
       {
-        "position": 7,
+        "position": 6,
         "name": "achecker",
         "error_warning": 31,
         "error_warning_manual": 35
+      },
+      {
+        "position": 7,
+        "name": "tenon",
+        "error_warning": 34,
+        "error_warning_manual": 34
       },
       {
         "position": 8,

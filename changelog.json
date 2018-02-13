@@ -1,6 +1,11 @@
 {
-  "last_updated": "15 January 2018",
+  "last_updated": "13 February 2018",
   "changelog": [
+    {
+      "date": "13 February 2018",
+      "text": "Added new tool: ASLint",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/34"
+    },
     {
       "date": "13 February 2018",
       "text": "Re-interpreted some results due to removal of less helpful categories",

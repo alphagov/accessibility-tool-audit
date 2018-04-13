@@ -3,6 +3,11 @@
   "changelog": [
     {
       "date": "13 April 2018",
+      "text": "Re-tested and updated 19 results on WAVE",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/38"
+    },
+    {
+      "date": "13 April 2018",
       "text": "Changed HTML_CodeSniffer's warnings to manual checks",
       "link": "https://github.com/alphagov/accessibility-tool-audit/pull/37"
     },

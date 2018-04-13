@@ -441,7 +441,7 @@
       }
     },
     "html element has an invalid value in the lang attribute": {
-      "example": "<a href=\"example-pages/invalid.html\">Example page with a lang attribute set to an invalid</a>",
+      "example": "<a href=\"example-pages/invalid.html\">Example page with an invalid lang attribute</a>",
       "results": {
         "google": "notfound",
         "asqatasun": "error",

@@ -1,6 +1,11 @@
 {
-  "last_updated": "13 February 2018",
+  "last_updated": "13 April 2018",
   "changelog": [
+    {
+      "date": "13 April 2018",
+      "text": "Changed HTML_CodeSniffer's warnings to manual checks",
+      "link": "https://github.com/alphagov/accessibility-tool-audit/pull/37"
+    },
     {
       "date": "13 February 2018",
       "text": "Re-tested and updated 7 results on Tenon",

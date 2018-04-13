@@ -28,8 +28,8 @@
       "notfound": 93,
       "error": 29,
       "error_paid": 0,
-      "warning": 3,
-      "manual": 16,
+      "warning": 0,
+      "manual": 19,
       "identified": 1
     },
     "axe": {
@@ -145,11 +145,11 @@
       },
       "codesniffer": {
         "detectable": {
-          "error_warning": 26,
+          "error_warning": 24,
           "error_warning_manual": 40
         },
         "total": {
-          "error_warning": 23,
+          "error_warning": 20,
           "error_warning_manual": 34
         }
       },
@@ -304,7 +304,7 @@
       {
         "position": 10,
         "name": "codesniffer",
-        "error_warning": 23,
+        "error_warning": 20,
         "error_warning_manual": 34
       },
       {
@@ -372,7 +372,7 @@
       {
         "position": 8,
         "name": "codesniffer",
-        "error_warning": 23,
+        "error_warning": 20,
         "error_warning_manual": 34
       },
       {

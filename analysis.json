@@ -17,12 +17,12 @@
       "identified": 0
     },
     "wave": {
-      "notfound": 93,
-      "error": 26,
+      "notfound": 85,
+      "error": 25,
       "error_paid": 0,
-      "warning": 13,
-      "manual": 3,
-      "identified": 7
+      "warning": 18,
+      "manual": 12,
+      "identified": 2
     },
     "codesniffer": {
       "notfound": 93,
@@ -107,11 +107,11 @@
   },
   "totals": {
     "total": 142,
-    "detectable": 121,
-    "undetectable": 21
+    "detectable": 122,
+    "undetectable": 20
   },
   "percentages": {
-    "detectable": 85,
+    "detectable": 86,
     "tools": {
       "google": {
         "detectable": {
@@ -125,8 +125,8 @@
       },
       "tenon": {
         "detectable": {
-          "error_warning": 40,
-          "error_warning_manual": 40
+          "error_warning": 39,
+          "error_warning_manual": 39
         },
         "total": {
           "error_warning": 34,
@@ -135,18 +135,18 @@
       },
       "wave": {
         "detectable": {
-          "error_warning": 32,
-          "error_warning_manual": 35
+          "error_warning": 35,
+          "error_warning_manual": 45
         },
         "total": {
-          "error_warning": 27,
-          "error_warning_manual": 30
+          "error_warning": 30,
+          "error_warning_manual": 39
         }
       },
       "codesniffer": {
         "detectable": {
           "error_warning": 24,
-          "error_warning_manual": 40
+          "error_warning_manual": 39
         },
         "total": {
           "error_warning": 20,
@@ -156,7 +156,7 @@
       "axe": {
         "detectable": {
           "error_warning": 34,
-          "error_warning_manual": 36
+          "error_warning_manual": 35
         },
         "total": {
           "error_warning": 29,
@@ -226,7 +226,7 @@
       "fae": {
         "detectable": {
           "error_warning": 33,
-          "error_warning_manual": 59
+          "error_warning_manual": 58
         },
         "total": {
           "error_warning": 28,
@@ -267,9 +267,9 @@
       },
       {
         "position": 4,
-        "name": "siteimprove",
-        "error_warning": 29,
-        "error_warning_manual": 36
+        "name": "wave",
+        "error_warning": 30,
+        "error_warning_manual": 39
       },
       {
         "position": 5,
@@ -279,21 +279,21 @@
       },
       {
         "position": 6,
+        "name": "siteimprove",
+        "error_warning": 29,
+        "error_warning_manual": 36
+      },
+      {
+        "position": 7,
         "name": "aslint",
         "error_warning": 28,
         "error_warning_manual": 35
       },
       {
-        "position": 7,
+        "position": 8,
         "name": "fae",
         "error_warning": 28,
         "error_warning_manual": 50
-      },
-      {
-        "position": 8,
-        "name": "wave",
-        "error_warning": 27,
-        "error_warning_manual": 30
       },
       {
         "position": 9,
@@ -347,44 +347,44 @@
       },
       {
         "position": 4,
+        "name": "wave",
+        "error_warning": 30,
+        "error_warning_manual": 39
+      },
+      {
+        "position": 5,
         "name": "siteimprove",
         "error_warning": 29,
         "error_warning_manual": 36
       },
       {
-        "position": 5,
+        "position": 6,
         "name": "aslint",
         "error_warning": 28,
         "error_warning_manual": 35
       },
       {
-        "position": 6,
+        "position": 7,
         "name": "achecker",
         "error_warning": 31,
         "error_warning_manual": 35
       },
       {
-        "position": 7,
+        "position": 8,
         "name": "tenon",
         "error_warning": 34,
         "error_warning_manual": 34
       },
       {
-        "position": 8,
+        "position": 9,
         "name": "codesniffer",
         "error_warning": 20,
         "error_warning_manual": 34
       },
       {
-        "position": 9,
+        "position": 10,
         "name": "axe",
         "error_warning": 29,
-        "error_warning_manual": 30
-      },
-      {
-        "position": 10,
-        "name": "wave",
-        "error_warning": 27,
         "error_warning_manual": 30
       },
       {

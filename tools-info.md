@@ -9,7 +9,7 @@ Try to use all the most inquisitive options. This is a list of options per tool 
 
 * Google Accessibility Developer Tools: default
 * Tenon: default
-* WAVE: default
+* WAVE: default (make sure to look at all details, not just "errors" and "alerts")
 * HTML CodeSniffer: choose WCAG2AAA standards, select errors and warnings and notices
 * aXe: choose all tags (wcag2a,wcag2aa,section508,best-practice,experimental) or use the aXe-Coconut extension
 * Asqatasun: "Audit Pages" not "Audit Full-site" (some tests won't run in the full-site audit), choose level AAA (RGAA 3.0),

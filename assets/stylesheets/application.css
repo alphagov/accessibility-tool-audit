@@ -365,7 +365,7 @@ html {
   /* 1 */
   overflow-y: scroll;
   /* 2 */
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   /* 3 */
 }
 
@@ -1318,6 +1318,7 @@ main {
   line-height: 1.09375;
   font-weight: 700;
   text-transform: none;
+  display: block;
   margin-top: em(15, 32);
   margin-bottom: em(30, 32);
 }
@@ -1368,6 +1369,7 @@ main {
   line-height: 1.04167;
   font-weight: 700;
   text-transform: none;
+  display: block;
   margin-top: em(25, 24);
   margin-bottom: em(10, 24);
 }
@@ -1418,6 +1420,7 @@ main {
   line-height: 1.2;
   font-weight: 700;
   text-transform: none;
+  display: block;
   margin-top: em(25, 20);
   margin-bottom: em(10, 20);
 }
@@ -1442,6 +1445,7 @@ main {
   line-height: 1.25;
   font-weight: 700;
   text-transform: none;
+  display: block;
   margin-top: em(10, 16);
   margin-bottom: em(5, 16);
 }
@@ -1459,16 +1463,22 @@ main {
   }
 }
 
-p {
+p,
+.body-text {
   margin-top: em(5, 16);
   margin-bottom: em(20, 16);
 }
 
 @media (min-width: 641px) {
-  p {
+  p,
+  .body-text {
     margin-top: em(5);
     margin-bottom: em(20);
   }
+}
+
+.body-text {
+  display: block;
 }
 
 .lede {
@@ -1535,7 +1545,8 @@ p {
   }
 }
 
-.link-back:link, .link-back:visited, .link-back:hover, .link-back:active {
+.link-back:link, .link-back:visited, .link-back:hover,
+.link-back a.link-back:focus, .link-back:active {
   color: #0b0c0c;
 }
 

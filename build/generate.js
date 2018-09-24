@@ -1,9 +1,9 @@
-var nunjucks = require('nunjucks'),
+let nunjucks = require('nunjucks'),
     fs = require('fs'),
     path = require('path'),
     analysis = require('./analysis');
 
-var paths = {
+let paths = {
   testsJson: path.join(__dirname, '../tests.json'),
   analysisJson: path.join(__dirname, '../analysis.json'),
   changelogJson: path.join(__dirname, '../changelog.json'),
@@ -12,7 +12,7 @@ var paths = {
   out: fname => path.join(paths.outPath, fname)
 };
 
-var resultsCopy = {
+let resultsCopy = {
   "error": "issue found",
   "error_paid": "issue found (paid)",
   "warning": "warning only",
@@ -21,7 +21,7 @@ var resultsCopy = {
   "manual": "user to check"
 };
 
-var toolNamesCopy = {
+let toolNamesCopy = {
   "tenon": "Tenon",
   "achecker": "AChecker",
   "axe": "aXe",
@@ -37,7 +37,7 @@ var toolNamesCopy = {
   "aslint": "ASLint"
 }
 
-var tools = {
+let tools = {
   "tenon": {
     name: toolNamesCopy["tenon"],
     url: "https://tenon.io/"
@@ -93,7 +93,7 @@ var tools = {
 }
 
 function getFilename( catname, testname ){
-    var filename = [catname.toLowerCase(), testname.toLowerCase()]
+    let filename = [catname.toLowerCase(), testname.toLowerCase()]
                       .join('-')
                       .replace(/[^a-z0-9\-\ ]/, '')
                       .replace('/', ' ')
@@ -117,19 +117,19 @@ function processExample( example ){
 }
 
 function generateFiles(){
-  var testsFile = fs.readFileSync(paths.testsJson).toString();
-  var tests = JSON.parse(testsFile);
+  let testsFile = fs.readFileSync(paths.testsJson).toString();
+  let tests = JSON.parse(testsFile);
 
   analysis.analyse();
-  var analysisResults = require(paths.analysisJson);
+  let analysisResults = require(paths.analysisJson);
 
-  var changelog = fs.readFileSync(paths.changelogJson).toString();
-  var changes = JSON.parse(changelog);
+  let changelog = fs.readFileSync(paths.changelogJson).toString();
+  let changes = JSON.parse(changelog);
 
   nunjucks.configure(paths.templates);
 
   // Generate index
-  var indexout = nunjucks.render('index.html', {
+  let indexout = nunjucks.render('index.html', {
     tests: tests,
     getFilename: getFilename,
     analysis: analysisResults,
@@ -140,7 +140,7 @@ function generateFiles(){
 
   // Generate test cases
 
-  var indexout = nunjucks.render('test-cases.html', {
+  let indexout = nunjucks.render('test-cases.html', {
     tests: tests,
     getFilename: getFilename
   });
@@ -148,13 +148,13 @@ function generateFiles(){
 
   // Generate individual tests
 
-  for( catname in tests ){
-    for( testname in tests[catname] ){
-      var testObj = tests[catname][testname];
+  for( let catname in tests ){
+    for( let testname in tests[catname] ){
+      let testObj = tests[catname][testname];
 
-      var filename = getFilename( catname, testname );
+      let filename = getFilename( catname, testname );
 
-      var filecontent = nunjucks.render('single-test.html', {
+      let filecontent = nunjucks.render('single-test.html', {
         testname: testname,
         example: processExample(testObj.example)
       });
@@ -164,7 +164,7 @@ function generateFiles(){
   }
 
   // Generate results
-  var resultsout = nunjucks.render('results.html', {
+  let resultsout = nunjucks.render('results.html', {
     tests: tests,
     rcopy: resultsCopy,
     getFilename: getFilename,

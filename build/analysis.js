@@ -1,19 +1,19 @@
-var fs = require('fs'),
+let fs = require('fs'),
     path = require('path'),
     _ = require('lodash');
 
 
-var paths = {
+let paths = {
   testsJson: path.join(__dirname, '../tests.json'),
   analysisJson: path.join(__dirname, '../analysis.json')
 };
 
-var testsFile = fs.readFileSync(paths.testsJson).toString();
-var tests = JSON.parse(testsFile);
+let testsFile = fs.readFileSync(paths.testsJson).toString();
+let tests = JSON.parse(testsFile);
 // linear list of all tests
-var testList = _.flatten(_.map(_.values(tests), x => _.keys(x)));
+let testList = _.flatten(_.map(_.values(tests), x => _.keys(x)));
 
-var resultTypes = [
+let resultTypes = [
   'notfound',
   'error',
   'error_paid',
@@ -22,7 +22,7 @@ var resultTypes = [
   'identified'
 ];
 
-var toolNames = [
+let toolNames = [
   'google',
   'tenon',
   'wave',
@@ -38,13 +38,11 @@ var toolNames = [
   'aslint'
 ];
 
-var analysis = {};
+let analysis = {};
 
 function analyse(){
-  var tool = {};
-  var test = {};
-  var detectable = [];
-  var percent = {};
+  let tool = {};
+  let detectable = [];
 
   // Priming the tools array
   tool = _.reduce(toolNames, function (a, b){
@@ -52,16 +50,16 @@ function analyse(){
     return a;
   }, {});
 
-  for( catname in tests ){
-    for( testname in tests[catname] ){
-      var resObj = tests[catname][testname]["results"];
+  for(let catname in tests ){
+    for(let testname in tests[catname] ){
+      let resObj = tests[catname][testname]["results"];
 
-      for( toolName in resObj ){
+      for(let toolName in resObj ){
         tool[toolName][resObj[toolName]]++;
       }
 
       // Test is detectable by at least one tool
-      var canDetect = _.without(
+      let canDetect = _.without(
         _.values(resObj),
         'notfound',
         'identified'
@@ -87,7 +85,7 @@ function analyse(){
   }
 
   for( tool in analysis.counts ){
-    var t = analysis.counts[tool];
+    let t = analysis.counts[tool];
 
     analysis.percentages.tools[tool] = {
       detectable: {
@@ -102,9 +100,9 @@ function analyse(){
   }
 
   // [ [ 'google', 17 ], [ 'tenon', 37 ], ... ]
-  var tr = _.map(_.get(analysis, 'percentages.tools'), (x,y) => [y, x.total.error_warning, x.total.error_warning_manual] );
+  let tr = _.map(_.get(analysis, 'percentages.tools'), (x,y) => [y, x.total.error_warning, x.total.error_warning_manual] );
   tr = tr.sort( (a, b) => b[1] - a[1] );
-  tr_ew = tr.map(function (val, index){
+  let tr_ew = tr.map(function (val, index){
     return {
       position: index + 1,
       name: val[0],
@@ -114,7 +112,7 @@ function analyse(){
   });
 
   tr = tr.sort( (a, b) => b[2] - a[2] );
-  tr_ewm = tr.map(function (val, index){
+  let tr_ewm = tr.map(function (val, index){
     return {
       position: index + 1,
       name: val[0],

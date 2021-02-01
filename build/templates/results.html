@@ -125,6 +125,8 @@
           </a>
         </th>
         <th scope="col"><a href="https://www.aslint.org/">AS&shy;Lint</a></th>
+        <th scope="col"><a href="https://github.com/musienkoyuriy/enabler">Enabler</a></th>
+        <th scope="col"><a href="https://www.paciellogroup.com/toolkit/">Enabler</a></th>
       </tr>
     </thead>
     <tbody>
@@ -174,6 +176,12 @@
             </td>
             <td class="{{ testobj.results.aslint }}">
               {{ rcopy[testobj.results.aslint] | capitalize }}
+            </td>
+            <td class="{{ testobj.results.enabler }}">
+              {{ rcopy[testobj.results.enabler] | capitalize }}
+            </td>
+            <td class="{{ testobj.results.arc }}">
+              {{ rcopy[testobj.results.arc] | capitalize }}
             </td>
           </tr>
         {% endfor %}

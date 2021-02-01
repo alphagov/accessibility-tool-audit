@@ -3,91 +3,101 @@
     "Content identified by location": {
       "example": "<p>The artist on the right won the Album of the year</p>\n<a href=\"swift.html\" style=\"float:right\">Taylor Swift</a>\n<a href=\"sheeran.html\" style=\"float:left\">Ed Sheeran</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Plain language is not used": {
       "example": "        Title I of the CARE Act creates a program of formula and supplemental competitive grants to help metropolitan areas\n        with 2,000 or more reported AIDS cases meet emergency care needs of low-income HIV patients. Title II of the Ryan\n        White Act provides formula grants to States and territories for operation of HIV service consortia in the localities\n        most affected by the epidemic, provision of home and community -based care, continuation of insurance coverage for\n        persons with HIV infection, and treatments that prolong life and prevent serious deterioration of health.\n        Up to 10 percent of the funds for this program can be used to support Special Projects of National Significance.\n    ",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "error_paid",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Content is not in correct reading order in source code": {
       "example": "<div class=\"test-container\"><h4>3-Step Skin Care</h4>\n<div style=\"float:right; width:33%\">Moisturise</div>\n<div style=\"float:right; width:33%\">Exfoliate</div>\n<div style=\"float:right; width:33%\">Cleanse</div></div>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     },
     "Content is not organised into well-defined groups or chunks, using headings, lists, and other visual mechanisms": {
       "example": "<a href=\"example-pages/unorganised_content.html\">Example page with a long block of unorganised content.</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
-        "wave": "notfound",
+        "wave": "error",
         "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
+        "axe": "error",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "First instance of abbreviation not expanded": {
       "example": "<abbr>GDS</abbr> is part of the Cabinet Office. Our job is digital transformation of government.\n    ",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "error_paid",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     }
   },
@@ -95,19 +105,21 @@
     "Wide page forces users to scroll horizontally": {
       "example": "<div class=\"constrained-box\"><p class=\"constrained\">When sites are constructed to require horizontal scrolling in order to navigate or read content at a normal size of 100% using standard screen sizes, additional problems can arise for users with low vision or mobility impairments.</p><p class=\"constrained-extra\">This is some text you have to horizontally scroll to read.</p></div>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
+        "axe": "error",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     }
   },
@@ -115,24 +127,27 @@
     "Colour alone is used to convey content": {
       "example": "<p>The green mushrooms listed here are OK to eat. The red mushrooms will kill you.</p>\n<ul>\n<li class=\"poisonous\">Amanita</li>\n<li class=\"safe\">Chanterelle</li>\n<li class=\"safe\">Porcini</li>\n<li class=\"safe\">Shitake</li>\n<li class=\"poisonous\">Tylopilus</li>\n</ul>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Small text does not have a contrast ratio of at least 4.5:1 so does not meet AA": {
       "example": "<p class=\"low-contrast-small-aa\">This small text does not have enough contrast with it's background</p>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "notfound",
@@ -145,12 +160,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Large text does not have a contrast ratio of at least 3:1 so does not meet AA": {
       "example": "<p class=\"low-contrast-large-aa\">This small text does not have enough contrast with it's background</p>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "notfound",
@@ -163,12 +180,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Small text does not have a contrast ratio of at least 7:1 so does not meet AAA": {
       "example": "<p class=\"low-contrast-small-aaa\">This small text does not have enough contrast with it's background</p>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "notfound",
@@ -181,12 +200,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Large text does not have a contrast ratio of at least 4.5:1 so does not meet AAA": {
       "example": "<p class=\"low-contrast-large-aa\">This small text does not have enough contrast with it's background</p>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "notfound",
@@ -199,25 +220,28 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Focus not visible": {
       "example": "<a class=\"not-visible-outline-link\" href=\"#\">This links has visible focus</a> but this button\n        <button class=\"not-visible-outline\">Search</button> doesn't\n    ",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     }
   },
@@ -225,24 +249,27 @@
     "Inadequate line height used": {
       "example": "<p class=\"line-height\">Many people with cognitive disabilities have trouble tracking lines of text when a block of text is single spaced. Providing spacing between 1.5 to 2 allows them to start a new line more easily once they have finished the previous one.</p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "All caps text found": {
       "example": "<p class=\"all-caps\">Typing sentences or phrases IN ALL CAPITALS is rarely a good idea. It may make sense under some circumstances, but only rarely. Lengthy segments of capitalized content are more difficult to read. In some cases, a screen reader may interpret ALL CAPITAL text as being an acronym and may read it as letters rather than words. For example, a screen reader may read the uppercase text CONTACT US as \"Contact U. S.\" because it interprets the uppercase \"US\" as being an acronym for \"United States\".</p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -255,12 +282,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "warning"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Blink element found": {
       "example": "<blink>Blinking text and moving text (such as a marquee) can distract the reader's attention. This is especially relevant to people with attention deficits or cognitive disabilities. Neither is likely to cause a seizure, but they are likely to decrease the readability of the document as a whole and increase the time it takes for users to finish reading it.</blink>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "error",
         "tenon": "error",
@@ -273,12 +302,14 @@
         "nu": "error",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "warning"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "Italics used on long sections of text": {
       "example": "<p class=\"italic\">Italics are sometimes used to highlight text. But you shouldn't use italicized text because they make letters hard to read. The letters have a jagged line compared to non-italic fonts. The letters also lean over making it hard for dyslexic users to make out the words. When the text size is small, the text is even more illegible.</p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -291,12 +322,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "warning"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Marquee element found": {
       "example": "<marquee>The BLINK and MARQUEE element animates content in a way that cannot be overridden or disabled by the user.</marquee>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "error",
         "tenon": "error",
@@ -309,61 +342,68 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "notfound"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Long lines of text": {
       "example": "<p>For people with some reading or vision disabilities, long lines of text can become a significant barrier. They have trouble keeping their place and following the flow of text. Having a narrow block of text makes it easier for them to continue on to the next line in a block. Lines should not exceed 80 characters</p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Very small text found": {
       "example": "<p class=\"small-text\">This is some tiny text, much too small for some people to read</p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
-        "wave": "warning",
+        "wave": "error",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Justified text found": {
       "example": "<p class=\"justify\">When text is justified to both margins it may add additional spaces between words which may be difficult for users with visual or cognitive impairments to read. Full text justification can also cause words to be spaced closely together thus making it difficult to determine where a word starts and ends.</p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
         "wave": "warning",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     }
   },
@@ -371,6 +411,7 @@
     "Text language changed without required change in direction": {
       "example": "<p lang=\"ar\">الإعفاء الإلكتروني من التأشيرة</p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
@@ -383,16 +424,18 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "html element has an empty lang attribute": {
       "example": "<a href=\"example-pages/empty.html\">Example page with an empty lang attribute</a>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "error",
-        "wave": "notfound",
+        "wave": "error",
         "sortsite": "error",
         "axe": "error",
         "codesniffer": "error",
@@ -401,12 +444,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "lang attribute not used to identify change of language": {
       "example": "<p>Mother, he's asking you to go. He's saying, \"Allons, Madame plaisante!\"</p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
@@ -419,12 +464,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Text language is in the wrong direction": {
       "example": "<p dir=\"rtl\" lang=\"en\">Electronic visa waiver</p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -437,16 +484,18 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "html element has an invalid value in the lang attribute": {
       "example": "<a href=\"example-pages/invalid.html\">Example page with an invalid lang attribute</a>",
       "results": {
-        "google": "notfound",
+        "arc": "error",
+        "google": "error",
         "asqatasun": "error",
         "tenon": "notfound",
-        "wave": "notfound",
+        "wave": "error",
         "sortsite": "error",
         "axe": "error",
         "codesniffer": "notfound",
@@ -455,16 +504,18 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "lang attribute used to identify change of language, but with invalid value": {
       "example": "<p>Mother, he's asking you to go. He's saying, <span lang=\"frrr\">\"Allons, Madame plaisante!\"</span></p>",
       "results": {
-        "google": "notfound",
+        "arc": "error",
+        "google": "error",
         "asqatasun": "error",
         "tenon": "notfound",
-        "wave": "manual",
+        "wave": "error",
         "sortsite": "error",
         "axe": "error",
         "codesniffer": "notfound",
@@ -473,125 +524,15 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "html element is missing a lang attribute": {
       "example": "<a href=\"example-pages/missing.html\">Example page with a missing lang attribute</a>",
       "results": {
+        "arc": "error",
         "google": "error",
-        "asqatasun": "error",
-        "tenon": "error",
-        "wave": "error",
-        "sortsite": "error",
-        "axe": "error",
-        "codesniffer": "error",
-        "achecker": "error",
-        "eiii": "error",
-        "nu": "notfound",
-        "siteimprove": "error",
-        "fae": "error",
-        "aslint": "error"
-      }
-    },
-    "html element has lang attribute set to wrong language": {
-      "example": "<a href=\"example-pages/inappropriate.html\">Example page with a lang attribute set to the wrong language</a>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "error",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "notfound",
-        "aslint": "notfound"
-      }
-    },
-    "lang attribute used to identify change of language, but with wrong language": {
-      "example": "<p>Mother, he's asking you to go. He's saying, <span lang=\"es\">\"Allons, Madame plaisante!\"</span></p>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "manual",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "notfound",
-        "aslint": "notfound"
-      }
-    }
-  },
-  "Page Title": {
-    "Inappropriate page title": {
-      "example": "<a href=\"example-pages/inappropriate.html\">Example page with a inappropriate page title</a>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "manual",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "manual",
-        "achecker": "manual",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "manual",
-        "aslint": "notfound"
-      }
-    },
-    "Empty page title": {
-      "example": "<a href=\"example-pages/empty.html\">Example page with a empty page title</a>",
-      "results": {
-        "google": "error",
-        "asqatasun": "error",
-        "tenon": "error",
-        "wave": "error",
-        "sortsite": "error",
-        "axe": "error",
-        "codesniffer": "error",
-        "achecker": "notfound",
-        "eiii": "error",
-        "nu": "error",
-        "siteimprove": "error",
-        "fae": "error",
-        "aslint": "error"
-      }
-    },
-    "Missing page title": {
-      "example": "<a href=\"example-pages/missing.html\">Example page with a missing page title</a>",
-      "results": {
-        "google": "error",
-        "asqatasun": "error",
-        "tenon": "error",
-        "wave": "error",
-        "sortsite": "error",
-        "axe": "error",
-        "codesniffer": "error",
-        "achecker": "error",
-        "eiii": "error",
-        "nu": "error",
-        "siteimprove": "error",
-        "fae": "error",
-        "aslint": "error"
-      }
-    }
-  },
-  "Headings": {
-    "Empty heading": {
-      "example": "<h4></h4>\n<p>This paragraph is preceded by an empty H4</p>",
-      "results": {
-        "google": "notfound",
         "asqatasun": "error",
         "tenon": "error",
         "wave": "error",
@@ -602,33 +543,17 @@
         "eiii": "error",
         "nu": "warning",
         "siteimprove": "error",
-        "fae": "warning",
-        "aslint": "error"
+        "fae": "error",
+        "aslint": "error",
+        "enabler": "error"
       }
     },
-    "Missing H1": {
-      "example": "<a href=\"example-pages/missing.html\">Example page with no H1</a>",
+    "html element has lang attribute set to wrong language": {
+      "example": "<a href=\"example-pages/inappropriate.html\">Example page with a lang attribute set to the wrong language</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "error",
-        "tenon": "notfound",
-        "wave": "warning",
-        "sortsite": "error",
-        "axe": "notfound",
-        "codesniffer": "error",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "error",
-        "fae": "warning",
-        "aslint": "error"
-      }
-    },
-    "Text formatting used instead of an actual heading": {
-      "example": "<div class=\"fake-heading\">Fake Heading</div>\n<p>This paragraph is preceded by a div that is styled to look like a heading</p>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -639,13 +564,158 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
+      }
+    },
+    "lang attribute used to identify change of language, but with wrong language": {
+      "example": "<p>Mother, he's asking you to go. He's saying, <span lang=\"es\">\"Allons, Madame plaisante!\"</span></p>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "manual",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "notfound",
+        "aslint": "notfound",
+        "enabler": "notfound"
+      }
+    }
+  },
+  "Page Title": {
+    "Inappropriate page title": {
+      "example": "<a href=\"example-pages/inappropriate.html\">Example page with a inappropriate page title</a>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "manual",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "manual",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "manual",
+        "aslint": "notfound",
+        "enabler": "notfound"
+      }
+    },
+    "Empty page title": {
+      "example": "<a href=\"example-pages/empty.html\">Example page with a empty page title</a>",
+      "results": {
+        "arc": "error",
+        "google": "error",
+        "asqatasun": "error",
+        "tenon": "error",
+        "wave": "error",
+        "sortsite": "error",
+        "axe": "error",
+        "codesniffer": "error",
+        "achecker": "notfound",
+        "eiii": "error",
+        "nu": "error",
+        "siteimprove": "error",
+        "fae": "error",
+        "aslint": "error",
+        "enabler": "error"
+      }
+    },
+    "Missing page title": {
+      "example": "<a href=\"example-pages/missing.html\">Example page with a missing page title</a>",
+      "results": {
+        "arc": "error",
+        "google": "error",
+        "asqatasun": "error",
+        "tenon": "error",
+        "wave": "error",
+        "sortsite": "error",
+        "axe": "error",
+        "codesniffer": "error",
+        "achecker": "error",
+        "eiii": "error",
+        "nu": "error",
+        "siteimprove": "error",
+        "fae": "error",
+        "aslint": "error",
+        "enabler": "error"
+      }
+    }
+  },
+  "Headings":     {
+    "Empty heading": {
+      "example": "<h4></h4>\n<p>This paragraph is preceded by an empty H4</p>",
+      "results": {
+        "arc": "warning",
+        "google": "notfound",
+        "asqatasun": "error",
+        "tenon": "error",
+        "wave": "error",
+        "sortsite": "error",
+        "axe": "error",
+        "codesniffer": "error",
+        "eiii": "error",
+        "nu": "warning",
+        "siteimprove": "error",
+        "fae": "warning",
+        "aslint": "notfound",
+        "enabler": "error"
+      }
+    },
+    "Missing H1": {
+      "example": "<a href=\"example-pages/missing.html\">Example page with no H1</a>",
+      "results": {
+        "arc": "warning",
+        "google": "notfound",
+        "asqatasun": "error",
+        "tenon": "notfound",
+        "wave": "warning",
+        "sortsite": "error",
+        "axe": "error",
+        "codesniffer": "error",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "error",
+        "fae": "warning",
+        "aslint": "error",
+        "enabler": "error"
+      }
+    },
+    "Text formatting used instead of an actual heading": {
+      "example": "<div class=\"fake-heading\">Fake Heading</div>\n<p>This paragraph is preceded by a div that is styled to look like a heading</p>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "manual",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "notfound",
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     },
     "Headings not structured in a hierarchical manner": {
       "example": "<h3>Heading 3</h3>\n<p>Pages should be structured in a hierarchical manner, generally with one 1st degree headings (h1) being the\n        most important (usually page titles or main content heading), then 2nd degree headings (h2 - usually major\n            section headings), down to 3rd degree headings (sub-sections of the h2), and so on. </p>\n<h5>Heading 5</h5>\n<p>Technically, lower degree headings should be contained within headings of the next highest degree\n            (i.e., one should not skip heading levels, such as from an h2 to an h4, going down the document).</p>\n<h4>Heading 4</h4>\n<p>This is an example where heading levels have been skipped and are not in a logical order, which makes the page\n            difficult to understand and navigate for people using assistive technologies such as screen reader.</p>",
       "results": {
-        "google": "notfound",
+        "arc": "warning",
+        "google": "error",
         "asqatasun": "error",
         "tenon": "notfound",
         "wave": "warning",
@@ -657,7 +727,8 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     }
   },
@@ -665,7 +736,8 @@
     "LI element with no parent": {
       "example": "<li>\n            no parent\n        </li>",
       "results": {
-        "google": "notfound",
+        "arc": "error",
+        "google": "error",
         "asqatasun": "notfound",
         "tenon": "error",
         "wave": "notfound",
@@ -677,12 +749,14 @@
         "nu": "error",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "List not marked up as a list": {
       "example": "        * apple <br/>\n        * orange <br/>\n        * banana <br/>\n        * pear\n    ",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -695,13 +769,15 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
-    "DT or DD elements that are not contained within a DL element": {
+    "DT or DD elements that are not contained within a DL element":   {
       "example": "<dt>html</dt>\n<dd>a markup language for describing web documents</dd>",
       "results": {
-        "google": "notfound",
+        "arc": "notfound",
+        "google": "error",
         "asqatasun": "notfound",
         "tenon": "error",
         "wave": "notfound",
@@ -713,13 +789,15 @@
         "nu": "error",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Improperly nested lists": {
       "example": "<ul>\n<ul>\n<li>improperly nested</li>\n</ul>\n</ul>",
       "results": {
-        "google": "notfound",
+        "arc": "warning",
+        "google": "error",
         "asqatasun": "notfound",
         "tenon": "error",
         "wave": "notfound",
@@ -731,7 +809,8 @@
         "nu": "error",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     }
   },
@@ -739,10 +818,11 @@
     "Table with column headers and double row headers": {
       "example": "<table>\n<caption>Road Traffic at Junctions</caption>\n<tr>\n<th>Road</th>\n<th>Junction</th>\n<th>Car</th>\n<th>Bus</th>\n</tr>\n<tr>\n<th>Regent Street</th>\n<th>Oxford Street</th>\n<td>307</td>\n<td>12</td>\n</tr>\n<tr>\n<th>Regent Street</th>\n<th>Bond Street</th>\n<td>1731</td>\n<td>58</td>\n</tr>\n<tr>\n<th>Southwark Street</th>\n<th>Union Street</th>\n<td>1975</td>\n<td>51</td>\n</tr>\n</table>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
-        "wave": "manual",
+        "wave": "notfound",
         "sortsite": "error",
         "axe": "notfound",
         "codesniffer": "error",
@@ -751,16 +831,18 @@
         "nu": "notfound",
         "siteimprove": "manual",
         "fae": "error",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Table has no scope attributes": {
       "example": "<table>\n<caption>Opening\ntimes</caption>\n<tr>\n<td></td>\n<th>Monday-Friday</th>\n<th>Saturday</th>\n<th>Sunday</th>\n</tr>\n<tr>\n<th>08:00\n-\n12:00</th>\n<td>open</td>\n<td>open</td>\n<td>closed</td>\n</tr>\n<tr>\n<th>12:00\n-\n16:00</th>\n<td>open</td>\n<td>closed</td>\n<td>closed</td>\n</tr>\n</table>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
-        "wave": "manual",
+        "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
         "codesniffer": "error",
@@ -769,34 +851,38 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Table nested within table header": {
       "example": "<table>\n<tr>\n<th>Item</th>\n<th>Cost</th>\n</tr>\n<tr>\n<td>Lunch</td>\n<td>£6.99</td>\n</tr>\n<tr>\n<th>Holiday\n<table>\n<tr>\n<th>Item</th>\n<th>Cost</th>\n</tr>\n<tr>\n<td>Accommodation</td>\n<td>£499.99</td>\n</tr>\n<tr>\n<td>Travel</td>\n<td>£109.99</td>\n</tr>\n</table>\n</th>\n<td>£609.98</td>\n</tr>\n</table>",
       "results": {
+        "arc": "error",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
-        "wave": "notfound",
+        "wave": "warning",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Table nested within table": {
       "example": "<table>\n<tr>\n<th>Item</th>\n<th>Cost</th>\n</tr>\n<tr>\n<td>Lunch</td>\n<td>£6.99</td>\n</tr>\n<tr>\n<td>Holiday\n<table>\n<tr>\n<th>Item</th>\n<th>Cost</th>\n</tr>\n<tr>\n<td>Accommodation</td>\n<td>£499.99</td>\n</tr>\n<tr>\n<td>Travel</td>\n<td>£109.99</td>\n</tr>\n</table>\n</td>\n<td>£609.98</td>\n</tr>\n</table>",
       "results": {
+        "arc": "error",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
-        "wave": "notfound",
+        "wave": "warning",
         "sortsite": "error",
         "axe": "notfound",
         "codesniffer": "notfound",
@@ -805,102 +891,114 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Table has no table headings": {
       "example": "<table>\n<caption>Shelly's Daughters</caption>\n<thead>\n<tr>\n<td>Name</td>\n<td>Age</td>\n<td>Birthday</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Jackie</td>\n<td>5</td>\n<td>April 5</td>\n</tr>\n<tr>\n<td>Beth</td>\n<td>8</td>\n<td>January 14</td>\n</tr>\n</tbody>\n</table>",
       "results": {
-        "google": "error",
+        "arc": "error",
+        "google": "notfound",
         "asqatasun": "manual",
         "tenon": "warning",
-        "wave": "manual",
+        "wave": "notfound",
         "sortsite": "error",
-        "axe": "error",
-        "codesniffer": "manual",
+        "axe": "notfound",
+        "codesniffer": "notfound",
         "achecker": "manual",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Table with inconsistent numbers of columns in rows": {
       "example": "<table>\n<caption>Requester information</caption>\n<thead>\n<tr>\n<th colspan=\"10\">Requester Information</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th class=\"label\" colspan=\"1\" id=\"name\">Name</th>\n<td colspan=\"7\" headers=\"name\">Jon Smith</td>\n<th class=\"label\" colspan=\"1\" id=\"date\">Date</th>\n<td colspan=\"1\" headers=\"date\">9/9/2005</td>\n</tr>\n<tr>\n<th class=\"label\" colspan=\"1\" id=\"dept\">Department</th>\n<td colspan=\"9\" headers=\"dept\">Customer Service</td>\n</tr>\n<tr>\n<th class=\"label\" colspan=\"1\" id=\"remail\">E-mail</th>\n<td colspan=\"4\" headers=\"remail\">jon.smith@gov.uk</td>\n<th class=\"label\" colspan=\"1\" id=\"rphone\">Phone</th>\n<td colspan=\"4\" headers=\"rphone\">07700 900258</td>\n</tr>\n</tbody>\n</table>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "manual",
+        "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "error",
         "siteimprove": "manual",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Table that only has TH elements in it": {
       "example": "<table>\n<thead>\n<tr>\n<th>Foo</th>\n<th>Bar</th>\n<th>Bat</th>\n<th>Baz</th>\n</tr>\n</thead>\n</table>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
         "wave": "notfound",
         "sortsite": "notfound",
-        "axe": "error",
+        "axe": "notfound",
         "codesniffer": "notfound",
         "achecker": "warning",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Table is missing a caption": {
       "example": "<table>\n<thead>\n<tr>\n<th scope=\"col\">Name</th>\n<th scope=\"col\">Age</th>\n<th scope=\"col\">Birthday</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th scope=\"row\">Jackie</th>\n<td>5</td>\n<td>April 5</td>\n</tr>\n<tr>\n<th scope=\"row\">Beth</th>\n<td>8</td>\n<td>January 14</td>\n</tr>\n</tbody>\n</table>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
-        "wave": "manual",
+        "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "manual",
+        "codesniffer": "warning",
         "achecker": "manual",
         "eiii": "notfound",
         "nu": "notfound",
-        "siteimprove": "error",
+        "siteimprove": "manual",
         "fae": "warning",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Table used for layout": {
       "example": "<table>\n<tr>\n<td><ul><li><a href=\"home.html\">Home</a></li><li><a href=\"about-us.html\">About us</a></li><li><a href=\"products.html\">Our products</a></li></ul></td>\n<td><h2>Welcome to our homepage</h2><p>Here you can find out who we are, what we do and why you should buy our products.</p></td>\n</tr>\n</table>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "warning",
-        "wave": "identified",
+        "wave": "warning",
         "sortsite": "error",
         "axe": "notfound",
-        "codesniffer": "identified",
+        "codesniffer": "notfound",
         "achecker": "manual",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Table has an empty table header": {
       "example": "<table>\n<caption>Shelly's Daughters</caption>\n<thead>\n<tr>\n<th></th>\n<th scope=\"col\">Age</th>\n<th scope=\"col\">Birthday</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<th scope=\"row\">Jackie</th>\n<td>5</td>\n<td>April 5</td>\n</tr>\n<tr>\n<th scope=\"row\">Beth</th>\n<td>8</td>\n<td>January 14</td>\n</tr>\n</tbody>\n</table>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
@@ -911,14 +1009,16 @@
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
-        "siteimprove": "error",
+        "siteimprove": "manual",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Table with some empty cells": {
       "example": "<table>\n<caption>Bills before Parliament 2016-17</caption>\n<thead>\n<tr>\n<th>\n                        Current House\n                    </th>\n<th>\n                        Bill title\n                    </th>\n<th>\n                        Last updated\n                    </th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td> </td>\n<td>A</td>\n<td> </td>\n</tr>\n<tr>\n<td>\n                        Lords\n                    </td>\n<td>\n                        Abortion (Disability Equality) Bill [HL]\n                    </td>\n<td>26.05.2016</td>\n</tr>\n<tr>\n<td>\n                        Lords\n                    </td>\n<td>\n                        Access to Palliative Care Bill [HL]\n                    </td>\n<td>10.06.2016</td>\n</tr>\n</tbody>\n</table>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -931,7 +1031,8 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     }
   },
@@ -939,6 +1040,7 @@
     "Image has alt and title that are different": {
       "example": "<img alt=\"BBC\" src=\"images/bbc-blocks-dark.png\" title=\"BBC homepage\"/>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "error",
@@ -951,30 +1053,34 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Image with presentation role has non-empty alt": {
       "example": "<img alt=\"Decorative line clipart\" height=\"118\" role=\"presentation\" src=\"images/decoration.png\" width=\"368\" />",
       "results": {
+        "arc": "manual",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
         "wave": "notfound",
         "sortsite": "error",
-        "axe": "notfound",
+        "axe": "error",
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
+        "nu": "error",
+        "siteimprove": "manual",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Image with no alt attribute": {
       "example": "<img src=\"images/bbc-blocks-dark.png\"/>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "error",
@@ -987,12 +1093,14 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "Background image that conveys information does not have a text alternative": {
       "example": "<div class=\"warning-icon\">\n            Taking too much of your pension money in early retirement could mean you don't have enough for later.\n        </div>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -1005,16 +1113,18 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     },
     "Image has empty alt and non-empty title": {
       "example": "<img alt=\"\" src=\"images/bbc-blocks-dark.png\" title=\"BBC\"/>",
       "results": {
+        "arc": "error",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "error",
-        "wave": "notfound",
+        "wave": "warning",
         "sortsite": "error",
         "axe": "notfound",
         "codesniffer": "error",
@@ -1023,12 +1133,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "A distraction is present, an animated gif": {
       "example": "<img alt=\"Animated gif of a Christmas tree with a toy train round and round the base of the tree\" height=\"193\" src=\"images/animated-tree.gif\" width=\"157\" />",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -1041,48 +1153,54 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Image that conveys information has an empty alt attribute": {
       "example": "<img alt=\"\" src=\"images/bbc-blocks-dark.png\"/>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "manual",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "manual",
+        "codesniffer": "warning",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "manual",
+        "nu": "notfound",
         "siteimprove": "manual",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "manual",
+        "enabler": "error"
       }
     },
     "Image that conveys information has inappropriate alt text": {
       "example": "<img alt=\"Twitter\" src=\"images/bbc-blocks-dark.png\"/>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
-        "wave": "manual",
+        "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "manual",
+        "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     },
     "Image alt attribute contains image file name": {
       "example": "<img alt=\"bbc-blocks-dark.png\" src=\"images/bbc-blocks-dark.png\"/>",
       "results": {
+        "arc": "warning",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "error",
@@ -1092,28 +1210,31 @@
         "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
-        "nu": "manual",
+        "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "manual"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     },
     "Image with partial text alternative": {
       "example": "<p>The image below contains a lot of information, such as which departments the sale is on. The text alternative in the alt attribute does not include this information, only a partial \"25% off sale\"</p>\n<img alt=\"25% off sale\" src=\"images/sale.jpg\"/>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
-        "wave": "manual",
+        "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
         "codesniffer": "manual",
         "achecker": "manual",
         "eiii": "notfound",
-        "nu": "manual",
+        "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     }
   },
@@ -1121,10 +1242,11 @@
     "Embedded video file is missing text alternative": {
       "example": "<video controls=\"\">\n<source src=\"http://introducinghtml5.com/examples/ch04/leverage-a-synergy.ogv\" type='video/ogg; codecs=\"theora, vorbis\"' />\n<source src=\"http://introducinghtml5.com/examples/ch04/leverage-a-synergy.mp4\" type='video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"' />\n</video>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
-        "wave": "manual",
+        "wave": "warning",
         "sortsite": "notfound",
         "axe": "manual",
         "codesniffer": "manual",
@@ -1133,43 +1255,48 @@
         "nu": "notfound",
         "siteimprove": "manual",
         "fae": "manual",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Flashing content doesn't have warning": {
       "example": "<iframe allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/gwoQRKCEHgY\" title=\"Banned Pokemon scene\" width=\"560\"></iframe>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     },
     "Embedded audio file is missing text alternative": {
       "example": "<audio controls=\"\" src=\"http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg\"></audio>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
-        "wave": "manual",
+        "wave": "warning",
         "sortsite": "notfound",
-        "axe": "manual",
+        "axe": "notfound",
         "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "manual",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     }
   },
@@ -1177,24 +1304,27 @@
     "Image link with no alternative text": {
       "example": "<a href=\"http://www.bbc.co.uk\"><img alt=\"\" src=\"images/bbc-blocks-dark.png\"/></a>",
       "results": {
+        "arc": "notfound",
         "google": "error",
         "asqatasun": "error",
         "tenon": "error",
         "wave": "error",
         "sortsite": "error",
-        "axe": "error",
+        "axe": "notfound",
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "Link to javascript, invalid hypertext reference": {
       "example": "<a href=\"javascript:alert('Hello world!')\">Press me!</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
@@ -1207,13 +1337,15 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Uninformative link text": {
       "example": "<h4>Polar bear</h4>\n<p>The polar bear is a carnivorous bear whose native range lies largely within the Arctic Circle,\n            encompassing the Arctic Ocean, its surrounding seas and surrounding land masses.</p>\n<a href=\"https://en.wikipedia.org/wiki/Polar_bear\">Read more</a>",
       "results": {
-        "google": "notfound",
+        "arc": "notfound",
+        "google": "error",
         "asqatasun": "manual",
         "tenon": "error",
         "wave": "warning",
@@ -1225,30 +1357,34 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Link launches new window with no warning": {
       "example": "<a href=\"https://twitter.com/\" target=\"_blank\">Twitter</a>",
       "results": {
-        "google": "notfound",
+        "arc": "notfound",
+        "google": "error",
         "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "error_paid",
         "axe": "notfound",
-        "codesniffer": "manual",
+        "codesniffer": "warning",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "warning"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Links not separated by printable characters": {
       "example": "<a href=\"a.html\">Page A</a> <a href=\"b.html\">Page B</a> <a href=\"c.html\">Page C</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -1261,12 +1397,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Link text with identical title": {
       "example": "<a href=\"http://www.google.com\" title=\"Google\">Google</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "error",
         "tenon": "error",
@@ -1279,12 +1417,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Links to a sound file, no transcript": {
       "example": "<a href=\"interview.mp3\">Listen to the interview</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -1297,30 +1437,34 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Identifying links by colour alone": {
       "example": "<p class=\"links-by-colour-alone\">\n<a href=\"#\">A normal link</a>\n<br/>\n            Some text\n            <br/>\n<a class=\"colour-alone-link\" href=\"#\">Link only identifiable by colour alone</a>\n</p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     },
     "Link to PDF does not include information on file format and file size": {
       "example": "<a href=\"http://www.bdadyslexia.org.uk/common/ckeditor/filemanager/userfiles/About_Us/policies/Dyslexia_Style_Guide.pdf\">Dyslexia style guide</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
@@ -1333,30 +1477,34 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Link to #, invalid hypertext reference": {
       "example": "<a href=\"#\">Do something</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
         "wave": "notfound",
         "sortsite": "notfound",
-        "axe": "error",
+        "axe": "notfound",
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "manual",
+        "enabler": "error"
       }
     },
     "Blank link text": {
       "example": "<a href=\"http://www.google.com\"></a>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "error",
@@ -1369,48 +1517,54 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "Links with the same text go to different pages": {
       "example": "<a href=\"https://en.wikipedia.org/wiki/Lion\">Lions</a> are the only truly social cats, with related females\n        living together in prides overseen by male coalition that compete for possession in fierce and often fatal battles.\n        <a href=\"http://animals.nationalgeographic.com/animals/mammals/african-lion/\">Lions</a> are predatory carnivores and it's the females that perform most of the hunting at night; the majority\n        of the prey being antelope, zebra and wildebeest.\n    ",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
-        "axe": "notfound",
+        "axe": "warning",
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "warning",
-        "aslint": "notfound"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Link text does not make sense out of context": {
       "example": "<p>To know more about me, visit my <a href=\"page.html\">page</a>.</p>",
       "results": {
-        "google": "error",
+        "arc": "notfound",
+        "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
-        "wave": "notfound",
+        "wave": "warning",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "manual",
         "achecker": "warning",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Adjacent links going to the same destination": {
       "example": "<a href=\"https://en.wikipedia.org/wiki/Red_panda\"><img alt=\"Red Panda\" height=\"165\" src=\"images/red_panda.jpg\" width=\"220\"/></a>\n<a href=\"https://en.wikipedia.org/wiki/Red_panda\">Red Panda</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -1423,13 +1577,15 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Link contains only a full stop": {
       "example": "        Visit the GOV.UK website <a href=\"https://www.gov.uk/\">.</a>",
       "results": {
-        "google": "error",
+        "arc": "notfound",
+        "google": "notfound",
         "asqatasun": "error",
         "tenon": "notfound",
         "wave": "notfound",
@@ -1441,12 +1597,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Image link alt text repeats text in the link": {
       "example": "<a href=\"https://en.wikipedia.org/wiki/Red_panda\">\n<img alt=\"Red Panda\" height=\"165\" src=\"images/red_panda.jpg\" width=\"220\"/>\n            Red Panda\n        </a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
@@ -1459,12 +1617,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Link not clearly identifiable and distinguishable from surrounding text": {
       "example": "<p class=\"unobvious-link\">Find out more about <a href=\"http://www.bbc.co.uk/programmes/b006q2x0\">Doctor Who</a></p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -1477,12 +1637,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     },
     "Link to a multimedia file, no transcript": {
       "example": "<a href=\"interview.mov\">Watch the interview</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -1495,12 +1657,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Non-specific link text": {
       "example": "<a href=\"rockies.html\">Click here</a> for more information on the Rocky Mountains.\n    ",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "error",
@@ -1513,12 +1677,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "manual",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Link to an image, no text alternative": {
       "example": "        My favourite <a href=\"images/bat.jpg\">bat</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
@@ -1531,7 +1697,8 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     }
   },
@@ -1539,6 +1706,7 @@
     "Image button has no alt attribute": {
       "example": "<input src=\"images/submit.png\" type=\"image\" />",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "error",
@@ -1551,12 +1719,14 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Empty button": {
       "example": "<button></button>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "notfound",
         "tenon": "error",
@@ -1569,16 +1739,18 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "error",
-        "aslint": "identified"
+        "aslint": "notfound",
+        "enabler": "error"
       }
     },
     "Uninformative alt attribute value on image button": {
       "example": "<input alt=\"click\" src=\"images/submit.png\" type=\"image\"/>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "error",
-        "wave": "manual",
+        "wave": "notfound",
         "sortsite": "notfound",
         "axe": "notfound",
         "codesniffer": "manual",
@@ -1587,13 +1759,15 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Empty alt attribute on image button": {
       "example": "<input alt=\"\" src=\"images/submit.png\" type=\"image\" />",
       "results": {
-        "google": "notfound",
+        "arc": "error",
+        "google": "error",
         "asqatasun": "error",
         "tenon": "error",
         "wave": "error",
@@ -1605,7 +1779,8 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     }
   },
@@ -1613,6 +1788,7 @@
     "Errors identified by colour only": {
       "example": "<form class=\"errors-badly-identified errors-colour-only\">\n<div class=\"validation-summary\" role=\"alert\">\n                You need to fix the errors on this page before continuing.\n            </div>\n<label>\n                Passport number\n                <input class=\"has-errors\" name=\"name\" type=\"text\"/>\n</label>\n<label>\n                Name on passport\n                <input name=\"surname\" type=\"text\"/>\n</label>\n<label>\n                Date of expiry\n                <input class=\"has-errors\" name=\"date-of-birth\" type=\"text\"/>\n</label>\n</form>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -1625,13 +1801,15 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     },
     "Labels missing when they would look clumsy for some form controls": {
       "example": "<form><label for=\"missing-labels-day\">Your child's date of birth</label>\n<p>\n<input id=\"missing-labels-day\" type=\"text\"/>\n<input id=\"missing-labels-month\" type=\"text\"/>\n<input id=\"missing-labels-year\" type=\"text\"/>\n</p></form>",
       "results": {
-        "google": "notfound",
+        "arc": "error",
+        "google": "error",
         "asqatasun": "error",
         "tenon": "error",
         "wave": "error",
@@ -1643,12 +1821,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "Error messages - no suggestion for corrections given, e.g. required format": {
       "example": "<form><label class=\"required-format-not-given\">\n            Phone number\n            <span class=\"error-message\">is not valid</span>\n<input class=\"has-errors\" pattern=\"7[0-9]{9}\" required=\"\" type=\"tel\"/>\n</label></form>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
@@ -1661,12 +1841,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Left aligned form labels with too much white space": {
       "example": "<form><p class=\"too-much-whitespace\">\n<label for=\"input-too-far-away\">Country</label>\n<input id=\"input-too-far-away\" type=\"text\"/>\n</p></form>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
@@ -1679,30 +1861,34 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Group of radio buttons not enclosed in a fieldset": {
       "example": "<form><h4>Do you already have a personal user account?</h4>\n<label class=\"block-label\" for=\"radio-inline-1\">\n<input id=\"radio-inline-1\" name=\"radio-inline-group\" type=\"radio\" value=\"Yes\" />\n            Yes\n        </label><br/>\n<label class=\"block-label\" for=\"radio-inline-2\">\n<input id=\"radio-inline-2\" name=\"radio-inline-group\" type=\"radio\" value=\"No\" />\n            No\n        </label></form>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "warning",
         "sortsite": "error",
-        "axe": "error",
-        "codesniffer": "notfound",
+        "axe": "notfound",
+        "codesniffer": "warning",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
-        "siteimprove": "notfound",
+        "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Form element has no label": {
       "example": "<form><input type=\"text\" /></form>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "error",
@@ -1715,12 +1901,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Fieldset without a legend": {
       "example": "<form><fieldset>\n            I am a fieldset without a legend\n        </fieldset></form>",
       "results": {
+        "arc": "error",
         "google": "notfound",
         "asqatasun": "error",
         "tenon": "notfound",
@@ -1733,12 +1921,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "error",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Empty legend": {
       "example": "<form><fieldset>\n<legend></legend>\n</fieldset></form>",
       "results": {
+        "arc": "error",
         "google": "notfound",
         "asqatasun": "error",
         "tenon": "notfound",
@@ -1751,12 +1941,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "error",
-        "aslint": "identified"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Label element with for= attribute but not matching id= attribute of form control": {
       "example": "<form><fieldset>\n<legend>Non-matching for attribute</legend>\n<label id=\"not-matching-anything\">form</label>\n<input id=\"label-for-not-matching\" type=\"checkbox\" value=\"yes\"/>\n</fieldset></form>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "error",
@@ -1769,31 +1961,35 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "Group of check boxes not enclosed in a fieldset": {
       "example": "<form><h4>Which types of waste do you transport regularly?</h4>\n<label class=\"block-label\" for=\"waste-type-1\">\n<input id=\"waste-type-1\" name=\"waste-types\" type=\"checkbox\" value=\"waste-animal\" />\n            Waste from animal carcasses\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-2\">\n<input id=\"waste-type-2\" name=\"waste-types\" type=\"checkbox\" value=\"waste-mines\" />\n            Waste from mines or quarries\n        </label><br/>\n<label class=\"block-label\" for=\"waste-type-3\">\n<input id=\"waste-type-3\" name=\"waste-types\" type=\"checkbox\" value=\"waste-farm-agricultural\" />\n            Farm or agricultural waste\n        </label></form>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "warning",
         "sortsite": "notfound",
-        "axe": "error",
-        "codesniffer": "notfound",
+        "axe": "notfound",
+        "codesniffer": "warning",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
-        "siteimprove": "notfound",
+        "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Empty label found": {
       "example": "<form><label for=\"empty\"></label>\n<input id=\"empty\" type=\"text\" value=\"\" /></form>",
       "results": {
-        "google": "notfound",
+        "arc": "error",
+        "google": "error",
         "asqatasun": "manual",
         "tenon": "error",
         "wave": "error",
@@ -1805,31 +2001,35 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Two unique labels, but identical for= attributes": {
       "example": "<form><label for=\"two-labels-day\">Date of issue</label>\n<p>\n<label for=\"two-labels-day\">Day</label>\n<input id=\"two-labels-day\" type=\"text\"/>\n<label for=\"two-labels-month\">Month</label>\n<input id=\"two-labels-month\" type=\"text\"/>\n<label for=\"two-labels-year\">Year</label>\n<input id=\"two-labels-year\" type=\"text\"/>\n</p></form>",
       "results": {
+        "arc": "error",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "error",
         "sortsite": "notfound",
-        "axe": "error",
+        "axe": "warning",
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Errors identified with a poor colour contrast": {
       "example": "<form class=\"errors-badly-identified error-poor-contrast\">\n<div class=\"validation-summary\" role=\"alert\">\n                You need to fix the errors on this page before continuing.\n            </div>\n<label>\n                Claimant's name\n                <input class=\"has-errors\" name=\"name\" type=\"text\"/>\n</label>\n<label>\n                Claimant's surname\n                <input name=\"surname\" type=\"text\"/>\n</label>\n<label>\n                Claimant's date of birth\n                <input class=\"has-errors\" name=\"date-of-birth\" type=\"text\"/>\n</label>\n</form>",
       "results": {
-        "google": "warning",
+        "arc": "error",
+        "google": "error",
         "asqatasun": "error",
         "tenon": "notfound",
         "wave": "error",
@@ -1841,12 +2041,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Non-unique field label found": {
       "example": "<form><label for=\"x_3\">Name\n            <input id=\"x_3\" name=\"x_3\" type=\"text\" /></label><br />\n<label for=\"x_4\">Name\n            <input id=\"x_4\" name=\"x_4\" type=\"text\" /></label></form>",
       "results": {
+        "arc": "error",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
@@ -1859,12 +2061,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "error",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Missing labels in checkboxes": {
       "example": "<form><fieldset>\n<legend>What is your nationality?</legend>\n<label>British (including English, Scottish, Welsh and Northern Irish)</label>\n<input id=\"nationality_british\" name=\"nationality.british\" type=\"checkbox\" value=\"true\" />\n<label>Irish</label>\n<input id=\"nationality_irish\" name=\"nationality.irish\" type=\"checkbox\" value=\"true\" />\n<label>Citizen of a different country</label>\n<input id=\"nationality_hasOtherCountry\" name=\"nationality.hasOtherCountry\" type=\"checkbox\" value=\"true\" />\n</fieldset></form>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "error",
@@ -1877,12 +2081,14 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "Field hint not associated with input": {
       "example": "<form><label class=\"form-label\" for=\"ni-number\">\n            National Insurance number\n        </label>\n<p class=\"form-hint\">It'll be on your last payslip. For example, JH 21 90 0A.</p>\n<input class=\"form-control\" id=\"ni-number\" type=\"text\" /></form>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
@@ -1895,30 +2101,34 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Placeholder no label": {
       "example": "<form><input id=\"search-main\" name=\"q\" placeholder=\"Search\" type=\"search\" />\n<input class=\"submit\" type=\"submit\" value=\"Search\" /></form>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "error",
         "tenon": "error",
         "wave": "error",
         "sortsite": "error",
-        "axe": "error",
-        "codesniffer": "error",
+        "axe": "notfound",
+        "codesniffer": "manual",
         "achecker": "error",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "notfound"
       }
     },
     "Errors are not identified": {
       "example": "<form class=\"errors-badly-identified errors-not-identified\">\n<div class=\"validation-summary\" role=\"alert\">\n                You need to fix the errors on this page before continuing.\n            </div>\n<label>\n                Name\n                <input name=\"name\" type=\"text\"/>\n</label>\n<label>\n                Surname\n                <input name=\"surname\" type=\"text\"/>\n</label>\n<label>\n                Date of birth\n                <input name=\"date-of-birth\" type=\"text\"/>\n</label>\n</form>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
@@ -1931,12 +2141,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Form control that changes context without warning": {
       "example": "<form><label for=\"language-selector\">Select your language</label>\n<select class=\"language-selector\" id=\"language-selector\">\n<option value=\"\">Change your language</option>\n<option value=\"en\">English</option>\n<option value=\"de\">German</option>\n<option value=\"fr\">French</option>\n</select></form>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "manual",
         "tenon": "notfound",
@@ -1949,7 +2161,8 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     }
   },
@@ -1957,336 +2170,9 @@
     "Inadequately-sized clickable targets found": {
       "example": "<a href=\"a.html\">a</a>\n<a href=\"b.html\">b</a>\n<a href=\"c.html\">c</a>\n<a href=\"d.html\">d</a>\n<a href=\"e.html\">e</a>\n<a href=\"f.html\">f</a>\n<a href=\"g.html\">g</a>\n<a href=\"h.html\">h</a>\n<a href=\"i.html\">i</a>\n<a href=\"j.html\">j</a>\n<a href=\"k.html\">k</a>\n<a href=\"l.html\">l</a>\n<a href=\"m.html\">m</a>\n<a href=\"n.html\">n</a>\n<a href=\"o.html\">o</a>\n<a href=\"p.html\">p</a>\n<a href=\"q.html\">q</a>\n<a href=\"r.html\">r</a>\n<a href=\"s.html\">s</a>\n<a href=\"t.html\">t</a>\n<a href=\"u.html\">u</a>\n<a href=\"v.html\">v</a>\n<a href=\"w.html\">w</a>\n<a href=\"x.html\">x</a>\n<a href=\"y.html\">y</a>\n<a href=\"z.html\">z</a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "notfound",
-        "aslint": "notfound"
-      }
-    }
-  },
-  "Keyboard Access": {
-    "Alert shows for a short time": {
-      "example": "<p class=\"disappearing-alert hidden\">\n            You should complete this form in 20 minutes\n        </p>\n<label>\n            Prisoner's name\n            <input type=\"text\"/>\n</label>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "manual",
-        "fae": "manual",
-        "aslint": "notfound"
-      }
-    },
-    "Lightbox - close button doesn't receive focus": {
-      "example": "<a class=\"open-lightbox-close-button\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox close-button hidden\">\n<span title=\"Close lightbox\" class=\"close-button\">X</span>\n<p>\n                This lightbox's close button isn't a link so you can't focus on it.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "error",
-        "aslint": "notfound"
-      }
-    },
-    "Focus order in wrong order": {
-      "example": "<div class=\"focus-order-broken\">\n<a class=\"first\" href=\"#\">First link</a>\n<a class=\"second\" href=\"#\">Second link</a>\n<a class=\"Third\" href=\"#\">Third link</a>\n</div>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "manual",
-        "fae": "manual",
-        "aslint": "notfound"
-      }
-    },
-    "Tabindex greater than 0": {
-      "example": "<a href=\"page.html\" tabindex=\"5\">A link with a tabindex greater than 0</a>",
-      "results": {
-        "google": "error",
-        "asqatasun": "notfound",
-        "tenon": "error",
-        "wave": "warning",
-        "sortsite": "notfound",
-        "axe": "error",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "manual",
-        "fae": "notfound",
-        "aslint": "warning"
-      }
-    },
-    "Keyboard focus is not indicated visually": {
-      "example": "<a class=\"no-outline\" href=\"link.html\">Link with no focus style</a>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "manual",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "error",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "error",
-        "fae": "manual",
-        "aslint": "error"
-      }
-    },
-    "Keyboard focus assigned to a non focusable element using tabindex=0": {
-      "example": "<p tabindex=\"0\">My favourite car</p>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "manual",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "notfound",
-        "aslint": "notfound"
-      }
-    },
-    "Concertina items don't get keyboard focus": {
-      "example": "<dl class=\"concertina\">\n<dt>Understanding user research</dt>\n<dd>\n<ul>\n<li>How user research improves service design</li>\n<li>Start by learning user needs</li>\n<li>Understanding users who don't use digital services</li>\n</ul>\n</dd>\n<dt>Preparing for user research</dt>\n<dd>\n<ul>\n<li>Plan user research for your service</li>\n<li>Plan a round of user research</li>\n<li>Find user research participants</li>\n<li>Choose a location for user research</li>\n<li>Write a recruitment brief</li>\n<li>Getting users' consent for research</li>\n</ul>\n</dd>\n<dt>Analysing and sharing findings</dt>\n<dd>\n<ul>\n<li>Sharing user research findings</li>\n<li>Analyse a research session</li>\n</ul>\n</dd>\n</dl>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "error",
-        "aslint": "notfound"
-      }
-    },
-    "Keyboard trap": {
-      "example": "<p><a href=\"example-pages/keyboardtrap.html\">Example page that contains a keyboard trap</a></p>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "manual",
-        "aslint": "notfound"
-      }
-    },
-    "Dropdown navigation - only the top level items receive focus": {
-      "example": "<nav class=\"dropdown-nav\" role=\"navigation\">\n<ul>\n<li>\n<a href=\"https://www.gov.uk/browse/benefits\">Benefits</a>\n<ul class=\"submenu\">\n<li><a href=\"#\">Benefits entitlement</a></li>\n<li><a href=\"#\">Benefits for families</a></li>\n<li><a href=\"#\">Carers and disability benefits</a></li>\n</ul>\n</li>\n</ul>\n</nav>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "manual",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "notfound",
-        "aslint": "notfound"
-      }
-    },
-    "Lightbox - ESC key doesn't close the lightbox": {
-      "example": "<a class=\"open-lightbox-unescapable\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox unescapable hidden\">\n<a title=\"Close lightbox\" class=\"close-button\" href=\"#\">X</a>\n<p>\n                This lightbox can't be closed with an escape key.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "notfound",
-        "aslint": "notfound"
-      }
-    },
-    "Link with a role=button does not work with space bar": {
-      "example": "<a class=\"button\" href=\"next.html\" role=\"button\">Continue</a>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "manual",
-        "fae": "manual",
-        "aslint": "error"
-      }
-    },
-    "Tooltips don't receive keyboard focus": {
-      "example": "<label class=\"tooltips-not-focusable\" for=\"drivers-licence-no\">\n            Your driving licence number\n            <span class=\"tooltip-icon\">?</span>\n<span class=\"tooltip-information\">Your driving licence number can be found in section 5 of your driving licence photocard</span>\n</label>\n<input id=\"drivers-licence-no\" type=\"text\"/>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "manual",
-        "aslint": "notfound"
-      }
-    },
-    "Accesskey attribute used": {
-      "example": "<a accesskey=\"A\" href=\"page.html\">A link with an accesskey attribute</a>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "error",
-        "wave": "warning",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "notfound",
-        "aslint": "notfound"
-      }
-    },
-    "Lightbox - focus is not moved immediately to lightbox": {
-      "example": "<a class=\"open-lightbox-focus-far\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox focus-far hidden\">\n<span title=\"Close lightbox\" class=\"close-button\">X</span>\n<p>\n                This lightbox is placed at the end of the DOM so you'll have to tab through other links to reach it.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "notfound",
-        "aslint": "notfound"
-      }
-    },
-    "Lightbox - focus is not retained within the lightbox": {
-      "example": "<a class=\"open-lightbox-not-focused\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox not-focused hidden\">\n<a title=\"Close lightbox\" class=\"close-button\" href=\"#\">X</a>\n<p>\n                This lightbox doesn't retain the focus within itself.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "notfound",
-        "aslint": "notfound"
-      }
-    },
-    "Fake button is not keyboard accessible": {
-      "example": "<div class=\"button\" id=\"webchat\">launch webchat</div>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "notfound",
-        "tenon": "notfound",
-        "wave": "notfound",
-        "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
-        "achecker": "notfound",
-        "eiii": "notfound",
-        "nu": "notfound",
-        "siteimprove": "notfound",
-        "fae": "error",
-        "aslint": "notfound"
-      }
-    }
-  },
-  "Frames": {
-    "iframe is missing a title attribute": {
-      "example": "<iframe height=\"100\" src=\"example-pages/demo.html\" width=\"300\"></iframe>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "error",
-        "tenon": "error",
-        "wave": "notfound",
-        "sortsite": "error",
-        "axe": "error",
-        "codesniffer": "error",
-        "achecker": "notfound",
-        "eiii": "error",
-        "nu": "notfound",
-        "siteimprove": "error",
-        "fae": "error",
-        "aslint": "error"
-      }
-    },
-    "iframe title attribute does not describe the content or purpose of the iframe": {
-      "example": "<iframe height=\"100\" src=\"example-pages/demo.html\" title=\"Facebook\" width=\"300\"></iframe>",
-      "results": {
-        "google": "notfound",
-        "asqatasun": "manual",
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
@@ -2297,14 +2183,156 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     }
   },
-  "CSS": {
-    "Content is not readable and functional when text is increased": {
-      "example": "<p class=\"resize\">This text becomes unreadable when you increase the text-size  (Zoom text only) in\n            <a href=\"https://www.mozilla.org/en-GB/firefox/desktop/\">Firefox</a></p>",
+  "Keyboard Access": {
+    "Alert shows for a short time": {
+      "example": "<p class=\"disappearing-alert hidden\">\n            You should complete this form in 20 minutes\n        </p>\n<label>\n            Prisoner's name\n            <input type=\"text\"/>\n</label>",
       "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "manual",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "manual",
+        "fae": "manual",
+        "aslint": "notfound",
+        "enabler": "notfound"
+      }
+    },
+    "Lightbox - close button doesn't receive focus": {
+      "example": "<a class=\"open-lightbox-close-button\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox close-button hidden\">\n<span title=\"Close lightbox\" class=\"close-button\">X</span>\n<p>\n                This lightbox's close button isn't a link so you can't focus on it.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "error",
+        "aslint": "manual",
+        "enabler": "notfound"
+      }
+    },
+    "Focus order in wrong order": {
+      "example": "<div class=\"focus-order-broken\">\n<a class=\"first\" href=\"#\">First link</a>\n<a class=\"second\" href=\"#\">Second link</a>\n<a class=\"Third\" href=\"#\">Third link</a>\n</div>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "manual",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "manual",
+        "fae": "manual",
+        "aslint": "manual",
+        "enabler": "notfound"
+      }
+    },
+    "Tabindex greater than 0": {
+      "example": "<a href=\"page.html\" tabindex=\"5\">A link with a tabindex greater than 0</a>",
+      "results": {
+        "arc": "error",
+        "google": "error",
+        "asqatasun": "notfound",
+        "tenon": "error",
+        "wave": "warning",
+        "sortsite": "notfound",
+        "axe": "error",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "manual",
+        "fae": "notfound",
+        "aslint": "error",
+        "enabler": "error"
+      }
+    },
+    "Keyboard focus is not indicated visually": {
+      "example": "<a class=\"no-outline\" href=\"link.html\">Link with no focus style</a>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "manual",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "error",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "error",
+        "fae": "manual",
+        "aslint": "manual",
+        "enabler": "notfound"
+      }
+    },
+    "Keyboard focus assigned to a non focusable element using tabindex=0": {
+      "example": "<p tabindex=\"0\">My favourite car</p>",
+      "results": {
+        "arc": "error",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "notfound",
+        "aslint": "notfound",
+        "enabler": "notfound"
+      }
+    },
+    "Concertina items don't get keyboard focus": {
+      "example": "<dl class=\"concertina\">\n<dt>Understanding user research</dt>\n<dd>\n<ul>\n<li>How user research improves service design</li>\n<li>Start by learning user needs</li>\n<li>Understanding users who don't use digital services</li>\n</ul>\n</dd>\n<dt>Preparing for user research</dt>\n<dd>\n<ul>\n<li>Plan user research for your service</li>\n<li>Plan a round of user research</li>\n<li>Find user research participants</li>\n<li>Choose a location for user research</li>\n<li>Write a recruitment brief</li>\n<li>Getting users' consent for research</li>\n</ul>\n</dd>\n<dt>Analysing and sharing findings</dt>\n<dd>\n<ul>\n<li>Sharing user research findings</li>\n<li>Analyse a research session</li>\n</ul>\n</dd>\n</dl>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "error",
+        "aslint": "manual",
+        "enabler": "notfound"
+      }
+    },
+    "Keyboard trap": {
+      "example": "<p><a href=\"example-pages/keyboardtrap.html\">Example page that contains a keyboard trap</a></p>",
+      "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -2317,12 +2345,238 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "manual",
+        "enabler": "notfound"
+      }
+    },
+    "Dropdown navigation - only the top level items receive focus": {
+      "example": "<nav class=\"dropdown-nav\" role=\"navigation\">\n<ul>\n<li>\n<a href=\"https://www.gov.uk/browse/benefits\">Benefits</a>\n<ul class=\"submenu\">\n<li><a href=\"#\">Benefits entitlement</a></li>\n<li><a href=\"#\">Benefits for families</a></li>\n<li><a href=\"#\">Carers and disability benefits</a></li>\n</ul>\n</li>\n</ul>\n</nav>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "manual",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "notfound",
+        "aslint": "manual",
+        "enabler": "notfound"
+      }
+    },
+    "Lightbox - ESC key doesn't close the lightbox": {
+      "example": "<a class=\"open-lightbox-unescapable\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox unescapable hidden\">\n<a title=\"Close lightbox\" class=\"close-button\" href=\"#\">X</a>\n<p>\n                This lightbox can't be closed with an escape key.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "notfound",
+        "aslint": "manual",
+        "enabler": "notfound"
+      }
+    },
+    "Link with a role=button does not work with space bar": {
+      "example": "<a class=\"button\" href=\"next.html\" role=\"button\">Continue</a>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "manual",
+        "fae": "manual",
+        "aslint": "error",
+        "enabler": "notfound"
+      }
+    },
+    "Tooltips don't receive keyboard focus": {
+      "example": "<label class=\"tooltips-not-focusable\" for=\"drivers-licence-no\">\n            Your driving licence number\n            <span class=\"tooltip-icon\">?</span>\n<span class=\"tooltip-information\">Your driving licence number can be found in section 5 of your driving licence photocard</span>\n</label>\n<input id=\"drivers-licence-no\" type=\"text\"/>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "manual",
+        "aslint": "manual",
+        "enabler": "notfound"
+      }
+    },
+    "Accesskey attribute used": {
+      "example": "<a accesskey=\"A\" href=\"page.html\">A link with an accesskey attribute</a>",
+      "results": {
+        "arc": "warning",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "error",
+        "wave": "warning",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "manual",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "notfound",
+        "aslint": "notfound",
+        "enabler": "notfound"
+      }
+    },
+    "Lightbox - focus is not moved immediately to lightbox": {
+      "example": "<a class=\"open-lightbox-focus-far\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox focus-far hidden\">\n<span title=\"Close lightbox\" class=\"close-button\">X</span>\n<p>\n                This lightbox is placed at the end of the DOM so you'll have to tab through other links to reach it.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "notfound",
+        "aslint": "manual",
+        "enabler": "notfound"
+      }
+    },
+    "Lightbox - focus is not retained within the lightbox": {
+      "example": "<a class=\"open-lightbox-not-focused\" href=\"#\">Open lightbox</a>\n<div class=\"lightbox not-focused hidden\">\n<a title=\"Close lightbox\" class=\"close-button\" href=\"#\">X</a>\n<p>\n                This lightbox doesn't retain the focus within itself.\n                The Ministry of Justice website has <a href=\"http://www.justice.gov.uk/protecting-the-vulnerable/mental-capacity-act\" target=\"_blank\">information about mental capacity</a>.\n            </p>\n</div>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "notfound",
+        "aslint": "manual",
+        "enabler": "notfound"
+      }
+    },
+    "Fake button is not keyboard accessible": {
+      "example": "<div class=\"button\" id=\"webchat\">launch webchat</div>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "error",
+        "aslint": "manual",
+        "enabler": "notfound"
+      }
+    }
+  },
+  "Frames": {
+    "iframe is missing a title attribute": {
+      "example": "<iframe height=\"100\" src=\"example-pages/demo.html\" width=\"300\"></iframe>",
+      "results": {
+        "arc": "error",
+        "google": "error",
+        "asqatasun": "error",
+        "tenon": "error",
+        "wave": "notfound",
+        "sortsite": "error",
+        "axe": "error",
+        "codesniffer": "error",
+        "achecker": "notfound",
+        "eiii": "error",
+        "nu": "notfound",
+        "siteimprove": "error",
+        "fae": "error",
+        "aslint": "notfound",
+        "enabler": "error"
+      }
+    },
+    "iframe title attribute does not describe the content or purpose of the iframe": {
+      "example": "<iframe height=\"100\" src=\"example-pages/demo.html\" title=\"Facebook\" width=\"300\"></iframe>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "manual",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "notfound",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "notfound",
+        "aslint": "notfound",
+        "enabler": "notfound"
+      }
+    }
+  },
+  "CSS": {
+    "Content is not readable and functional when text is increased": {
+      "example": "<p class=\"resize\">This text becomes unreadable when you increase the text-size  (Zoom text only) in\n            <a href=\"https://www.mozilla.org/en-GB/firefox/desktop/\">Firefox</a></p>",
+      "results": {
+        "arc": "notfound",
+        "google": "notfound",
+        "asqatasun": "notfound",
+        "tenon": "notfound",
+        "wave": "notfound",
+        "sortsite": "notfound",
+        "axe": "notfound",
+        "codesniffer": "manual",
+        "achecker": "notfound",
+        "eiii": "notfound",
+        "nu": "notfound",
+        "siteimprove": "notfound",
+        "fae": "manual",
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     },
     "Non-decorative content inserted using CSS": {
       "example": "<p id=\"css-generated-text\">My favourite food is </p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -2335,12 +2589,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "manual",
+        "enabler": "notfound"
       }
     },
     "visibility:hidden used to visually hide content when it should be available to screenreader": {
       "example": "<a href=\"rugby.html\">Read more <span style=\"visibility:hidden\"> about rugby</span></a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -2353,12 +2609,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "display:none used to visually hide content when it should be available to screenreader": {
       "example": "<a href=\"football.html\">Read more <span style=\"display:none\"> about football</span></a>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -2371,12 +2629,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Page zoom - boxes that don't expand with the text": {
       "example": "<div class=\"wont-expand-box\">The box below this example won't expand to fit the text contained within when zoomed in.<p class=\"wont-expand\">This service is for England and Wales only. You must contact individual <a href=\"https://www.justice-ni.gov.uk/topics/prisons/prison-visits\">prisons in Northern Ireland</a> or <a href=\"http://www.sps.gov.uk/Corporate/Prisons/Prisons.aspx\">Scotland</a> to book a visit.</p></div>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -2389,7 +2649,8 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     }
   },
@@ -2397,6 +2658,7 @@
     "Duplicate id": {
       "example": "<div id=\"nav\">global nav</div>\n<div id=\"nav\">page nav</div>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
@@ -2409,12 +2671,14 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "Article element used to mark-up an element that's not an article/blog post etc.": {
       "example": "<article class=\"not-article-content\">\n<h2 id=\"parent-other\">Elsewhere on GOV.UK</h2>\n<nav aria-labelledby=\"parent-other\" role=\"navigation\">\n<ul>\n<li><a href=\"/agency-workers-your-rights\">Your rights as an agency worker</a></li>\n<li><a href=\"/acas\">Advisory, Conciliation and Arbitration Service (Acas)</a></li>\n</ul>\n</nav>\n</article>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -2427,12 +2691,14 @@
         "nu": "notfound",
         "siteimprove": "manual",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Empty paragraph": {
       "example": "<p></p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -2445,12 +2711,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "identified"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Deprecated center element": {
       "example": "<center>This text is centred using the center element</center>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "error",
         "tenon": "notfound",
@@ -2463,12 +2731,14 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "warning"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "Invalid ARIA role names": {
       "example": "<div class=\"header-context\" id=\"global-breadcrumb\">\n<ol class=\"group\" role=\"breadcrumbs\">\n<li><a href=\"/\">Home</a></li>\n<li><a href=\"/browse/housing-local-services\">Housing and local services</a></li>\n<li><strong><a href=\"/browse/housing-local-services/local-councils\">Local councils and services</a></strong></li>\n</ol>\n</div>",
       "results": {
+        "arc": "error",
         "google": "error",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -2481,48 +2751,54 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "error",
+        "enabler": "error"
       }
     },
     "Object not embedded accessibly - wmode parameter not set to window": {
       "example": "<object data=\"foo\"><param name=\"wmode\" value=\"transparent\" />Alternative text</object>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
-        "wave": "notfound",
+        "wave": "warning",
         "sortsite": "notfound",
-        "axe": "notfound",
-        "codesniffer": "notfound",
+        "axe": "error",
+        "codesniffer": "warning",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Spacer image found": {
       "example": "We are here. <img alt=\"\" height=\"1\" src=\"images/spacer.gif\" width=\"100\" /> And you are there.",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
         "wave": "identified",
         "sortsite": "notfound",
         "axe": "notfound",
-        "codesniffer": "notfound",
+        "codesniffer": "warning",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
-        "siteimprove": "notfound",
+        "siteimprove": "manual",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Inline style adds colour": {
       "example": "<p style=\"color: blue;\">The colour of this text is set using inline styles.</p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -2535,12 +2811,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Start and close tags don't match": {
       "example": "         <div>strings of pearls</span></div>\n  ",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "notfound",
@@ -2553,12 +2831,14 @@
         "nu": "error",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "PRE element without CODE element inside it": {
       "example": "<pre>\nYour\n\n  /\\ (`/`|| _     +\n /--\\,)\\,||   (||`|\n\n        goes here\n</pre>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "notfound",
         "tenon": "error",
@@ -2571,12 +2851,14 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "notfound",
+        "enabler": "notfound"
       }
     },
     "Deprecated font element": {
       "example": "<p><font face=\"aria\" size=\"5\">The size and face of this text is set using the font element and the size and face attributes</font></p>",
       "results": {
+        "arc": "notfound",
         "google": "notfound",
         "asqatasun": "error",
         "tenon": "notfound",
@@ -2589,7 +2871,8 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "warning"
+        "aslint": "error",
+        "enabler": "error"
       }
     }
   }

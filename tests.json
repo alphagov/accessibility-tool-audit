@@ -51,7 +51,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Content is not organised into well-defined groups or chunks, using headings, lists, and other visual mechanisms": {
@@ -62,14 +62,14 @@
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
-        "axe": "notfound",
+        "axe": "error",
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "notfound"
       }
     },
     "First instance of abbreviation not expanded": {
@@ -100,7 +100,7 @@
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
-        "axe": "notfound",
+        "axe": "error",
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
@@ -127,7 +127,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "error"
+        "aslint": "manual"
       }
     },
     "Small text does not have a contrast ratio of at least 4.5:1 so does not meet AA": {
@@ -217,7 +217,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     }
   },
@@ -255,7 +255,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "warning"
       }
     },
     "Blink element found": {
@@ -273,7 +273,7 @@
         "nu": "error",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "error"
+        "aslint": "warning"
       }
     },
     "Italics used on long sections of text": {
@@ -291,7 +291,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "warning"
       }
     },
     "Marquee element found": {
@@ -309,7 +309,7 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "error"
+        "aslint": "notfound"
       }
     },
     "Long lines of text": {
@@ -437,7 +437,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "notfound"
       }
     },
     "html element has an invalid value in the lang attribute": {
@@ -603,7 +603,7 @@
         "nu": "warning",
         "siteimprove": "error",
         "fae": "warning",
-        "aslint": "notfound"
+        "aslint": "error"
       }
     },
     "Missing H1": {
@@ -614,7 +614,7 @@
         "tenon": "notfound",
         "wave": "warning",
         "sortsite": "error",
-        "axe": "notfound",
+        "axe": "error",
         "codesniffer": "error",
         "achecker": "notfound",
         "eiii": "notfound",
@@ -639,7 +639,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Headings not structured in a hierarchical manner": {
@@ -816,7 +816,7 @@
         "tenon": "warning",
         "wave": "manual",
         "sortsite": "error",
-        "axe": "error",
+        "axe": "notfound",
         "codesniffer": "manual",
         "achecker": "manual",
         "eiii": "notfound",
@@ -852,7 +852,7 @@
         "tenon": "error",
         "wave": "notfound",
         "sortsite": "notfound",
-        "axe": "error",
+        "axe": "notfound",
         "codesniffer": "notfound",
         "achecker": "warning",
         "eiii": "notfound",
@@ -962,7 +962,7 @@
         "tenon": "error",
         "wave": "notfound",
         "sortsite": "error",
-        "axe": "notfound",
+        "axe": "error",
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
@@ -1151,7 +1151,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Embedded audio file is missing text alternative": {
@@ -1162,7 +1162,7 @@
         "tenon": "notfound",
         "wave": "manual",
         "sortsite": "notfound",
-        "axe": "manual",
+        "axe": "notfound",
         "codesniffer": "manual",
         "achecker": "notfound",
         "eiii": "notfound",
@@ -1182,7 +1182,7 @@
         "tenon": "error",
         "wave": "error",
         "sortsite": "error",
-        "axe": "error",
+        "axe": "notfound",
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
@@ -1207,7 +1207,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "manual"
       }
     },
     "Uninformative link text": {
@@ -1243,7 +1243,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "warning"
       }
     },
     "Links not separated by printable characters": {
@@ -1315,7 +1315,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Link to PDF does not include information on file format and file size": {
@@ -1344,7 +1344,7 @@
         "tenon": "error",
         "wave": "notfound",
         "sortsite": "notfound",
-        "axe": "error",
+        "axe": "notfound",
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
@@ -1380,14 +1380,14 @@
         "tenon": "notfound",
         "wave": "notfound",
         "sortsite": "notfound",
-        "axe": "notfound",
+        "axe": "warning",
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "warning",
-        "aslint": "error"
+        "aslint": "notfound"
       }
     },
     "Link text does not make sense out of context": {
@@ -1423,7 +1423,7 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "notfound"
       }
     },
     "Link contains only a full stop": {
@@ -1459,7 +1459,7 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "notfound"
       }
     },
     "Link not clearly identifiable and distinguishable from surrounding text": {
@@ -1477,7 +1477,7 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Link to a multimedia file, no transcript": {
@@ -1569,7 +1569,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "error",
-        "aslint": "notfound"
+        "aslint": "identified"
       }
     },
     "Uninformative alt attribute value on image button": {
@@ -1587,7 +1587,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "manual"
       }
     },
     "Empty alt attribute on image button": {
@@ -1690,7 +1690,7 @@
         "tenon": "notfound",
         "wave": "warning",
         "sortsite": "error",
-        "axe": "error",
+        "axe": "notfound",
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
@@ -1751,7 +1751,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "error",
-        "aslint": "notfound"
+        "aslint": "identified"
       }
     },
     "Label element with for= attribute but not matching id= attribute of form control": {
@@ -1780,7 +1780,7 @@
         "tenon": "notfound",
         "wave": "warning",
         "sortsite": "notfound",
-        "axe": "error",
+        "axe": "notfound",
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
@@ -1816,14 +1816,14 @@
         "tenon": "notfound",
         "wave": "error",
         "sortsite": "notfound",
-        "axe": "error",
+        "axe": "warning",
         "codesniffer": "notfound",
         "achecker": "error",
         "eiii": "notfound",
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "notfound"
       }
     },
     "Errors identified with a poor colour contrast": {
@@ -1906,7 +1906,7 @@
         "tenon": "error",
         "wave": "error",
         "sortsite": "error",
-        "axe": "error",
+        "axe": "notfound",
         "codesniffer": "error",
         "achecker": "error",
         "eiii": "notfound",
@@ -1969,7 +1969,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     }
   },
@@ -2007,7 +2007,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "error",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Focus order in wrong order": {
@@ -2025,7 +2025,7 @@
         "nu": "notfound",
         "siteimprove": "manual",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Tabindex greater than 0": {
@@ -2043,7 +2043,7 @@
         "nu": "notfound",
         "siteimprove": "manual",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "warning"
       }
     },
     "Keyboard focus is not indicated visually": {
@@ -2061,7 +2061,7 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "error"
       }
     },
     "Keyboard focus assigned to a non focusable element using tabindex=0": {
@@ -2097,7 +2097,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "error",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Keyboard trap": {
@@ -2115,7 +2115,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Dropdown navigation - only the top level items receive focus": {
@@ -2133,7 +2133,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Lightbox - ESC key doesn't close the lightbox": {
@@ -2151,7 +2151,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Link with a role=button does not work with space bar": {
@@ -2187,7 +2187,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Accesskey attribute used": {
@@ -2223,7 +2223,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Lightbox - focus is not retained within the lightbox": {
@@ -2241,7 +2241,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Fake button is not keyboard accessible": {
@@ -2259,7 +2259,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "error",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     }
   },
@@ -2279,7 +2279,7 @@
         "nu": "notfound",
         "siteimprove": "error",
         "fae": "error",
-        "aslint": "notfound"
+        "aslint": "error"
       }
     },
     "iframe title attribute does not describe the content or purpose of the iframe": {
@@ -2317,7 +2317,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "manual",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "Non-decorative content inserted using CSS": {
@@ -2335,7 +2335,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "manual"
+        "aslint": "notfound"
       }
     },
     "visibility:hidden used to visually hide content when it should be available to screenreader": {
@@ -2445,7 +2445,7 @@
         "nu": "notfound",
         "siteimprove": "notfound",
         "fae": "notfound",
-        "aslint": "notfound"
+        "aslint": "identified"
       }
     },
     "Deprecated center element": {
@@ -2463,7 +2463,7 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "warning"
       }
     },
     "Invalid ARIA role names": {
@@ -2492,7 +2492,7 @@
         "tenon": "error",
         "wave": "notfound",
         "sortsite": "notfound",
-        "axe": "notfound",
+        "axe": "error",
         "codesniffer": "notfound",
         "achecker": "notfound",
         "eiii": "notfound",
@@ -2589,7 +2589,7 @@
         "nu": "error",
         "siteimprove": "error",
         "fae": "notfound",
-        "aslint": "error"
+        "aslint": "warning"
       }
     }
   }

@@ -66,8 +66,8 @@ a.low-contrast-small-aa:visited {
 a.low-contrast-large-aa:active,
 a.low-contrast-large-aa:focus,
 a.low-contrast-large-aa:visited {
-  font-size: 20px;
-  color: #878c8c;
+  font-size: 28px;
+  color: #999999;
 }
 
 .low-contrast-small-aaa,
@@ -82,7 +82,7 @@ a.low-contrast-small-aaa:visited {
 a.low-contrast-large-aaa:active,
 a.low-contrast-large-aaa:focus,
 a.low-contrast-large-aaa:visited {
-  font-size: 20px;
+  font-size: 28px;
   color: #81858c;
 }
 

@@ -12,8 +12,9 @@ var config = {
   }
 }
 
-gulp.task('generate', function (){
+gulp.task('generate', function (done){
   generate();
+  done();
 })
 
 gulp.task('sass', function () {
@@ -42,5 +43,5 @@ gulp.task('watch-html', function (){
   ], {cwd: './'}, ['generate'])
 })
 
-gulp.task('dev', ['generate', 'sass', 'watch-sass', 'watch-html'])
-gulp.task('default', ['generate', 'sass'])
+gulp.task('dev', gulp.series('generate', 'sass', 'watch-sass', 'watch-html'))
+gulp.task('default', gulp.series('generate', 'sass'))
